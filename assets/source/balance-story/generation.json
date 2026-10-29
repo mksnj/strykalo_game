@@ -1,0 +1,9 @@
+{
+  "date": "2026-10-28",
+  "tool": "built-in image_gen",
+  "prompt": "Use case: stylized-concept. Asset type: ONE isolated transparent 2D game prop sprite. A squat 1.5 litre cheap courtyard BEER BOTTLE, dark amber-brown PET plastic, upright side elevation, broad rounded body, pinched shoulder, short narrow neck and small ridged dark screw cap. Clearly a large humble beer bottle, not a pharmacy vial, flask, potion or wine bottle. Wide worn cream-grey paper beer label around lower middle and a small subdued neck band, no legible writing, no logo. Height to width about 3.1:1. Cold desaturated gouache and ink illustration, soft textured painterly edges and restrained scuffed highlights. Match a gloomy post-Soviet urban night game, palette charcoal, slate grey, muted brown olive, faded grey paper. Enough cool edge contrast to read when displayed 20 by 54 pixels, no glow or halo. Entire bottle centered, uncropped, modest transparent margin, true alpha transparent background. No ground, environment, person, hands, other objects, dramatic shadows, pixel art, bright game colours or photorealism. Save generated image for integration into the project.",
+  "source": "assets/source/balance-story/beer.png",
+  "runtime": "apps/web/public/assets/balance-story/beer.webp",
+  "preparation": "node tools/prepare-balance-story.mjs; alpha crop, uniform scale to 80x240 WebP, no repainting",
+  "heroMarker": "Existing hero-idle first 128x128 frame, reused directly in CSS; no new character artwork"
+}

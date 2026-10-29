@@ -1,0 +1,15 @@
+{
+  "width": 1536,
+  "height": 512,
+  "patch": {
+    "x": 1369,
+    "y": 365,
+    "width": 31,
+    "height": 30
+  },
+  "changedInside": 930,
+  "changedOutside": 310461,
+  "outsideAlphaChanges": 0,
+  "maximumOutsideCompositeDelta": 1.3254901960784267,
+  "sha256": "88ebb76178684657561f193d51063a14569730c71dec6ece8d834c78b6eea41d"
+}

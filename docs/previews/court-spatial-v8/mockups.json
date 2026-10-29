@@ -1,0 +1,215 @@
+[
+  {
+    "width": 960,
+    "height": 540,
+    "developer": false,
+    "prefix": "normal-960x540",
+    "frames": [
+      {
+        "stage": "mock-approach",
+        "label": "Макет: подход",
+        "file": "normal-960x540-mock-approach.png",
+        "geometry": {
+          "phase": "stars-approach",
+          "progress": 0,
+          "elapsed": 0,
+          "logical": {
+            "x": 500,
+            "y": 423
+          },
+          "hero": {
+            "x": 180,
+            "y": 438,
+            "size": 106
+          },
+          "arena": {
+            "left": 180,
+            "right": 820,
+            "top": 280,
+            "bottom": 521.2
+          },
+          "impact": {
+            "radiusX": 29,
+            "radiusY": 23.490000000000002
+          },
+          "offset": 300,
+          "camera": {
+            "state": "COURT_ENTRY",
+            "focus": 0,
+            "top": 0,
+            "x": 0,
+            "y": 0,
+            "width": 960,
+            "height": 540,
+            "zoom": 1
+          },
+          "canvas": {
+            "x": 0,
+            "y": 0,
+            "width": 960,
+            "height": 540,
+            "top": 0,
+            "right": 960,
+            "bottom": 540,
+            "left": 0
+          },
+          "hoop": {
+            "type": 5,
+            "x": 577,
+            "y": 169.79999999999998,
+            "width": 107.51999999999998,
+            "height": 179.20000000000002
+          },
+          "house": {
+            "type": 5,
+            "x": 211.796875,
+            "y": 19.2421875,
+            "width": 188.203125,
+            "height": 415.7578125
+          },
+          "score": 17,
+          "distance": 500,
+          "shared": true,
+          "shade": 0
+        }
+      },
+      {
+        "stage": "mock-middle",
+        "label": "Макет: вход в глубину",
+        "file": "normal-960x540-mock-middle.png",
+        "geometry": {
+          "phase": "stars-approach",
+          "progress": 0.55,
+          "elapsed": 0,
+          "logical": {
+            "x": 500,
+            "y": 423
+          },
+          "hero": {
+            "x": 315.40399999999994,
+            "y": 468.2193928754866,
+            "size": 102.81017199267251
+          },
+          "arena": {
+            "left": 180,
+            "right": 820,
+            "top": 280,
+            "bottom": 521.2
+          },
+          "impact": {
+            "radiusX": 29,
+            "radiusY": 23.490000000000002
+          },
+          "offset": 55.40399999999994,
+          "camera": {
+            "state": "COURT_ENTRY",
+            "focus": 0.8071899414062501,
+            "top": 0,
+            "x": 0,
+            "y": 0,
+            "width": 960,
+            "height": 540,
+            "zoom": 1
+          },
+          "canvas": {
+            "x": 0,
+            "y": 0,
+            "width": 960,
+            "height": 540,
+            "top": 0,
+            "right": 960,
+            "bottom": 540,
+            "left": 0
+          },
+          "hoop": {
+            "type": 5,
+            "x": 332.4039993286133,
+            "y": 169.79999999999998,
+            "width": 107.51999999999998,
+            "height": 179.20000000000002
+          },
+          "house": {
+            "type": 5,
+            "x": -32.79912567138672,
+            "y": 19.2421875,
+            "width": 188.203125,
+            "height": 415.7578125
+          },
+          "score": 17,
+          "distance": 500,
+          "shared": true,
+          "shade": 0
+        }
+      },
+      {
+        "stage": "mock-arena",
+        "label": "Макет: арена и допустимые крайние позиции",
+        "file": "normal-960x540-mock-arena.png",
+        "geometry": {
+          "phase": "stars",
+          "progress": 0,
+          "elapsed": 0,
+          "logical": {
+            "x": 500,
+            "y": 423
+          },
+          "hero": {
+            "x": 500,
+            "y": 400.6,
+            "size": 94
+          },
+          "arena": {
+            "left": 180,
+            "right": 820,
+            "top": 280,
+            "bottom": 521.2
+          },
+          "impact": {
+            "radiusX": 29,
+            "radiusY": 23.490000000000002
+          },
+          "offset": 55.40399999999994,
+          "camera": {
+            "state": "COURT_ACTIVE",
+            "focus": 1,
+            "top": 0,
+            "x": 0,
+            "y": 0,
+            "width": 960,
+            "height": 540,
+            "zoom": 1
+          },
+          "canvas": {
+            "x": 0,
+            "y": 0,
+            "width": 960,
+            "height": 540,
+            "top": 0,
+            "right": 960,
+            "bottom": 540,
+            "left": 0
+          },
+          "hoop": {
+            "type": 5,
+            "x": 332.4039993286133,
+            "y": 169.79999999999998,
+            "width": 107.51999999999998,
+            "height": 179.20000000000002
+          },
+          "house": {
+            "type": 5,
+            "x": -32.79912567138672,
+            "y": 19.2421875,
+            "width": 188.203125,
+            "height": 415.7578125
+          },
+          "score": 17,
+          "distance": 500,
+          "shared": true,
+          "shade": 0
+        }
+      }
+    ],
+    "errors": []
+  }
+]

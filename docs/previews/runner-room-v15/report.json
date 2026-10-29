@@ -1,0 +1,44 @@
+{
+  "version": "runner-room-v15",
+  "completedOn": "2026-10-29",
+  "changes": {
+    "rhythm": {"initialTravelSeconds": 2.1, "previousTravelSeconds": 1.8, "spawnInterval": 1.2, "initialFallSpeedChangePercent": -14.2857, "firstTargetSeconds": 2.4091, "acceleration": "1 + 0.1 * floor(activeSeconds / 2)", "mistakes": 3, "timeLimit": null},
+    "city": "Restored the cached city-and-sky panorama behind the autumn fence; the brown sky remains inside the balance game.",
+    "asphalt": "night-ground at Y=435 and uniform scale 105/164 throughout all running segments, including both house entrances. Legacy stretched shared-asphalt is hidden. Facade images stop at Y=435, revealing the actual running surface.",
+    "storm": {"runLeadSeconds": 1.12, "previousRunLeadSeconds": 0.12, "secondsEarlier": 1, "doorAfterOnsetSeconds": 2.56, "interiorAfterOnsetSeconds": 2.92, "sharedHero": true},
+    "room": "Removed lightning bolt paths from the panes; retained pane flashes and room illumination. Lamp interaction applies two black dimming pulses across the whole room; reduced motion uses one sustained dimming response. Waiting timer is not reset.",
+    "ending": "Removed the post-room bench caption and its CSS. The hint during the waiting mini-game remains part of its reset mechanic.",
+    "rasterAssetsAdded": 0
+  },
+  "validation": {
+    "unit": {"passed": 135, "total": 135, "files": 22},
+    "typecheck": "passed",
+    "documentationLinks": {"passed": 266, "errors": 0},
+    "productionBuild": "passed; existing Phaser chunk size warning remains",
+    "assets": {"passed": 38, "checks": "decoded dimensions and SHA-256 match dist copies"},
+    "browser": {
+      "targeted": {"passed": 6, "total": 6, "files": ["runnerRoomV15.spec.ts", "rhythmWeatherV14.spec.ts"]},
+      "regressions": {"passed": 4, "total": 4, "files": ["developer.spec.ts", "rhythmAudio.spec.ts", "endingGround.spec.ts"], "coverage": "Complete short route, restart, return to normal mode, small landscape menu, grounded ending and real music playhead with pause"},
+      "coverage": ["normal route asphalt at 50/210/350/650/985/998/1040/1098", "city after the pipe", "unchanged asphalt scale and viewport coverage", "whole-room pixel brightness before/during/between lamp pulses", "lamp does not reset inactivity", "panes still flash without bolt paths", "caption absent at bench", "rhythm beyond 40 seconds and three mistakes", "weather starts while running", "one shared visible hero until the door", "rain at 89 seconds and after a reset", "rain clears after 90 idle seconds", "two seconds of rest and running resumes"],
+      "viewports": [{"width": 960, "height": 540}, {"width": 390, "height": 844}, {"width": 844, "height": 390}, {"width": 1230, "height": 372}]
+    },
+    "screenshots": 72,
+    "notes": "Initial new visual assertions sampled a letterbox and assumed exact fake-clock advancement. Tests now sample three room-world positions and wait for actual reaction progress. A black overlay also ensures dark pixels dim instead of taking on the overlay colour. All six final targeted cases passed."
+  },
+  "changedSourceFiles": [
+    "apps/web/src/game/config.ts",
+    "apps/web/src/game/views/NightDistrictArt.ts",
+    "apps/web/src/game/views/ArrivalView.ts",
+    "apps/web/src/game/views/EndingView.ts",
+    "apps/web/src/game/views/WaitingView.ts",
+    "apps/web/src/game/views/WindowWeather.ts",
+    "apps/web/src/ui/App.tsx",
+    "apps/web/src/balance.css",
+    "tests/unit/rhythm.test.ts",
+    "tests/browser/rhythmWeatherV14.spec.ts",
+    "tests/browser/runnerRoomV15.spec.ts",
+    "tools/runner-room-v15-gallery.mjs",
+    "README.md"
+  ],
+  "limitations": ["Full browser catalogue was not run together", "Physical phones and Telegram WebView were not tested", "Artwork acceptance remains with the owner"]
+}

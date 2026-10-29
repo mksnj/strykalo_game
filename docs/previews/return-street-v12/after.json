@@ -1,0 +1,550 @@
+[
+  {
+    "width": 960,
+    "height": 540,
+    "developer": false,
+    "distance": 501,
+    "geometry": {
+      "asphaltTop": 435,
+      "asphaltBottom": 540,
+      "facadeBottom": 435,
+      "skyBottom": 435,
+      "floorLeft": 0,
+      "floorRight": 960,
+      "viewLeft": 0,
+      "viewRight": 960,
+      "arenaVisible": false
+    }
+  },
+  {
+    "width": 960,
+    "height": 540,
+    "developer": false,
+    "distance": 650,
+    "geometry": {
+      "asphaltTop": 435,
+      "asphaltBottom": 540,
+      "facadeBottom": 435,
+      "skyBottom": 435,
+      "floorLeft": 0,
+      "floorRight": 960,
+      "viewLeft": 0,
+      "viewRight": 960,
+      "arenaVisible": false
+    }
+  },
+  {
+    "width": 960,
+    "height": 540,
+    "developer": false,
+    "distance": 880,
+    "file": "after-960x540.png",
+    "geometry": {
+      "asphaltTop": 435,
+      "asphaltBottom": 540,
+      "facadeBottom": 435,
+      "skyBottom": 435,
+      "floorLeft": 0,
+      "floorRight": 960,
+      "viewLeft": 0,
+      "viewRight": 960,
+      "arenaVisible": false
+    }
+  },
+  {
+    "width": 960,
+    "height": 540,
+    "developer": false,
+    "distance": 999,
+    "geometry": {
+      "asphaltTop": 435,
+      "asphaltBottom": 540,
+      "facadeBottom": 435,
+      "skyBottom": 435,
+      "floorLeft": 0,
+      "floorRight": 960,
+      "viewLeft": 0,
+      "viewRight": 960,
+      "arenaVisible": false
+    }
+  },
+  {
+    "width": 960,
+    "height": 540,
+    "developer": true,
+    "distance": 501,
+    "geometry": {
+      "asphaltTop": 435,
+      "asphaltBottom": 540,
+      "facadeBottom": 435,
+      "skyBottom": 435,
+      "floorLeft": 0,
+      "floorRight": 960,
+      "viewLeft": 0,
+      "viewRight": 960,
+      "arenaVisible": false
+    }
+  },
+  {
+    "width": 960,
+    "height": 540,
+    "developer": true,
+    "distance": 650,
+    "geometry": {
+      "asphaltTop": 435,
+      "asphaltBottom": 540,
+      "facadeBottom": 435,
+      "skyBottom": 435,
+      "floorLeft": 0,
+      "floorRight": 960,
+      "viewLeft": 0,
+      "viewRight": 960,
+      "arenaVisible": false
+    }
+  },
+  {
+    "width": 960,
+    "height": 540,
+    "developer": true,
+    "distance": 880,
+    "geometry": {
+      "asphaltTop": 435,
+      "asphaltBottom": 540,
+      "facadeBottom": 435,
+      "skyBottom": 435,
+      "floorLeft": 0,
+      "floorRight": 960,
+      "viewLeft": 0,
+      "viewRight": 960,
+      "arenaVisible": false
+    }
+  },
+  {
+    "width": 960,
+    "height": 540,
+    "developer": true,
+    "distance": 999,
+    "geometry": {
+      "asphaltTop": 435,
+      "asphaltBottom": 540,
+      "facadeBottom": 435,
+      "skyBottom": 435,
+      "floorLeft": 0,
+      "floorRight": 960,
+      "viewLeft": 0,
+      "viewRight": 960,
+      "arenaVisible": false
+    }
+  },
+  {
+    "width": 1920,
+    "height": 1080,
+    "developer": false,
+    "distance": 501,
+    "geometry": {
+      "asphaltTop": 435,
+      "asphaltBottom": 540,
+      "facadeBottom": 435,
+      "skyBottom": 435,
+      "floorLeft": 0,
+      "floorRight": 960,
+      "viewLeft": 0,
+      "viewRight": 960,
+      "arenaVisible": false
+    }
+  },
+  {
+    "width": 1920,
+    "height": 1080,
+    "developer": false,
+    "distance": 650,
+    "geometry": {
+      "asphaltTop": 435,
+      "asphaltBottom": 540,
+      "facadeBottom": 435,
+      "skyBottom": 435,
+      "floorLeft": 0,
+      "floorRight": 960,
+      "viewLeft": 0,
+      "viewRight": 960,
+      "arenaVisible": false
+    }
+  },
+  {
+    "width": 1920,
+    "height": 1080,
+    "developer": false,
+    "distance": 880,
+    "file": "after-1920x1080.png",
+    "geometry": {
+      "asphaltTop": 435,
+      "asphaltBottom": 540,
+      "facadeBottom": 435,
+      "skyBottom": 435,
+      "floorLeft": 0,
+      "floorRight": 960,
+      "viewLeft": 0,
+      "viewRight": 960,
+      "arenaVisible": false
+    }
+  },
+  {
+    "width": 1920,
+    "height": 1080,
+    "developer": false,
+    "distance": 999,
+    "geometry": {
+      "asphaltTop": 435,
+      "asphaltBottom": 540,
+      "facadeBottom": 435,
+      "skyBottom": 435,
+      "floorLeft": 0,
+      "floorRight": 960,
+      "viewLeft": 0,
+      "viewRight": 960,
+      "arenaVisible": false
+    }
+  },
+  {
+    "width": 1920,
+    "height": 1080,
+    "developer": true,
+    "distance": 501,
+    "geometry": {
+      "asphaltTop": 435,
+      "asphaltBottom": 540,
+      "facadeBottom": 435,
+      "skyBottom": 435,
+      "floorLeft": 0,
+      "floorRight": 960,
+      "viewLeft": 0,
+      "viewRight": 960,
+      "arenaVisible": false
+    }
+  },
+  {
+    "width": 1920,
+    "height": 1080,
+    "developer": true,
+    "distance": 650,
+    "geometry": {
+      "asphaltTop": 435,
+      "asphaltBottom": 540,
+      "facadeBottom": 435,
+      "skyBottom": 435,
+      "floorLeft": 0,
+      "floorRight": 960,
+      "viewLeft": 0,
+      "viewRight": 960,
+      "arenaVisible": false
+    }
+  },
+  {
+    "width": 1920,
+    "height": 1080,
+    "developer": true,
+    "distance": 880,
+    "geometry": {
+      "asphaltTop": 435,
+      "asphaltBottom": 540,
+      "facadeBottom": 435,
+      "skyBottom": 435,
+      "floorLeft": 0,
+      "floorRight": 960,
+      "viewLeft": 0,
+      "viewRight": 960,
+      "arenaVisible": false
+    }
+  },
+  {
+    "width": 1920,
+    "height": 1080,
+    "developer": true,
+    "distance": 999,
+    "geometry": {
+      "asphaltTop": 435,
+      "asphaltBottom": 540,
+      "facadeBottom": 435,
+      "skyBottom": 435,
+      "floorLeft": 0,
+      "floorRight": 960,
+      "viewLeft": 0,
+      "viewRight": 960,
+      "arenaVisible": false
+    }
+  },
+  {
+    "width": 1230,
+    "height": 372,
+    "developer": false,
+    "distance": 501,
+    "geometry": {
+      "asphaltTop": 435,
+      "asphaltBottom": 540,
+      "facadeBottom": 435,
+      "skyBottom": 435,
+      "floorLeft": -412.741935483871,
+      "floorRight": 1372.741935483871,
+      "viewLeft": -412,
+      "viewRight": 1373,
+      "arenaVisible": false
+    }
+  },
+  {
+    "width": 1230,
+    "height": 372,
+    "developer": false,
+    "distance": 650,
+    "geometry": {
+      "asphaltTop": 435,
+      "asphaltBottom": 540,
+      "facadeBottom": 435,
+      "skyBottom": 435,
+      "floorLeft": -412.741935483871,
+      "floorRight": 1372.741935483871,
+      "viewLeft": -412,
+      "viewRight": 1373,
+      "arenaVisible": false
+    }
+  },
+  {
+    "width": 1230,
+    "height": 372,
+    "developer": false,
+    "distance": 880,
+    "file": "after-1230x372.png",
+    "geometry": {
+      "asphaltTop": 435,
+      "asphaltBottom": 540,
+      "facadeBottom": 435,
+      "skyBottom": 435,
+      "floorLeft": -412.741935483871,
+      "floorRight": 1372.741935483871,
+      "viewLeft": -412,
+      "viewRight": 1373,
+      "arenaVisible": false
+    }
+  },
+  {
+    "width": 1230,
+    "height": 372,
+    "developer": false,
+    "distance": 999,
+    "geometry": {
+      "asphaltTop": 435,
+      "asphaltBottom": 540,
+      "facadeBottom": 435,
+      "skyBottom": 435,
+      "floorLeft": -412.741935483871,
+      "floorRight": 1372.741935483871,
+      "viewLeft": -412,
+      "viewRight": 1373,
+      "arenaVisible": false
+    }
+  },
+  {
+    "width": 1230,
+    "height": 372,
+    "developer": true,
+    "distance": 501,
+    "geometry": {
+      "asphaltTop": 435,
+      "asphaltBottom": 540,
+      "facadeBottom": 435,
+      "skyBottom": 435,
+      "floorLeft": -412.741935483871,
+      "floorRight": 1372.741935483871,
+      "viewLeft": -412,
+      "viewRight": 1373,
+      "arenaVisible": false
+    }
+  },
+  {
+    "width": 1230,
+    "height": 372,
+    "developer": true,
+    "distance": 650,
+    "geometry": {
+      "asphaltTop": 435,
+      "asphaltBottom": 540,
+      "facadeBottom": 435,
+      "skyBottom": 435,
+      "floorLeft": -412.741935483871,
+      "floorRight": 1372.741935483871,
+      "viewLeft": -412,
+      "viewRight": 1373,
+      "arenaVisible": false
+    }
+  },
+  {
+    "width": 1230,
+    "height": 372,
+    "developer": true,
+    "distance": 880,
+    "geometry": {
+      "asphaltTop": 435,
+      "asphaltBottom": 540,
+      "facadeBottom": 435,
+      "skyBottom": 435,
+      "floorLeft": -412.741935483871,
+      "floorRight": 1372.741935483871,
+      "viewLeft": -412,
+      "viewRight": 1373,
+      "arenaVisible": false
+    }
+  },
+  {
+    "width": 1230,
+    "height": 372,
+    "developer": true,
+    "distance": 999,
+    "geometry": {
+      "asphaltTop": 435,
+      "asphaltBottom": 540,
+      "facadeBottom": 435,
+      "skyBottom": 435,
+      "floorLeft": -412.741935483871,
+      "floorRight": 1372.741935483871,
+      "viewLeft": -412,
+      "viewRight": 1373,
+      "arenaVisible": false
+    }
+  },
+  {
+    "width": 375,
+    "height": 667,
+    "developer": false,
+    "distance": 501,
+    "geometry": {
+      "asphaltTop": 435,
+      "asphaltBottom": 540,
+      "facadeBottom": 435,
+      "skyBottom": 435,
+      "floorLeft": 0,
+      "floorRight": 960,
+      "viewLeft": 60,
+      "viewRight": 780,
+      "arenaVisible": false
+    }
+  },
+  {
+    "width": 375,
+    "height": 667,
+    "developer": false,
+    "distance": 650,
+    "geometry": {
+      "asphaltTop": 435,
+      "asphaltBottom": 540,
+      "facadeBottom": 435,
+      "skyBottom": 435,
+      "floorLeft": 0,
+      "floorRight": 960,
+      "viewLeft": 60,
+      "viewRight": 780,
+      "arenaVisible": false
+    }
+  },
+  {
+    "width": 375,
+    "height": 667,
+    "developer": false,
+    "distance": 880,
+    "file": "after-375x667.png",
+    "geometry": {
+      "asphaltTop": 435,
+      "asphaltBottom": 540,
+      "facadeBottom": 435,
+      "skyBottom": 435,
+      "floorLeft": 0,
+      "floorRight": 960,
+      "viewLeft": 60,
+      "viewRight": 780,
+      "arenaVisible": false
+    }
+  },
+  {
+    "width": 375,
+    "height": 667,
+    "developer": false,
+    "distance": 999,
+    "geometry": {
+      "asphaltTop": 435,
+      "asphaltBottom": 540,
+      "facadeBottom": 435,
+      "skyBottom": 435,
+      "floorLeft": 0,
+      "floorRight": 960,
+      "viewLeft": 60,
+      "viewRight": 780,
+      "arenaVisible": false
+    }
+  },
+  {
+    "width": 375,
+    "height": 667,
+    "developer": true,
+    "distance": 501,
+    "geometry": {
+      "asphaltTop": 435,
+      "asphaltBottom": 540,
+      "facadeBottom": 435,
+      "skyBottom": 435,
+      "floorLeft": 0,
+      "floorRight": 960,
+      "viewLeft": 60,
+      "viewRight": 780,
+      "arenaVisible": false
+    }
+  },
+  {
+    "width": 375,
+    "height": 667,
+    "developer": true,
+    "distance": 650,
+    "geometry": {
+      "asphaltTop": 435,
+      "asphaltBottom": 540,
+      "facadeBottom": 435,
+      "skyBottom": 435,
+      "floorLeft": 0,
+      "floorRight": 960,
+      "viewLeft": 60,
+      "viewRight": 780,
+      "arenaVisible": false
+    }
+  },
+  {
+    "width": 375,
+    "height": 667,
+    "developer": true,
+    "distance": 880,
+    "geometry": {
+      "asphaltTop": 435,
+      "asphaltBottom": 540,
+      "facadeBottom": 435,
+      "skyBottom": 435,
+      "floorLeft": 0,
+      "floorRight": 960,
+      "viewLeft": 60,
+      "viewRight": 780,
+      "arenaVisible": false
+    }
+  },
+  {
+    "width": 375,
+    "height": 667,
+    "developer": true,
+    "distance": 999,
+    "geometry": {
+      "asphaltTop": 435,
+      "asphaltBottom": 540,
+      "facadeBottom": 435,
+      "skyBottom": 435,
+      "floorLeft": 0,
+      "floorRight": 960,
+      "viewLeft": 60,
+      "viewRight": 780,
+      "arenaVisible": false
+    }
+  }
+]

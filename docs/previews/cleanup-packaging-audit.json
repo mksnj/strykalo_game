@@ -1,0 +1,122 @@
+﻿{
+    "outputs":  29,
+    "expected":  29,
+    "results":  [
+                    {
+                        "path":  "apps/web/public/assets/journey-v1/autumn.webp",
+                        "matches":  true
+                    },
+                    {
+                        "path":  "apps/web/public/assets/journey-v1/shadows.webp",
+                        "matches":  true
+                    },
+                    {
+                        "path":  "apps/web/public/assets/runner-v1/far.webp",
+                        "matches":  true
+                    },
+                    {
+                        "path":  "apps/web/public/assets/runner-v1/court.webp",
+                        "matches":  true
+                    },
+                    {
+                        "path":  "apps/web/public/assets/runner-v1/ground.webp",
+                        "matches":  true
+                    },
+                    {
+                        "path":  "apps/web/public/assets/runner-v1/front.webp",
+                        "matches":  true
+                    },
+                    {
+                        "path":  "apps/web/public/assets/runner-v1/hero.webp",
+                        "matches":  true
+                    },
+                    {
+                        "path":  "apps/web/public/assets/runner-v3/puddle.webp",
+                        "matches":  true
+                    },
+                    {
+                        "path":  "apps/web/public/assets/runner-v3/barrier.webp",
+                        "matches":  true
+                    },
+                    {
+                        "path":  "apps/web/public/assets/runner-v3/debris.webp",
+                        "matches":  true
+                    },
+                    {
+                        "path":  "apps/web/public/assets/runner-v1/cassette.webp",
+                        "matches":  true
+                    },
+                    {
+                        "path":  "apps/web/public/assets/journey-v1/pipe.webp",
+                        "matches":  true
+                    },
+                    {
+                        "path":  "apps/web/public/assets/pipe-v2/city.webp",
+                        "matches":  true
+                    },
+                    {
+                        "path":  "apps/web/public/assets/pipe-v2/sky-clouds.webp",
+                        "matches":  true
+                    },
+                    {
+                        "path":  "apps/web/public/assets/pipe-v2/side.webp",
+                        "matches":  true
+                    },
+                    {
+                        "path":  "apps/web/public/assets/location-v7/excavation.webp",
+                        "matches":  true
+                    },
+                    {
+                        "path":  "apps/web/public/assets/repairs-v6/stool.webp",
+                        "matches":  true
+                    },
+                    {
+                        "path":  "apps/web/public/assets/props-v5/clock.webp",
+                        "matches":  true
+                    },
+                    {
+                        "path":  "apps/web/public/assets/props-v5/sign.webp",
+                        "matches":  true
+                    },
+                    {
+                        "path":  "apps/web/public/assets/repairs-v6/bench.webp",
+                        "matches":  true
+                    },
+                    {
+                        "path":  "apps/web/public/assets/journey-v1/memories.webp",
+                        "matches":  true
+                    },
+                    {
+                        "path":  "apps/web/public/assets/references-v8/route92.webp",
+                        "matches":  true
+                    },
+                    {
+                        "path":  "apps/web/public/assets/location-v7/court.webp",
+                        "matches":  true
+                    },
+                    {
+                        "path":  "apps/web/public/assets/transitions-v4/facade.webp",
+                        "matches":  true
+                    },
+                    {
+                        "path":  "apps/web/public/assets/mechanics-v3/room.webp",
+                        "matches":  true
+                    },
+                    {
+                        "path":  "apps/web/public/assets/journey-v1/door.webp",
+                        "matches":  true
+                    },
+                    {
+                        "path":  "apps/web/public/assets/transitions-v4/seated.webp",
+                        "matches":  true
+                    },
+                    {
+                        "path":  "apps/web/public/assets/journey-v1/idle.webp",
+                        "matches":  true
+                    },
+                    {
+                        "path":  "apps/web/public/assets/transitions-v4/arch.webp",
+                        "matches":  true
+                    }
+                ]
+}

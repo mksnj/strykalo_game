@@ -1,0 +1,197 @@
+{
+  "capturedBy": "tests/browser/courtContinuity.spec.ts",
+  "files": [
+    {
+      "size": "960x540",
+      "stage": "01-approach",
+      "file": "court-v4-960x540-01-approach.png",
+      "bytes": 930065
+    },
+    {
+      "size": "960x540",
+      "stage": "03-entry-middle",
+      "file": "court-v4-960x540-03-entry-middle.png",
+      "bytes": 915452
+    },
+    {
+      "size": "960x540",
+      "stage": "02-entry-start",
+      "file": "court-v4-960x540-02-entry-start.png",
+      "bytes": 929692
+    },
+    {
+      "size": "960x540",
+      "stage": "04-entry-end",
+      "file": "court-v4-960x540-04-entry-end.png",
+      "bytes": 921622
+    },
+    {
+      "size": "960x540",
+      "stage": "05-active",
+      "file": "court-v4-960x540-05-active.png",
+      "bytes": 923700
+    },
+    {
+      "size": "960x540",
+      "stage": "06-exit-start",
+      "file": "court-v4-960x540-06-exit-start.png",
+      "bytes": 918425
+    },
+    {
+      "size": "960x540",
+      "stage": "07-exit-middle",
+      "file": "court-v4-960x540-07-exit-middle.png",
+      "bytes": 862722
+    },
+    {
+      "size": "960x540",
+      "stage": "08-runner",
+      "file": "court-v4-960x540-08-runner.png",
+      "bytes": 849119
+    },
+    {
+      "size": "1920x1080",
+      "stage": "01-approach",
+      "file": "court-v4-1920x1080-01-approach.png",
+      "bytes": 2640212
+    },
+    {
+      "size": "1920x1080",
+      "stage": "02-entry-start",
+      "file": "court-v4-1920x1080-02-entry-start.png",
+      "bytes": 2623637
+    },
+    {
+      "size": "1920x1080",
+      "stage": "04-entry-end",
+      "file": "court-v4-1920x1080-04-entry-end.png",
+      "bytes": 2615017
+    },
+    {
+      "size": "1920x1080",
+      "stage": "05-active",
+      "file": "court-v4-1920x1080-05-active.png",
+      "bytes": 2615520
+    },
+    {
+      "size": "1920x1080",
+      "stage": "06-exit-start",
+      "file": "court-v4-1920x1080-06-exit-start.png",
+      "bytes": 2607312
+    },
+    {
+      "size": "1920x1080",
+      "stage": "07-exit-middle",
+      "file": "court-v4-1920x1080-07-exit-middle.png",
+      "bytes": 2441985
+    },
+    {
+      "size": "1920x1080",
+      "stage": "08-runner",
+      "file": "court-v4-1920x1080-08-runner.png",
+      "bytes": 2386547
+    },
+    {
+      "size": "1230x372",
+      "stage": "01-approach",
+      "file": "court-v4-1230x372-01-approach.png",
+      "bytes": 824067
+    },
+    {
+      "size": "1230x372",
+      "stage": "02-entry-start",
+      "file": "court-v4-1230x372-02-entry-start.png",
+      "bytes": 830898
+    },
+    {
+      "size": "1230x372",
+      "stage": "03-entry-middle",
+      "file": "court-v4-1230x372-03-entry-middle.png",
+      "bytes": 824681
+    },
+    {
+      "size": "1230x372",
+      "stage": "04-entry-end",
+      "file": "court-v4-1230x372-04-entry-end.png",
+      "bytes": 822943
+    },
+    {
+      "size": "1230x372",
+      "stage": "05-active",
+      "file": "court-v4-1230x372-05-active.png",
+      "bytes": 823343
+    },
+    {
+      "size": "1230x372",
+      "stage": "06-exit-start",
+      "file": "court-v4-1230x372-06-exit-start.png",
+      "bytes": 818450
+    },
+    {
+      "size": "1230x372",
+      "stage": "07-exit-middle",
+      "file": "court-v4-1230x372-07-exit-middle.png",
+      "bytes": 805883
+    },
+    {
+      "size": "1920x1080",
+      "stage": "03-entry-middle",
+      "file": "court-v4-1920x1080-03-entry-middle.png",
+      "bytes": 2590302
+    },
+    {
+      "size": "1230x372",
+      "stage": "08-runner",
+      "file": "court-v4-1230x372-08-runner.png",
+      "bytes": 784308
+    },
+    {
+      "size": "375x667",
+      "stage": "01-approach",
+      "file": "court-v4-375x667-01-approach.png",
+      "bytes": 328487
+    },
+    {
+      "size": "375x667",
+      "stage": "03-entry-middle",
+      "file": "court-v4-375x667-03-entry-middle.png",
+      "bytes": 316862
+    },
+    {
+      "size": "375x667",
+      "stage": "04-entry-end",
+      "file": "court-v4-375x667-04-entry-end.png",
+      "bytes": 311963
+    },
+    {
+      "size": "375x667",
+      "stage": "05-active",
+      "file": "court-v4-375x667-05-active.png",
+      "bytes": 318130
+    },
+    {
+      "size": "375x667",
+      "stage": "06-exit-start",
+      "file": "court-v4-375x667-06-exit-start.png",
+      "bytes": 305744
+    },
+    {
+      "size": "375x667",
+      "stage": "08-runner",
+      "file": "court-v4-375x667-08-runner.png",
+      "bytes": 310850
+    },
+    {
+      "size": "375x667",
+      "stage": "02-entry-start",
+      "file": "court-v4-375x667-02-entry-start.png",
+      "bytes": 326202
+    },
+    {
+      "size": "375x667",
+      "stage": "07-exit-middle",
+      "file": "court-v4-375x667-07-exit-middle.png",
+      "bytes": 301253
+    }
+  ]
+}

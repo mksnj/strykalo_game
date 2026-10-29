@@ -1,0 +1,9 @@
+import { readdir, writeFile } from 'node:fs/promises';
+const directory = 'docs/previews/rhythm-v13';
+const files = (await readdir(directory)).filter(f => f.endsWith('.png')).sort();
+const labels = { '01-tutorial': 'Обучение ритму', '02-falling': 'Звёзды со стрелками и четыре цели', '03-hit': 'Попадание вовремя',
+  '04-story': 'Сюжетная реакция', '05-outdoor-storm': 'Гроза перед третьей мини-игрой', '06-room-entrance': 'Забег внутрь после грозы', '07-room-window': 'Начало третьей мини-игры и непогода за окном' };
+const title = file => labels[file.replace(/^(desktop|portrait|landscape)-/, '').replace('.png','')];
+await writeFile(directory + '/index.html', '<!doctype html><html lang="ru"><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><title>Бесполезно — ритм и гроза перед комнатой</title><style>body{margin:28px;background:#111822;color:#c4d0d9;font:16px Georgia;line-height:1.6}h1{font-size:28px}p{max-width:850px}section{display:grid;grid-template-columns:repeat(auto-fit,minmax(330px,1fr));gap:18px}figure{margin:0;padding:12px;background:#202d3a}img{width:100%;height:320px;object-fit:contain}a{color:#b3c5d3}figcaption{margin-top:12px}</style><h1>Медленный ритм и дорога к комнате</h1><p>Кадры настоящей production RunnerScene, без макетов. Уклонение заменено четырьмя ритм-дорожками. Перед игрой №2 грозы нет: гроза идёт на 1000/100, затем герой забегает в комнату игры №3. Референс использован только как принцип взаимодействия; чужой графики и интерфейса нет.</p>' +
+  ['desktop','portrait','landscape'].map(mode => '<h2>' + mode + '</h2><section>' + files.filter(f => f.startsWith(mode)).map(f => '<figure><a href="' + f + '"><img loading="lazy" alt="' + title(f) + '" src="' + f + '"></a><figcaption>' + title(f) + '</figcaption></figure>').join('') + '</section>').join('') + '</html>\n');
+console.log(files.length + ' real game screenshots');

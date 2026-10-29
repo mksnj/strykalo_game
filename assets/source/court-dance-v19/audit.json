@@ -1,0 +1,115 @@
+{
+  "origin": "Owner supplied four direction PNGs; names determine direction",
+  "method": "Uniform scale, transparent trim and foot alignment on a four-cell atlas; pixels not redrawn",
+  "inputs": [
+    {
+      "direction": "left",
+      "sha256": "fc4ac19fb8e94e5a770df552cc32fba23c534a09d99599488081bc700a0b4de3",
+      "file": "assets/source/court-dance-v19/left.png"
+    },
+    {
+      "direction": "right",
+      "sha256": "a03bd2a8fb2d18ce9d83c1506b3300a5bc1f4ea2d376d6f5c465f623b63746ad",
+      "file": "assets/source/court-dance-v19/right.png"
+    },
+    {
+      "direction": "down",
+      "sha256": "98c12728b41adb03dbb40af1603a59ea9d0f94d437a54d6a63dee47056d53012",
+      "file": "assets/source/court-dance-v19/down.png"
+    },
+    {
+      "direction": "up",
+      "sha256": "f76845afac19ad78a67f5e56c7baa20c740c30f2c64363301c329241927e914c",
+      "file": "assets/source/court-dance-v19/up.png"
+    }
+  ],
+  "output": {
+    "path": "apps/web/public/assets/court-dance-v19/dance.webp",
+    "sha256": "9b0d09b29d7ebf1b99bc30f9b153319951ba69a9ed65a3771113591bb6f73ac8",
+    "bytes": 427766,
+    "width": 2048,
+    "height": 512
+  },
+  "frames": [
+    {
+      "direction": "left",
+      "index": 0,
+      "source": {
+        "left": 226,
+        "top": 58,
+        "right": 1148,
+        "bottom": 1201
+      },
+      "visible": {
+        "x": 147.05429071803854,
+        "y": 127.66374781085813,
+        "width": 310.0245183887916,
+        "height": 384.3362521891419
+      },
+      "anchor": {
+        "x": 256,
+        "y": 512
+      }
+    },
+    {
+      "direction": "right",
+      "index": 1,
+      "source": {
+        "left": 190,
+        "top": 66,
+        "right": 956,
+        "bottom": 1208
+      },
+      "visible": {
+        "x": 81.14886164623468,
+        "y": 128,
+        "width": 257.569176882662,
+        "height": 384
+      },
+      "anchor": {
+        "x": 256,
+        "y": 512
+      }
+    },
+    {
+      "direction": "down",
+      "index": 2,
+      "source": {
+        "left": 230,
+        "top": 72,
+        "right": 1123,
+        "bottom": 1206
+      },
+      "visible": {
+        "x": 113.96707530647984,
+        "y": 176.44721541155866,
+        "width": 264.24042031523646,
+        "height": 335.55278458844134
+      },
+      "anchor": {
+        "x": 256,
+        "y": 512
+      }
+    },
+    {
+      "direction": "up",
+      "index": 3,
+      "source": {
+        "left": 292,
+        "top": 25,
+        "right": 1062,
+        "bottom": 1210
+      },
+      "visible": {
+        "x": 122.47425569176883,
+        "y": 133.4640980735552,
+        "width": 245.96847635726795,
+        "height": 378.5359019264448
+      },
+      "anchor": {
+        "x": 256,
+        "y": 512
+      }
+    }
+  ]
+}

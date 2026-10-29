@@ -1,0 +1,21 @@
+{
+  "createdOn": "2026-10-26",
+  "tool": "built-in image_gen",
+  "prompt": "Use case: precise-object-edit. Edit target: the existing very wide shallow side-view underground strip from a painted 2D post-Soviet runner. Replace the BRICK BASEMENT WALL and LADDER completely with a believable OPEN CONSTRUCTION EXCAVATION viewed from the side. This is a shallow wide panorama strip, approximately 5.5:1 aspect ratio; maintain that framing and horizontal top ground level at the top edge. Paint broken asphalt cross-section at the thin top lip, rough layered cold dark soil, small pieces of concrete, coarse stones, exposed roots and a deep shadowed earth cut. The bottom descends into dark navy-grey depth with a few barely visible stones. Subtle cool damp texture matching the original hand-painted gouache/ink collage. The central trench is dark and recessed, not a building wall. No bricks, no doors, no windows, no house, no columns, no regular rectangular panels, no ladder, no floor, no pipe (pipe is a separate game sprite), no sky, no trees, no characters, no text, no warm light, no photorealism. Keep an opaque image filling the whole strip; preserve the original wide shallow shape, avoid any broad frame or border.",
+  "reference": "assets/source/location-v7/excavation.png",
+  "source": "assets/source/location-v10/excavation.png",
+  "runtime": "apps/web/public/assets/location-v7/excavation.webp",
+  "packaging": {
+    "sourceWidth": 2170,
+    "sourceHeight": 725,
+    "crop": {
+      "x": 0,
+      "y": 160,
+      "width": 2170,
+      "height": 390
+    },
+    "width": 1120,
+    "height": 204,
+    "command": "node tools/prepare-location-art.mjs excavation"
+  }
+}

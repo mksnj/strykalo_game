@@ -1,0 +1,35 @@
+{
+  "date": "2026-10-26",
+  "tool": "built-in image_gen",
+  "useCase": "background-extraction",
+  "input": "assets/source/location-v7/court.png",
+  "prompt": "Extract only the rusty basketball pole, cantilever, backboard, rim and net from this image as a separate sprite on transparent background. Remove all ground, fence, vegetation and scenery. Preserve original hand painted game style and proportions. Complete vertical pole, tight framing. No asphalt or rectangular patch.",
+  "packing": "node tools/prepare-court-art.mjs; hoop alpha bounds >16, uniform fit inside 380x636 on 384x640; asphalt material crop y=130..height from runner-v1/ground.png, 1536x420 plus reflected repeat, opaque WebP 3072x420; no alpha joins.",
+  "geometry": "NightDistrictArt.foundation at y=330, height=210, tileScale=.5; fixed in all court phases. CourtScenery has only marks, details, fence, hoop and native facade. No surface masking or second court asphalt.",
+  "files": [
+    {
+      "path": "assets/source/court-v4/hoop.png",
+      "sha256": "f87829a0eb1bd14dabb7ed0251e5266c758a938f985f35a08d44ab5f8ea51487"
+    },
+    {
+      "path": "assets/source/runner-v1/ground.png",
+      "sha256": "97e005a3e41745717a21b52178f6d8704bd51e7578c354f420d74132335f5b9a"
+    },
+    {
+      "path": "apps/web/public/assets/court-v4/hoop.webp",
+      "sha256": "88017f6418c65812256b9eb4ef28e75f8021c759fca7f72b4bb603b9c2de4f72"
+    },
+    {
+      "path": "apps/web/public/assets/court-v4/asphalt.webp",
+      "sha256": "a87fec2fef360287ebe12622826e8a2399ff5d1565c832631c3df43c23b60707"
+    },
+    {
+      "path": "assets/source/court-v4/previous-court.webp",
+      "sha256": "4563922eaadbd63abb1131d018b475c665273459b2c77443c6a3de442f4f012d"
+    },
+    {
+      "path": "assets/source/court-v4/previous-court-street.webp",
+      "sha256": "1c5aaa0bca5bcdeab4e6ad92f8bd39b0d73f65d3d01df38c8a93e98f77b8501f"
+    }
+  ]
+}

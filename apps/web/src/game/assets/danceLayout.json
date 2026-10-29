@@ -1,0 +1,15 @@
+{
+  "key": "court-dance",
+  "url": "/assets/court-dance-v19/dance.webp",
+  "cellSize": 512,
+  "bodyHeight": 384,
+  "idleVisibleFraction": 0.96875,
+  "directions": ["left", "right", "down", "up"],
+  "frames": { "left": 0, "right": 1, "down": 2, "up": 3 },
+  "sources": {
+    "left": { "file": "влево.png", "anchorX": 550, "heightScale": 1 },
+    "right": { "file": "вправо.png", "anchorX": 710, "heightScale": 1 },
+    "down": { "file": "вниз.png", "anchorX": 710, "heightScale": 0.88 },
+    "up": { "file": "вверх.png", "anchorX": 710, "heightScale": 0.95 }
+  }
+}

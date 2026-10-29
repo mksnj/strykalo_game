@@ -1,0 +1,16 @@
+{
+  "name": "razvlechenie", "version": "0.1.0", "private": true, "type": "module",
+  "engines": { "node": ">=22.12.0" },
+  "scripts": {
+    "dev": "vite --host 0.0.0.0",
+    "build": "npm run typecheck && vite build",
+    "preview": "vite preview --host 0.0.0.0",
+    "typecheck": "tsc --noEmit",
+    "test": "vitest run",
+    "test:browser": "node tools/browser-tests.mjs",
+    "check:docs": "node tools/check-doc-links.mjs",
+    "archive:source": "node tools/package-source.mjs"
+  },
+  "dependencies": { "phaser": "3.90.0", "react": "^19.2.0", "react-dom": "^19.2.0" },
+  "devDependencies": { "@types/react": "^19.2.0", "@types/react-dom": "^19.2.0", "@types/node": "^24.0.0", "typescript": "^5.9.3", "vite": "^8.3.4", "vitest": "^4.0.0", "@playwright/test": "^1.56.0" }
+}

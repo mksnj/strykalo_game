@@ -1,0 +1,734 @@
+[
+  {
+    "width": 1588,
+    "height": 801,
+    "errors": [],
+    "frames": [
+      {
+        "p": "street",
+        "developer": false,
+        "phase": "runner",
+        "x": 180,
+        "y": 438,
+        "visible": true,
+        "alpha": 1,
+        "frame": 1,
+        "texture": "night-hero"
+      },
+      {
+        "p": 0,
+        "developer": false,
+        "phase": "stars-approach",
+        "x": 180,
+        "y": 438,
+        "visible": true,
+        "alpha": 1,
+        "frame": 1,
+        "texture": "night-hero"
+      },
+      {
+        "p": 0.25,
+        "developer": false,
+        "phase": "stars-approach",
+        "x": 226.875,
+        "y": 438,
+        "visible": true,
+        "alpha": 1,
+        "frame": 2,
+        "texture": "night-hero"
+      },
+      {
+        "p": 0.5,
+        "developer": false,
+        "phase": "stars-approach",
+        "x": 330,
+        "y": 426.980163002249,
+        "visible": true,
+        "alpha": 1,
+        "frame": 3,
+        "texture": "night-hero"
+      },
+      {
+        "p": 0.75,
+        "developer": false,
+        "phase": "stars-approach",
+        "x": 433.125,
+        "y": 390.7395450231666,
+        "visible": true,
+        "alpha": 1,
+        "frame": 3,
+        "texture": "night-hero"
+      },
+      {
+        "p": 1,
+        "developer": false,
+        "phase": "stars-approach",
+        "x": 480,
+        "y": 385,
+        "visible": true,
+        "alpha": 1,
+        "frame": 0,
+        "texture": "hero-idle"
+      },
+      {
+        "p": "stars",
+        "developer": false,
+        "phase": "stars",
+        "x": 480,
+        "y": 385,
+        "visible": true,
+        "alpha": 1,
+        "frame": 0,
+        "texture": "hero-idle"
+      },
+      {
+        "p": "exit",
+        "developer": false,
+        "phase": "stars-exit",
+        "x": 330,
+        "y": 437.87958676268863,
+        "visible": true,
+        "alpha": 1,
+        "frame": 2,
+        "texture": "night-hero"
+      },
+      {
+        "p": "street",
+        "developer": true,
+        "phase": "runner",
+        "x": 180,
+        "y": 438,
+        "visible": true,
+        "alpha": 1,
+        "frame": 2,
+        "texture": "night-hero"
+      },
+      {
+        "p": 0,
+        "developer": true,
+        "phase": "stars-approach",
+        "x": 180,
+        "y": 438,
+        "visible": true,
+        "alpha": 1,
+        "frame": 3,
+        "texture": "night-hero"
+      },
+      {
+        "p": 0.25,
+        "developer": true,
+        "phase": "stars-approach",
+        "x": 226.875,
+        "y": 438,
+        "visible": true,
+        "alpha": 1,
+        "frame": 0,
+        "texture": "night-hero"
+      },
+      {
+        "p": 0.5,
+        "developer": true,
+        "phase": "stars-approach",
+        "x": 330,
+        "y": 426.980163002249,
+        "visible": true,
+        "alpha": 1,
+        "frame": 0,
+        "texture": "night-hero"
+      },
+      {
+        "p": 0.75,
+        "developer": true,
+        "phase": "stars-approach",
+        "x": 433.125,
+        "y": 390.7395450231666,
+        "visible": true,
+        "alpha": 1,
+        "frame": 1,
+        "texture": "night-hero"
+      },
+      {
+        "p": 1,
+        "developer": true,
+        "phase": "stars-approach",
+        "x": 480,
+        "y": 385,
+        "visible": true,
+        "alpha": 1,
+        "frame": 0,
+        "texture": "hero-idle"
+      },
+      {
+        "p": "stars",
+        "developer": true,
+        "phase": "stars",
+        "x": 480,
+        "y": 385,
+        "visible": true,
+        "alpha": 1,
+        "frame": 0,
+        "texture": "hero-idle"
+      },
+      {
+        "p": "exit",
+        "developer": true,
+        "phase": "stars-exit",
+        "x": 330,
+        "y": 437.87958676268863,
+        "visible": true,
+        "alpha": 1,
+        "frame": 3,
+        "texture": "night-hero"
+      }
+    ]
+  },
+  {
+    "width": 960,
+    "height": 540,
+    "errors": [],
+    "frames": [
+      {
+        "p": "street",
+        "developer": false,
+        "phase": "runner",
+        "x": 180,
+        "y": 438,
+        "visible": true,
+        "alpha": 1,
+        "frame": 1,
+        "texture": "night-hero"
+      },
+      {
+        "p": 0,
+        "developer": false,
+        "phase": "stars-approach",
+        "x": 180,
+        "y": 438,
+        "visible": true,
+        "alpha": 1,
+        "frame": 1,
+        "texture": "night-hero"
+      },
+      {
+        "p": 0.25,
+        "developer": false,
+        "phase": "stars-approach",
+        "x": 226.875,
+        "y": 438,
+        "visible": true,
+        "alpha": 1,
+        "frame": 2,
+        "texture": "night-hero"
+      },
+      {
+        "p": 0.5,
+        "developer": false,
+        "phase": "stars-approach",
+        "x": 330,
+        "y": 426.980163002249,
+        "visible": true,
+        "alpha": 1,
+        "frame": 3,
+        "texture": "night-hero"
+      },
+      {
+        "p": 0.75,
+        "developer": false,
+        "phase": "stars-approach",
+        "x": 433.125,
+        "y": 390.7395450231666,
+        "visible": true,
+        "alpha": 1,
+        "frame": 3,
+        "texture": "night-hero"
+      },
+      {
+        "p": 1,
+        "developer": false,
+        "phase": "stars-approach",
+        "x": 480,
+        "y": 385,
+        "visible": true,
+        "alpha": 1,
+        "frame": 0,
+        "texture": "hero-idle"
+      },
+      {
+        "p": "stars",
+        "developer": false,
+        "phase": "stars",
+        "x": 480,
+        "y": 385,
+        "visible": true,
+        "alpha": 1,
+        "frame": 0,
+        "texture": "hero-idle"
+      },
+      {
+        "p": "exit",
+        "developer": false,
+        "phase": "stars-exit",
+        "x": 330,
+        "y": 437.87958676268863,
+        "visible": true,
+        "alpha": 1,
+        "frame": 2,
+        "texture": "night-hero"
+      },
+      {
+        "p": "street",
+        "developer": true,
+        "phase": "runner",
+        "x": 180,
+        "y": 438,
+        "visible": true,
+        "alpha": 1,
+        "frame": 2,
+        "texture": "night-hero"
+      },
+      {
+        "p": 0,
+        "developer": true,
+        "phase": "stars-approach",
+        "x": 180,
+        "y": 438,
+        "visible": true,
+        "alpha": 1,
+        "frame": 3,
+        "texture": "night-hero"
+      },
+      {
+        "p": 0.25,
+        "developer": true,
+        "phase": "stars-approach",
+        "x": 226.875,
+        "y": 438,
+        "visible": true,
+        "alpha": 1,
+        "frame": 0,
+        "texture": "night-hero"
+      },
+      {
+        "p": 0.5,
+        "developer": true,
+        "phase": "stars-approach",
+        "x": 330,
+        "y": 426.980163002249,
+        "visible": true,
+        "alpha": 1,
+        "frame": 1,
+        "texture": "night-hero"
+      },
+      {
+        "p": 0.75,
+        "developer": true,
+        "phase": "stars-approach",
+        "x": 433.125,
+        "y": 390.7395450231666,
+        "visible": true,
+        "alpha": 1,
+        "frame": 1,
+        "texture": "night-hero"
+      },
+      {
+        "p": 1,
+        "developer": true,
+        "phase": "stars-approach",
+        "x": 480,
+        "y": 385,
+        "visible": true,
+        "alpha": 1,
+        "frame": 0,
+        "texture": "hero-idle"
+      },
+      {
+        "p": "stars",
+        "developer": true,
+        "phase": "stars",
+        "x": 480,
+        "y": 385,
+        "visible": true,
+        "alpha": 1,
+        "frame": 0,
+        "texture": "hero-idle"
+      },
+      {
+        "p": "exit",
+        "developer": true,
+        "phase": "stars-exit",
+        "x": 330,
+        "y": 437.87958676268863,
+        "visible": true,
+        "alpha": 1,
+        "frame": 3,
+        "texture": "night-hero"
+      }
+    ]
+  },
+  {
+    "width": 375,
+    "height": 667,
+    "errors": [],
+    "frames": [
+      {
+        "p": "street",
+        "developer": false,
+        "phase": "runner",
+        "x": 180,
+        "y": 438,
+        "visible": true,
+        "alpha": 1,
+        "frame": 0,
+        "texture": "night-hero"
+      },
+      {
+        "p": 0,
+        "developer": false,
+        "phase": "stars-approach",
+        "x": 180,
+        "y": 438,
+        "visible": true,
+        "alpha": 1,
+        "frame": 1,
+        "texture": "night-hero"
+      },
+      {
+        "p": 0.25,
+        "developer": false,
+        "phase": "stars-approach",
+        "x": 226.875,
+        "y": 438,
+        "visible": true,
+        "alpha": 1,
+        "frame": 2,
+        "texture": "night-hero"
+      },
+      {
+        "p": 0.5,
+        "developer": false,
+        "phase": "stars-approach",
+        "x": 330,
+        "y": 426.980163002249,
+        "visible": true,
+        "alpha": 1,
+        "frame": 3,
+        "texture": "night-hero"
+      },
+      {
+        "p": 0.75,
+        "developer": false,
+        "phase": "stars-approach",
+        "x": 433.125,
+        "y": 390.7395450231666,
+        "visible": true,
+        "alpha": 1,
+        "frame": 3,
+        "texture": "night-hero"
+      },
+      {
+        "p": 1,
+        "developer": false,
+        "phase": "stars-approach",
+        "x": 480,
+        "y": 385,
+        "visible": true,
+        "alpha": 1,
+        "frame": 0,
+        "texture": "hero-idle"
+      },
+      {
+        "p": "stars",
+        "developer": false,
+        "phase": "stars",
+        "x": 480,
+        "y": 385,
+        "visible": true,
+        "alpha": 1,
+        "frame": 0,
+        "texture": "hero-idle"
+      },
+      {
+        "p": "exit",
+        "developer": false,
+        "phase": "stars-exit",
+        "x": 330,
+        "y": 437.87958676268863,
+        "visible": true,
+        "alpha": 1,
+        "frame": 2,
+        "texture": "night-hero"
+      },
+      {
+        "p": "street",
+        "developer": true,
+        "phase": "runner",
+        "x": 180,
+        "y": 438,
+        "visible": true,
+        "alpha": 1,
+        "frame": 2,
+        "texture": "night-hero"
+      },
+      {
+        "p": 0,
+        "developer": true,
+        "phase": "stars-approach",
+        "x": 180,
+        "y": 438,
+        "visible": true,
+        "alpha": 1,
+        "frame": 3,
+        "texture": "night-hero"
+      },
+      {
+        "p": 0.25,
+        "developer": true,
+        "phase": "stars-approach",
+        "x": 226.875,
+        "y": 438,
+        "visible": true,
+        "alpha": 1,
+        "frame": 0,
+        "texture": "night-hero"
+      },
+      {
+        "p": 0.5,
+        "developer": true,
+        "phase": "stars-approach",
+        "x": 330,
+        "y": 426.980163002249,
+        "visible": true,
+        "alpha": 1,
+        "frame": 0,
+        "texture": "night-hero"
+      },
+      {
+        "p": 0.75,
+        "developer": true,
+        "phase": "stars-approach",
+        "x": 433.125,
+        "y": 390.7395450231666,
+        "visible": true,
+        "alpha": 1,
+        "frame": 1,
+        "texture": "night-hero"
+      },
+      {
+        "p": 1,
+        "developer": true,
+        "phase": "stars-approach",
+        "x": 480,
+        "y": 385,
+        "visible": true,
+        "alpha": 1,
+        "frame": 0,
+        "texture": "hero-idle"
+      },
+      {
+        "p": "stars",
+        "developer": true,
+        "phase": "stars",
+        "x": 480,
+        "y": 385,
+        "visible": true,
+        "alpha": 1,
+        "frame": 0,
+        "texture": "hero-idle"
+      },
+      {
+        "p": "exit",
+        "developer": true,
+        "phase": "stars-exit",
+        "x": 330,
+        "y": 437.87958676268863,
+        "visible": true,
+        "alpha": 1,
+        "frame": 3,
+        "texture": "night-hero"
+      }
+    ]
+  },
+  {
+    "width": 1230,
+    "height": 372,
+    "errors": [],
+    "frames": [
+      {
+        "p": "street",
+        "developer": false,
+        "phase": "runner",
+        "x": 180,
+        "y": 438,
+        "visible": true,
+        "alpha": 1,
+        "frame": 1,
+        "texture": "night-hero"
+      },
+      {
+        "p": 0,
+        "developer": false,
+        "phase": "stars-approach",
+        "x": 180,
+        "y": 438,
+        "visible": true,
+        "alpha": 1,
+        "frame": 1,
+        "texture": "night-hero"
+      },
+      {
+        "p": 0.25,
+        "developer": false,
+        "phase": "stars-approach",
+        "x": 226.875,
+        "y": 438,
+        "visible": true,
+        "alpha": 1,
+        "frame": 2,
+        "texture": "night-hero"
+      },
+      {
+        "p": 0.5,
+        "developer": false,
+        "phase": "stars-approach",
+        "x": 330,
+        "y": 426.980163002249,
+        "visible": true,
+        "alpha": 1,
+        "frame": 3,
+        "texture": "night-hero"
+      },
+      {
+        "p": 0.75,
+        "developer": false,
+        "phase": "stars-approach",
+        "x": 433.125,
+        "y": 390.7395450231666,
+        "visible": true,
+        "alpha": 1,
+        "frame": 3,
+        "texture": "night-hero"
+      },
+      {
+        "p": 1,
+        "developer": false,
+        "phase": "stars-approach",
+        "x": 480,
+        "y": 385,
+        "visible": true,
+        "alpha": 1,
+        "frame": 0,
+        "texture": "hero-idle"
+      },
+      {
+        "p": "stars",
+        "developer": false,
+        "phase": "stars",
+        "x": 480,
+        "y": 385,
+        "visible": true,
+        "alpha": 1,
+        "frame": 0,
+        "texture": "hero-idle"
+      },
+      {
+        "p": "exit",
+        "developer": false,
+        "phase": "stars-exit",
+        "x": 330,
+        "y": 437.87958676268863,
+        "visible": true,
+        "alpha": 1,
+        "frame": 2,
+        "texture": "night-hero"
+      },
+      {
+        "p": "street",
+        "developer": true,
+        "phase": "runner",
+        "x": 180,
+        "y": 438,
+        "visible": true,
+        "alpha": 1,
+        "frame": 2,
+        "texture": "night-hero"
+      },
+      {
+        "p": 0,
+        "developer": true,
+        "phase": "stars-approach",
+        "x": 180,
+        "y": 438,
+        "visible": true,
+        "alpha": 1,
+        "frame": 3,
+        "texture": "night-hero"
+      },
+      {
+        "p": 0.25,
+        "developer": true,
+        "phase": "stars-approach",
+        "x": 226.875,
+        "y": 438,
+        "visible": true,
+        "alpha": 1,
+        "frame": 0,
+        "texture": "night-hero"
+      },
+      {
+        "p": 0.5,
+        "developer": true,
+        "phase": "stars-approach",
+        "x": 330,
+        "y": 426.980163002249,
+        "visible": true,
+        "alpha": 1,
+        "frame": 0,
+        "texture": "night-hero"
+      },
+      {
+        "p": 0.75,
+        "developer": true,
+        "phase": "stars-approach",
+        "x": 433.125,
+        "y": 390.7395450231666,
+        "visible": true,
+        "alpha": 1,
+        "frame": 1,
+        "texture": "night-hero"
+      },
+      {
+        "p": 1,
+        "developer": true,
+        "phase": "stars-approach",
+        "x": 480,
+        "y": 385,
+        "visible": true,
+        "alpha": 1,
+        "frame": 0,
+        "texture": "hero-idle"
+      },
+      {
+        "p": "stars",
+        "developer": true,
+        "phase": "stars",
+        "x": 480,
+        "y": 385,
+        "visible": true,
+        "alpha": 1,
+        "frame": 0,
+        "texture": "hero-idle"
+      },
+      {
+        "p": "exit",
+        "developer": true,
+        "phase": "stars-exit",
+        "x": 330,
+        "y": 437.87958676268863,
+        "visible": true,
+        "alpha": 1,
+        "frame": 3,
+        "texture": "night-hero"
+      }
+    ]
+  }
+]

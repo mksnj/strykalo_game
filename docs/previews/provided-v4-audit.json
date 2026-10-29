@@ -1,0 +1,104 @@
+[
+  {
+    "name": "pipe",
+    "source": "assets/source/provided-v4/pipe-muted.png",
+    "width": 1920,
+    "height": 640,
+    "crop": [
+      0,
+      0,
+      2171,
+      724
+    ],
+    "originalWidth": 2171,
+    "originalHeight": 724,
+    "sourceSha256": "f953f3db36be0501850963ced5b1d74f9e4a415f176c67d25b6e78d07c180eb4",
+    "sha256": "2d4dbff6c0b2785ba0726919b3d7fabdaa918be25ee2a739fa7601f2413dec7d",
+    "bytes": 276134
+  },
+  {
+    "name": "room",
+    "source": "assets/source/provided-v4/room-interactive.png",
+    "width": 1920,
+    "height": 640,
+    "crop": [
+      0,
+      0,
+      2172,
+      724
+    ],
+    "originalWidth": 2172,
+    "originalHeight": 724,
+    "sourceSha256": "0c9c176d107cf3e0a3c3b27fc446d6a31cb1e4b85f9be8c731ee5db36c863199",
+    "sha256": "5b4131011dffef71d5f258b5a0083a8759083bc565254baefeed809935a905ea",
+    "bytes": 202086
+  },
+  {
+    "name": "barrier",
+    "source": "assets/source/provided-v4/barrier.png",
+    "width": 264,
+    "height": 100,
+    "crop": [
+      7,
+      444,
+      1240,
+      469
+    ],
+    "originalWidth": 1254,
+    "originalHeight": 1254,
+    "sourceSha256": "d2ba8eb568ef4f4c131ba348b58ed218639350c6ba356ca74a2b34b4cf7c5b67",
+    "sha256": "dd66e0b80139d71e2bb5343fe81b376ca8eeb1e4d0ba63d953e4412caa166b17",
+    "bytes": 16534
+  },
+  {
+    "name": "broken-block",
+    "source": "assets/source/provided-v4/broken-block.png",
+    "width": 264,
+    "height": 121,
+    "crop": [
+      2,
+      345,
+      1251,
+      572
+    ],
+    "originalWidth": 1254,
+    "originalHeight": 1254,
+    "sourceSha256": "bd4c9b237ae4abae447ad53950e2f5a6a534a38a48fc24238d868bd43554d695",
+    "sha256": "d6e97a2ce6cecc1eeb36e9d6d265fd7a422fdcf38f7209975880aa52995a024a",
+    "bytes": 17470
+  },
+  {
+    "name": "debris",
+    "source": "assets/source/provided-v4/debris.png",
+    "width": 224,
+    "height": 135,
+    "crop": [
+      2,
+      286,
+      1251,
+      752
+    ],
+    "originalWidth": 1254,
+    "originalHeight": 1254,
+    "sourceSha256": "cd70b3cc9a8649da1a999a98959ced1fd7029514688806d6fa2d1842dd29d57b",
+    "sha256": "b7ba63c11da4b0bbd340ff5c03aa1b30503b32fea0267846eec9357278a42328",
+    "bytes": 16156
+  },
+  {
+    "name": "rubble",
+    "source": "assets/source/provided-v4/rubble.png",
+    "width": 224,
+    "height": 127,
+    "crop": [
+      1,
+      297,
+      1253,
+      709
+    ],
+    "originalWidth": 1254,
+    "originalHeight": 1254,
+    "sourceSha256": "7b5def71d484b39dde596b73a241789ec8bbd4204a541a915b03f255eda82efc",
+    "sha256": "c50ad656f8d47457004e4d8afc28d2934d8dde4422f9135a1941bf5457118bf8",
+    "bytes": 16126
+  }
+]

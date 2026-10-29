@@ -1,0 +1,48 @@
+{
+  "date": "2026-10-26",
+  "tool": "built-in image_gen",
+  "collection": "court-entry-v3",
+  "prompt": "Use case: precise-object-edit / production transparent game sprite.\nEdit the attached 3:1 basketball-court environment layer. Remove ONLY the oversized apartment building at the left and the birch/tree growing directly in front of that building. The game will draw an existing smaller apartment facade as a separate parallax layer instead.\nPreserve the entire basketball court, hoop, backboard, fence, fence posts, faded white court markings, matte asphalt texture, fallen leaves, shallow perspective, cold desaturated colors and exact object positions/scale. Do not change the right two thirds.\nWhere the building was, restore actual transparent empty space ABOVE the paving, so the existing game background can show through. Keep a broad continuous asphalt approach across the lower left, smoothly connecting to the court: paving begins near 74% of image height on the left edge, rises gently toward the court's back fence base at about 64% height. Preserve opaque painted paving below this edge all the way to the bottom. Do not put new walls, buildings, trees or gates where the house was. Retain the fence's existing left termination near 37% image width. This is not a full scene: sky and distant city must remain fully transparent, including fence mesh gaps. No new objects, people, UI, captions, text, numbers or watermark. Keep the exact same 3:1 image frame and fixed camera. Real alpha transparency, no painted checkerboard, no vignette or fading edges.",
+  "references": [
+    "assets/source/court-entry-v2/entrance.png"
+  ],
+  "source": "assets/source/court-entry-v3/court.png",
+  "runtime": "apps/web/public/assets/location-v7/court.webp",
+  "packing": "node tools/prepare-location-art.mjs court; uniform resize to 1620x540; opaque floor footprint and 120px street joins below y435, as in v2. Matching street band derived by existing packer.",
+  "facade": {
+    "source": "apps/web/public/assets/journey-v1/autumn.webp",
+    "frame": {
+      "x": 0,
+      "y": 0,
+      "width": 220,
+      "height": 512
+    },
+    "scale": 0.85546875,
+    "sourceFoot": 486,
+    "groundY": 435,
+    "parallax": 0.42,
+    "note": "Original facade crop and native autumn tile have identical scale, ground contact, horizontal phase and motion. The oversized baked facade from v2 is removed."
+  },
+  "files": [
+    {
+      "path": "assets/source/court-entry-v3/court.png",
+      "sha256": "3171540cd6f011c2f76808be3fae32dd6cc0d138a51ad4c9e5c3b9ea5cdd8935"
+    },
+    {
+      "path": "apps/web/public/assets/location-v7/court.webp",
+      "sha256": "4563922eaadbd63abb1131d018b475c665273459b2c77443c6a3de442f4f012d"
+    },
+    {
+      "path": "apps/web/public/assets/location-v7/court-street.webp",
+      "sha256": "1c5aaa0bca5bcdeab4e6ad92f8bd39b0d73f65d3d01df38c8a93e98f77b8501f"
+    },
+    {
+      "path": "apps/web/public/assets/journey-v1/autumn.webp",
+      "sha256": "ec21ab76127de7fe16d095f6c90c49f907041d11e1c68e99b6315a032390a123"
+    },
+    {
+      "path": "assets/source/court-entry-v3/previous-runtime.webp",
+      "sha256": "053b32cbace30ad4c5dfaf3568d8cd7faccb71dae60223af2bad59cf774ceace"
+    }
+  ]
+}

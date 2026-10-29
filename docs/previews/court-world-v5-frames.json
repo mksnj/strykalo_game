@@ -1,0 +1,245 @@
+{
+  "capturedBy": "tests/browser/courtContinuity.spec.ts",
+  "files": [
+    {
+      "size": "960x540",
+      "stage": "entry-0",
+      "file": "court-world-v5-960x540-entry-0.png",
+      "bytes": 940770
+    },
+    {
+      "size": "960x540",
+      "stage": "entry-20",
+      "file": "court-world-v5-960x540-entry-20.png",
+      "bytes": 933892
+    },
+    {
+      "size": "960x540",
+      "stage": "entry-80",
+      "file": "court-world-v5-960x540-entry-80.png",
+      "bytes": 912681
+    },
+    {
+      "size": "960x540",
+      "stage": "entry-40",
+      "file": "court-world-v5-960x540-entry-40.png",
+      "bytes": 931790
+    },
+    {
+      "size": "960x540",
+      "stage": "05-active",
+      "file": "court-world-v5-960x540-05-active.png",
+      "bytes": 922438
+    },
+    {
+      "size": "960x540",
+      "stage": "entry-100",
+      "file": "court-world-v5-960x540-entry-100.png",
+      "bytes": 922909
+    },
+    {
+      "size": "960x540",
+      "stage": "06-exit-start",
+      "file": "court-world-v5-960x540-06-exit-start.png",
+      "bytes": 907375
+    },
+    {
+      "size": "960x540",
+      "stage": "07-exit-middle",
+      "file": "court-world-v5-960x540-07-exit-middle.png",
+      "bytes": 860820
+    },
+    {
+      "size": "960x540",
+      "stage": "08-runner",
+      "file": "court-world-v5-960x540-08-runner.png",
+      "bytes": 861575
+    },
+    {
+      "size": "1920x1080",
+      "stage": "entry-0",
+      "file": "court-world-v5-1920x1080-entry-0.png",
+      "bytes": 2633858
+    },
+    {
+      "size": "960x540",
+      "stage": "entry-60",
+      "file": "court-world-v5-960x540-entry-60.png",
+      "bytes": 919480
+    },
+    {
+      "size": "1920x1080",
+      "stage": "entry-20",
+      "file": "court-world-v5-1920x1080-entry-20.png",
+      "bytes": 2628308
+    },
+    {
+      "size": "1920x1080",
+      "stage": "entry-40",
+      "file": "court-world-v5-1920x1080-entry-40.png",
+      "bytes": 2626103
+    },
+    {
+      "size": "1920x1080",
+      "stage": "entry-60",
+      "file": "court-world-v5-1920x1080-entry-60.png",
+      "bytes": 2600896
+    },
+    {
+      "size": "1920x1080",
+      "stage": "entry-80",
+      "file": "court-world-v5-1920x1080-entry-80.png",
+      "bytes": 2580550
+    },
+    {
+      "size": "1920x1080",
+      "stage": "entry-100",
+      "file": "court-world-v5-1920x1080-entry-100.png",
+      "bytes": 2604374
+    },
+    {
+      "size": "1920x1080",
+      "stage": "05-active",
+      "file": "court-world-v5-1920x1080-05-active.png",
+      "bytes": 2607679
+    },
+    {
+      "size": "1920x1080",
+      "stage": "06-exit-start",
+      "file": "court-world-v5-1920x1080-06-exit-start.png",
+      "bytes": 2600969
+    },
+    {
+      "size": "1920x1080",
+      "stage": "08-runner",
+      "file": "court-world-v5-1920x1080-08-runner.png",
+      "bytes": 2413359
+    },
+    {
+      "size": "1230x372",
+      "stage": "entry-0",
+      "file": "court-world-v5-1230x372-entry-0.png",
+      "bytes": 822829
+    },
+    {
+      "size": "1920x1080",
+      "stage": "07-exit-middle",
+      "file": "court-world-v5-1920x1080-07-exit-middle.png",
+      "bytes": 2450777
+    },
+    {
+      "size": "1230x372",
+      "stage": "entry-20",
+      "file": "court-world-v5-1230x372-entry-20.png",
+      "bytes": 823690
+    },
+    {
+      "size": "1230x372",
+      "stage": "entry-40",
+      "file": "court-world-v5-1230x372-entry-40.png",
+      "bytes": 823972
+    },
+    {
+      "size": "1230x372",
+      "stage": "entry-100",
+      "file": "court-world-v5-1230x372-entry-100.png",
+      "bytes": 821044
+    },
+    {
+      "size": "1230x372",
+      "stage": "entry-60",
+      "file": "court-world-v5-1230x372-entry-60.png",
+      "bytes": 822223
+    },
+    {
+      "size": "1230x372",
+      "stage": "entry-80",
+      "file": "court-world-v5-1230x372-entry-80.png",
+      "bytes": 822262
+    },
+    {
+      "size": "1230x372",
+      "stage": "05-active",
+      "file": "court-world-v5-1230x372-05-active.png",
+      "bytes": 821648
+    },
+    {
+      "size": "1230x372",
+      "stage": "06-exit-start",
+      "file": "court-world-v5-1230x372-06-exit-start.png",
+      "bytes": 816654
+    },
+    {
+      "size": "1230x372",
+      "stage": "07-exit-middle",
+      "file": "court-world-v5-1230x372-07-exit-middle.png",
+      "bytes": 804783
+    },
+    {
+      "size": "375x667",
+      "stage": "entry-0",
+      "file": "court-world-v5-375x667-entry-0.png",
+      "bytes": 329327
+    },
+    {
+      "size": "1230x372",
+      "stage": "08-runner",
+      "file": "court-world-v5-1230x372-08-runner.png",
+      "bytes": 776191
+    },
+    {
+      "size": "375x667",
+      "stage": "entry-20",
+      "file": "court-world-v5-375x667-entry-20.png",
+      "bytes": 326585
+    },
+    {
+      "size": "375x667",
+      "stage": "entry-40",
+      "file": "court-world-v5-375x667-entry-40.png",
+      "bytes": 320637
+    },
+    {
+      "size": "375x667",
+      "stage": "entry-60",
+      "file": "court-world-v5-375x667-entry-60.png",
+      "bytes": 314627
+    },
+    {
+      "size": "375x667",
+      "stage": "entry-100",
+      "file": "court-world-v5-375x667-entry-100.png",
+      "bytes": 311727
+    },
+    {
+      "size": "375x667",
+      "stage": "entry-80",
+      "file": "court-world-v5-375x667-entry-80.png",
+      "bytes": 312932
+    },
+    {
+      "size": "375x667",
+      "stage": "05-active",
+      "file": "court-world-v5-375x667-05-active.png",
+      "bytes": 317937
+    },
+    {
+      "size": "375x667",
+      "stage": "06-exit-start",
+      "file": "court-world-v5-375x667-06-exit-start.png",
+      "bytes": 305686
+    },
+    {
+      "size": "375x667",
+      "stage": "07-exit-middle",
+      "file": "court-world-v5-375x667-07-exit-middle.png",
+      "bytes": 300282
+    },
+    {
+      "size": "375x667",
+      "stage": "08-runner",
+      "file": "court-world-v5-375x667-08-runner.png",
+      "bytes": 315738
+    }
+  ]
+}

@@ -1,0 +1,41 @@
+[
+  {
+    "source": "docs/лужа.png",
+    "sha256": "95d3844a9c5006ab090d4c117cae0b8b4b6bb32f5ed90a559060dba695c8cbf5",
+    "name": "puddle",
+    "width": 264,
+    "height": 56,
+    "crop": [
+      17,
+      577,
+      1222,
+      260
+    ]
+  },
+  {
+    "source": "docs/блок.png",
+    "sha256": "a2ef0c6d464e5b283012379bb884e9673ea743c607a2dfadc7c913c5efa9bc57",
+    "name": "barrier",
+    "width": 264,
+    "height": 84,
+    "crop": [
+      47,
+      537,
+      1167,
+      371
+    ]
+  },
+  {
+    "source": "docs/Мусор.png",
+    "sha256": "a98d8b38666de7e8dbcd18d16279b69108400be1ed8e6a83db6a8d079cc1e7cf",
+    "name": "debris",
+    "width": 224,
+    "height": 108,
+    "crop": [
+      14,
+      360,
+      1228,
+      590
+    ]
+  }
+]

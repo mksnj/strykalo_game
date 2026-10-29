@@ -1,0 +1,48 @@
+node_modules/
+dist/
+.npm-cache/
+.env
+.env.local
+playwright-report/
+test-results/
+tmp/
+*.log
+
+
+# NPM dependencies and cache
+node_modules/
+.npm-cache/
+.npm/
+
+# Build outputs
+dist/
+build/
+coverage/
+*.tsbuildinfo
+
+# Test artifacts
+test-results/
+playwright-report/
+blob-report/
+
+# Temporary files
+tmp/
+temp/
+*.log
+npm-debug.log*
+
+# Environment variables and secrets
+.env
+.env.*
+!.env.example
+
+# Local IDE files
+.vscode/
+.idea/
+
+# Operating system files
+.DS_Store
+Thumbs.db
+
+# Optional: generated output
+# output/

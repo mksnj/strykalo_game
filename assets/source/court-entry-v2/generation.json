@@ -1,0 +1,38 @@
+{
+  "date": "2026-10-26",
+  "tool": "built-in image_gen",
+  "source": "assets/source/court-entry-v2/entrance.png",
+  "previousRuntime": "assets/source/court-entry-v2/previous-runtime.webp",
+  "prompts": [
+    "Use case: compositing / production 2D game environment layer.\nInput 1: existing transparent basketball court, preserve its cold painted ink/gouache style and shallow side-on ground perspective. Input 2: existing apartment courtyard artwork, architectural style reference. Input 3: current broken game composite, only to understand why disconnected cut-out house and repeated asphalt patches are wrong.\nCreate a single coherent replacement environmental sprite: worn apartment building at LEFT, open entrance beside it, abandoned basketball court extending RIGHT. All house/fence/pavement junctions must be physically painted together, like one continuous courtyard. Output very wide 3:1 image on actual alpha transparency, designed in a 1620x540 coordinate grid. Fixed side-on camera, shallow receding ground, no isometric or overhead view.\nCoordinate layout: left building occupies x=0..610, extends above top edge and touches left edge, with complete visible right corner and drainpipe, peeling plaster, dark windows, balconies, a birch. House feet meet pavement at y=410. Beside the house, clear open entry at x=610..760, y=410..460. Back fence from x=650 to right edge: top around y=240, foot y=330, rusty chain link, transparent holes through mesh. Hoop at x=710 with backboard around y=100. Court marked asphalt fills right two thirds from y=330 to bottom. Existing game's playable floor must stay clear x=660..1300,y=356..490. Faint worn white court lines at right, sparse brown leaves, fine irregular cracks. Pavement outside house at left meets a horizontal runner street at y=438 and CONTINUES as the exact same unbroken matte asphalt into court. Broad continuous foreground asphalt to entire bottom edge, no curb crossing the entrance, no raised slab, no straight vertical texture seams. Ground leftmost edge begins at y=435. At far right, street connects back at y=438 via open side, no obstructing front fence.\nThe upper area outside building, fence, hoop and thin birch MUST be fully transparent, including fence mesh gaps. No sky, skyline, distant apartments, broad overhanging branches, wires or fog: those exist in separate layers.\nLighting: cold desaturated blue-grey, soft diffuse low contrast, matte damp asphalt. Reduce orange highlights and glare substantially. Absolutely no shiny floodlit floor. Match the existing painted style, not photography.\nNo people, hero, HUD, captions, numbers (especially no 92), text, logos, watermark, stars. No border fading, no painted checkerboard. Opaque ground with natural antialiasing only. Keep the image as a usable game sprite rather than a screenshot or presentation.",
+    "Use case: precise-object-edit. Edit this transparent 3:1 production game sprite. Preserve the exact painted style, muted blue-gray palette, actual alpha transparency, matte continuous asphalt and all objects.\nCorrect only the spatial layout for game coordinates: WIDEN the apartment facade so its complete right-hand corner is at 35% of total image width, rather than current 20%. Show a proper full facade segment and its doorway with birch at the base, no house number. House base must meet the continuous foreground paving at 75% of image height. There must be NO disconnected building piece. Remove the little background gate between low concrete walls; instead let an open unobstructed flush asphalt entrance run directly right of the house corner into the court.\nMOVE the BACK fence base UP to 61% of image height, so the playable floor is open below this line. Fence top around 44% height, keep chain-link transparency. Hoop at 44% image width, backboard near 18% height. The fence physically connects to the house at the left court corner. Open floor from 42% to 90% width and 65% to 92% height. Fine faded white court markings at right.\nKeep the house in the LEFT third, the clear court in the RIGHT two thirds, cold diffused lighting, no strong reflections. Asphalt fills the entire bottom edge and reaches 81% height on left edge, with a natural shallow slope to back fence. No sky, background city, people, UI, text, numbers, stars, fog, vignette, painted checkerboard. Actual transparent background in all empty space and fence mesh holes. Exact same 3:1 aspect ratio."
+  ],
+  "packing": "node tools/prepare-location-art.mjs court; uniform resize 2172x724 to 1620x540; opaque ground footprint; alpha >=250 normalized; only 120px street margins below y435 feathered. Seamless street 512x105: court crop x120,y435,w640,h105, overlap 128px; old road curb 800x18 resampled to 512x11.52.",
+  "references": [
+    "assets/source/court-options-v1/04-continuous-asphalt.png",
+    "apps/web/public/assets/journey-v1/autumn.webp",
+    "tmp/court-inspection/shared-entry-0.25.png"
+  ],
+  "files": [
+    {
+      "path": "assets/source/court-entry-v2/entrance-draft.png",
+      "sha256": "7190ffbef9dc3977a0b0e9fdb8084ad63bff376f524eb6bf3b3838e88fe99d22"
+    },
+    {
+      "path": "assets/source/court-entry-v2/entrance.png",
+      "sha256": "ef730d075cc819172ebb3bb9372462e0fa8a72b2a5fe1bb5ca4418d0a0f8623c"
+    },
+    {
+      "path": "assets/source/court-entry-v2/previous-runtime.webp",
+      "sha256": "4f2a17378f4cce3f30c5cc148c69e71721546d68d47b67ad140bf692b1546268"
+    },
+    {
+      "path": "apps/web/public/assets/location-v7/court.webp",
+      "sha256": "053b32cbace30ad4c5dfaf3568d8cd7faccb71dae60223af2bad59cf774ceace"
+    },
+    {
+      "path": "apps/web/public/assets/location-v7/court-street.webp",
+      "sha256": "bd033dfb26f891ee496875eebe86b3a227737cb569cc060b021def2e1b5461bd"
+    }
+  ]
+}

@@ -1,0 +1,31 @@
+{
+  "width": 1588,
+  "height": 801,
+  "stage": "departure",
+  "state": {
+    "pipe": {
+      "left": -400,
+      "right": 160
+    },
+    "banks": {
+      "near": -400,
+      "far": 160
+    },
+    "visible": true,
+    "mask": true,
+    "near": {
+      "x": -511.74999999999994,
+      "y": 649.7
+    },
+    "far": {
+      "x": 318.91666666666663,
+      "y": 649.7
+    },
+    "canvasBottom": 801
+  },
+  "pixels": {
+    "outside": 0,
+    "inside": 21166,
+    "samples": []
+  }
+}

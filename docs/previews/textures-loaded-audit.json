@@ -1,0 +1,1110 @@
+{
+  "textures": [
+    {
+      "key": "court-dance",
+      "url": "/assets/court-dance-v19/dance.webp",
+      "decodedSourceUrl": "blob:http://127.0.0.1:5174/2c11fece-6a9e-4dd9-8b90-dd4a8be561e4",
+      "pixelSha256": "ac96919a0247ad56e62de3e5c56967927a4acf00e5d1eb9695e8287ae9c6d6f3",
+      "width": 2048,
+      "height": 512,
+      "firstFrame": "0",
+      "defaultFrame": {
+        "name": "0",
+        "width": 512,
+        "height": 512
+      },
+      "frames": [
+        {
+          "name": "0",
+          "x": 0,
+          "y": 0,
+          "width": 512,
+          "height": 512
+        },
+        {
+          "name": "1",
+          "x": 512,
+          "y": 0,
+          "width": 512,
+          "height": 512
+        },
+        {
+          "name": "2",
+          "x": 1024,
+          "y": 0,
+          "width": 512,
+          "height": 512
+        },
+        {
+          "name": "3",
+          "x": 1536,
+          "y": 0,
+          "width": 512,
+          "height": 512
+        }
+      ]
+    },
+    {
+      "key": "ending-facade",
+      "url": "/assets/visual-v12/facade.webp",
+      "decodedSourceUrl": "blob:http://127.0.0.1:5174/a5e5e08c-45c8-4c34-99ee-722771eb72d2",
+      "pixelSha256": "84a5920fce66ede27fcbf20cd35531c0ba9dbf90fe44d33870aa78d0f4cf31e4",
+      "width": 960,
+      "height": 540,
+      "firstFrame": "__BASE",
+      "defaultFrame": {
+        "name": "__BASE",
+        "width": 960,
+        "height": 540
+      },
+      "frames": [
+        {
+          "name": "wall-left",
+          "x": 210,
+          "y": 0,
+          "width": 192,
+          "height": 540
+        },
+        {
+          "name": "wall-right",
+          "x": 600,
+          "y": 0,
+          "width": 192,
+          "height": 540
+        }
+      ]
+    },
+    {
+      "key": "pipe-sunset",
+      "url": "/assets/visual-v12/pipe.webp",
+      "decodedSourceUrl": "blob:http://127.0.0.1:5174/ccf2e7e4-3353-4c30-9972-6ab1eec1cff5",
+      "pixelSha256": "31042caf597a11d201bcfd397081752ccf42b26df7712d6ccd04ef240958fdcc",
+      "width": 1920,
+      "height": 640,
+      "firstFrame": "__BASE",
+      "defaultFrame": {
+        "name": "__BASE",
+        "width": 1920,
+        "height": 640
+      },
+      "frames": []
+    },
+    {
+      "key": "hero-front",
+      "url": "/assets/visual-v12/front.webp",
+      "decodedSourceUrl": "blob:http://127.0.0.1:5174/98d0ad58-0c63-4059-8364-692ae1f048b8",
+      "pixelSha256": "eaa7fdeafa5cd5eed2591da90d49d691d2d49e92e3d9257c816ab75797293636",
+      "width": 128,
+      "height": 256,
+      "firstFrame": "__BASE",
+      "defaultFrame": {
+        "name": "__BASE",
+        "width": 128,
+        "height": 256
+      },
+      "frames": [
+        {
+          "name": "body",
+          "x": 0,
+          "y": 72,
+          "width": 128,
+          "height": 184
+        },
+        {
+          "name": "head",
+          "x": 0,
+          "y": 0,
+          "width": 128,
+          "height": 72
+        }
+      ]
+    },
+    {
+      "key": "hero-rest",
+      "url": "/assets/visual-v12/seated.webp",
+      "decodedSourceUrl": "blob:http://127.0.0.1:5174/7a46d4ba-7711-4085-9569-7bb605132263",
+      "pixelSha256": "78ae77c5d7aed1344716e4a1b82e9632ee3ef1fe0d220168c3ecc75e324c9982",
+      "width": 128,
+      "height": 256,
+      "firstFrame": "__BASE",
+      "defaultFrame": {
+        "name": "__BASE",
+        "width": 128,
+        "height": 256
+      },
+      "frames": [
+        {
+          "name": "body",
+          "x": 0,
+          "y": 72,
+          "width": 128,
+          "height": 184
+        },
+        {
+          "name": "head",
+          "x": 0,
+          "y": 0,
+          "width": 128,
+          "height": 72
+        }
+      ]
+    },
+    {
+      "key": "room-graffiti",
+      "url": "/assets/visual-v12/graffiti.webp",
+      "decodedSourceUrl": "blob:http://127.0.0.1:5174/124e5300-2340-4463-9f30-2d0eda34359c",
+      "pixelSha256": "37879922171cd309c5e87f52a2feb0e659956e165159173f07317a47a28ee1d8",
+      "width": 480,
+      "height": 160,
+      "firstFrame": "__BASE",
+      "defaultFrame": {
+        "name": "__BASE",
+        "width": 480,
+        "height": 160
+      },
+      "frames": []
+    },
+    {
+      "key": "journey-autumn",
+      "url": "/assets/journey-v1/autumn.webp",
+      "decodedSourceUrl": "blob:http://127.0.0.1:5174/6f1f0813-3f44-48a6-86d5-d5fd7378ecfb",
+      "pixelSha256": "87db4ead41377da1d2b83a3716031d0d6a34c19b216ac623dde8d16100bda8ad",
+      "width": 1536,
+      "height": 512,
+      "firstFrame": "__BASE",
+      "defaultFrame": {
+        "name": "__BASE",
+        "width": 1536,
+        "height": 512
+      },
+      "frames": [
+        {
+          "name": "facades",
+          "x": 0,
+          "y": 0,
+          "width": 1536,
+          "height": 486
+        }
+      ]
+    },
+    {
+      "key": "journey-shadows",
+      "url": "/assets/journey-v1/shadows.webp",
+      "decodedSourceUrl": "blob:http://127.0.0.1:5174/a11ace54-ba40-4f73-bf40-566b5b5cb367",
+      "pixelSha256": "65b405f014980d9f1ec1d817be77f6f715a136f8213241c55f778c59e49e41b6",
+      "width": 1536,
+      "height": 512,
+      "firstFrame": "__BASE",
+      "defaultFrame": {
+        "name": "__BASE",
+        "width": 1536,
+        "height": 512
+      },
+      "frames": [
+        {
+          "name": "facades",
+          "x": 0,
+          "y": 0,
+          "width": 1536,
+          "height": 466
+        }
+      ]
+    },
+    {
+      "key": "night-far",
+      "url": "/assets/runner-v1/far.webp",
+      "decodedSourceUrl": "blob:http://127.0.0.1:5174/0b8734d2-26f8-4aea-8a49-81df14d0f5f4",
+      "pixelSha256": "be6c20a9038b0bb8bf68644bf754ce86d1365e84bea15a0f7837fe600b756505",
+      "width": 1536,
+      "height": 512,
+      "firstFrame": "__BASE",
+      "defaultFrame": {
+        "name": "__BASE",
+        "width": 1536,
+        "height": 512
+      },
+      "frames": []
+    },
+    {
+      "key": "night-court",
+      "url": "/assets/runner-v1/court.webp",
+      "decodedSourceUrl": "blob:http://127.0.0.1:5174/5e5ad6cd-452f-4f65-9373-1fbc58758cfd",
+      "pixelSha256": "fb6c871ac08c929315ed262d7989a327c6d85737b05813279ef7b5dd4fc69764",
+      "width": 1536,
+      "height": 512,
+      "firstFrame": "__BASE",
+      "defaultFrame": {
+        "name": "__BASE",
+        "width": 1536,
+        "height": 512
+      },
+      "frames": []
+    },
+    {
+      "key": "night-ground",
+      "url": "/assets/runner-v1/ground.webp",
+      "decodedSourceUrl": "blob:http://127.0.0.1:5174/a827c703-30da-45de-8af6-02dd350fc7ed",
+      "pixelSha256": "9c82820a91c5a534b62962458a3e9cfaf5820e2865911299af1fb8246499562a",
+      "width": 1536,
+      "height": 164,
+      "firstFrame": "__BASE",
+      "defaultFrame": {
+        "name": "__BASE",
+        "width": 1536,
+        "height": 164
+      },
+      "frames": [
+        {
+          "name": "asphalt",
+          "x": 0,
+          "y": 24,
+          "width": 1536,
+          "height": 140
+        }
+      ]
+    },
+    {
+      "key": "night-front",
+      "url": "/assets/runner-v1/front.webp",
+      "decodedSourceUrl": "blob:http://127.0.0.1:5174/74964aed-7b9d-4d7d-a7a3-967d479ffbd7",
+      "pixelSha256": "dfa8209f11effa1bdd932610d37e27de262e34e62d1562f235906a5f6db910a8",
+      "width": 1536,
+      "height": 512,
+      "firstFrame": "__BASE",
+      "defaultFrame": {
+        "name": "__BASE",
+        "width": 1536,
+        "height": 512
+      },
+      "frames": [
+        {
+          "name": "canopy",
+          "x": 0,
+          "y": 0,
+          "width": 1536,
+          "height": 400
+        }
+      ]
+    },
+    {
+      "key": "night-hero",
+      "url": "/assets/runner-v1/hero.webp",
+      "decodedSourceUrl": "blob:http://127.0.0.1:5174/3ef2c8b6-44d1-4ad2-b629-a84a71aecb55",
+      "pixelSha256": "5795b06cce9b33e8eda4a6f280b7ea321c55968d101e3b8ff1d60ad73e629216",
+      "width": 512,
+      "height": 128,
+      "firstFrame": "0",
+      "defaultFrame": {
+        "name": "0",
+        "width": 128,
+        "height": 128
+      },
+      "frames": [
+        {
+          "name": "0",
+          "x": 0,
+          "y": 0,
+          "width": 128,
+          "height": 128
+        },
+        {
+          "name": "1",
+          "x": 128,
+          "y": 0,
+          "width": 128,
+          "height": 128
+        },
+        {
+          "name": "2",
+          "x": 256,
+          "y": 0,
+          "width": 128,
+          "height": 128
+        },
+        {
+          "name": "3",
+          "x": 384,
+          "y": 0,
+          "width": 128,
+          "height": 128
+        }
+      ]
+    },
+    {
+      "key": "night-fence",
+      "url": "/assets/provided-v4/barrier.webp",
+      "decodedSourceUrl": "blob:http://127.0.0.1:5174/e373b874-dc67-4a9f-a498-bfe084b4aa70",
+      "pixelSha256": "eef128d683c8e8528e52739909abf1de7c270df64bddd7c87b11958f209fad89",
+      "width": 264,
+      "height": 100,
+      "firstFrame": "__BASE",
+      "defaultFrame": {
+        "name": "__BASE",
+        "width": 264,
+        "height": 100
+      },
+      "frames": []
+    },
+    {
+      "key": "night-broken-block",
+      "url": "/assets/provided-v4/broken-block.webp",
+      "decodedSourceUrl": "blob:http://127.0.0.1:5174/84f55f8f-d46a-4db4-a4e5-7837abdec56d",
+      "pixelSha256": "279cfd67ea165b38974c8e7bb6f088325fc051c348ab91112b7e8dd29ea92a32",
+      "width": 264,
+      "height": 121,
+      "firstFrame": "__BASE",
+      "defaultFrame": {
+        "name": "__BASE",
+        "width": 264,
+        "height": 121
+      },
+      "frames": []
+    },
+    {
+      "key": "night-debris",
+      "url": "/assets/provided-v4/debris.webp",
+      "decodedSourceUrl": "blob:http://127.0.0.1:5174/7638309b-21d3-4604-9d4b-9e5d92ac7f2f",
+      "pixelSha256": "49e03a2541980021234d6871f278a71bc7b327074fc28344b98eeac63a52f493",
+      "width": 224,
+      "height": 135,
+      "firstFrame": "__BASE",
+      "defaultFrame": {
+        "name": "__BASE",
+        "width": 224,
+        "height": 135
+      },
+      "frames": []
+    },
+    {
+      "key": "night-rubble",
+      "url": "/assets/provided-v4/rubble.webp",
+      "decodedSourceUrl": "blob:http://127.0.0.1:5174/a0d16a86-4a0e-4259-a2ae-d36a05fff008",
+      "pixelSha256": "89e79ad2cd77183f8a1c91d0a922f2941ac668e473383adfb8ecd0fcc5895a81",
+      "width": 224,
+      "height": 127,
+      "firstFrame": "__BASE",
+      "defaultFrame": {
+        "name": "__BASE",
+        "width": 224,
+        "height": 127
+      },
+      "frames": []
+    },
+    {
+      "key": "tape",
+      "url": "/assets/runner-v1/cassette.webp",
+      "decodedSourceUrl": "blob:http://127.0.0.1:5174/852ecd41-3478-470d-a2a3-b1103d6bcaa0",
+      "pixelSha256": "2b51551edc6f0f3009c041c2e9d86122ae2b26931e3340038ae1a9dcdfc8ad7d",
+      "width": 132,
+      "height": 84,
+      "firstFrame": "__BASE",
+      "defaultFrame": {
+        "name": "__BASE",
+        "width": 132,
+        "height": 84
+      },
+      "frames": []
+    },
+    {
+      "key": "story-beer",
+      "url": "/assets/balance-story/beer.webp",
+      "decodedSourceUrl": "blob:http://127.0.0.1:5174/cbb45f81-cdda-4a9a-8853-c75abfd8c81a",
+      "pixelSha256": "3f552917857da314e2087f54df2b0367b66857bbe5921b0b98ade94c27afe2c0",
+      "width": 80,
+      "height": 240,
+      "firstFrame": "__BASE",
+      "defaultFrame": {
+        "name": "__BASE",
+        "width": 80,
+        "height": 240
+      },
+      "frames": []
+    },
+    {
+      "key": "pipe-illustration",
+      "url": "/assets/journey-v1/pipe.webp",
+      "decodedSourceUrl": "blob:http://127.0.0.1:5174/b87903a3-60f6-4098-aea7-e3955cb81231",
+      "pixelSha256": "a29ac59f995cc04960ba45034bdf40ab6f3d7be3841b9cfbda8542d4c9fba4e3",
+      "width": 340,
+      "height": 381,
+      "firstFrame": "__BASE",
+      "defaultFrame": {
+        "name": "__BASE",
+        "width": 340,
+        "height": 381
+      },
+      "frames": []
+    },
+    {
+      "key": "pipe-construction",
+      "url": "/assets/provided-v4/pipe.webp",
+      "decodedSourceUrl": "blob:http://127.0.0.1:5174/943a3138-0626-4abf-bb75-83028327c25e",
+      "pixelSha256": "5a4d973de2d2bbad1bd1c63315044b7bd8b2933d876a73c2541f6ca66e35aab6",
+      "width": 1920,
+      "height": 640,
+      "firstFrame": "__BASE",
+      "defaultFrame": {
+        "name": "__BASE",
+        "width": 1920,
+        "height": 640
+      },
+      "frames": []
+    },
+    {
+      "key": "pipe-sky-clouds",
+      "url": "/assets/pipe-v2/sky-clouds.webp",
+      "decodedSourceUrl": "blob:http://127.0.0.1:5174/141b58ef-31c8-46f3-837d-68d2aa395771",
+      "pixelSha256": "84e03f8bc60299d49b0ca656d710cc2f47e0a0754c8b700504907e367067b663",
+      "width": 1536,
+      "height": 512,
+      "firstFrame": "__BASE",
+      "defaultFrame": {
+        "name": "__BASE",
+        "width": 1536,
+        "height": 512
+      },
+      "frames": []
+    },
+    {
+      "key": "pipe-side-illustration",
+      "url": "/assets/pipe-v2/side.webp",
+      "decodedSourceUrl": "blob:http://127.0.0.1:5174/310c2828-58de-45dc-887c-468ab280121a",
+      "pixelSha256": "8640d64b796b0ab5d3b0e7dcd47510538ef91a00a32f2c618510c9e008c63b40",
+      "width": 640,
+      "height": 140,
+      "firstFrame": "__BASE",
+      "defaultFrame": {
+        "name": "__BASE",
+        "width": 640,
+        "height": 140
+      },
+      "frames": [
+        {
+          "name": "shaft",
+          "x": 80,
+          "y": 48,
+          "width": 480,
+          "height": 48
+        }
+      ]
+    },
+    {
+      "key": "pipe-side-excavation",
+      "url": "/assets/location-v7/excavation.webp",
+      "decodedSourceUrl": "blob:http://127.0.0.1:5174/9d75a57a-0dd6-42bc-95c0-16fe904856fb",
+      "pixelSha256": "9854c7ada461f1bad95797a94801138e89b05dbf5a9822e4e7e97edf223bdefb",
+      "width": 1120,
+      "height": 204,
+      "firstFrame": "__BASE",
+      "defaultFrame": {
+        "name": "__BASE",
+        "width": 1120,
+        "height": 204
+      },
+      "frames": []
+    },
+    {
+      "key": "room-stool",
+      "url": "/assets/repairs-v6/stool.webp",
+      "decodedSourceUrl": "blob:http://127.0.0.1:5174/003bd125-67fc-4490-92b1-4599b0416fc2",
+      "pixelSha256": "cd49012de7d3519d1d1977c114a3ba4889c0e6d68f4d542cb271f30a9c1c351e",
+      "width": 192,
+      "height": 192,
+      "firstFrame": "__BASE",
+      "defaultFrame": {
+        "name": "__BASE",
+        "width": 192,
+        "height": 192
+      },
+      "frames": []
+    },
+    {
+      "key": "room-clock",
+      "url": "/assets/props-v5/clock.webp",
+      "decodedSourceUrl": "blob:http://127.0.0.1:5174/3815008f-598c-47c4-ab5a-91ecd7388f30",
+      "pixelSha256": "7b657abb64d346904678bcfd7ff2d18ea0e4b65d3f6c732bbf228384922a066c",
+      "width": 192,
+      "height": 192,
+      "firstFrame": "__BASE",
+      "defaultFrame": {
+        "name": "__BASE",
+        "width": 192,
+        "height": 192
+      },
+      "frames": []
+    },
+    {
+      "key": "room-sign",
+      "url": "/assets/props-v5/sign.webp",
+      "decodedSourceUrl": "blob:http://127.0.0.1:5174/c12be05a-c0a0-4606-af86-8a1d5d156ab7",
+      "pixelSha256": "cdd91ee9ca027919f576e676a5051f6e6759be0832a8352d1f8ef32ddcd42303",
+      "width": 480,
+      "height": 160,
+      "firstFrame": "__BASE",
+      "defaultFrame": {
+        "name": "__BASE",
+        "width": 480,
+        "height": 160
+      },
+      "frames": []
+    },
+    {
+      "key": "ending-bench",
+      "url": "/assets/repairs-v6/bench.webp",
+      "decodedSourceUrl": "blob:http://127.0.0.1:5174/660d2047-207a-499d-84ab-c6a5f564104e",
+      "pixelSha256": "9a19d439dcf910aeca1892dcb4e3f07b4d7f0b7cb53058e06ef2befcd339ff98",
+      "width": 480,
+      "height": 192,
+      "firstFrame": "__BASE",
+      "defaultFrame": {
+        "name": "__BASE",
+        "width": 480,
+        "height": 192
+      },
+      "frames": []
+    },
+    {
+      "key": "television-crt",
+      "url": "/assets/references-v13/television.webp",
+      "decodedSourceUrl": "blob:http://127.0.0.1:5174/c9d4206b-f7f6-4a93-ad69-525d086ad607",
+      "pixelSha256": "3c37b570cd169bec5d7a0b115fa86e4ed66d05142094ae713041fccf5628474d",
+      "width": 384,
+      "height": 288,
+      "firstFrame": "__BASE",
+      "defaultFrame": {
+        "name": "__BASE",
+        "width": 384,
+        "height": 288
+      },
+      "frames": []
+    },
+    {
+      "key": "television-water",
+      "url": "/assets/references-v13/puddle.webp",
+      "decodedSourceUrl": "blob:http://127.0.0.1:5174/854495ea-958f-4a2c-a817-3dbc5806ff35",
+      "pixelSha256": "7aeb2f70f99863bd7f13c99133fa2563fa5e48a515ba68062c68dd0db501df87",
+      "width": 768,
+      "height": 192,
+      "firstFrame": "__BASE",
+      "defaultFrame": {
+        "name": "__BASE",
+        "width": 768,
+        "height": 192
+      },
+      "frames": []
+    },
+    {
+      "key": "court-hoop",
+      "url": "/assets/court-v4/hoop.webp",
+      "decodedSourceUrl": "blob:http://127.0.0.1:5174/3ff0592e-0add-4670-ac50-ab13b3360bf1",
+      "pixelSha256": "1249d6ef9a22ee1176ae4de4e6476ffacc44910e6bdaaf3b560b9e5840fdc779",
+      "width": 384,
+      "height": 640,
+      "firstFrame": "__BASE",
+      "defaultFrame": {
+        "name": "__BASE",
+        "width": 384,
+        "height": 640
+      },
+      "frames": []
+    },
+    {
+      "key": "court-original",
+      "url": "/assets/court-original/court.webp",
+      "decodedSourceUrl": "blob:http://127.0.0.1:5174/ae7298f7-46b4-4ad0-8848-3802fa819aef",
+      "pixelSha256": "aafab426df8797ed5f3650d8cd342cb6f11cb5ce0852db55e11518fdd7c13d51",
+      "width": 960,
+      "height": 540,
+      "firstFrame": "__BASE",
+      "defaultFrame": {
+        "name": "__BASE",
+        "width": 960,
+        "height": 540
+      },
+      "frames": [
+        {
+          "name": "rhythm-platform",
+          "x": 340,
+          "y": 350,
+          "width": 280,
+          "height": 120
+        },
+        {
+          "name": "floor",
+          "x": 0,
+          "y": 320,
+          "width": 960,
+          "height": 220
+        },
+        {
+          "name": "mesh",
+          "x": 260,
+          "y": 230,
+          "width": 700,
+          "height": 90
+        },
+        {
+          "name": "gate-panel",
+          "x": 640,
+          "y": 210,
+          "width": 140,
+          "height": 110
+        },
+        {
+          "name": "gate-jamb",
+          "x": 270,
+          "y": 216,
+          "width": 7,
+          "height": 104
+        }
+      ]
+    },
+    {
+      "key": "shared-asphalt",
+      "url": "/assets/court-v4/asphalt.webp",
+      "decodedSourceUrl": "blob:http://127.0.0.1:5174/40975a46-f5af-48db-92d4-61420fdf104b",
+      "pixelSha256": "5e4a9d28f646ee9a1bd0295b0c507490cd77e9a141c5cf486ef88213e36c44bb",
+      "width": 3072,
+      "height": 420,
+      "firstFrame": "__BASE",
+      "defaultFrame": {
+        "name": "__BASE",
+        "width": 3072,
+        "height": 420
+      },
+      "frames": []
+    },
+    {
+      "key": "room-entrance",
+      "url": "/assets/transitions-v4/facade.webp",
+      "decodedSourceUrl": "blob:http://127.0.0.1:5174/72e8d117-73ed-4a5a-8035-74ac5e5cc791",
+      "pixelSha256": "43b11a2fb8ca34a0a76370120c30548bd3f3062893e7d399d9e180b4edb94e61",
+      "width": 960,
+      "height": 540,
+      "firstFrame": "__BASE",
+      "defaultFrame": {
+        "name": "__BASE",
+        "width": 960,
+        "height": 540
+      },
+      "frames": []
+    },
+    {
+      "key": "waiting-room",
+      "url": "/assets/provided-v4/room.webp",
+      "decodedSourceUrl": "blob:http://127.0.0.1:5174/68633228-cac2-4d1c-a179-4a8d65584c4b",
+      "pixelSha256": "420d30a412fe55cc1018d4ff497d87638f984e232d88111cea13fe8d6f854dd3",
+      "width": 1920,
+      "height": 640,
+      "firstFrame": "__BASE",
+      "defaultFrame": {
+        "name": "__BASE",
+        "width": 1920,
+        "height": 640
+      },
+      "frames": []
+    },
+    {
+      "key": "room-door",
+      "url": "/assets/journey-v1/door.webp",
+      "decodedSourceUrl": "blob:http://127.0.0.1:5174/b9b6bd9d-69ed-45ef-8745-304752da7c9c",
+      "pixelSha256": "eadc2c2ea0a3bc18e79e89be4ecae982f73463ac90ab2166fbd76c09b6b829ae",
+      "width": 96,
+      "height": 258,
+      "firstFrame": "__BASE",
+      "defaultFrame": {
+        "name": "__BASE",
+        "width": 96,
+        "height": 258
+      },
+      "frames": [
+        {
+          "name": "leaf",
+          "x": 11,
+          "y": 20,
+          "width": 75,
+          "height": 228
+        }
+      ]
+    },
+    {
+      "key": "hero-seated",
+      "url": "/assets/transitions-v4/seated.webp",
+      "decodedSourceUrl": "blob:http://127.0.0.1:5174/ca6fab5d-80ef-4352-9da7-5b095e7c4053",
+      "pixelSha256": "acaab63934a30104d2b4a74c403f2e41569b1374ffde6d2df540ef81806028e4",
+      "width": 256,
+      "height": 256,
+      "firstFrame": "__BASE",
+      "defaultFrame": {
+        "name": "__BASE",
+        "width": 256,
+        "height": 256
+      },
+      "frames": [
+        {
+          "name": "body",
+          "x": 0,
+          "y": 70,
+          "width": 256,
+          "height": 186
+        },
+        {
+          "name": "head",
+          "x": 0,
+          "y": 0,
+          "width": 256,
+          "height": 70
+        }
+      ]
+    },
+    {
+      "key": "hero-idle",
+      "url": "/assets/journey-v1/idle.webp",
+      "decodedSourceUrl": "blob:http://127.0.0.1:5174/415be386-7bf9-4e22-9b9c-cb86c7e84661",
+      "pixelSha256": "2cd313e0cf68d50738258aaa4348967144ae38f3b3e18fc1d18d1dd2ddebcaad",
+      "width": 512,
+      "height": 128,
+      "firstFrame": "0",
+      "defaultFrame": {
+        "name": "0",
+        "width": 128,
+        "height": 128
+      },
+      "frames": [
+        {
+          "name": "0",
+          "x": 0,
+          "y": 0,
+          "width": 128,
+          "height": 128
+        },
+        {
+          "name": "1",
+          "x": 128,
+          "y": 0,
+          "width": 128,
+          "height": 128
+        },
+        {
+          "name": "2",
+          "x": 256,
+          "y": 0,
+          "width": 128,
+          "height": 128
+        },
+        {
+          "name": "3",
+          "x": 384,
+          "y": 0,
+          "width": 128,
+          "height": 128
+        }
+      ]
+    },
+    {
+      "key": "archway",
+      "url": "/assets/entrance-v1/entrance.webp",
+      "decodedSourceUrl": "blob:http://127.0.0.1:5174/7ce851f2-1c21-4c12-b891-e975a0e0ab33",
+      "pixelSha256": "4fcdc8716e1fbd8776ff480f66cd0f5634c0f60a44e94753e78d18639d1bdd79",
+      "width": 960,
+      "height": 540,
+      "firstFrame": "__BASE",
+      "defaultFrame": {
+        "name": "__BASE",
+        "width": 960,
+        "height": 540
+      },
+      "frames": [
+        {
+          "name": "wall-left",
+          "x": 210,
+          "y": 0,
+          "width": 192,
+          "height": 540
+        },
+        {
+          "name": "wall-right",
+          "x": 600,
+          "y": 0,
+          "width": 192,
+          "height": 540
+        }
+      ]
+    }
+  ],
+  "objects": [
+    {
+      "type": "TileSprite",
+      "key": "night-far-repeat",
+      "frame": "__BASE"
+    },
+    {
+      "type": "TileSprite",
+      "key": "shared-asphalt",
+      "frame": "__BASE"
+    },
+    {
+      "type": "TileSprite",
+      "key": "night-court",
+      "frame": "__BASE"
+    },
+    {
+      "type": "Image",
+      "key": "court-original",
+      "frame": "__BASE"
+    },
+    {
+      "type": "Image",
+      "key": "court-original",
+      "frame": "gate-panel"
+    },
+    {
+      "type": "Image",
+      "key": "court-original",
+      "frame": "gate-panel"
+    },
+    {
+      "type": "Image",
+      "key": "court-original",
+      "frame": "gate-jamb"
+    },
+    {
+      "type": "Image",
+      "key": "court-original",
+      "frame": "gate-jamb"
+    },
+    {
+      "type": "Image",
+      "key": "television-water",
+      "frame": "__BASE"
+    },
+    {
+      "type": "Image",
+      "key": "television-crt",
+      "frame": "__BASE"
+    },
+    {
+      "type": "Image",
+      "key": "television-water",
+      "frame": "__BASE"
+    },
+    {
+      "type": "TileSprite",
+      "key": "night-ground",
+      "frame": "__BASE"
+    },
+    {
+      "type": "Sprite",
+      "key": "night-hero",
+      "frame": "0"
+    },
+    {
+      "type": "Image",
+      "key": "pipe-side-excavation",
+      "frame": "__BASE"
+    },
+    {
+      "type": "Image",
+      "key": "pipe-side-illustration",
+      "frame": "shaft"
+    },
+    {
+      "type": "TileSprite",
+      "key": "night-front",
+      "frame": "__BASE"
+    },
+    {
+      "type": "Image",
+      "key": "story-beer",
+      "frame": "__BASE"
+    },
+    {
+      "type": "Image",
+      "key": "room-entrance",
+      "frame": "__BASE"
+    },
+    {
+      "type": "Sprite",
+      "key": "night-hero",
+      "frame": "0"
+    },
+    {
+      "type": "Image",
+      "key": "pipe-sunset",
+      "frame": "__BASE"
+    },
+    {
+      "type": "Image",
+      "key": "pipe-illustration",
+      "frame": "__BASE"
+    },
+    {
+      "type": "TileSprite",
+      "key": "night-far-repeat",
+      "frame": "__BASE"
+    },
+    {
+      "type": "TileSprite",
+      "key": "court-original",
+      "frame": "mesh"
+    },
+    {
+      "type": "Image",
+      "key": "court-original",
+      "frame": "floor"
+    },
+    {
+      "type": "Image",
+      "key": "court-hoop",
+      "frame": "__BASE"
+    },
+    {
+      "type": "TileSprite",
+      "key": "night-front",
+      "frame": "canopy"
+    },
+    {
+      "type": "Image",
+      "key": "court-original",
+      "frame": "rhythm-platform"
+    },
+    {
+      "type": "Image",
+      "key": "waiting-room",
+      "frame": "__BASE"
+    },
+    {
+      "type": "Image",
+      "key": "room-painted-graffiti",
+      "frame": "__BASE"
+    },
+    {
+      "type": "Image",
+      "key": "room-door",
+      "frame": "leaf"
+    },
+    {
+      "type": "Image",
+      "key": "room-stool",
+      "frame": "__BASE"
+    },
+    {
+      "type": "Image",
+      "key": "hero-seated",
+      "frame": "body"
+    },
+    {
+      "type": "Image",
+      "key": "hero-seated",
+      "frame": "head"
+    },
+    {
+      "type": "Sprite",
+      "key": "night-hero",
+      "frame": "0"
+    },
+    {
+      "type": "Image",
+      "key": "room-clock",
+      "frame": "__BASE"
+    },
+    {
+      "type": "TileSprite",
+      "key": "ending-facade",
+      "frame": "wall-left"
+    },
+    {
+      "type": "TileSprite",
+      "key": "ending-facade",
+      "frame": "wall-right"
+    },
+    {
+      "type": "Image",
+      "key": "ending-facade",
+      "frame": "__BASE"
+    },
+    {
+      "type": "Image",
+      "key": "ending-bench",
+      "frame": "__BASE"
+    },
+    {
+      "type": "Sprite",
+      "key": "night-hero",
+      "frame": "0"
+    },
+    {
+      "type": "Image",
+      "key": "hero-rest",
+      "frame": "body"
+    },
+    {
+      "type": "Image",
+      "key": "hero-rest",
+      "frame": "head"
+    },
+    {
+      "type": "Sprite",
+      "key": "night-hero",
+      "frame": "0"
+    },
+    {
+      "type": "Sprite",
+      "key": "hero-front",
+      "frame": "__BASE"
+    },
+    {
+      "type": "Sprite",
+      "key": "hero-front",
+      "frame": "__BASE"
+    }
+  ],
+  "runtimeTextures": [
+    {
+      "key": "room-painted-graffiti",
+      "width": 480,
+      "height": 160
+    }
+  ],
+  "sha256": {
+    "/assets/court-dance-v19/dance.webp": "9b0d09b29d7ebf1b99bc30f9b153319951ba69a9ed65a3771113591bb6f73ac8",
+    "/assets/visual-v12/facade.webp": "0f92444276f7556e22124ee155be61f1a8960509f300aa9613063c8cf84299b1",
+    "/assets/visual-v12/seated.webp": "a9099b88d689b0ef326cabcf6eb7a1a00a5570d4fd252c8f8e1d33e1d2459fd3",
+    "/assets/visual-v12/front.webp": "b73927dde8181e6ed116010a5d075a38a95f202d61f263dc6f7b7202ccfaf9fa",
+    "/assets/visual-v12/pipe.webp": "15dda3d1909005a9992280de022ea7eedadc38483a046f6b4f3bbcaecc83b6d8",
+    "/assets/visual-v12/graffiti.webp": "ff9b020691a6bf95fbe34c33a11d315190abb8fe94e7f7abaec2f28b2dededc3",
+    "/assets/journey-v1/autumn.webp": "88ebb76178684657561f193d51063a14569730c71dec6ece8d834c78b6eea41d",
+    "/assets/journey-v1/shadows.webp": "72b2d70c4eeb16f125838cd86d7f0fe5629e25be3178549a6f89709bce879696",
+    "/assets/runner-v1/court.webp": "41f2b8c291c3455b2b013bef035565d630e19388ebf15cafd8e4fdae3686715b",
+    "/assets/runner-v1/far.webp": "0699c5561aab85e5edc9afffefacfae0ea2156e7fa192526d1d5c3c492df5e1c",
+    "/assets/runner-v1/ground.webp": "38b55707b9b8d444205c03c91393ffc0a320a86140e6aa8ce94bfd4b918d75c6",
+    "/assets/runner-v1/front.webp": "aff3ef04ff7a8cda4b6f107d03da44bfc543a26e879b9d755aa85d1f03ac0946",
+    "/assets/provided-v4/barrier.webp": "dd66e0b80139d71e2bb5343fe81b376ca8eeb1e4d0ba63d953e4412caa166b17",
+    "/assets/runner-v1/hero.webp": "92d339fdd3de7a3ad648b29928ab22901d8a66a938ef343425893ab301503f2e",
+    "/assets/provided-v4/broken-block.webp": "d6e97a2ce6cecc1eeb36e9d6d265fd7a422fdcf38f7209975880aa52995a024a",
+    "/assets/provided-v4/rubble.webp": "c50ad656f8d47457004e4d8afc28d2934d8dde4422f9135a1941bf5457118bf8",
+    "/assets/provided-v4/debris.webp": "b7ba63c11da4b0bbd340ff5c03aa1b30503b32fea0267846eec9357278a42328",
+    "/assets/runner-v1/cassette.webp": "a2e49e43410c201852f066a17093ec055efdaf72042a39861f84644a03629274",
+    "/assets/balance-story/beer.webp": "4307f8c43679d36fd762c03dfe684ed671a4b10d60b6bdff56f8094d47ff9232",
+    "/assets/provided-v4/pipe.webp": "2d4dbff6c0b2785ba0726919b3d7fabdaa918be25ee2a739fa7601f2413dec7d",
+    "/assets/pipe-v2/sky-clouds.webp": "2aad5524e88b1ed06ec3fdbd45f0c27aafe38de0ecaca0bce2da6bb38d54a8d7",
+    "/assets/pipe-v2/side.webp": "fcddbadb66d4de97b6a7fc6d36dec84b38afcbb0563188e818814e1a534fd7bf",
+    "/assets/journey-v1/pipe.webp": "5fa987f1fbca2b58da91156b923dfbac36513ce66424d52befd2127864d91291",
+    "/assets/props-v5/clock.webp": "d6d7b90f04824d28e34bdc5ae5a55266ea3c5d3fccffedff946e8917d7b510ce",
+    "/assets/repairs-v6/stool.webp": "a2170cf61d22337772c33d178e74c5ba8e57b876b07577e6ee01ef65aaec3f05",
+    "/assets/props-v5/sign.webp": "23fb1d6ef068e35f53b0af77b8c1d0cdbac2c5d79674dceaf36c2f88833b75ff",
+    "/assets/location-v7/excavation.webp": "a7b27582e12a25527a3692be85f1ead3758d9e339912a02693f1ed9b8b7c605c",
+    "/assets/repairs-v6/bench.webp": "b2f5b84920b6616b33ac69987b7f94913a4eb6937b8e7259c7bf1508ded2fc03",
+    "/assets/references-v13/television.webp": "a8aa9f59aee286c4ba0d6558db4d473d4b34aa25706894d801b69781ed6cfa54",
+    "/assets/references-v13/puddle.webp": "cffbfb4cb7f0bd35c33598982dbc3eaed34a8fa52baacb0434b1c149a4f4a3f2",
+    "/assets/court-v4/hoop.webp": "88017f6418c65812256b9eb4ef28e75f8021c759fca7f72b4bb603b9c2de4f72",
+    "/assets/court-original/court.webp": "48c8c037298716d6f914cb5d97186c6dabec0907b1e4b389b15ec25d98ca2c02",
+    "/assets/court-v4/asphalt.webp": "a87fec2fef360287ebe12622826e8a2399ff5d1565c832631c3df43c23b60707",
+    "/assets/provided-v4/room.webp": "5b4131011dffef71d5f258b5a0083a8759083bc565254baefeed809935a905ea",
+    "/assets/transitions-v4/facade.webp": "30246afd5b0a15251d9c3c4eaaf470133d4d380770fe935855b2ae542c4bbb01",
+    "/assets/journey-v1/door.webp": "d792db5b153daa62acab7a9da205d0c795ec9df05d0d20fe95cfec9f2af6117c",
+    "/assets/transitions-v4/seated.webp": "e9632e30728c1489d4d1cd33754c34eb5cf6c0ce05f7b1caaa02018b2a272665",
+    "/assets/journey-v1/idle.webp": "682d94f62164b98bf4d5ff36f15056218a2dbad17bf16c44a81653c4616f1ae0",
+    "/assets/entrance-v1/entrance.webp": "168b03af8b9f3a2ca7e1c1e6e5bcdf31e0d70eebae6e6472951489e77f514a00"
+  }
+}

@@ -1,0 +1,576 @@
+[
+  {
+    "file": "apps/web/public/audio/user-instrumentals/03-92.mp3",
+    "sha256": "55c4eaeab87cab93883234c9dc8a2b50b804bdb59639d6a9bf7e75c17cc14f7a",
+    "method": "300–1800 Hz band, one-second RMS; 50 ms windows in 26–31 s",
+    "perSecond": [
+      {
+        "seconds": 0,
+        "rms": 0.0556
+      },
+      {
+        "seconds": 1,
+        "rms": 0.05228
+      },
+      {
+        "seconds": 2,
+        "rms": 0.045
+      },
+      {
+        "seconds": 3,
+        "rms": 0.10655
+      },
+      {
+        "seconds": 4,
+        "rms": 0.12193
+      },
+      {
+        "seconds": 5,
+        "rms": 0.07375
+      },
+      {
+        "seconds": 6,
+        "rms": 0.09658
+      },
+      {
+        "seconds": 7,
+        "rms": 0.08732
+      },
+      {
+        "seconds": 8,
+        "rms": 0.12634
+      },
+      {
+        "seconds": 9,
+        "rms": 0.09928
+      },
+      {
+        "seconds": 10,
+        "rms": 0.10501
+      },
+      {
+        "seconds": 11,
+        "rms": 0.09904
+      },
+      {
+        "seconds": 12,
+        "rms": 0.05937
+      },
+      {
+        "seconds": 13,
+        "rms": 0.07582
+      },
+      {
+        "seconds": 14,
+        "rms": 0.06487
+      },
+      {
+        "seconds": 15,
+        "rms": 0.09957
+      },
+      {
+        "seconds": 16,
+        "rms": 0.12461
+      },
+      {
+        "seconds": 17,
+        "rms": 0.07449
+      },
+      {
+        "seconds": 18,
+        "rms": 0.08114
+      },
+      {
+        "seconds": 19,
+        "rms": 0.11465
+      },
+      {
+        "seconds": 20,
+        "rms": 0.09345
+      },
+      {
+        "seconds": 21,
+        "rms": 0.07476
+      },
+      {
+        "seconds": 22,
+        "rms": 0.11545
+      },
+      {
+        "seconds": 23,
+        "rms": 0.09663
+      },
+      {
+        "seconds": 24,
+        "rms": 0.05895
+      },
+      {
+        "seconds": 25,
+        "rms": 0.08192
+      },
+      {
+        "seconds": 26,
+        "rms": 0.07054
+      },
+      {
+        "seconds": 27,
+        "rms": 0.06807
+      },
+      {
+        "seconds": 28,
+        "rms": 0.13708
+      },
+      {
+        "seconds": 29,
+        "rms": 0.12306
+      },
+      {
+        "seconds": 30,
+        "rms": 0.09198
+      },
+      {
+        "seconds": 31,
+        "rms": 0.12755
+      },
+      {
+        "seconds": 32,
+        "rms": 0.09882
+      },
+      {
+        "seconds": 33,
+        "rms": 0.10801
+      },
+      {
+        "seconds": 34,
+        "rms": 0.16626
+      },
+      {
+        "seconds": 35,
+        "rms": 0.11055
+      },
+      {
+        "seconds": 36,
+        "rms": 0.10928
+      },
+      {
+        "seconds": 37,
+        "rms": 0.17454
+      },
+      {
+        "seconds": 38,
+        "rms": 0.12082
+      },
+      {
+        "seconds": 39,
+        "rms": 0.08016
+      },
+      {
+        "seconds": 40,
+        "rms": 0.14016
+      },
+      {
+        "seconds": 41,
+        "rms": 0.13479
+      },
+      {
+        "seconds": 42,
+        "rms": 0.0815
+      },
+      {
+        "seconds": 43,
+        "rms": 0.14619
+      },
+      {
+        "seconds": 44,
+        "rms": 0.15815
+      },
+      {
+        "seconds": 45,
+        "rms": 0.09958
+      },
+      {
+        "seconds": 46,
+        "rms": 0.14985
+      },
+      {
+        "seconds": 47,
+        "rms": 0.12281
+      },
+      {
+        "seconds": 48,
+        "rms": 0.09213
+      },
+      {
+        "seconds": 49,
+        "rms": 0.07763
+      },
+      {
+        "seconds": 50,
+        "rms": 0.08286
+      },
+      {
+        "seconds": 51,
+        "rms": 0.08047
+      },
+      {
+        "seconds": 52,
+        "rms": 0.07994
+      },
+      {
+        "seconds": 53,
+        "rms": 0.09404
+      },
+      {
+        "seconds": 54,
+        "rms": 0.09903
+      },
+      {
+        "seconds": 55,
+        "rms": 0.06158
+      },
+      {
+        "seconds": 56,
+        "rms": 0.10447
+      },
+      {
+        "seconds": 57,
+        "rms": 0.09809
+      },
+      {
+        "seconds": 58,
+        "rms": 0.09629
+      },
+      {
+        "seconds": 59,
+        "rms": 0.10626
+      },
+      {
+        "seconds": 60,
+        "rms": 0.09954
+      },
+      {
+        "seconds": 61,
+        "rms": 0.10407
+      },
+      {
+        "seconds": 62,
+        "rms": 0.05616
+      },
+      {
+        "seconds": 63,
+        "rms": 0.06384
+      },
+      {
+        "seconds": 64,
+        "rms": 0.09645
+      }
+    ],
+    "accentCandidates": [
+      {
+        "seconds": 26.79,
+        "rms": 0.15945
+      },
+      {
+        "seconds": 28.09,
+        "rms": 0.13556
+      },
+      {
+        "seconds": 29.2,
+        "rms": 0.21974
+      },
+      {
+        "seconds": 30.99,
+        "rms": 0.1805
+      }
+    ],
+    "listeningVerified": false,
+    "note": "Energy is not proof of vocal onset or lyric timing. Configuration requires listening calibration."
+  },
+  {
+    "file": "apps/web/public/audio/user-instrumentals/05-teni.mp3",
+    "sha256": "7bd3f101d913d5013b77f8fab6e9484d0ec0deb94a07c61304ea662279a470a3",
+    "method": "300–1800 Hz band, one-second RMS; 50 ms windows in 26–31 s",
+    "perSecond": [
+      {
+        "seconds": 0,
+        "rms": 0.02252
+      },
+      {
+        "seconds": 1,
+        "rms": 0.01977
+      },
+      {
+        "seconds": 2,
+        "rms": 0.02316
+      },
+      {
+        "seconds": 3,
+        "rms": 0.01863
+      },
+      {
+        "seconds": 4,
+        "rms": 0.0146
+      },
+      {
+        "seconds": 5,
+        "rms": 0.017
+      },
+      {
+        "seconds": 6,
+        "rms": 0.0235
+      },
+      {
+        "seconds": 7,
+        "rms": 0.02419
+      },
+      {
+        "seconds": 8,
+        "rms": 0.01664
+      },
+      {
+        "seconds": 9,
+        "rms": 0.01645
+      },
+      {
+        "seconds": 10,
+        "rms": 0.01891
+      },
+      {
+        "seconds": 11,
+        "rms": 0.01919
+      },
+      {
+        "seconds": 12,
+        "rms": 0.01935
+      },
+      {
+        "seconds": 13,
+        "rms": 0.02595
+      },
+      {
+        "seconds": 14,
+        "rms": 0.02252
+      },
+      {
+        "seconds": 15,
+        "rms": 0.02138
+      },
+      {
+        "seconds": 16,
+        "rms": 0.02071
+      },
+      {
+        "seconds": 17,
+        "rms": 0.0234
+      },
+      {
+        "seconds": 18,
+        "rms": 0.02041
+      },
+      {
+        "seconds": 19,
+        "rms": 0.01683
+      },
+      {
+        "seconds": 20,
+        "rms": 0.0171
+      },
+      {
+        "seconds": 21,
+        "rms": 0.02283
+      },
+      {
+        "seconds": 22,
+        "rms": 0.02325
+      },
+      {
+        "seconds": 23,
+        "rms": 0.02075
+      },
+      {
+        "seconds": 24,
+        "rms": 0.03304
+      },
+      {
+        "seconds": 25,
+        "rms": 0.0396
+      },
+      {
+        "seconds": 26,
+        "rms": 0.08948
+      },
+      {
+        "seconds": 27,
+        "rms": 0.14114
+      },
+      {
+        "seconds": 28,
+        "rms": 0.15063
+      },
+      {
+        "seconds": 29,
+        "rms": 0.12358
+      },
+      {
+        "seconds": 30,
+        "rms": 0.09697
+      },
+      {
+        "seconds": 31,
+        "rms": 0.07966
+      },
+      {
+        "seconds": 32,
+        "rms": 0.07662
+      },
+      {
+        "seconds": 33,
+        "rms": 0.10438
+      },
+      {
+        "seconds": 34,
+        "rms": 0.03198
+      },
+      {
+        "seconds": 35,
+        "rms": 0.07043
+      },
+      {
+        "seconds": 36,
+        "rms": 0.10512
+      },
+      {
+        "seconds": 37,
+        "rms": 0.12398
+      },
+      {
+        "seconds": 38,
+        "rms": 0.04602
+      },
+      {
+        "seconds": 39,
+        "rms": 0.09187
+      },
+      {
+        "seconds": 40,
+        "rms": 0.06956
+      },
+      {
+        "seconds": 41,
+        "rms": 0.13167
+      },
+      {
+        "seconds": 42,
+        "rms": 0.08722
+      },
+      {
+        "seconds": 43,
+        "rms": 0.03626
+      },
+      {
+        "seconds": 44,
+        "rms": 0.03427
+      },
+      {
+        "seconds": 45,
+        "rms": 0.11382
+      },
+      {
+        "seconds": 46,
+        "rms": 0.07804
+      },
+      {
+        "seconds": 47,
+        "rms": 0.09426
+      },
+      {
+        "seconds": 48,
+        "rms": 0.07454
+      },
+      {
+        "seconds": 49,
+        "rms": 0.10304
+      },
+      {
+        "seconds": 50,
+        "rms": 0.09423
+      },
+      {
+        "seconds": 51,
+        "rms": 0.08797
+      },
+      {
+        "seconds": 52,
+        "rms": 0.14626
+      },
+      {
+        "seconds": 53,
+        "rms": 0.15869
+      },
+      {
+        "seconds": 54,
+        "rms": 0.17232
+      },
+      {
+        "seconds": 55,
+        "rms": 0.17371
+      },
+      {
+        "seconds": 56,
+        "rms": 0.15293
+      },
+      {
+        "seconds": 57,
+        "rms": 0.16974
+      },
+      {
+        "seconds": 58,
+        "rms": 0.11482
+      },
+      {
+        "seconds": 59,
+        "rms": 0.07146
+      },
+      {
+        "seconds": 60,
+        "rms": 0.08971
+      },
+      {
+        "seconds": 61,
+        "rms": 0.11593
+      },
+      {
+        "seconds": 62,
+        "rms": 0.05255
+      },
+      {
+        "seconds": 63,
+        "rms": 0.11262
+      },
+      {
+        "seconds": 64,
+        "rms": 0.09646
+      }
+    ],
+    "accentCandidates": [
+      {
+        "seconds": 26.14,
+        "rms": 0.08631
+      },
+      {
+        "seconds": 27.58,
+        "rms": 0.18479
+      },
+      {
+        "seconds": 28.85,
+        "rms": 0.18955
+      },
+      {
+        "seconds": 30.67,
+        "rms": 0.1738
+      }
+    ],
+    "listeningVerified": false,
+    "note": "Energy is not proof of vocal onset or lyric timing. Configuration requires listening calibration."
+  }
+]

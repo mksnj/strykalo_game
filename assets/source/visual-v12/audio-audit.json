@@ -1,0 +1,14 @@
+[
+  {
+    "path": "apps/web/public/audio/visual-v12/thunder.wav",
+    "seconds": 3.1,
+    "sha256": "c1b75afa7d5f79449a536ef03781c73525ff6bfbd844b72145a783f74968144e",
+    "bytes": 148844
+  },
+  {
+    "path": "apps/web/public/audio/visual-v12/rain.wav",
+    "seconds": 6,
+    "sha256": "912a27805fde3854fefeb7768ce37be90000b78be06a582f02afb70d825f9611",
+    "bytes": 288044
+  }
+]

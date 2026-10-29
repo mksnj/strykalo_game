@@ -1,0 +1,912 @@
+{
+  "archivedOn": "2026-10-25",
+  "kind": "asset-provenance",
+  "notice": "Архив происхождения и прежних редакций. Актуальные сведения о проекте находятся только в README.md.",
+  "documents": [
+    {
+      "path": "assets/source/journey-v1/PROMPTS.md",
+      "sha256": "2d9a63a4dc2481c018f83b5bf263424701a87ff1b25a8024d9b889392ac8b56e",
+      "content": "> Происхождение ассета (provenance). Это описание создания изображения, а не действующие правила игры. Снятые объекты не требуется возвращать; правила находятся в `docs/GAME_SPEC.md`.\r\n\r\n# Иллюстрации маршрута\r\n\r\nВстроенный image_gen. Референс — `docs/ART_DIRECTION.png`. Оригиналы здесь, готовые WebP — `apps/web/public/assets/journey-v1/`. Упаковка: `node tools/prepare-journey-art.mjs`. Для запуска повторная генерация не нужна.\r\n\r\n## autumn\r\n\r\nUse case: stylized-concept. Production game art for a melancholy post-Soviet 2D runner. Match attached ART_DIRECTION.png painterly ink/gouache and muted collage texture. Cold desaturated slate blue gray palette, illustrated not photorealistic, no pixel art, no clean vector geometry, no orange light, no UI or captions. Transparent MIDGROUND parallax layer, 3:1 landscape. Side elevation of an autumn Soviet residential courtyard. Peeling plaster five-story apartment facades at the far left and right, low weathered yard walls, old rusty swing set and bench near center, leafless birch trees and sparse faded gray brown leaves, sagging overhead wires, drainpipes and exposed masonry. Vary architecture and silhouettes organically, detailed handpainted cracks and rain stains. Structures bottom 65%, thin trees extend upwards, LARGE truly transparent sky gaps between buildings/above courtyard, no painted sky. All environment grows up from perfectly horizontal base at bottom edge. No street surface, people, cats, collectible objects or foreground obstacles. Center courtyard open to a separate distant city layer. Modest worn house number plaque '92' near door, no other text. Seamless horizontal repeat with matched edge buildings/base, no heavy full-height black trunks. Actual alpha transparency, no checkerboard.\r\n\r\n## shadows\r\n\r\nUse case: stylized-concept. Production game art for a melancholy post-Soviet 2D runner. Match attached ART_DIRECTION.png painterly ink/gouache and muted collage texture. Cold desaturated slate blue gray palette, illustrated not photorealistic, no pixel art, no clean vector geometry, no orange light, no UI or captions. Transparent MIDGROUND parallax layer, 3:1 landscape. Side elevation of a darker narrow Soviet courtyard: cracked apartment facade on left, archless service entrances, peeling low walls, drainpipes, rusted garage doors, small tired cold white lamp over doorway, twisted bare trees and sagging wires. Dense shadows and cold gray rim light, readable blue gray surfaces. Asymmetric organic worn architectural detail, no flat rectangular placeholders. Structures bottom 70%, thin tall trees, LARGE truly transparent gaps above low walls and between buildings for separate far skyline. Flat horizontal base across entire bottom. No painted sky, no road, no character or any silhouettes (shadow actors will be separate), no UI or text. No archway (reserved for ending). Seamless horizontal repeat, same edge heights and base. Actual alpha transparency, no checkerboard.\r\n\r\n## stars\r\n\r\nUse case: stylized-concept. Production 2D game environment, landscape 16:9. Match attached ART_DIRECTION.png hand-painted gouache and ink, cold desaturated blue gray/lavender shadows, restrained collage grain, melancholy lonely post-Soviet city, NOT photorealistic, NOT vector, no pixel art, no golden cozy light, no characters, no text or UI. Abandoned Soviet basketball court at night, composition like reference bottom middle stars minigame, but EMPTY sky with only a few tiny static stars, NO falling stars/meteors/glowing streaks. Lower 48 percent is open flat wet asphalt play area with faint worn basketball markings and broken cold reflections, playable space horizontally x15% to85%. Rusted basketball hoop on left near upper-left third, chainlink fence across middle distance, bare branches only along upper far corners, irregular distant apartment towers with rare dim windows. Lots of readable empty floor, background fence and posts never in front of player. Opaque full image.\r\n\r\n## ravine\r\n\r\nUse case: stylized-concept. Production 2D game environment, landscape 16:9. Match attached ART_DIRECTION.png hand-painted gouache and ink, cold desaturated blue gray/lavender shadows, restrained collage grain, melancholy lonely post-Soviet city, NOT photorealistic, NOT vector, no pixel art, no golden cozy light, no characters, no text or UI. First-person view over deep urban ravine, matching reference pipe minigame, but NO PIPE (pipe is an independent sprite). Vanishing point at exactly center x50%, y36%. Far bank and silhouette of apartment district occupy top 36%, cold overcast night sky above them, dark spruce trees along sides of deep ravine and layered blue gray fog filling bottom 64%. Aged industrial pipe supports/pylons at far sides framing but not crossing central 40% of canvas. Depth and atmospheric haze, faint crane silhouette, no river reflection resembling path, no road bridge across middle. Opaque full background.\r\n\r\n## room\r\n\r\nUse case: stylized-concept. Production 2D game environment, landscape 16:9. Match attached ART_DIRECTION.png hand-painted gouache and ink, cold desaturated blue gray/lavender shadows, restrained collage grain, melancholy lonely post-Soviet city, NOT photorealistic, NOT vector, no pixel art, no golden cozy light, no characters, no text or UI. Interior of a dilapidated Soviet waiting room, straight-on wall view with a little floor depth. Exact composition for a 960x540 game: floor-wall boundary at y438 (81% image height). Worn low sofa left x75..390 at y335..438. Empty wall above sofa holds blank faded paper poster x135..320 y140..245 (leave poster WITHOUT TEXT, game adds Russian words). Small pendant lamp at x455 y115, cold dim light. Aged table x475..605 y375, chipped mug. A small bare wall area at x570 y175 for an independent 40px clock (DO NOT paint a clock). Window at x660..805 y132..307 with cold night city and bare branches beyond, sill and radiator below. Far right, EMPTY OPEN DARK DOORWAY rectangle x838..932 y182..438; NO door panel, game adds door. Leave center x365..450 y335..441 free for separate seated character; no characters, silhouettes or cats. Peeling plaster, exposed masonry, scuffed floorboards, frayed upholstery, muted cold gray blue light. Opaque image, no text, no clock, no door panel.\r\n\r\n## archway\r\n\r\nUse case: stylized-concept. Production 2D game background 16:9. Match attached ART_DIRECTION.png final archway panel, same painterly ink/gouache, restrained worn collage grain, cold desaturated slate gray/lavender palette. Front-facing decaying Soviet apartment courtyard with a deep large rounded brick archway exactly centered x50%. Arch opening begins around x400..580 at y195 in a 960x540 image, dark tunnel extends down to foot line at y438, crown of opening around y195. Street ground at y438 with wet asphalt lower fifth and broken cold reflections leading inside. Towering peeling plaster and exposed masonry, varied cracked windows and drainpipes, sparse bare trees at edges. Arch tunnel reveals a very faint distant cold gray courtyard. Small cold white bare lamp directly above arch crown at x490,y180, NO golden light. Detailed gritty illustrated surfaces, deep lonely atmosphere slightly brighter in arch but never comforting. NO people, NO cats, NO words, NO UI, no text labels, NOT photorealistic, no pixel art, no clean vector shapes. Opaque full image.\r\n\r\n## idle\r\n\r\nUse case: stylized-concept. Transparent game CHARACTER SPRITE SHEET square 2x2 equal cells. Same anonymous slim ordinary person as reference ART_DIRECTION.png: charcoal hooded sweatshirt hood up with FACE COMPLETELY HIDDEN, dark loose trousers, worn gray sneakers, small dark backpack. Match subtle hand-painted gouache/ink and cold gray edge highlights, NOT assassin/no cape/no weapons. Four poses, reading order: TOP LEFT relaxed standing side view facing RIGHT; TOP RIGHT same standing with hood tipped up looking toward a wall clock to upper right; BOTTOM LEFT seated on invisible sofa facing slightly right, three-quarter back showing hood/backpack, knees bent feet down; BOTTOM RIGHT same seated body and feet, hood tilted to upper right looking at clock. All human heads EXACTLY same size. Standing poses about 82% cell height, seated poses only 63% cell height with same human body scale. Each centered in cell, feet common baseline at 92% of cell height. Generous transparent padding, fully visible feet, no furniture, no ground shadows, no environment, no text, no cell borders, no checkerboard, real alpha transparency. Mild non-cartoon natural silhouette and fabric folds, no visible facial features.\r\n\r\n## props\r\n\r\nUse case: stylized-concept. Production transparent 2D PROP ATLAS square 2x2 equal cells. Style from attached ART_DIRECTION.png, hand-painted gouache and ink, worn surfaces, cold desaturated blue gray, NOT vector and not photorealistic. Exactly four isolated unrelated props, one per cell with alpha padding, no overlap, no labels or text: TOP LEFT front view of an aged closed rectangular wooden interior door panel, muted blue gray, peeling paint, small metal handle on left, tall 1:2.7 proportions, NO surrounding wall; TOP RIGHT small black street cat sitting side view facing right, softly visible ears/whiskers/tail, natural proportions and cool edge contour, NO background; BOTTOM LEFT TWO distant anonymous people standing beside one another, dark winter coats, one taller and one shorter, quiet posture, no face details, clearly separate silhouettes, no setting; BOTTOM RIGHT surreal low elongated brown gray smoke cloud, soft irregular painterly edges and murky opacity, no cartoon poop shape and no faces, no shiny glow. True transparent background, no checkerboard, no environment, no golden lighting.\r\n\r\n## pipe\r\n\r\nUse case: stylized-concept. Production game sprite, transparent background. A single huge worn rusty industrial cylindrical pipe seen from FIRST PERSON walking along its TOP, vanishing straight into distance. Pipe axis runs exactly vertically on image center. At very top the pipe is a narrow 18px tip in a 340px-wide final sprite; at bottom it widens to 340px. Overall visible shape is a long tapered trapezoid, height about381,width340. Clearly curved top metal surface, broken dull rust brown and graphite gray paint, welded ring joints and small bolts in perspective, cold soft highlights in center and dark sides. Detailed hand-painted ink/gouache texture matching attached ART_DIRECTION.png pipe minigame. Only the pipe, fully isolated, surroundings are real transparent alpha, no environment, no scenery, no character, no lettering, no checkerboard. No horizontal bend, no side-facing plumbing, no railings, no bright red rust.\r\n\r\n"
+    },
+    {
+      "path": "assets/source/location-v7/PROMPTS.md",
+      "sha256": "29d6b760427e85405fe041ab46afec943260d37a505876f8ed83cfe932b68569",
+      "content": "> Происхождение ассета (provenance). Это описание создания изображения, а не действующие правила игры. Снятые объекты не требуется возвращать; правила находятся в `docs/GAME_SPEC.md`.\r\n\r\n# Ресурсы стыков локаций · 19.10.2026\r\n\r\nСозданы встроенным `image_gen`, без CLI/API. Исходники сохранены без изменения. Упаковка: `node tools/prepare-location-art.mjs`.\r\n\r\n## excavation.png\r\n\r\n```text\r\nUse case: stylized-concept.\r\nAsset type: one painted bitmap environment strip for a cold post-Soviet 2D side-scrolling game.\r\nCreate a strictly SIDE-ON CUTAWAY of a shallow urban construction excavation, viewed horizontally, NOT looking down a receding trench. A very wide low rectangular strip, aspect ratio about 5.5:1, centered on a transparent canvas. Only the strip itself is opaque.\r\nThe strip has a straight chipped asphalt upper lip, vertical dark damp concrete and worn brick retaining wall below it, and a narrow line of dark wet rubble at the bottom. One small vertical iron access ladder near the right third. Horizontal courses of individual bricks remain straight, readable and consistent; no warped, melted, stretched or blurry masonry. The wall is parallel to the picture plane. No pipe, no barriers, no people, no skyline, no ground above the upper lip, no lettering.\r\nStyle: softly hand-painted 2D illustration with subtle paper/collage texture, matte worn materials, controlled readable shapes. Melancholic, desaturated blue gray, charcoal, muted gray brick, very subtle cold water highlights. Dark but readable. No orange lighting, no photorealism, no pixel art. The composition must be usable as a 560 by 102 pixel side-on pit beneath a pipe, so avoid tiny clutter. Make the strip fill the canvas width with transparency above and below.\r\nSave the generated artifact for project use.\r\n```\r\n\r\n## court.png\r\n\r\nРедактирование с референсами: `apps/web/public/assets/mechanics-v3/court.webp` (цель), `docs/ART_DIRECTION.png` (стиль).\r\n\r\n```text\r\nUse case: precise-object-edit.\r\nAsset type: transparent layered scenery for a 960x540 2D game.\r\nInput image 1 is the EDIT TARGET, an existing painted basketball court layer. Input image 2 is STYLE REFERENCE ONLY, the actual game's side-scrolling street.\r\nEdit image 1 to integrate naturally with that street. Preserve its exact wide 16:9 framing, the existing empty transparent upper area, the position and size of the hoop on the left and the straight back chain-link fence around y=325 of a 540px frame. Keep the court surface occupying y=330..540 and covering the full width.\r\nChange the ground: weathered charcoal blue gray asphalt, MOSTLY MATTE and only slightly damp, with small broken cold reflections, matching the asphalt in reference image 2. The current broad mirror-like purple water should become readable cracked asphalt. Retain very faded thin court markings with correct consistent perspective. A narrow worn concrete border at the far fence. The left foreground edge of the court naturally meets a street at the same elevation, no platform or step. Keep x=0..130 around y=438 free of obstacles for an entrance. The surface must remain open for a player moving in four directions. Give fence and hoop coherent straight metal geometry and hand-painted readable shapes, no melted mesh.\r\nStyle: soft illustrated 2D, subtle collage texture, cold desaturated post-Soviet courtyard, lonely and melancholic, dark but legible, restrained details.\r\nDo not paint buildings, sky, people, stars, UI or text into the transparent upper part. Preserve true alpha transparency. No photorealism, no bright purple shine, no warm light, no pixel art. This is a replacement bitmap layer, not a screenshot or a whole background.\r\n```\r\n\r\n"
+    },
+    {
+      "path": "assets/source/mechanics-v3/PROMPTS.md",
+      "sha256": "8d19be55198ed830aae80ab815f4f4ba3b68b0414430b5ba6835a8e2c288ea70",
+      "content": "> Происхождение ассета (provenance). Это описание создания изображения, а не действующие правила игры. Снятые объекты не требуется возвращать; правила находятся в `docs/GAME_SPEC.md`.\r\n\r\n# Исходники исправлений · 18.10.2026\r\n\r\nВстроенный `image_gen`, навык `imagegen`. Исходные изображения сохранены; WebP упаковывает `node tools/prepare-mechanics-art.mjs`.\r\n\r\n## court.png\r\n\r\nUse case: background-extraction. Asset type: transparent game scenery layer, retain precise 16:9 composition. Input image is edit target. Preserve the old basketball hoop at its exact location x110..240, y90..320; preserve the entire chain-link back fence at y230..325, with delicate wires, posts, weeds, and all wet asphalt court below y320. Remove all sky and ALL distant buildings BEHIND the fence, including between its wires, replacing these with genuinely transparent alpha. Remove upper overhanging tree branches so sky area is fully transparent except the basketball hoop and fence. Keep exact original cold desaturated painterly style and ground texture. The lower asphalt remains opaque from y325 to bottom. Left boundary of asphalt follows natural irregular grass and gravel, not a hard vertical rectangle. No new objects, no text, no character, no cat, no checkerboard baked in. Output must have real transparency and preserve original object scale and position. This will be layered over an independently scrolling city skyline in a 2D game.\r\n\r\n## room.png\r\n\r\nUse case: precise-object-edit. Asset type: 16:9 illustrated 2D game room background, 960x540 composition. Input image is the edit target. Preserve the existing painterly distressed post-Soviet room, camera, walls, window, table, door, floor and exact spatial coordinates. Replace ONLY the sofa on the left with an old narrow single metal bed along the same wall: mattress top at image y=350, bed from x=35 to x=370, front edge at y=370, metal legs touching floor at y=418. Worn gray plaid blanket and simple pillow at far left. Bed must have an unobstructed front edge near x=300 so an independent seated hooded character can sit there, hips at (305,350), feet at y=418. Remove the large blank poster on upper left, replacing with continuous distressed wall matching its surroundings. Keep the small empty wall area around (240,170) for a tiny neon sign added by game code. Keep window bounding box x=560..730, y=75..277 and door x=815..924,y=125..407 unchanged. No people, no cat, no clock, no text, no neon baked into the image. Cold dim desaturated blue gray lighting, reduce the warm pool from the ceiling lamp. Keep original art style and precise composition; no new objects other than replacement bed, no photorealism, no cartoon, no watermark.\r\n\r\n## cat.png\r\n\r\nUse case: stylized-concept. Asset type: transparent sprite sheet for a small 2D game cat, 4 columns by 2 rows, exactly eight equally sized square cells in reading order. One anonymous ordinary dark gray short-haired street cat in natural proportions, full side profile facing right, walking slowly on ALL FOUR paws, no clothes, no expressions. Frames form a seamless eight-frame walk cycle. Body elongated horizontally, head low naturally, four separate legs readable, tail behind at left. Keep body size and position consistent across frames, paws on the same baseline at 90 percent cell height. Each cell contains the whole cat with generous padding, sprites do not touch neighboring cells. Soft illustrated painterly style, desaturated charcoal fur with subtle gray brushwork, no sharp cartoon outlines, no pixel art, no photorealism. Dim cold light from upper left. Genuine alpha background; no ground, no shadow backdrop, no text, no frame borders, no labels.\r\n"
+    },
+    {
+      "path": "assets/source/pipe-v2/PROMPTS.md",
+      "sha256": "e91d5b9da048ef37a8950770b2b6dffebf88fb1cbd5f9cbb171363d61f2877f9",
+      "content": "> Происхождение ассета (provenance). Это описание создания изображения, а не действующие правила игры. Снятые объекты не требуется возвращать; правила находятся в `docs/GAME_SPEC.md`.\r\n\r\n# Новая городская труба\r\n\r\nСоздано встроенным image_gen по замечаниям владельца и `docs/ART_DIRECTION.png`. Готовые WebP — `apps/web/public/assets/pipe-v2/`; подготовка — `node tools/prepare-pipe-art.mjs`. Исходник города до удаления неба сохранён как `city-original.png`. В финальном `city.png` прозрачно только небо; коричневатые облака выводятся позади зданий.\r\n\r\n## city\r\n\r\nUse case: stylized-concept. Production 2D game background, 16:9, match docs/ART_DIRECTION.png painterly gouache/ink, cold desaturated slate gray palette and peeling post-Soviet urban surfaces. FIRST PERSON street-level view across a NARROW DISTRICT HEATING SERVICE TRENCH in a city courtyard, depth only 2 to 4 meters. Close old Soviet apartment buildings, basement windows and stained brick foundations dominate left and right sides, nearby garages and utility cabinets. Far bank sidewalk at x50%, y37% of frame, just across the short excavation. Open trench extends toward foreground: steep brick/concrete retaining walls, broken masonry, damp gravel, scattered debris and shallow dirty water at bottom FULLY VISIBLE in lower half. Strong near-scale cues: basement pipes, ladders leaning against retaining wall, small drains, wet bricks. Ground and buildings feel close and low, NOT a mountain landscape. Sky occupies only top quarter and is neutral gray (separate brown clouds will be added). NO forest, no spruce trees, NO tall bridge/pylons, NO deep fog, NO mist hiding ground, no huge chasm, no path or walkway across trench, NO pipe across center (separate animated pipe). City everywhere, lonely cold illustrated night, readable worn surfaces, no text, no UI, no characters, no photorealism, no pixel art, no bright gold. Opaque full background.\r\n\r\n## surface\r\n\r\nUse case: stylized-concept. Game texture of a metal DISTRICT HEATING PIPE viewed from above along its length. Rectangular texture 1:2 aspect, perfectly parallel straight left and right edges. It will be mapped onto a narrow cylindrical perspective shape in a game; DO NOT paint a vanishing point or triangular silhouette. Fill entire canvas edge to edge with the pipe surface. Long axis vertical: curved cylindrical highlights run VERTICALLY, dark cool charcoal sides and broad slightly brighter graphite top center, uneven patches of desaturated faded rust brown, flaking old blue gray paint, scratches and wet scuffs. Exactly two thin horizontal welded/riveted metal collars across the whole width, with small bolts, not chunky walking planks. Horizontally curved cylinder material, no floor/walkway/grating, no bridge rails. Top and bottom match seamlessly so texture can scroll vertically. Painterly gouache and dark ink, soft collage grain to match reference ART_DIRECTION.png. NOT photorealistic, NOT vector, no pixel art, no neon or gold, no lettering, opaque full canvas.\r\n\r\n## side\r\n\r\nUse case: stylized-concept. Isolated transparent 2D game sprite: one horizontal OLD DISTRICT HEATING PIPE spanning a small urban excavation, SIDE ELEVATION, 3:1 landscape. Actual round metal cylinder, long horizontal axis, low thin circular profile, dark faded blue-gray metal with chipped dirty brown rust, cylindrical cool highlights, several welded collar seams and a few restrained bolts. Pipe occupies center horizontal 75%, only about 20% of canvas height, rests on small broken concrete utility supports at far left/right bottom. NO walkway on top, no boards, no bridge railings, no cable bridge, no building, no ground background. Clear detailed painted silhouette, gentle irregular ink edges and cold rim lighting, matching ART_DIRECTION.png game art. No characters, no text, no UI, no bright light, no photorealism, true alpha background.\r\n\r\n## city: отделение неба\r\n\r\nUse case: background-extraction. Edit the attached urban courtyard/service-trench painting. Change ONLY the SKY to genuine transparent alpha, including gaps between rooflines, antennas and bare branches. Preserve EVERY building, window, wall, ground, water, ladder and the entire trench exactly in place, original 16:9 composition, original hand-painted style and colors. Do not remove the distant apartment buildings. Remove the plain gray sky only so separate moving brown clouds can be placed BEHIND architecture in a game. Lower 75 percent must remain opaque and unchanged; transparency is exclusively in the original sky regions at the top. No checkerboard or flat replacement color, true alpha transparency. No new scenery, no text, no fog.\r\n\r\n## sky-clouds: финальный запрос\r\n\r\nUse case: stylized-concept. OPAQUE full-canvas game SKY texture, landscape 3:1. Entire image shows distant overcast night clouds filling the sky, gray-brown and muted taupe with cool slate gray shadows, NO saturated colors anywhere. Natural low cloud folds with painterly soft gouache texture and subtle grain. Restrained brown cast clearly visible throughout, cold melancholy post-Soviet night mood, NO sunrise or sunset, no orange light, no lightning, no fire, no glowing edges. No scenery, ground, buildings, people, text or UI. Horizontally seamless. Every pixel is opaque sky/cloud, no cutouts, no transparent areas, no alpha border, no checkerboard. A full painted cloud ceiling, NOT ground mist or foreground smoke.\r\n\r\n"
+    },
+    {
+      "path": "assets/source/props-v5/PROMPTS.md",
+      "sha256": "5c163dc742b1934b4eece6819212f74a962e0b7accfb147a59b4e2b096ad1a2d",
+      "content": "> Происхождение ассета (provenance). Это описание создания изображения, а не действующие правила игры. Снятые объекты не требуется возвращать; правила находятся в `docs/GAME_SPEC.md`.\r\n\r\n# Рисованные предметы · 18.10.2026\r\n\r\nСозданы встроенным image_gen с прозрачным фоном. Референсы: `docs/previews/spatial-room-resting.png` (комната), `docs/previews/fixes-final-1106.png` (скамейка), до изменений этого прохода.\r\n\r\n## stool.png\r\n\r\nUse case: illustration-story. Asset type: isolated transparent 2D game prop. Input image is STYLE REFERENCE ONLY: match its worn hand-painted gouache/digital illustration, textured edges and desaturated cold blue-grey palette. Not photorealistic, not vector, not 3D, no cartoon outlines. Soft cold diffuse light from upper left. Transparent background, no floor, no environment, no people, no labels, no watermark. Orthographic nearly front view, slight view of top matching reference room/bench. Leave 8% transparent margin. One old small square wooden stool, dark grey scuffed painted timber, subtly irregular legs and crossbars, chipped seat edges with visible wood grain. Seat surface at upper 12% of object, four legs reach same floor. Entire object fits square canvas. Match the stool position underneath the seated person in the reference but replace its flat geometric style with painted material.\r\n\r\n## clock.png\r\n\r\nUse case: illustration-story. Asset type: isolated transparent 2D game prop. Input image is STYLE REFERENCE ONLY: match its worn hand-painted gouache/digital illustration, textured edges and desaturated cold blue-grey palette. Not photorealistic, not vector, not 3D, no cartoon outlines. Soft cold diffuse light from upper left. Transparent background, no floor, no environment, no people, no labels, no watermark. Orthographic nearly front view, slight view of top matching reference room/bench. Leave 8% transparent margin. One small old round wall clock, worn dark steel-blue metal rim, aged grey off-white face with subtle stains and twelve understated hour tick marks. Absolutely NO HANDS and no central spindle; hands will be animated in code. Front view, perfectly round, entire clock on square canvas. Face is muted and darker than white, no glow.\r\n\r\n## sign.png\r\n\r\nUse case: illustration-story. Asset type: isolated transparent 2D game prop. Input image is STYLE REFERENCE ONLY: match its worn hand-painted gouache/digital illustration, textured edges and desaturated cold blue-grey palette. Not photorealistic, not vector, not 3D, no cartoon outlines. Soft cold diffuse light from upper left. Transparent background, no floor, no environment, no people, no labels, no watermark. Orthographic nearly front view, slight view of top matching reference room/bench. Leave 8% transparent margin. One small hand-bent two-line neon lettering attached to a wall by tiny dark mounts, on transparent background, no rectangular panel or frame. Exact Russian text on two centered lines: first line «Пусть решится», second line «само собой». Thin irregular handwritten Cyrillic cursive neon glass tubes with subdued cold grey-blue glow, faded and melancholy, lightly weathered. No bold sans serif, no warm light, no bright advertising aesthetic. Horizontal wide composition.\r\n\r\n## bench.png\r\n\r\nUse case: illustration-story. Asset type: isolated transparent 2D game prop. Input image is STYLE REFERENCE ONLY: match its worn hand-painted gouache/digital illustration, textured edges and desaturated cold blue-grey palette. Not photorealistic, not vector, not 3D, no cartoon outlines. Soft cold diffuse light from upper left. Transparent background, no floor, no environment, no people, no labels, no watermark. Orthographic nearly front view, slight view of top matching reference room/bench. Leave 8% transparent margin. One empty old post-Soviet courtyard bench, front elevation matching the right side of reference. Long horizontal seat, two weathered narrow backrest planks, worn grey-blue wooden slats, cast dark metal legs. Paint peeling, wood grain visible, subtle natural unevenness. No armrests. Ratio width to full height 2.6:1. Seat at 55% down object, feet along common baseline. Entire bench on wide canvas with transparent background. Match hand-painted wall style from reference, avoid smooth geometric bars.\r\n\r\n"
+    },
+    {
+      "path": "assets/source/provided-v4/PROMPTS.md",
+      "sha256": "6b1850f1e13a3ca7703872b139498cd71e1ef953a4504c9e663d1798a15e8387",
+      "content": "# Происхождение набора · 25.10.2026\n\nЭто provenance изображений, а не действующая спецификация игры. Правила — `docs/GAME_SPEC.md`.\nВладелец приложил шесть PNG в текущей беседе: `pipe-original.png`, `room.png`,\n`barrier.png`, `broken-block.png`, `debris.png`, `rubble.png`. Сохранены полученные вложения:\nпанорамы 2048×683 (чат уменьшил исходные 2172×724), препятствия 1254×1254 с прозрачностью.\nЧетыре препятствия упакованы без перерисовки: обрезаны прозрачные поля, сохранены пропорции и альфа.\n\nВстроенный `image_gen` использован для двух правок; исходные вложения сохранены отдельно.\nУпаковка всех шести активных текстур: `node tools/prepare-provided-art.mjs`.\nРазмеры, обрезки и SHA-256 — `docs/previews/provided-v4-audit.json`.\n\n## Фон трубы — `pipe-muted.png`\n\nЦель редактирования: `pipe-original.png`. Встроенный инструмент, режим `lighting-weather`.\nТочный запрос:\n\n```text\nUse case: lighting-weather. Edit the attached wide construction excavation panorama for a melancholic cold post-Soviet 2D game. Preserve the 3:1 panoramic composition, camera, pit geometry, wall silhouettes, ladders, buildings, sky, construction rubble and every object's placement. Change ONLY the lighting and color grade: noticeably dimmer and more muted, desaturated cold blue-grey ambience, reduce orange/yellow window and streetlight glow to faint dirty pale grey. Keep pit edges readable and retain shadow detail, avoid cozy warm light. No additions, no pipe, no people, no text, no mirroring, no cropping. Output the same wide 3:1 panorama.\n```\n\nРезультат 2171×724. Игровая труба остаётся независимым изображением.\n\n## Комната — `room-interactive.png`\n\nЦель редактирования: `room.png`. Встроенный инструмент, режим `precise-object-edit`.\nУбраны запечённые часы и полотно двери: поверх размещаются анимированные игровые объекты.\nТочный запрос:\n\n```text\nUse case: precise-object-edit. Prepare this exact wide abandoned room panorama as a background for a 2D game with separately animated door and clock. Preserve its 3:1 aspect ratio, every piece of furniture, walls, window, lamp, composition, weathered painted texture, cold dim lighting and camera exactly. Make only two surgical changes: remove the small round wall clock to the right of the window and seamlessly restore the same plaster underneath; remove ONLY the pale wooden DOOR LEAF from its frame on the right of the window, retaining the existing frame, reveal a very dark empty unlit doorway behind it, with no additional detail or light. The game will overlay its own working clock and opening door in those exact positions. Do not move or alter door frame, window, sofa, lamp or tables. No other modifications, no people, no text, no mirroring, no cropping. Output the full same panoramic background.\n```\n\nРезультат 2172×724. Надпись, табуретка, герой, дверь и часы рисуются отдельно;\nтаймлайн ожидания не менялся.\n"
+    },
+    {
+      "path": "assets/source/references-v8/PROMPTS.md",
+      "sha256": "5991b1231525f1b49958ccb3ad1d2f751520dbe820cbb006e61ed71f34b061d7",
+      "content": "> Происхождение ассета (provenance). Это описание создания изображения, а не действующие правила игры. Снятые объекты не требуется возвращать; правила находятся в `docs/GAME_SPEC.md`.\r\n\r\n# Указатель «92» · 19.10.2026\r\n\r\nСоздан встроенным `image_gen`, без CLI/API. Исходник `route92.png` сохранён без изменения; упаковка — `node tools/prepare-reference-art.mjs`.\r\n\r\n```text\r\nUse case: stylized-concept.\r\nAsset type: one transparent bitmap prop for a hand-painted 2D post-Soviet courtyard game.\r\nAn old small bus-route enamel sign on a thin rusty iron pole. Straight-on view, isolated on true transparent background. The pole and sign together form a tall narrow shape, roughly 1:2 aspect ratio. At the top, a slightly battered rectangular dark navy enamel plate, its width about half of the total object's height. On the plate ONLY the clearly legible number \"92\" in faded cold off-white painted numerals. Exactly 9 then 2. No other letters, words or digits. The plate has worn edges, a subtle pale metal rim, chips of paint, tiny rust streaks and two mounting bolts. The thin dark iron pole extends below it to the bottom. No ground, no shadow outside the object, no sky, no buildings, no people, no decorative items.\r\nSoft illustrated 2D artwork with subtle collage grain, gently irregular hand-painted edges, controlled readable shapes. Cold desaturated blue-gray and charcoal, matte weathered surfaces. Melancholic urban autumn, not photorealistic, not a shiny clean vector icon, not pixel art. No glow, no warm lighting. The final prop will be displayed about 50 by 100 pixels so the number must remain readable and the details restrained. Preserve actual alpha transparency around the pole and plate.\r\n```\r\n\r\n"
+    },
+    {
+      "path": "assets/source/repairs-v6/PROMPTS.md",
+      "sha256": "91bd4208fbd9212978cf3cb38d5226c5794ec8a55d22d8dc4868ec0e800f37d9",
+      "content": "> Происхождение ассета (provenance). Это описание создания изображения, а не действующие правила игры. Снятые объекты не требуется возвращать; правила находятся в `docs/GAME_SPEC.md`.\r\n\r\n# Мебель из окружения · 18.10.2026\r\n\r\nВстроенный image_gen, прозрачный фон. Табуретка: референс `apps/web/public/assets/mechanics-v3/room.webp`, предмет под столом. Скамейка: референсы `runner-v1/court.webp` (под остановкой) и `transitions-v4/arch.webp`.\r\n\r\n## stool.png\r\n\r\nUse case: background-extraction / precise-object-edit. Extract and recreate as a transparent 2D game sprite ONLY the small low dark wooden stool already visible UNDER THE TABLE in the attached room reference (center around x542,y382 of the 960x540 image). Preserve that specific stool's narrow dark-brown legs, thin flat seat, simple square proportions, unpainted old dark wood, quiet soft low-contrast painterly texture and exact cool room lighting. Do NOT invent a blue painted chunky stool; do not add exaggerated peeling paint or high-frequency distressed wood. This must look like the exact same humble stool moved to another spot in the same room. No room, no table, no floor, no shadow backdrop, no people, no labels. Front/very slight three-quarter view matching the reference. Full legs and seat unobscured, no wooden backrest. Small matte dark prop with soft illustrated edges. Actual transparent background. Keep the rendering soft and appropriately indistinct for an object displayed at 50x60 pixels. Square canvas with generous transparent margin.\r\n\r\n## bench.png\r\n\r\nUse case: background-extraction / precise-object-edit. Make a transparent 2D game sprite of the SPECIFIC small humble bench visible in reference image 1 at x440..560,y420..470 (image1 is 1536x512), under the bus shelter. Reference image 2 is the final courtyard's style and lighting. Preserve the bench's thin dark brown/near-charcoal wooden boards, simple narrow metal supports, modest shape, small dark worn silhouette, soft hand-painted edges and subdued detail level. Front elevation with tiny visible seat top. Two thin backrest slats, thin seat, four modest legs. Empty bench on transparent background. No shelter, wall, environment, floor, people, no labels. This must look like a prop already native to these game backgrounds, NOT a crisp isolated catalog asset, no chunky light-blue planks, no oversized chipped paint texture, no photorealistic or 3D style, no bright highlights. Width to height ratio around 2.7. Actual transparent background with margin. Designed to be displayed at 180x70 pixels. Overall dark desaturated grey-brown, gentle cool diffuse lighting.\r\n\r\n"
+    },
+    {
+      "path": "assets/source/runner-v1/CASSETTE_PROMPT.md",
+      "sha256": "7fa68df2df8e4d206ecbdd9b64d7357aad95e15e62f884c64406cb6ba104b7c8",
+      "content": "> Происхождение ассета (provenance). Это описание создания изображения, а не действующие правила игры. Снятые объекты не требуется возвращать; правила находятся в `docs/GAME_SPEC.md`.\r\n\r\n# Кассета\r\n\r\nПо явному запросу пользователя собираемые фрагменты плёнки заменены аудиокассетами во всём раннере. Создано встроенным image_gen. Исходник: `cassette.png`; WebP: `apps/web/public/assets/runner-v1/cassette.webp`.\r\n\r\nФинальный запрос:\r\n\r\nUse case: stylized-concept. Asset type: ONE isolated collectible sprite for a melancholic 2D side-scrolling game, true transparent alpha background. Paint a vintage compact AUDIO CASSETTE (standard rectangular Compact Cassette, NOT a loose film ribbon, NOT reel-to-reel). Front view, gently tilted 8 degrees counterclockwise, width to height ratio about 1.55:1, centered and fully visible. Dark charcoal worn plastic shell with softly chamfered corners, TWO clearly visible circular tape spool hubs in a small dark horizontal central window, a broad faded gray paper label with restrained cool lavender gray markings and no text, five tiny bottom screw/guide details. Make the recognizable cassette silhouette and two reels readable even at 44 by 28 pixels. Hand-painted gouache and subtle ink contour with textured scuffs, softly illustrated NOT vector or photorealistic, matches cold gloomy post-Soviet runner art. Cool desaturated slate gray, black, pale blue gray edge highlights, subtle cold outline only, no luminous aura, no gold, no saturated colors, no brand or lettering. No environment, no hands, no shadow backdrop, no extra objects, no checkerboard. Output just one cassette on a truly transparent canvas with modest margin.\r\n\r\n"
+    },
+    {
+      "path": "assets/source/runner-v1/PROMPTS.md",
+      "sha256": "939c1871fe710af4d570917d652ffe39d280558ef2863e468bca6b362531089e",
+      "content": "> Происхождение ассета (provenance). Это описание создания изображения, а не действующие правила игры. Снятые объекты не требуется возвращать; правила находятся в `docs/GAME_SPEC.md`.\r\n\r\n# Ресурсы эталонного раннера\r\n\r\nСозданы встроенным инструментом image_gen по `docs/ART_DIRECTION.png`. Оригиналы: `assets/source/runner-v1/`. Подготовка ресурсов браузером через `node tools/prepare-runner-art.mjs`; повторная генерация изображений для запуска не требуется.\r\n\r\n## far\r\n\r\nUse case: stylized-concept. Asset type: production 2D side-scroller DISTANT BACKGROUND panorama, landscape 3:1. Use attached docs/ART_DIRECTION.png strictly as visual style reference, specifically its TOP main runner strip: soft painterly ink and gouache, restrained collage grain, melancholy post-Soviet urban night. Create only the distant layer, no foreground, no road, no characters, no UI, no lettering. Wide cold overcast slate lavender gray sky, densely spaced irregular Soviet apartment towers and distant construction crane, rooftop antennae, subtle scattered dim neutral windows, atmospheric aerial haze. Buildings occupy lower 70%, sky top 30%. Camera at street level, orthographic side view, no vanishing street. Detailed brushwork and rain-stained uneven facades, natural worn architectural silhouettes, no clean vector rectangles or pixel art, no photorealism. Palette #222b39 #384557 #667487 #858ea1, shadows not crushed, no gold or cozy light. Background fills canvas. Horizontally seamless repeat, left and right edge building heights and sky tones match. This is a new independent environment layer derived from reference, do not reproduce collage panels or labels.\r\n\r\n## court\r\n\r\nUse case: stylized-concept. Asset type: transparent midground parallax layer for 2D side scrolling runner, landscape 3:1. Reference image is ART_DIRECTION.png; match exactly the hand-painted gouache/ink texture, worn melancholy urban mood and desaturated blue gray violet palette of TOP runner strip. Paint a side elevation of an abandoned post-Soviet courtyard: crooked bare trees, peeling low concrete walls with faded illegible markings, a weathered flat-roof bus shelter near center, battered garage doors, short chain-link fence segments, utility poles and sagging wires. No humans, no collectibles, no obstacles on running path, no road, no text/UI/labels. Ground base perfectly horizontal at bottom, ALL environment grows UP from bottom. Structures about bottom 55%, tall thin trees and poles reach top; leave large truly transparent gaps above walls, between trunks and around branches so a separate city sky is visible behind. True transparent alpha sky, NOT painted sky, NOT checkerboard. Detailed irregular silhouettes, layered painterly shadows, cracked plaster and cold damp surfaces. Seamless horizontal repeat, edges thin open tree silhouettes at same base level. Avoid vector shapes, photorealism, strong warm light, solid dark background.\r\n\r\n## ground\r\n\r\nUse case: stylized-concept. Asset type: horizontally tiling ground texture strip for side-scrolling game, landscape 3:1. Match the TOP runner panel of reference ART_DIRECTION.png: hand painted cold blue gray slate asphalt, rough collage grain, ink outlines, worn urban surfaces. Image only contains road surface, no buildings, no people, no objects, no UI, no text. Entire top edge has a narrow uneven chipped concrete sidewalk curb seen directly from side, flat top for character feet, thin desaturated cold white highlights. Below curb, wet dark cracked asphalt with horizontal broken subtle lavender gray reflections, sparse gritty stones, restrained peeling texture. Road stretches horizontally across whole image at same level. No large puddle silhouettes (puddles are separate hazards). No perspective vanishing point or distant horizon. Opaque image, edge-to-edge road. Horizontally seamless edges. Rich illustrated texture but readable quiet gameplay surface. No gold, no neon, no photorealism.\r\n\r\n## hero\r\n\r\nUse case: stylized-concept. Asset type: production game animation SPRITE SHEET with genuine transparent background, square, EXACT 2 columns x 2 rows of equally sized cells. Reference ART_DIRECTION.png TOP runner strip is style reference. Paint the SAME anonymous ordinary young adult in dark charcoal hooded sweatshirt, hood always up, face completely hidden by shadow, dark loose trousers, worn gray sneakers, small unbranded dark backpack, running SIDE VIEW facing RIGHT. Human ordinary proportions, understated street clothing NOT assassin, no cape, no weapons. 4 sequential running cycle frames in reading order: 1 right leg forward left leg back extended, 2 legs passing below body, 3 left leg forward right leg back extended, 4 opposite passing pose. Bent arms alternate naturally. Each character fits fully in its own cell with generous transparent padding, centered on EXACT cell horizontal midpoint, feet baseline at 92% of cell height, head at 12%. Same character scale and body position every cell. Fine painterly ink contour, gray cool edge light, folds and scuffed fabric, same worn handpainted look as reference, leg silhouettes clearly separated, NOT vector, NOT photorealistic. No environment, no shadows on background, no text, no cell borders, no UI, no checkerboard, alpha transparency. Keep all four views directly side-on, no front-facing pose.\r\n\r\n## props\r\n\r\nUse case: stylized-concept. Asset type: production 2D game PROP ATLAS, square 2 columns x 2 rows, transparent background. Match hand painted gouache and dark ink, cold slate gray lavender highlights and worn textures of reference ART_DIRECTION.png TOP runner strip. FOUR isolated separate objects, each ONLY in its own equal square cell, generous empty alpha padding, no overlaps, no labels. Top-left: irregular shallow hazardous puddle side view, very wide and low, dark indigo water, crisp thin cool gray lavender rim and a few broken reflective ripples. Top-right: low battered concrete road barricade side view, a rectangular blunt block with broad faded diagonal charcoal stripes, chipped pale cold gray concrete corners, no gold or yellow. Bottom-left: tied black plastic garbage sack with a few loose small broken wood pieces, clear silhouette and subdued cold contour highlights. Bottom-right: short physical magnetic recording ribbon / film strip floating in gently curved S shape, TWO parallel dark edges with tiny square perforations along both edges and translucent gray rectangular panels, recognizable as black tape fragment like reference, NOT banana or ribbon bow, NOT coin, no huge glowing aura. All objects shown from side, cold readable contours, weathered painted details. Center each object in cell. Truly transparent surroundings, no ground plane, no backdrop, no checkerboard, no text.\r\n\r\n## front\r\n\r\nUse case: stylized-concept. Asset type: transparent FOREGROUND framing layer for horizontal 2D runner, landscape 3:1. Style reference: top runner strip of ART_DIRECTION.png, painterly gouache with irregular ink, very cold dark desaturated charcoal blue. Only a handful of thin leafless branches hanging DOWN from the very top edge, tangled sparse overhead wires, and chipped dark concrete/gravel silhouette along bottommost 5 percent. Keep middle 80 percent of image ENTIRELY transparent and EMPTY to preserve clear character, obstacles and collectibles. No full height tree trunks, no buildings, no sky, no human, no road, no lettering. Truly transparent alpha surroundings. Seamless horizontally repeating. Restrained fine natural branching silhouettes, tiny subtle highlights, avoid decorative visual clutter.\r\n\r\n"
+    },
+    {
+      "path": "assets/source/transitions-v4/ARCH_GROUNDED_PROMPT.md",
+      "sha256": "9198a51b14148ffc3cef6d23abc42513f6a8394d28e2e06136f8709dc92bab46",
+      "content": "> Происхождение ассета (provenance). Это описание создания изображения, а не действующие правила игры. Снятые объекты не требуется возвращать; правила находятся в `docs/GAME_SPEC.md`.\r\n\r\n# Подворотня: контакт с землёй\r\n\r\nСоздано встроенным image_gen, 21.10.2026. Цель редактирования: прежний `public/assets/transitions-v4/arch.webp`.\r\nНовый исходник: `arch-grounded.png`. Прежний `arch.png` сохранён.\r\n\r\nТочный запрос:\r\n\r\nUse case: precise-object-edit. Edit target: provided existing 960x540 transparent game archway facade. Preserve exactly the upper architecture, arch opening x360–612, lamp x480 y134, building scale, camera framing, illustrated cold blue-gray post-Soviet melancholic style. Repair ONLY spatial grounding of bottom section. Current facade ends y395 and floats; extend lower facade masonry and drainpipes down to a continuous footing at y438, without moving/scaling whole image. Rebuild the arch jamb bases to meet same pavement plane. Inside arch create receding wet asphalt from far courtyard at y378 toward entrance y438, seamless with foreground road. Ground outside: wet dark blue-gray textured asphalt across y438–540, cold subtle reflected light and broad soft contact shadows under footings, no black empty stripe. Building base on right behind future bench at x648–832 must meet street at y438, right ground stays empty for separately rendered bench and seated hero. Left outer silhouette remains transparent where original transparent; asphalt below y438 opaque. No people, bench, text or new objects. Actual alpha transparency where outside left facade, no checkerboard. Keep original palette and fine painterly collage texture, avoid photorealism, warm light or cozy feeling. Output landscape 16:9.\r\n\r\nУпаковка: `node tools/prepare-ending-art.mjs`. Регистрируются отдельно верх, нижняя кладка и асфальт: верх не сдвигается, линия опоры приводится к Y=438. Это исправление нижней геометрии, а не перенос всего фасада.\r\n"
+    },
+    {
+      "path": "assets/source/transitions-v4/SEATED_PROMPT.md",
+      "sha256": "a2f195738bd2ff072fdf609616668b9f1b63a25b81fa59ff87fdc816aadd1715",
+      "content": "> Происхождение ассета (provenance). Это описание создания изображения, а не действующие правила игры. Снятые объекты не требуется возвращать; правила находятся в `docs/GAME_SPEC.md`.\r\n\r\n# Сидящий герой\r\n\r\nСгенерировано встроенным `image_gen` 18.10.2026. Исходник `seated.png`, ресурс игры `apps/web/public/assets/transitions-v4/seated.webp`. Прозрачность сохранена. Упаковка: `node tools/prepare-transition-art.mjs seated`.\r\n\r\nТочный запрос:\r\n\r\nUse case: stylized-concept. Asset type: transparent game character sprite, single full-body seated pose. Anonymous tired young adult in dark graphite hoodie with hood UP, face completely hidden by deep hood, dark trousers, worn gray sneakers, small dark backpack. Side view facing RIGHT. He is sitting naturally on an invisible seat: pelvis firmly at seat height, thighs horizontal towards right, knees bent 90 degrees, both feet at identical floor baseline. Forearms relaxed on thighs. No furniture, no stool, no bench, no shadow floor, only the character with real transparent background. Soft hand-painted 2D illustration with subtle collage texture, cold muted blue gray palette, post-Soviet melancholic game, no pixel art, no photorealism, no warm glow. Entire hood, body and both shoes in frame, centered with modest transparent margins. This sprite must clearly show seated anatomy so we can place a separate stool or bench under the pelvis. Keep face unseen.\r\n"
+    }
+  ],
+  "generatedAssets": [
+    {
+      "source": "assets/source/entrance-v1/entrance.png",
+      "runtime": "apps/web/public/assets/entrance-v1/entrance.webp",
+      "createdOn": "2026-10-25",
+      "tool": "built-in image_gen",
+      "editReference": "assets/source/entrance-v1/reference-arch.webp",
+      "prompt": "Use case: precise-object-edit. Edit this 16:9 illustrated post-Soviet apartment-building facade for a melancholic 2D game ending. Replace the large central open archway with an unmistakable RESIDENTIAL BUILDING ENTRANCE (Russian podyezd), NOT an arch, courtyard or passage through the building. Preserve camera, building scale, upper windows, weathered plaster/brick, drainpipes, cold desaturated blue-grey palette, wet street and ground level. Put a plain rectangular entrance doorway centered at 50% image width, from 38% image height to 81.1% image height (street ground line). Opening width approximately 15% image width. A worn dark metal residential entrance door stands partly open at one side; behind it a very dim enclosed stairwell vestibule and a few stairs, no outdoors visible through doorway. Replace the arch crown with continuous flat worn facade above the rectangular doorway. Keep a faint cold white exterior lamp centered at 50% width, 25% height, never warm cozy light. Keep the rest of the facade coherent and textured, feet/threshold meet wet street exactly at 81.1% image height. No people, no bench, no extra street props, no text or signs, no horror. Preserve the same illustrated collage style and a full 16:9 frame. The game overlays bench and animated protagonist separately.",
+      "sourceSha256": "09660a063f52f05c590d114eb74b2e950275e730c6feea35db92da8b853f80a7",
+      "referenceSha256": "7aaf7e8c3bb316fca09d72ae003aeadcb6915e0b9b058c7481e976431ba97d01",
+      "runtimeSha256": "168b03af8b9f3a2ca7e1c1e6e5bcdf31e0d70eebae6e6472951489e77f514a00"
+    },
+    {
+      "createdOn": "2026-10-25",
+      "tool": "built-in image_gen",
+      "prompt": "Use case: compositing / stylized-concept. Create a production game asset for a melancholic painted 2D side-scrolling post-Soviet city. Input image 1 is the visual-style and perspective reference; input image 2 is reference for the two ordinary hooded people. Create a NEW transparent-background courtyard vignette, not a screenshot and not a UI. One old wooden bench on the left, two small fully opaque people standing close together naturally turned slightly toward each other in the middle-right, one slender old streetlamp on the right with very restrained faded beige light. Faces indistinct. Both pairs of feet must visibly stand on a recessed wet paved courtyard path, with small contact shadows. Perspective matches reference 1: side-on, slightly looking down, distant courtyard behind the runner's street. An open break in a low ruined fence leads into this courtyard. Only a low fence fragment at far left/right, never behind the people so they cannot resemble a mural. Paint a short wet-asphalt path widening toward the viewer, with irregular natural leaf-strewn edges and soft contact shadows, no rectangular slab, no outlines, no geometric borders. Entire small diorama isolated on true transparency: no sky, no houses, no full-frame backdrop, no black background, no text or digits, no overlay fog. Hand-painted detailed collage texture matching the references, cool desaturated navy grey and worn concrete, restrained local lamplight, no cozy amber scene, no vector-art look. Landscape composition approximately 3:2, objects fully within frame, lamp tallest object; ground and people's feet near lower quarter. Do not add a playable protagonist. The two people must be properly grounded opaque figures, not ghostly or transparent.",
+      "references": [
+        "apps/web/public/assets/journey-v1/autumn.webp",
+        "apps/web/public/assets/journey-v1/memories.webp"
+      ],
+      "source": "assets/source/references-v9/courtyard.png",
+      "runtime": "apps/web/public/assets/references-v9/courtyard.webp",
+      "sourceSha256": "9853e0627caef91c6fd7be754421d8861b73d27edddc20db5cac501b700c17be",
+      "runtimeSha256": "62a9cccd8e9f2307f013a660ec7c6aa914711d1ab279114bab06ba4b0d0117df"
+    },
+    {
+      "createdOn": "2026-10-25",
+      "tool": "built-in image_gen",
+      "prompt": "Use case: stylized-concept / compositing. Production transparent cutout asset for the same hand-painted melancholic post-Soviet side-scrolling game as the reference facade. Create ONE close view of an old apartment window seen straight-on from outside. Narrow vertical rectangular window with worn uneven blue-grey wooden outer frame, dirty glass, central thin vertical mullion, chipped plaster only in a narrow irregular border, small concrete sill. Inside is a dim room: a small old rounded-screen CRT television sits on a low wooden table toward the bottom half. TV must be clearly a physical old television with a dark curved case, knobs at right, slight rounded pale cold blue-grey screen containing a barely distinguishable blurry human newsreader, a horizontal desk and faint analogue scanlines. The screen is inside the television inside the room behind glass. The frame and plaster visibly occlude the room; no icons, no geometric UI, no white outline, no bright neon. Faint reflected screen light on the sill, restrained nearly constant light, no huge glow, no sparks. Paint with detailed gouache/ink collage texture of reference, irregular worn edges, cold desaturated grey-blue palette, not clean vector art, not photo, no text, no logos. Keep the entire object centered in a square transparent image, the window takes about 65% of width and 85% of height; everything outside the small plaster surround and sill truly transparent. No entire building, no full scene, no people outside, no scenery background.",
+      "references": [
+        "apps/web/public/assets/journey-v1/autumn.webp"
+      ],
+      "source": "assets/source/references-v9/television.png",
+      "runtime": "apps/web/public/assets/references-v9/television.webp",
+      "sourceSha256": "24a1eb7a6c7eb8046d6d30844ac1ba56310cf253ca8b09f469446bb6120cd26d",
+      "runtimeSha256": "10d563612d735cd3a5102dcd41db426485bdcbc4740375659f145ad6e6fdab95"
+    },
+    {
+      "createdOn": "2026-10-26",
+      "tool": "built-in image_gen",
+      "prompt": "Use case: precise-object-edit. Edit target: the existing very wide shallow side-view underground strip from a painted 2D post-Soviet runner. Replace the BRICK BASEMENT WALL and LADDER completely with a believable OPEN CONSTRUCTION EXCAVATION viewed from the side. This is a shallow wide panorama strip, approximately 5.5:1 aspect ratio; maintain that framing and horizontal top ground level at the top edge. Paint broken asphalt cross-section at the thin top lip, rough layered cold dark soil, small pieces of concrete, coarse stones, exposed roots and a deep shadowed earth cut. The bottom descends into dark navy-grey depth with a few barely visible stones. Subtle cool damp texture matching the original hand-painted gouache/ink collage. The central trench is dark and recessed, not a building wall. No bricks, no doors, no windows, no house, no columns, no regular rectangular panels, no ladder, no floor, no pipe (pipe is a separate game sprite), no sky, no trees, no characters, no text, no warm light, no photorealism. Keep an opaque image filling the whole strip; preserve the original wide shallow shape, avoid any broad frame or border.",
+      "reference": "assets/source/location-v7/excavation.png",
+      "source": "assets/source/location-v10/excavation.png",
+      "runtime": "apps/web/public/assets/location-v7/excavation.webp",
+      "packaging": {
+        "sourceWidth": 2170,
+        "sourceHeight": 725,
+        "crop": {
+          "x": 0,
+          "y": 160,
+          "width": 2170,
+          "height": 390
+        },
+        "width": 1120,
+        "height": 204,
+        "command": "node tools/prepare-location-art.mjs excavation"
+      },
+      "sourceSha256": "1133016faf41d4688b147ae633c18585c569e67332a08e0f5d52a97a8974a6dd",
+      "runtimeSha256": "a7b27582e12a25527a3692be85f1ead3758d9e339912a02693f1ed9b8b7c605c"
+    },
+    {
+      "createdOn": "2026-10-26",
+      "tool": "built-in image_gen",
+      "prompt": "Use case: stylized-concept. Asset type: one transparent-background sprite for a hand-painted 2D side-scrolling post-Soviet city game. Primary request: an abandoned old CRT television sinking in a shallow dirty BROWN puddle. The large boxy dark charcoal-grey television is tilted slightly clockwise and its bottom third is submerged in opaque muddy brown water, so the water naturally occludes the bottom of its case. Clearly readable rounded rectangular glass screen facing the viewer, a few knobs on the right, battered corners, tiny desaturated cold grey-blue glow, faint blurry newsreader-like face on screen; no bright bloom. Thin broken brown ripples around the submerged case and a very faint muted blue reflection in the water. A wide low irregular puddle with muddy earthy umber/brown tones, natural soft broken edges tapering into transparent alpha; absolutely no rectangular ground slab. Composition: entire television and entire puddle isolated on TRUE TRANSPARENCY, all objects fully in frame with modest margin. Low viewpoint appropriate for side-scrolling street; slightly see the water surface. Television occupies central 45% of width, about 65% of total composition height; puddle occupies lower 25% with irregular horizontal oval footprint. Style: detailed painterly gouache and irregular dark ink with worn collage grain, muted dark blue-grey casing, desaturated earthy brown mud, cold overcast evening lighting. Readable small silhouette at 150px wide in game. No building, window frame, wall, landscape, sky, people outside screen, trash piles, text, digits, brand logos, UI, checkered backdrop, white background, photorealism, pixel art, vector outlines or golden light. Landscape approximately 3:2.",
+      "source": "assets/source/references-v12/television-puddle.png",
+      "runtime": "apps/web/public/assets/references-v12/television-puddle.webp",
+      "packaging": {
+        "width": 768,
+        "height": 512,
+        "alpha": "preserved",
+        "command": "node tools/prepare-television-art.mjs"
+      },
+      "sourceSha256": "21f29cbd2459e3316677e70a959e980ee49082168af74f8b8f5db95d54d13be4",
+      "runtimeSha256": "4db5bfd3bce9878df3805c86dcf915a8a655b33cf8763499367fbe0ca9bb172b"
+    },
+    {
+      "createdOn": "2026-10-26",
+      "tool": "built-in image_gen",
+      "prompt": "Use case: precise-object-edit. Edit target/reference: attached painted game prop of an old CRT television partly submerged in mud. Create ONLY THE TELEVISION as a separate transparent game sprite, without the puddle or any water or ground. Preserve the same old charcoal-grey boxy CRT, slight clockwise tilt, frontal screen with blurry indistinct newsreader, knobs on right, cold dim blue-grey screen, worn gouache/ink collage texture. Restore the entire lower case and base that were previously hidden by water. Entire television is fully visible, dry outer silhouette, no ripples or ground shadow. Keep it a modest melancholy painted object, not photorealistic, no neon or extra glow. True transparent alpha everywhere outside the casing; no halo, fog or rectangular background. Tight centered composition with a small clear transparent margin, approximately square, no text or logos. This will be independently animated downward into a separate fixed water layer. Do not include any water, reflection, mud or puddle in this sprite.",
+      "reference": "assets/source/references-v12/television-puddle.png",
+      "source": "assets/source/references-v13/television.png",
+      "runtime": "apps/web/public/assets/references-v13/television.webp",
+      "packaging": {
+        "width": 384,
+        "height": 288,
+        "trimAlphaAbove": 32,
+        "padding": 4,
+        "command": "node tools/prepare-television-art.mjs"
+      },
+      "sourceSha256": "62f65d172fb3dfca6a7d0995e65dfb015f7d9a498064d192347bdddd219951a6",
+      "runtimeSha256": "a8aa9f59aee286c4ba0d6558db4d473d4b34aa25706894d801b69781ed6cfa54"
+    },
+    {
+      "createdOn": "2026-10-26",
+      "tool": "built-in image_gen",
+      "prompt": "Use case: precise-object-edit. Edit target: attached painted game prop. Remove the ENTIRE TELEVISION and its recognizable reflection, leaving ONLY the shallow dirty BROWN PUDDLE as an isolated transparent sprite. Reconstruct a continuous still opaque muddy umber-brown water surface where the television was, a few delicate irregular concentric ripples, a very faint desaturated cold blue glint near the center without any reflected face or TV silhouette. Preserve muted earthy brown color and painterly ink/gouache collage style, natural irregular shoreline with a few muddy flecks. Very WIDE and LOW side-scroller view: puddle footprint roughly 4:1 width to height, modest view onto its surface. Whole irregular edge in frame with modest transparent margin. True transparent alpha outside the puddle, no large blurred brown halo. No television, no objects, no buildings, no road slab, no reflection of a specific object, no text, no warm gold, no bright glow, no photo or vector look. This empty water layer must remain still while a separate CRT sprite sinks through its middle.",
+      "reference": "assets/source/references-v12/television-puddle.png",
+      "source": "assets/source/references-v13/puddle.png",
+      "runtime": "apps/web/public/assets/references-v13/puddle.webp",
+      "packaging": {
+        "width": 768,
+        "height": 192,
+        "trimAlphaAbove": 32,
+        "padding": 4,
+        "command": "node tools/prepare-television-art.mjs"
+      },
+      "sourceSha256": "7aced4979d831588dc7792826ebcc31190d5f8269987deeb46b6d2a2f84c8688",
+      "runtimeSha256": "cffbfb4cb7f0bd35c33598982dbc3eaed34a8fa52baacb0434b1c149a4f4a3f2"
+    },
+    {
+      "createdOn": "2026-10-26",
+      "tool": "built-in image_gen",
+      "collection": "court-options-v1",
+      "variant": 1,
+      "name": "Чёткий стык",
+      "prompt": "Use case: precise-object-edit / production 2D game environment asset.\nInput image 1 is the EXISTING transparent basketball-court layer to redesign. Input image 2 is ONLY supporting reference of how that layer sits in the existing game. Match image 1's soft hand-painted ink/gouache collage texture, detail density, dark cold desaturated blue-grey palette and low-contrast lighting exactly. Output a SINGLE clean game-ready environmental LAYER on ACTUAL ALPHA TRANSPARENCY, landscape 16:9, designed on a 960x540 coordinate grid. This is a reusable sprite layer, NOT concept art, NOT a screenshot, NOT a poster.\nLOCKED CAMERA: eye-level side-on 2D game view with shallow receding ground, vertical hoop/posts and nearly horizontal far fence. No bird's-eye view, isometric view, camera tilt, camera movement, zoom, panels or storyboard. Preserve the current game's composition scale: far fence base around y=310..330, open marked court ground in y=330..500, empty playable area around x=140..820,y=350..440, hoop on back-left around x=180 with backboard near y=100. Have enough floor for a hero standing at (480,385), but DO NOT draw any hero.\nOPAQUE pixels on court pavement, no feathered borders, no gradient fading of pavement, no translucent duplicated ground. Sharp natural physical edges and painted contact shadows, ordinary antialiasing only. The upper empty area and all areas outside the environmental footprint MUST be genuinely transparent; preserve alpha through the fence mesh. No black or coloured backdrop, NO checkerboard drawn as pixels. Include only hoop, fencing as specified, marked asphalt, necessary curb/path and sparse dull fallen leaves. No apartment buildings, skyline, sky, fog, trees, wires or broad foreground branches: those already exist in separate game layers. No people, silhouettes, stars, meteors, UI, logos, captions, numbers, letters, arrows, diagrams or watermarks. No warm/golden light, no photorealistic/3D render, no pixel art. Keep a clear left entry and a clear right exit so the game can animate one existing hero separately. All eight variants use this same fixed camera and native visual style.\n\nVARIANT 1: nearest to existing court. Full broad court foreground reaches bottom of frame. Its LEFT boundary slopes gently from (110,330) to (0,540), with a sharp weathered low concrete curb separating the court from transparent outside runner street. Gap in this curb and left side fence centered around y=438, wide enough for one character, with a flush small concrete threshold. Far fence and single hoop as original. Natural dirt and cracks along the hard curb conceal the texture joint. Outer left of sloping edge is TRANSPARENT. No front fence cutting across the player area. Clear corresponding right side exit. One asset only.",
+      "references": [
+        "apps/web/public/assets/location-v7/court.webp",
+        "assets/source/court-options-v1/reference-scene.png"
+      ],
+      "source": "assets/source/court-options-v1/01-crisp-joint.png",
+      "runtime": "output/court-options-v1/01-crisp-joint.webp",
+      "packaging": {
+        "command": "node tools/prepare-court-options.mjs",
+        "width": 960,
+        "height": 540,
+        "nearOpaqueAlphaThreshold": 250,
+        "format": "image/webp",
+        "quality": 0.95,
+        "note": "Full-frame resampling; nearly opaque paint is normalized to 255; transparent areas and antialiased outlines retained."
+      },
+      "sourceSha256": "9c8066b16c1e9ebc8843d03587c35c0c1d372fe92032bce2f97031d4362c0028",
+      "runtimeSha256": "325ff0c1248854df3f127f77462e8b45b241fe313449df107f3d410dbe703599",
+      "status": "Alternative texture for review and integration; inactive."
+    },
+    {
+      "createdOn": "2026-10-26",
+      "tool": "built-in image_gen",
+      "collection": "court-options-v1",
+      "variant": 2,
+      "name": "Площадка в глубине",
+      "prompt": "Use case: precise-object-edit / production 2D game environment asset.\nInput image 1 is the EXISTING transparent basketball-court layer to redesign. Input image 2 is ONLY supporting reference of how that layer sits in the existing game. Match image 1's soft hand-painted ink/gouache collage texture, detail density, dark cold desaturated blue-grey palette and low-contrast lighting exactly. Output a SINGLE clean game-ready environmental LAYER on ACTUAL ALPHA TRANSPARENCY, landscape 16:9, designed on a 960x540 coordinate grid. This is a reusable sprite layer, NOT concept art, NOT a screenshot, NOT a poster.\nLOCKED CAMERA: eye-level side-on 2D game view with shallow receding ground, vertical hoop/posts and nearly horizontal far fence. No bird's-eye view, isometric view, camera tilt, camera movement, zoom, panels or storyboard. Preserve the current game's composition scale: far fence base around y=310..330, open marked court ground in y=330..500, empty playable area around x=140..820,y=350..440, hoop on back-left around x=180 with backboard near y=100. Have enough floor for a hero standing at (480,385), but DO NOT draw any hero.\nOPAQUE pixels on court pavement, no feathered borders, no gradient fading of pavement, no translucent duplicated ground. Sharp natural physical edges and painted contact shadows, ordinary antialiasing only. The upper empty area and all areas outside the environmental footprint MUST be genuinely transparent; preserve alpha through the fence mesh. No black or coloured backdrop, NO checkerboard drawn as pixels. Include only hoop, fencing as specified, marked asphalt, necessary curb/path and sparse dull fallen leaves. No apartment buildings, skyline, sky, fog, trees, wires or broad foreground branches: those already exist in separate game layers. No people, silhouettes, stars, meteors, UI, logos, captions, numbers, letters, arrows, diagrams or watermarks. No warm/golden light, no photorealistic/3D render, no pixel art. Keep a clear left entry and a clear right exit so the game can animate one existing hero separately. All eight variants use this same fixed camera and native visual style.\n\nVARIANT 2: court sits a little farther behind the runner's horizontal street, fixed view with NO camera trick. Broad court from back edge y=305 to front curb y=485, ample usable floor around (480,385). A weathered continuous front curb at y=485 separates court from fully TRANSPARENT foreground street strip y>495; shallow side fences recede away. A broad open gateway slightly left of center and a short gently receding concrete entry connect from runner footline y=438 into the court. Put gate sides at outer edges of this entrance, keep x=260..740 central playing floor unobstructed. Hoop on back left. Clear low border and depth separation, preserve native scale and shallow side-on perspective. No foreground wall, no background scene.",
+      "references": [
+        "apps/web/public/assets/location-v7/court.webp",
+        "assets/source/court-options-v1/reference-scene.png"
+      ],
+      "source": "assets/source/court-options-v1/02-recessed-court.png",
+      "runtime": "output/court-options-v1/02-recessed-court.webp",
+      "packaging": {
+        "command": "node tools/prepare-court-options.mjs",
+        "width": 960,
+        "height": 540,
+        "nearOpaqueAlphaThreshold": 250,
+        "format": "image/webp",
+        "quality": 0.95,
+        "note": "Full-frame resampling; nearly opaque paint is normalized to 255; transparent areas and antialiased outlines retained."
+      },
+      "sourceSha256": "ca2477cc013a7f5fda32ab6eae5b3d687f74f020c6ad16f4abc297046f13022f",
+      "runtimeSha256": "199327616d3bdfabe3e06d0523af90356268bdea542f8d21a4a56fc867563d6b",
+      "status": "Alternative texture for review and integration; inactive."
+    },
+    {
+      "createdOn": "2026-10-26",
+      "tool": "built-in image_gen",
+      "collection": "court-options-v1",
+      "variant": 3,
+      "name": "Вход по дорожке",
+      "prompt": "Use case: precise-object-edit / production 2D game environment asset.\nInput image 1 is the EXISTING transparent basketball-court layer to redesign. Input image 2 is ONLY supporting reference of how that layer sits in the existing game. Match image 1's soft hand-painted ink/gouache collage texture, detail density, dark cold desaturated blue-grey palette and low-contrast lighting exactly. Output a SINGLE clean game-ready environmental LAYER on ACTUAL ALPHA TRANSPARENCY, landscape 16:9, designed on a 960x540 coordinate grid. This is a reusable sprite layer, NOT concept art, NOT a screenshot, NOT a poster.\nLOCKED CAMERA: eye-level side-on 2D game view with shallow receding ground, vertical hoop/posts and nearly horizontal far fence. No bird's-eye view, isometric view, camera tilt, camera movement, zoom, panels or storyboard. Preserve the current game's composition scale: far fence base around y=310..330, open marked court ground in y=330..500, empty playable area around x=140..820,y=350..440, hoop on back-left around x=180 with backboard near y=100. Have enough floor for a hero standing at (480,385), but DO NOT draw any hero.\nOPAQUE pixels on court pavement, no feathered borders, no gradient fading of pavement, no translucent duplicated ground. Sharp natural physical edges and painted contact shadows, ordinary antialiasing only. The upper empty area and all areas outside the environmental footprint MUST be genuinely transparent; preserve alpha through the fence mesh. No black or coloured backdrop, NO checkerboard drawn as pixels. Include only hoop, fencing as specified, marked asphalt, necessary curb/path and sparse dull fallen leaves. No apartment buildings, skyline, sky, fog, trees, wires or broad foreground branches: those already exist in separate game layers. No people, silhouettes, stars, meteors, UI, logos, captions, numbers, letters, arrows, diagrams or watermarks. No warm/golden light, no photorealistic/3D render, no pixel art. Keep a clear left entry and a clear right exit so the game can animate one existing hero separately. All eight variants use this same fixed camera and native visual style.\n\nVARIANT 3: court shifted toward RIGHT, with an asphalt access connector occupying the leftmost quarter of the layer. A short horizontal path runs from (0,438) through a real gap in two fence segments around x=220, then opens into the broad marked court across x=260..960. Curbs and sparse leaves naturally edge the connector; outside its silhouette is transparent. Court floor covers center (480,385) and right, far fence stays nearly horizontal, hoop toward back-right to free connector. No perspective tunnel into distance; this is a short lateral walk in the existing fixed 2D camera. Left 0..220 clearly reads as connector rather than arena; no markings on connector. Opaque pavement with hard physical outline. Clear right exit.",
+      "references": [
+        "apps/web/public/assets/location-v7/court.webp",
+        "assets/source/court-options-v1/reference-scene.png"
+      ],
+      "source": "assets/source/court-options-v1/03-access-path.png",
+      "runtime": "output/court-options-v1/03-access-path.webp",
+      "packaging": {
+        "command": "node tools/prepare-court-options.mjs",
+        "width": 960,
+        "height": 540,
+        "nearOpaqueAlphaThreshold": 250,
+        "format": "image/webp",
+        "quality": 0.95,
+        "note": "Full-frame resampling; nearly opaque paint is normalized to 255; transparent areas and antialiased outlines retained."
+      },
+      "sourceSha256": "f36de654a856e45c85437af2aae248cd5c8b09a4eb9ec47721aa1e9e1747f6f1",
+      "runtimeSha256": "26019e5b722776983f0ac0fe151fd42a8fcfc9cda8a567e860b322d513370811",
+      "status": "Alternative texture for review and integration; inactive."
+    },
+    {
+      "createdOn": "2026-10-26",
+      "tool": "built-in image_gen",
+      "collection": "court-options-v1",
+      "variant": 4,
+      "name": "Единое покрытие",
+      "prompt": "Use case: precise-object-edit / production 2D game environment asset.\nInput image 1 is the EXISTING transparent basketball-court layer to redesign. Input image 2 is ONLY supporting reference of how that layer sits in the existing game. Match image 1's soft hand-painted ink/gouache collage texture, detail density, dark cold desaturated blue-grey palette and low-contrast lighting exactly. Output a SINGLE clean game-ready environmental LAYER on ACTUAL ALPHA TRANSPARENCY, landscape 16:9, designed on a 960x540 coordinate grid. This is a reusable sprite layer, NOT concept art, NOT a screenshot, NOT a poster.\nLOCKED CAMERA: eye-level side-on 2D game view with shallow receding ground, vertical hoop/posts and nearly horizontal far fence. No bird's-eye view, isometric view, camera tilt, camera movement, zoom, panels or storyboard. Preserve the current game's composition scale: far fence base around y=310..330, open marked court ground in y=330..500, empty playable area around x=140..820,y=350..440, hoop on back-left around x=180 with backboard near y=100. Have enough floor for a hero standing at (480,385), but DO NOT draw any hero.\nOPAQUE pixels on court pavement, no feathered borders, no gradient fading of pavement, no translucent duplicated ground. Sharp natural physical edges and painted contact shadows, ordinary antialiasing only. The upper empty area and all areas outside the environmental footprint MUST be genuinely transparent; preserve alpha through the fence mesh. No black or coloured backdrop, NO checkerboard drawn as pixels. Include only hoop, fencing as specified, marked asphalt, necessary curb/path and sparse dull fallen leaves. No apartment buildings, skyline, sky, fog, trees, wires or broad foreground branches: those already exist in separate game layers. No people, silhouettes, stars, meteors, UI, logos, captions, numbers, letters, arrows, diagrams or watermarks. No warm/golden light, no photorealistic/3D render, no pixel art. Keep a clear left entry and a clear right exit so the game can animate one existing hero separately. All eight variants use this same fixed camera and native visual style.\n\nVARIANT 4: ONE continuous uninterrupted dark asphalt ground plane joining incoming runner route at left to basketball court on right. Entire lower plane y=330..540 uses the same continuous native asphalt, cracks and texture scale through left gate; absolutely NO curb, threshold, border strip or change of material across the entry. White faded basketball markings occupy center-right only, leftmost 160 pixels remain unmarked approach. Far fence and native hoop on back-left; side fences end above the entry gap. The only visible court separation is fence and worn white paint. Keep upper negative space transparent, full lower ground plane solid opaque all the way to bottom. Single static layer.",
+      "references": [
+        "apps/web/public/assets/location-v7/court.webp",
+        "assets/source/court-options-v1/reference-scene.png"
+      ],
+      "source": "assets/source/court-options-v1/04-continuous-asphalt.png",
+      "runtime": "apps/web/public/assets/location-v7/court.webp",
+      "packaging": {
+        "command": "node tools/prepare-location-art.mjs court",
+        "width": 960,
+        "height": 540,
+        "nearOpaqueAlphaThreshold": 250,
+        "format": "image/webp",
+        "quality": 0.95,
+        "note": "Full-frame resampling; nearly opaque paint is normalized to 255; transparent areas and antialiased outlines retained."
+      },
+      "sourceSha256": "711eb74bb3c75276497a2377dc2f0d96be8f8ac8932a71c641bd18733a8a38c9",
+      "runtimeSha256": "4f2a17378f4cce3f30c5cc148c69e71721546d68d47b67ad140bf692b1546268",
+      "status": "Active: selected variant 4, installed 2026-10-26.",
+      "previousRuntime": "assets/source/court-options-v1/previous-court-runtime.webp"
+    },
+    {
+      "createdOn": "2026-10-26",
+      "tool": "built-in image_gen",
+      "collection": "court-options-v1",
+      "variant": 5,
+      "name": "Угловой вход",
+      "prompt": "Use case: precise-object-edit / production 2D game environment asset.\nInput image 1 is the EXISTING transparent basketball-court layer to redesign. Input image 2 is ONLY supporting reference of how that layer sits in the existing game. Match image 1's soft hand-painted ink/gouache collage texture, detail density, dark cold desaturated blue-grey palette and low-contrast lighting exactly. Output a SINGLE clean game-ready environmental LAYER on ACTUAL ALPHA TRANSPARENCY, landscape 16:9, designed on a 960x540 coordinate grid. This is a reusable sprite layer, NOT concept art, NOT a screenshot, NOT a poster.\nLOCKED CAMERA: eye-level side-on 2D game view with shallow receding ground, vertical hoop/posts and nearly horizontal far fence. No bird's-eye view, isometric view, camera tilt, camera movement, zoom, panels or storyboard. Preserve the current game's composition scale: far fence base around y=310..330, open marked court ground in y=330..500, empty playable area around x=140..820,y=350..440, hoop on back-left around x=180 with backboard near y=100. Have enough floor for a hero standing at (480,385), but DO NOT draw any hero.\nOPAQUE pixels on court pavement, no feathered borders, no gradient fading of pavement, no translucent duplicated ground. Sharp natural physical edges and painted contact shadows, ordinary antialiasing only. The upper empty area and all areas outside the environmental footprint MUST be genuinely transparent; preserve alpha through the fence mesh. No black or coloured backdrop, NO checkerboard drawn as pixels. Include only hoop, fencing as specified, marked asphalt, necessary curb/path and sparse dull fallen leaves. No apartment buildings, skyline, sky, fog, trees, wires or broad foreground branches: those already exist in separate game layers. No people, silhouettes, stars, meteors, UI, logos, captions, numbers, letters, arrows, diagrams or watermarks. No warm/golden light, no photorealistic/3D render, no pixel art. Keep a clear left entry and a clear right exit so the game can animate one existing hero separately. All eight variants use this same fixed camera and native visual style.\n\nVARIANT 5: near CORNER entry with gently diagonal court markings while CAMERA STAYS IDENTICAL to original side-on view. Left and front-left low wire fence segments meet near (140,435), leaving a broad corner gateway at runner footline. Low cracked concrete threshold and curb form crisp physical pavement boundary. White court geometry turns subtly 10 to 15 degrees in the GROUND PLANE, never rotate the whole image; upright hoop and posts. Broad open floor remains behind/right of gate around (480,385), no near fence across center. Outside left perimeter transparent. Far fence stays close to horizontal and original y=315. Clear right exit. No isometric view or dramatic perspective.",
+      "references": [
+        "apps/web/public/assets/location-v7/court.webp",
+        "assets/source/court-options-v1/reference-scene.png"
+      ],
+      "source": "assets/source/court-options-v1/05-corner-gate.png",
+      "runtime": "output/court-options-v1/05-corner-gate.webp",
+      "packaging": {
+        "command": "node tools/prepare-court-options.mjs",
+        "width": 960,
+        "height": 540,
+        "nearOpaqueAlphaThreshold": 250,
+        "format": "image/webp",
+        "quality": 0.95,
+        "note": "Full-frame resampling; nearly opaque paint is normalized to 255; transparent areas and antialiased outlines retained."
+      },
+      "sourceSha256": "e369f495c8596ff6c4fc49e8a0fba1536bf25da040193886395343dd7d009bdc",
+      "runtimeSha256": "ae04202ac76c8c85d59b9033b2124ba643aa9d9c1e4cfa8f1aa0279e2d077d30",
+      "status": "Alternative texture for review and integration; inactive."
+    },
+    {
+      "createdOn": "2026-10-26",
+      "tool": "built-in image_gen",
+      "collection": "court-options-v1",
+      "variant": 6,
+      "name": "Стык за стенкой",
+      "prompt": "Use case: precise-object-edit / production 2D game environment asset.\nInput image 1 is the EXISTING transparent basketball-court layer to redesign. Input image 2 is ONLY supporting reference of how that layer sits in the existing game. Match image 1's soft hand-painted ink/gouache collage texture, detail density, dark cold desaturated blue-grey palette and low-contrast lighting exactly. Output a SINGLE clean game-ready environmental LAYER on ACTUAL ALPHA TRANSPARENCY, landscape 16:9, designed on a 960x540 coordinate grid. This is a reusable sprite layer, NOT concept art, NOT a screenshot, NOT a poster.\nLOCKED CAMERA: eye-level side-on 2D game view with shallow receding ground, vertical hoop/posts and nearly horizontal far fence. No bird's-eye view, isometric view, camera tilt, camera movement, zoom, panels or storyboard. Preserve the current game's composition scale: far fence base around y=310..330, open marked court ground in y=330..500, empty playable area around x=140..820,y=350..440, hoop on back-left around x=180 with backboard near y=100. Have enough floor for a hero standing at (480,385), but DO NOT draw any hero.\nOPAQUE pixels on court pavement, no feathered borders, no gradient fading of pavement, no translucent duplicated ground. Sharp natural physical edges and painted contact shadows, ordinary antialiasing only. The upper empty area and all areas outside the environmental footprint MUST be genuinely transparent; preserve alpha through the fence mesh. No black or coloured backdrop, NO checkerboard drawn as pixels. Include only hoop, fencing as specified, marked asphalt, necessary curb/path and sparse dull fallen leaves. No apartment buildings, skyline, sky, fog, trees, wires or broad foreground branches: those already exist in separate game layers. No people, silhouettes, stars, meteors, UI, logos, captions, numbers, letters, arrows, diagrams or watermarks. No warm/golden light, no photorealistic/3D render, no pixel art. Keep a clear left entry and a clear right exit so the game can animate one existing hero separately. All eight variants use this same fixed camera and native visual style.\n\nVARIANT 6: the exact left street-to-court pavement junction is hidden by a SMALL opaque weathered concrete-and-brick boundary wall near x=70..190, base around y=455, top around y=290. Wall belongs to a service-yard gate, native scale, does NOT dominate the frame or require a camera move. Entry path passes just behind its right edge and opens onto the otherwise normal broad court. Transparent outside wall/path/court silhouette. Keep central playable floor around (480,385) fully empty and readable. Hoop at back-left but clear of wall, far fence horizontal. No garage building or full scene, only modest wall fragment integrated with fence and a clear right exit. Sharp opaque border, no fades.",
+      "references": [
+        "apps/web/public/assets/location-v7/court.webp",
+        "assets/source/court-options-v1/reference-scene.png"
+      ],
+      "source": "assets/source/court-options-v1/06-wall-junction.png",
+      "runtime": "output/court-options-v1/06-wall-junction.webp",
+      "packaging": {
+        "command": "node tools/prepare-court-options.mjs",
+        "width": 960,
+        "height": 540,
+        "nearOpaqueAlphaThreshold": 250,
+        "format": "image/webp",
+        "quality": 0.95,
+        "note": "Full-frame resampling; nearly opaque paint is normalized to 255; transparent areas and antialiased outlines retained."
+      },
+      "sourceSha256": "5ede50c2d94fb4a2132e1a1be9fa8d88c9ef5fcc256ae34c09d9ea11bf8d44cf",
+      "runtimeSha256": "873fffe912f23167da36f2fd958c6f720095f923874b2ad8cc9f81c13c8cfd6f",
+      "status": "Alternative texture for review and integration; inactive."
+    },
+    {
+      "createdOn": "2026-10-26",
+      "tool": "built-in image_gen",
+      "collection": "court-options-v1",
+      "variant": 7,
+      "name": "Площадка за улицей",
+      "prompt": "Use case: precise-object-edit / production 2D game environment asset.\nInput image 1 is the EXISTING transparent basketball-court layer to redesign. Input image 2 is ONLY supporting reference of how that layer sits in the existing game. Match image 1's soft hand-painted ink/gouache collage texture, detail density, dark cold desaturated blue-grey palette and low-contrast lighting exactly. Output a SINGLE clean game-ready environmental LAYER on ACTUAL ALPHA TRANSPARENCY, landscape 16:9, designed on a 960x540 coordinate grid. This is a reusable sprite layer, NOT concept art, NOT a screenshot, NOT a poster.\nLOCKED CAMERA: eye-level side-on 2D game view with shallow receding ground, vertical hoop/posts and nearly horizontal far fence. No bird's-eye view, isometric view, camera tilt, camera movement, zoom, panels or storyboard. Preserve the current game's composition scale: far fence base around y=310..330, open marked court ground in y=330..500, empty playable area around x=140..820,y=350..440, hoop on back-left around x=180 with backboard near y=100. Have enough floor for a hero standing at (480,385), but DO NOT draw any hero.\nOPAQUE pixels on court pavement, no feathered borders, no gradient fading of pavement, no translucent duplicated ground. Sharp natural physical edges and painted contact shadows, ordinary antialiasing only. The upper empty area and all areas outside the environmental footprint MUST be genuinely transparent; preserve alpha through the fence mesh. No black or coloured backdrop, NO checkerboard drawn as pixels. Include only hoop, fencing as specified, marked asphalt, necessary curb/path and sparse dull fallen leaves. No apartment buildings, skyline, sky, fog, trees, wires or broad foreground branches: those already exist in separate game layers. No people, silhouettes, stars, meteors, UI, logos, captions, numbers, letters, arrows, diagrams or watermarks. No warm/golden light, no photorealistic/3D render, no pixel art. Keep a clear left entry and a clear right exit so the game can animate one existing hero separately. All eight variants use this same fixed camera and native visual style.\n\nVARIANT 7: final arena sits behind a narrow PERMANENT foreground street strip. Marked court occupies y=300..465; back fence base near y=300, hoop slightly higher but same native proportions. A low curb along y=465 and low open fence wings near the outside left/right distinguish arena from the bottom street. Bottom y=482..540 is FULLY TRANSPARENT for the existing runner-road layer; do NOT paint a second road. Keep central floor (480,385) open, unobscured. Real side-entry gateway at left around y=438, mirrored exit on right. This is a stable static gameplay layer with permanent visible street space below, no forward camera follow, no front fence cutting across hero. Crisp curb, no blending.",
+      "references": [
+        "apps/web/public/assets/location-v7/court.webp",
+        "assets/source/court-options-v1/reference-scene.png"
+      ],
+      "source": "assets/source/court-options-v1/07-foreground-street.png",
+      "runtime": "output/court-options-v1/07-foreground-street.webp",
+      "packaging": {
+        "command": "node tools/prepare-court-options.mjs",
+        "width": 960,
+        "height": 540,
+        "nearOpaqueAlphaThreshold": 250,
+        "format": "image/webp",
+        "quality": 0.95,
+        "note": "Full-frame resampling; nearly opaque paint is normalized to 255; transparent areas and antialiased outlines retained."
+      },
+      "sourceSha256": "5b038f42f5f25a0193043a1284a5b3db73eecd63afe00d4a807fde87fe76675a",
+      "runtimeSha256": "309b91555b698d39836105860c74215e796a609adb02d6f2d18f923854e7c729",
+      "status": "Alternative texture for review and integration; inactive."
+    },
+    {
+      "createdOn": "2026-10-26",
+      "tool": "built-in image_gen",
+      "collection": "court-options-v1",
+      "variant": 8,
+      "name": "Вход через шлюз",
+      "prompt": "Use case: precise-object-edit / production 2D game environment asset.\nInput image 1 is the EXISTING transparent basketball-court layer to redesign. Input image 2 is ONLY supporting reference of how that layer sits in the existing game. Match image 1's soft hand-painted ink/gouache collage texture, detail density, dark cold desaturated blue-grey palette and low-contrast lighting exactly. Output a SINGLE clean game-ready environmental LAYER on ACTUAL ALPHA TRANSPARENCY, landscape 16:9, designed on a 960x540 coordinate grid. This is a reusable sprite layer, NOT concept art, NOT a screenshot, NOT a poster.\nLOCKED CAMERA: eye-level side-on 2D game view with shallow receding ground, vertical hoop/posts and nearly horizontal far fence. No bird's-eye view, isometric view, camera tilt, camera movement, zoom, panels or storyboard. Preserve the current game's composition scale: far fence base around y=310..330, open marked court ground in y=330..500, empty playable area around x=140..820,y=350..440, hoop on back-left around x=180 with backboard near y=100. Have enough floor for a hero standing at (480,385), but DO NOT draw any hero.\nOPAQUE pixels on court pavement, no feathered borders, no gradient fading of pavement, no translucent duplicated ground. Sharp natural physical edges and painted contact shadows, ordinary antialiasing only. The upper empty area and all areas outside the environmental footprint MUST be genuinely transparent; preserve alpha through the fence mesh. No black or coloured backdrop, NO checkerboard drawn as pixels. Include only hoop, fencing as specified, marked asphalt, necessary curb/path and sparse dull fallen leaves. No apartment buildings, skyline, sky, fog, trees, wires or broad foreground branches: those already exist in separate game layers. No people, silhouettes, stars, meteors, UI, logos, captions, numbers, letters, arrows, diagrams or watermarks. No warm/golden light, no photorealistic/3D render, no pixel art. Keep a clear left entry and a clear right exit so the game can animate one existing hero separately. All eight variants use this same fixed camera and native visual style.\n\nVARIANT 8 ADAPTED FROM THE CAMERA-CUT IDEA TO A FIXED CAMERA: a compact double-gate entry vestibule at LEFT absorbs the street/court junction spatially without any cut or zoom. Two offset short wire-fence wings and one squat opaque concrete gatepost form a tiny S-shaped walkable entrance around x=50..220,y=395..455; the existing hero can pass behind the outer post and emerge through inner opening. Keep gateway broad and visually simple, no full building. Court itself retains original broad floor and y=330 back edge, hoop back-left, open center at (480,385), right exit. Pavement edges meet crisp concrete thresholds inside vestibule; exterior is transparent, no translucent asphalt. ONE continuous static layer, no panels, no montage, no labels.",
+      "references": [
+        "apps/web/public/assets/location-v7/court.webp",
+        "assets/source/court-options-v1/reference-scene.png"
+      ],
+      "source": "assets/source/court-options-v1/08-gate-vestibule.png",
+      "runtime": "output/court-options-v1/08-gate-vestibule.webp",
+      "packaging": {
+        "command": "node tools/prepare-court-options.mjs",
+        "width": 960,
+        "height": 540,
+        "nearOpaqueAlphaThreshold": 250,
+        "format": "image/webp",
+        "quality": 0.95,
+        "note": "Full-frame resampling; nearly opaque paint is normalized to 255; transparent areas and antialiased outlines retained."
+      },
+      "sourceSha256": "2d046287f3262a25def3941275ad1edee679ec49a7191c93c9021bd971ae555b",
+      "runtimeSha256": "1e96dce07573e357f8aee3e0ab42236db075891754ac90f940ec9ef9221b9a73",
+      "status": "Alternative texture for review and integration; inactive."
+    },
+    {
+      "createdOn": "2026-10-26",
+      "tool": "built-in image_gen",
+      "collection": "court-entry-v2",
+      "date": "2026-10-26",
+      "source": "assets/source/court-entry-v2/entrance.png",
+      "previousRuntime": "assets/source/court-entry-v2/previous-runtime.webp",
+      "prompts": [
+        "Use case: compositing / production 2D game environment layer.\nInput 1: existing transparent basketball court, preserve its cold painted ink/gouache style and shallow side-on ground perspective. Input 2: existing apartment courtyard artwork, architectural style reference. Input 3: current broken game composite, only to understand why disconnected cut-out house and repeated asphalt patches are wrong.\nCreate a single coherent replacement environmental sprite: worn apartment building at LEFT, open entrance beside it, abandoned basketball court extending RIGHT. All house/fence/pavement junctions must be physically painted together, like one continuous courtyard. Output very wide 3:1 image on actual alpha transparency, designed in a 1620x540 coordinate grid. Fixed side-on camera, shallow receding ground, no isometric or overhead view.\nCoordinate layout: left building occupies x=0..610, extends above top edge and touches left edge, with complete visible right corner and drainpipe, peeling plaster, dark windows, balconies, a birch. House feet meet pavement at y=410. Beside the house, clear open entry at x=610..760, y=410..460. Back fence from x=650 to right edge: top around y=240, foot y=330, rusty chain link, transparent holes through mesh. Hoop at x=710 with backboard around y=100. Court marked asphalt fills right two thirds from y=330 to bottom. Existing game's playable floor must stay clear x=660..1300,y=356..490. Faint worn white court lines at right, sparse brown leaves, fine irregular cracks. Pavement outside house at left meets a horizontal runner street at y=438 and CONTINUES as the exact same unbroken matte asphalt into court. Broad continuous foreground asphalt to entire bottom edge, no curb crossing the entrance, no raised slab, no straight vertical texture seams. Ground leftmost edge begins at y=435. At far right, street connects back at y=438 via open side, no obstructing front fence.\nThe upper area outside building, fence, hoop and thin birch MUST be fully transparent, including fence mesh gaps. No sky, skyline, distant apartments, broad overhanging branches, wires or fog: those exist in separate layers.\nLighting: cold desaturated blue-grey, soft diffuse low contrast, matte damp asphalt. Reduce orange highlights and glare substantially. Absolutely no shiny floodlit floor. Match the existing painted style, not photography.\nNo people, hero, HUD, captions, numbers (especially no 92), text, logos, watermark, stars. No border fading, no painted checkerboard. Opaque ground with natural antialiasing only. Keep the image as a usable game sprite rather than a screenshot or presentation.",
+        "Use case: precise-object-edit. Edit this transparent 3:1 production game sprite. Preserve the exact painted style, muted blue-gray palette, actual alpha transparency, matte continuous asphalt and all objects.\nCorrect only the spatial layout for game coordinates: WIDEN the apartment facade so its complete right-hand corner is at 35% of total image width, rather than current 20%. Show a proper full facade segment and its doorway with birch at the base, no house number. House base must meet the continuous foreground paving at 75% of image height. There must be NO disconnected building piece. Remove the little background gate between low concrete walls; instead let an open unobstructed flush asphalt entrance run directly right of the house corner into the court.\nMOVE the BACK fence base UP to 61% of image height, so the playable floor is open below this line. Fence top around 44% height, keep chain-link transparency. Hoop at 44% image width, backboard near 18% height. The fence physically connects to the house at the left court corner. Open floor from 42% to 90% width and 65% to 92% height. Fine faded white court markings at right.\nKeep the house in the LEFT third, the clear court in the RIGHT two thirds, cold diffused lighting, no strong reflections. Asphalt fills the entire bottom edge and reaches 81% height on left edge, with a natural shallow slope to back fence. No sky, background city, people, UI, text, numbers, stars, fog, vignette, painted checkerboard. Actual transparent background in all empty space and fence mesh holes. Exact same 3:1 aspect ratio."
+      ],
+      "packing": "node tools/prepare-location-art.mjs court; uniform resize 2172x724 to 1620x540; opaque ground footprint; alpha >=250 normalized; only 120px street margins below y435 feathered. Seamless street 512x105: court crop x120,y435,w640,h105, overlap 128px; old road curb 800x18 resampled to 512x11.52.",
+      "references": [
+        "assets/source/court-options-v1/04-continuous-asphalt.png",
+        "apps/web/public/assets/journey-v1/autumn.webp",
+        "tmp/court-inspection/shared-entry-0.25.png"
+      ],
+      "files": [
+        {
+          "path": "assets/source/court-entry-v2/entrance-draft.png",
+          "sha256": "7190ffbef9dc3977a0b0e9fdb8084ad63bff376f524eb6bf3b3838e88fe99d22"
+        },
+        {
+          "path": "assets/source/court-entry-v2/entrance.png",
+          "sha256": "ef730d075cc819172ebb3bb9372462e0fa8a72b2a5fe1bb5ca4418d0a0f8623c"
+        },
+        {
+          "path": "assets/source/court-entry-v2/previous-runtime.webp",
+          "sha256": "4f2a17378f4cce3f30c5cc148c69e71721546d68d47b67ad140bf692b1546268"
+        },
+        {
+          "path": "apps/web/public/assets/location-v7/court.webp",
+          "sha256": "053b32cbace30ad4c5dfaf3568d8cd7faccb71dae60223af2bad59cf774ceace"
+        },
+        {
+          "path": "apps/web/public/assets/location-v7/court-street.webp",
+          "sha256": "bd033dfb26f891ee496875eebe86b3a227737cb569cc060b021def2e1b5461bd"
+        }
+      ],
+      "generationRecord": "assets/source/court-entry-v2/generation.json"
+    },
+    {
+      "date": "2026-10-26",
+      "tool": "built-in image_gen",
+      "collection": "court-entry-v3",
+      "prompt": "Use case: precise-object-edit / production transparent game sprite.\nEdit the attached 3:1 basketball-court environment layer. Remove ONLY the oversized apartment building at the left and the birch/tree growing directly in front of that building. The game will draw an existing smaller apartment facade as a separate parallax layer instead.\nPreserve the entire basketball court, hoop, backboard, fence, fence posts, faded white court markings, matte asphalt texture, fallen leaves, shallow perspective, cold desaturated colors and exact object positions/scale. Do not change the right two thirds.\nWhere the building was, restore actual transparent empty space ABOVE the paving, so the existing game background can show through. Keep a broad continuous asphalt approach across the lower left, smoothly connecting to the court: paving begins near 74% of image height on the left edge, rises gently toward the court's back fence base at about 64% height. Preserve opaque painted paving below this edge all the way to the bottom. Do not put new walls, buildings, trees or gates where the house was. Retain the fence's existing left termination near 37% image width. This is not a full scene: sky and distant city must remain fully transparent, including fence mesh gaps. No new objects, people, UI, captions, text, numbers or watermark. Keep the exact same 3:1 image frame and fixed camera. Real alpha transparency, no painted checkerboard, no vignette or fading edges.",
+      "references": [
+        "assets/source/court-entry-v2/entrance.png"
+      ],
+      "source": "assets/source/court-entry-v3/court.png",
+      "runtime": "apps/web/public/assets/location-v7/court.webp",
+      "packing": "node tools/prepare-location-art.mjs court; uniform resize to 1620x540; opaque floor footprint and 120px street joins below y435, as in v2. Matching street band derived by existing packer.",
+      "facade": {
+        "source": "apps/web/public/assets/journey-v1/autumn.webp",
+        "frame": {
+          "x": 0,
+          "y": 0,
+          "width": 220,
+          "height": 512
+        },
+        "scale": 0.85546875,
+        "sourceFoot": 486,
+        "groundY": 435,
+        "parallax": 0.42,
+        "note": "Original facade crop and native autumn tile have identical scale, ground contact, horizontal phase and motion. The oversized baked facade from v2 is removed."
+      },
+      "files": [
+        {
+          "path": "assets/source/court-entry-v3/court.png",
+          "sha256": "3171540cd6f011c2f76808be3fae32dd6cc0d138a51ad4c9e5c3b9ea5cdd8935"
+        },
+        {
+          "path": "apps/web/public/assets/location-v7/court.webp",
+          "sha256": "4563922eaadbd63abb1131d018b475c665273459b2c77443c6a3de442f4f012d"
+        },
+        {
+          "path": "apps/web/public/assets/location-v7/court-street.webp",
+          "sha256": "1c5aaa0bca5bcdeab4e6ad92f8bd39b0d73f65d3d01df38c8a93e98f77b8501f"
+        },
+        {
+          "path": "apps/web/public/assets/journey-v1/autumn.webp",
+          "sha256": "ec21ab76127de7fe16d095f6c90c49f907041d11e1c68e99b6315a032390a123"
+        },
+        {
+          "path": "assets/source/court-entry-v3/previous-runtime.webp",
+          "sha256": "053b32cbace30ad4c5dfaf3568d8cd7faccb71dae60223af2bad59cf774ceace"
+        }
+      ],
+      "generationRecord": "assets/source/court-entry-v3/generation.json"
+    },
+    {
+      "id": "court-v4-shared-foundation",
+      "date": "2026-10-26",
+      "tool": "built-in image_gen",
+      "useCase": "background-extraction",
+      "input": "assets/source/location-v7/court.png",
+      "prompt": "Extract only the rusty basketball pole, cantilever, backboard, rim and net from this image as a separate sprite on transparent background. Remove all ground, fence, vegetation and scenery. Preserve original hand painted game style and proportions. Complete vertical pole, tight framing. No asphalt or rectangular patch.",
+      "packing": "node tools/prepare-court-art.mjs; hoop alpha bounds >16, uniform fit inside 380x636 on 384x640; asphalt material crop y=130..height from runner-v1/ground.png, 1536x420 plus reflected repeat, opaque WebP 3072x420; no alpha joins.",
+      "geometry": "NightDistrictArt.foundation at y=330, height=210, tileScale=.5; fixed in all court phases. CourtScenery has only marks, details, fence, hoop and native facade. No surface masking or second court asphalt.",
+      "files": [
+        {
+          "path": "assets/source/court-v4/hoop.png",
+          "sha256": "f87829a0eb1bd14dabb7ed0251e5266c758a938f985f35a08d44ab5f8ea51487"
+        },
+        {
+          "path": "assets/source/runner-v1/ground.png",
+          "sha256": "97e005a3e41745717a21b52178f6d8704bd51e7578c354f420d74132335f5b9a"
+        },
+        {
+          "path": "apps/web/public/assets/court-v4/hoop.webp",
+          "sha256": "88017f6418c65812256b9eb4ef28e75f8021c759fca7f72b4bb603b9c2de4f72"
+        },
+        {
+          "path": "apps/web/public/assets/court-v4/asphalt.webp",
+          "sha256": "a87fec2fef360287ebe12622826e8a2399ff5d1565c832631c3df43c23b60707"
+        },
+        {
+          "path": "assets/source/court-v4/previous-court.webp",
+          "sha256": "4563922eaadbd63abb1131d018b475c665273459b2c77443c6a3de442f4f012d"
+        },
+        {
+          "path": "assets/source/court-v4/previous-court-street.webp",
+          "sha256": "1c5aaa0bca5bcdeab4e6ad92f8bd39b0d73f65d3d01df38c8a93e98f77b8501f"
+        }
+      ],
+      "generationRecord": "assets/source/court-v4/generation.json"
+    },
+    {
+      "id": "court-spatial-v8",
+      "date": "2026-10-27",
+      "method": "Runtime 2D ground projection and existing art; no generated bitmap assets",
+      "prompt": null,
+      "sources": [
+        {
+          "path": "assets/source/location-v7/court.png",
+          "sha256": "f822dcd16e583e44fcc4449d0ac9dfc87fa16b37b467aff893071bd23636b7b4"
+        },
+        {
+          "path": "apps/web/public/assets/court-v4/hoop.webp",
+          "sha256": "88017f6418c65812256b9eb4ef28e75f8021c759fca7f72b4bb603b9c2de4f72"
+        },
+        {
+          "path": "apps/web/public/assets/court-v4/asphalt.webp",
+          "sha256": "a87fec2fef360287ebe12622826e8a2399ff5d1565c832631c3df43c23b60707"
+        },
+        {
+          "path": "apps/web/public/assets/runner-v1/far.webp",
+          "sha256": "0699c5561aab85e5edc9afffefacfae0ea2156e7fa192526d1d5c3c492df5e1c"
+        },
+        {
+          "path": "apps/web/public/assets/journey-v1/autumn.webp",
+          "sha256": "ec21ab76127de7fe16d095f6c90c49f907041d11e1c68e99b6315a032390a123"
+        }
+      ],
+      "transforms": [
+        "Ground depth: Yc=100+(Ygame-356)*2.1; view Y=438+(Yc-438)*(0.25+0.75*cameraFocus)",
+        "Initial hero contact is the centre (500,423) of the unchanged arena bounds; spawn rates and collision formulas unchanged",
+        "One common asphalt UV mapping, anchored to street Y=438, UV=716; upright artwork retains uniform scale",
+        "Court sky cache extends the repeat panorama with reflected source sky rows 0..127 only; city pixels unchanged"
+      ],
+      "implementation": [
+        "apps/web/src/game/views/courtSpace.ts",
+        "apps/web/src/game/views/repeatPanorama.ts"
+      ],
+      "reference": "README.md#court-spatial",
+      "previews": "docs/previews/court-spatial-v8/index.html"
+    },
+    {
+      "createdOn": "2026-10-28",
+      "collection": "street-v10",
+      "tool": "built-in image_gen",
+      "skill": "imagegen",
+      "prompt": "Use case: precise-object-edit. Edit target: attached transparent 1536x512 game environment layer, a desaturated painterly post-Soviet courtyard. Change ONLY the tiny dark house number plaque reading 92 on the lower RIGHT building, around original coordinate (1384,379). Remove this plaque and its digits completely, replacing its small rectangle with matching worn grey plaster. Preserve the entire rest of the source image exactly: identical composition, every building, tree, fence, cables, faded autumn leaves, wall and pavement edge, colours, painted texture, scale, and camera. Preserve real transparent alpha in all sky openings and outside the scene. No additional writing, signs, people, basketball objects or new structures. Output same 3:1 composition. This is an asset repair, not a redesign. The tiny repaired area must blend naturally into the existing grey plaster.",
+      "transparent_background": true,
+      "input": "assets/source/street-v10/previous-autumn.webp",
+      "generated": "assets/source/street-v10/number-removal-generated.png",
+      "source": "assets/source/street-v10/autumn-no92.png",
+      "output": "apps/web/public/assets/journey-v1/autumn.webp",
+      "operation": "Only original-coordinate rectangle x=1369,y=365,width=31,height=30 is drawn from the generated image; retain original outside it. Lossless BGRA WebP packing.",
+      "packaging": "node tools/prepare-street-v10.mjs",
+      "audit": {
+        "width": 1536,
+        "height": 512,
+        "patch": {
+          "x": 1369,
+          "y": 365,
+          "width": 31,
+          "height": 30
+        },
+        "changedInside": 930,
+        "changedOutside": 310461,
+        "outsideAlphaChanges": 0,
+        "maximumOutsideCompositeDelta": 1.3254901960784267,
+        "sha256": "88ebb76178684657561f193d51063a14569730c71dec6ece8d834c78b6eea41d"
+      },
+      "retired": [
+        {
+          "file": "assets/source/street-v10/retired-runtime/memories.webp",
+          "sha256": "1414b1b5eab19a4cc6ebd3d835c23b23682962d2be544da60c3e27ef1a9ed0fb"
+        },
+        {
+          "file": "assets/source/street-v10/retired-runtime/route92.webp",
+          "sha256": "a20117656a0c93432a03ad68d3cd4d8f82fc0bd2fdfc905609abbebd85215891"
+        },
+        {
+          "file": "assets/source/street-v10/retired-runtime/courtyard.webp",
+          "sha256": "62a9cccd8e9f2307f013a660ec7c6aa914711d1ab279114bab06ba4b0d0117df"
+        }
+      ],
+      "sha256": "88ebb76178684657561f193d51063a14569730c71dec6ece8d834c78b6eea41d"
+    },
+    {
+      "collection": "balance-story",
+      "createdOn": "2026-10-28",
+      "tool": "built-in image_gen",
+      "skill": "imagegen",
+      "prompt": "Use case: stylized-concept. Asset type: ONE isolated transparent 2D game prop sprite. A squat 1.5 litre cheap courtyard BEER BOTTLE, dark amber-brown PET plastic, upright side elevation, broad rounded body, pinched shoulder, short narrow neck and small ridged dark screw cap. Clearly a large humble beer bottle, not a pharmacy vial, flask, potion or wine bottle. Wide worn cream-grey paper beer label around lower middle and a small subdued neck band, no legible writing, no logo. Height to width about 3.1:1. Cold desaturated gouache and ink illustration, soft textured painterly edges and restrained scuffed highlights. Match a gloomy post-Soviet urban night game, palette charcoal, slate grey, muted brown olive, faded grey paper. Enough cool edge contrast to read when displayed 20 by 54 pixels, no glow or halo. Entire bottle centered, uncropped, modest transparent margin, true alpha transparent background. No ground, environment, person, hands, other objects, dramatic shadows, pixel art, bright game colours or photorealism. Save generated image for integration into the project.",
+      "transparent_background": true,
+      "source": "assets/source/balance-story/beer.png",
+      "output": "apps/web/public/assets/balance-story/beer.webp",
+      "operation": "node tools/prepare-balance-story.mjs; alpha crop, uniform scale to 80x240 WebP, no repainting",
+      "heroMarker": "Existing hero-idle first 128x128 frame, reused directly in CSS; no new character artwork",
+      "audit": "assets/source/balance-story/audit.json",
+      "sha256": "4307f8c43679d36fd762c03dfe684ed671a4b10d60b6bdff56f8094d47ff9232"
+    },
+    {
+      "collection": "storm-audio-v12",
+      "tool": "tools/generate-storm-audio.mjs",
+      "createdOn": "2026-10-28",
+      "origin": "Original deterministic filtered noise, no external samples",
+      "assets": [
+        {
+          "path": "apps/web/public/audio/visual-v12/thunder.wav",
+          "seconds": 3.1,
+          "sha256": "c1b75afa7d5f79449a536ef03781c73525ff6bfbd844b72145a783f74968144e",
+          "bytes": 148844
+        },
+        {
+          "path": "apps/web/public/audio/visual-v12/rain.wav",
+          "seconds": 6,
+          "sha256": "912a27805fde3854fefeb7768ce37be90000b78be06a582f02afb70d825f9611",
+          "bytes": 288044
+        }
+      ]
+    },
+    {
+      "collection": "visual-v12",
+      "createdOn": "2026-10-28",
+      "tool": "image_gen.imagegen and deterministic canvas packaging",
+      "generation": "assets/source/visual-v12/generation.json",
+      "audit": "assets/source/visual-v12/audit.json",
+      "assets": [
+        {
+          "name": "pipe",
+          "source": "assets/source/visual-v12/pipe.png",
+          "sourceSha256": "e1a92942afdbffead94313354dac55265a478cdcacfa25d428cc494639bf58b3",
+          "output": "apps/web/public/assets/visual-v12/pipe.webp",
+          "sha256": "15dda3d1909005a9992280de022ea7eedadc38483a046f6b4f3bbcaecc83b6d8",
+          "size": [
+            1920,
+            640
+          ],
+          "bytes": 1371508
+        },
+        {
+          "name": "front",
+          "source": "assets/source/visual-v12/front.png",
+          "sourceSha256": "4070ebc4ddce9e7e5f4ce8c5de6fc86a7d0560f518bddeba7372a6ad59bd5ad1",
+          "output": "apps/web/public/assets/visual-v12/front.webp",
+          "sha256": "b73927dde8181e6ed116010a5d075a38a95f202d61f263dc6f7b7202ccfaf9fa",
+          "crop": {
+            "l": 294,
+            "t": 55,
+            "r": 730,
+            "b": 1467
+          },
+          "size": [
+            128,
+            256
+          ],
+          "bytes": 20204
+        },
+        {
+          "name": "seated",
+          "source": "assets/source/visual-v12/seated.png",
+          "sourceSha256": "065895fed0c386ee8ea1f5dc634294d5a7e9195056fe2887482f14dc709f13e6",
+          "output": "apps/web/public/assets/visual-v12/seated.webp",
+          "sha256": "a9099b88d689b0ef326cabcf6eb7a1a00a5570d4fd252c8f8e1d33e1d2459fd3",
+          "crop": {
+            "l": 151,
+            "t": 125,
+            "r": 874,
+            "b": 1391
+          },
+          "size": [
+            128,
+            256
+          ],
+          "bytes": 29616
+        },
+        {
+          "name": "graffiti",
+          "source": "tools/prepare-visual-v12.mjs",
+          "sourceSha256": null,
+          "output": "apps/web/public/assets/visual-v12/graffiti.webp",
+          "sha256": "ff9b020691a6bf95fbe34c33a11d315190abb8fe94e7f7abaec2f28b2dededc3",
+          "size": [
+            480,
+            160
+          ],
+          "bytes": 26538
+        },
+        {
+          "name": "facade",
+          "source": "assets/source/visual-v12/facade.png",
+          "sourceSha256": "c09995361aa9fc2bba64cb6bfad8364f673b5b66ece22de8f5da9e6b45f14545",
+          "output": "apps/web/public/assets/visual-v12/facade.webp",
+          "sha256": "0f92444276f7556e22124ee155be61f1a8960509f300aa9613063c8cf84299b1",
+          "size": [
+            960,
+            540
+          ],
+          "bytes": 682884
+        }
+      ],
+      "note": "Original excavation retained below Y=310. Sprites uniformly fitted preserving generated alpha. Graffiti rendered from exact existing text, with no glow."
+    },
+    {
+      "collection": "gameplay-v18-graffiti",
+      "createdOn": "2026-10-29",
+      "tool": "deterministic Canvas stroke drawing",
+      "source": "apps/web/src/game/views/roomGraffiti.ts",
+      "runtimeTexture": "room-painted-graffiti",
+      "dimensions": [
+        480,
+        160
+      ],
+      "text": "Пусть решится само собой",
+      "generation": "Hand-authored Cyrillic stroke paths with seeded per-stroke width, displacement, paint pores and drips; no external font or generated bitmap. Original visual-v12 graffiti is preserved.",
+      "license": "Original project code/artwork; no third-party material added"
+    },
+    {
+      "collection": "court-dance-v19",
+      "createdOn": "2026-10-29",
+      "tool": "Owner-provided PNGs, deterministic Canvas packaging",
+      "source": "assets/source/court-dance-v19",
+      "audit": "assets/source/court-dance-v19/audit.json",
+      "license": "Owner-provided assets; no external material added",
+      "assets": {
+        "origin": "Owner supplied four direction PNGs; names determine direction",
+        "method": "Uniform scale, transparent trim and foot alignment on a four-cell atlas; pixels not redrawn",
+        "inputs": [
+          {
+            "direction": "left",
+            "sha256": "fc4ac19fb8e94e5a770df552cc32fba23c534a09d99599488081bc700a0b4de3",
+            "file": "assets/source/court-dance-v19/left.png"
+          },
+          {
+            "direction": "right",
+            "sha256": "a03bd2a8fb2d18ce9d83c1506b3300a5bc1f4ea2d376d6f5c465f623b63746ad",
+            "file": "assets/source/court-dance-v19/right.png"
+          },
+          {
+            "direction": "down",
+            "sha256": "98c12728b41adb03dbb40af1603a59ea9d0f94d437a54d6a63dee47056d53012",
+            "file": "assets/source/court-dance-v19/down.png"
+          },
+          {
+            "direction": "up",
+            "sha256": "f76845afac19ad78a67f5e56c7baa20c740c30f2c64363301c329241927e914c",
+            "file": "assets/source/court-dance-v19/up.png"
+          }
+        ],
+        "output": {
+          "path": "apps/web/public/assets/court-dance-v19/dance.webp",
+          "sha256": "9b0d09b29d7ebf1b99bc30f9b153319951ba69a9ed65a3771113591bb6f73ac8",
+          "bytes": 427766,
+          "width": 2048,
+          "height": 512
+        },
+        "frames": [
+          {
+            "direction": "left",
+            "index": 0,
+            "source": {
+              "left": 226,
+              "top": 58,
+              "right": 1148,
+              "bottom": 1201
+            },
+            "visible": {
+              "x": 147.05429071803854,
+              "y": 127.66374781085813,
+              "width": 310.0245183887916,
+              "height": 384.3362521891419
+            },
+            "anchor": {
+              "x": 256,
+              "y": 512
+            }
+          },
+          {
+            "direction": "right",
+            "index": 1,
+            "source": {
+              "left": 190,
+              "top": 66,
+              "right": 956,
+              "bottom": 1208
+            },
+            "visible": {
+              "x": 81.14886164623468,
+              "y": 128,
+              "width": 257.569176882662,
+              "height": 384
+            },
+            "anchor": {
+              "x": 256,
+              "y": 512
+            }
+          },
+          {
+            "direction": "down",
+            "index": 2,
+            "source": {
+              "left": 230,
+              "top": 72,
+              "right": 1123,
+              "bottom": 1206
+            },
+            "visible": {
+              "x": 113.96707530647984,
+              "y": 176.44721541155866,
+              "width": 264.24042031523646,
+              "height": 335.55278458844134
+            },
+            "anchor": {
+              "x": 256,
+              "y": 512
+            }
+          },
+          {
+            "direction": "up",
+            "index": 3,
+            "source": {
+              "left": 292,
+              "top": 25,
+              "right": 1062,
+              "bottom": 1210
+            },
+            "visible": {
+              "x": 122.47425569176883,
+              "y": 133.4640980735552,
+              "width": 245.96847635726795,
+              "height": 378.5359019264448
+            },
+            "anchor": {
+              "x": 256,
+              "y": 512
+            }
+          }
+        ]
+      }
+    }
+  ],
+  "restorations": [
+    {
+      "restoredOn": "2026-10-27",
+      "collection": "court-modes-v9",
+      "source": "assets/source/court-options-v1/previous-court-runtime.webp",
+      "output": "apps/web/public/assets/court-original/court.webp",
+      "sha256": "48c8c037298716d6f914cb5d97186c6dabec0907b1e4b389b15ec25d98ca2c02",
+      "operation": "Byte-for-byte restoration of the original 960x540 runtime. No new image generation or modification of source images.",
+      "originalSource": "assets/source/location-v7/court.png",
+      "rendering": [
+        "One source floor frame (0,320,960,220), no mirrored or tiled floor/markings",
+        "A hoop-free fence frame (260,230,700,90); existing isolated court-v4 hoop at uniform scale 0.30",
+        "Independent arena projection Y=280+(Ygame-356)*1.8 for hero, impacts and collision contours",
+        "Street/arena dissolve only: entry 48..70%, exit 52..78%; no projection morph or blackout"
+      ],
+      "reference": "README.md#court-modes"
+    }
+  ],
+  "runtimeCompositions": [
+    {
+      "version": "entry-control-pipe-v11",
+      "createdOn": "2026-10-28",
+      "tool": "Phaser runtime composition; no new generated raster images",
+      "sources": [
+        "apps/web/public/assets/court-original/court.webp",
+        "apps/web/public/assets/journey-v1/autumn.webp",
+        "apps/web/public/assets/pipe-v2/side.webp"
+      ],
+      "frames": {
+        "gatePanel": {
+          "x": 640,
+          "y": 210,
+          "width": 140,
+          "height": 110
+        },
+        "gateJamb": {
+          "x": 270,
+          "y": 216,
+          "width": 7,
+          "height": 104
+        }
+      },
+      "entrance": {
+        "facadeSourceX": 1240,
+        "parallax": 0.42,
+        "triggerX": 560,
+        "openingWidth": 100,
+        "thresholdY": 435,
+        "blendProgress": [
+          0.56,
+          0.74
+        ]
+      },
+      "pipe": {
+        "span": 560,
+        "bankOverhang": 0,
+        "maskInsetPerBank": 1
+      },
+      "reference": "README.md#entry-control-pipe-v11",
+      "previews": "docs/previews/entry-control-pipe-v11/index.html"
+    }
+  ]
+}

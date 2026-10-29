@@ -1,0 +1,2333 @@
+[
+  {
+    "phase": "stars",
+    "progress": 0,
+    "elapsed": 0.09166666666666666,
+    "logical": {
+      "x": 498.92605819768403,
+      "y": 420.40727513564934
+    },
+    "hero": {
+      "x": 498.92605819768403,
+      "y": 235.25527778486364,
+      "size": 94
+    },
+    "arena": {
+      "left": 180,
+      "right": 820,
+      "top": 100,
+      "bottom": 381.40000000000003
+    },
+    "impact": {
+      "radiusX": 29,
+      "radiusY": 27.405
+    },
+    "offset": 0,
+    "camera": {
+      "state": "COURT_ACTIVE",
+      "focus": 1,
+      "top": -115,
+      "x": 0,
+      "y": -115,
+      "width": 960,
+      "height": 540,
+      "zoom": 1
+    },
+    "canvas": {
+      "x": 0,
+      "y": 0,
+      "width": 960,
+      "height": 540,
+      "top": 0,
+      "right": 960,
+      "bottom": 540,
+      "left": 0
+    },
+    "hoop": {
+      "type": 5,
+      "x": 277,
+      "y": -97.20000000000002,
+      "width": 107.51999999999998,
+      "height": 179.20000000000002
+    },
+    "house": {
+      "type": 5,
+      "x": -88.203125,
+      "y": 19.2421875,
+      "width": 188.203125,
+      "height": 415.7578125
+    },
+    "score": 17,
+    "distance": 500,
+    "shared": true,
+    "shade": 0
+  },
+  {
+    "phase": "stars",
+    "progress": 0,
+    "elapsed": 0.5916666666666667,
+    "logical": {
+      "x": 502.05575396319267,
+      "y": 421.70363756782467
+    },
+    "hero": {
+      "x": 502.05575396319267,
+      "y": 237.97763889243183,
+      "size": 94
+    },
+    "arena": {
+      "left": 180,
+      "right": 820,
+      "top": 100,
+      "bottom": 381.40000000000003
+    },
+    "impact": {
+      "radiusX": 29,
+      "radiusY": 27.405
+    },
+    "offset": 0,
+    "camera": {
+      "state": "COURT_ACTIVE",
+      "focus": 1,
+      "top": -115,
+      "x": 0,
+      "y": -115,
+      "width": 960,
+      "height": 540,
+      "zoom": 1
+    },
+    "canvas": {
+      "x": 0,
+      "y": 0,
+      "width": 960,
+      "height": 540,
+      "top": 0,
+      "right": 960,
+      "bottom": 540,
+      "left": 0
+    },
+    "hoop": {
+      "type": 5,
+      "x": 277,
+      "y": -97.20000000000002,
+      "width": 107.51999999999998,
+      "height": 179.20000000000002
+    },
+    "house": {
+      "type": 5,
+      "x": -88.203125,
+      "y": 19.2421875,
+      "width": 188.203125,
+      "height": 415.7578125
+    },
+    "score": 17,
+    "distance": 500,
+    "shared": true,
+    "shade": 0
+  },
+  {
+    "phase": "stars",
+    "progress": 0,
+    "elapsed": 1.1,
+    "logical": {
+      "x": 500.75939153101734,
+      "y": 420.40727513564934
+    },
+    "hero": {
+      "x": 500.75939153101734,
+      "y": 235.25527778486364,
+      "size": 94
+    },
+    "arena": {
+      "left": 180,
+      "right": 820,
+      "top": 100,
+      "bottom": 381.40000000000003
+    },
+    "impact": {
+      "radiusX": 29,
+      "radiusY": 27.405
+    },
+    "offset": 0,
+    "camera": {
+      "state": "COURT_ACTIVE",
+      "focus": 1,
+      "top": -115,
+      "x": 0,
+      "y": -115,
+      "width": 960,
+      "height": 540,
+      "zoom": 1
+    },
+    "canvas": {
+      "x": 0,
+      "y": 0,
+      "width": 960,
+      "height": 540,
+      "top": 0,
+      "right": 960,
+      "bottom": 540,
+      "left": 0
+    },
+    "hoop": {
+      "type": 5,
+      "x": 277,
+      "y": -97.20000000000002,
+      "width": 107.51999999999998,
+      "height": 179.20000000000002
+    },
+    "house": {
+      "type": 5,
+      "x": -88.203125,
+      "y": 19.2421875,
+      "width": 188.203125,
+      "height": 415.7578125
+    },
+    "score": 17,
+    "distance": 500,
+    "shared": true,
+    "shade": 0
+  },
+  {
+    "phase": "stars",
+    "progress": 0,
+    "elapsed": 1.6,
+    "logical": {
+      "x": 501.8333333333333,
+      "y": 423
+    },
+    "hero": {
+      "x": 501.8333333333333,
+      "y": 240.70000000000002,
+      "size": 94
+    },
+    "arena": {
+      "left": 180,
+      "right": 820,
+      "top": 100,
+      "bottom": 381.40000000000003
+    },
+    "impact": {
+      "radiusX": 29,
+      "radiusY": 27.405
+    },
+    "offset": 0,
+    "camera": {
+      "state": "COURT_ACTIVE",
+      "focus": 1,
+      "top": -115,
+      "x": 0,
+      "y": -115,
+      "width": 960,
+      "height": 540,
+      "zoom": 1
+    },
+    "canvas": {
+      "x": 0,
+      "y": 0,
+      "width": 960,
+      "height": 540,
+      "top": 0,
+      "right": 960,
+      "bottom": 540,
+      "left": 0
+    },
+    "hoop": {
+      "type": 5,
+      "x": 277,
+      "y": -97.20000000000002,
+      "width": 107.51999999999998,
+      "height": 179.20000000000002
+    },
+    "house": {
+      "type": 5,
+      "x": -88.203125,
+      "y": 19.2421875,
+      "width": 188.203125,
+      "height": 415.7578125
+    },
+    "score": 17,
+    "distance": 500,
+    "shared": true,
+    "shade": 0
+  },
+  {
+    "phase": "stars",
+    "progress": 0,
+    "elapsed": 2.091666666666667,
+    "logical": {
+      "x": 497.40727513564934,
+      "y": 420.40727513564934
+    },
+    "hero": {
+      "x": 497.40727513564934,
+      "y": 235.25527778486364,
+      "size": 94
+    },
+    "arena": {
+      "left": 180,
+      "right": 820,
+      "top": 100,
+      "bottom": 381.40000000000003
+    },
+    "impact": {
+      "radiusX": 29,
+      "radiusY": 27.405
+    },
+    "offset": 0,
+    "camera": {
+      "state": "COURT_ACTIVE",
+      "focus": 1,
+      "top": -115,
+      "x": 0,
+      "y": -115,
+      "width": 960,
+      "height": 540,
+      "zoom": 1
+    },
+    "canvas": {
+      "x": 0,
+      "y": 0,
+      "width": 960,
+      "height": 540,
+      "top": 0,
+      "right": 960,
+      "bottom": 540,
+      "left": 0
+    },
+    "hoop": {
+      "type": 5,
+      "x": 277,
+      "y": -97.20000000000002,
+      "width": 107.51999999999998,
+      "height": 179.20000000000002
+    },
+    "house": {
+      "type": 5,
+      "x": -88.203125,
+      "y": 19.2421875,
+      "width": 188.203125,
+      "height": 415.7578125
+    },
+    "score": 17,
+    "distance": 500,
+    "shared": true,
+    "shade": 0
+  },
+  {
+    "phase": "stars",
+    "progress": 0,
+    "elapsed": 2.591666666666667,
+    "logical": {
+      "x": 496.33333333333337,
+      "y": 423
+    },
+    "hero": {
+      "x": 496.33333333333337,
+      "y": 240.70000000000002,
+      "size": 94
+    },
+    "arena": {
+      "left": 180,
+      "right": 820,
+      "top": 100,
+      "bottom": 381.40000000000003
+    },
+    "impact": {
+      "radiusX": 29,
+      "radiusY": 27.405
+    },
+    "offset": 0,
+    "camera": {
+      "state": "COURT_ACTIVE",
+      "focus": 1,
+      "top": -115,
+      "x": 0,
+      "y": -115,
+      "width": 960,
+      "height": 540,
+      "zoom": 1
+    },
+    "canvas": {
+      "x": 0,
+      "y": 0,
+      "width": 960,
+      "height": 540,
+      "top": 0,
+      "right": 960,
+      "bottom": 540,
+      "left": 0
+    },
+    "hoop": {
+      "type": 5,
+      "x": 277,
+      "y": -97.20000000000002,
+      "width": 107.51999999999998,
+      "height": 179.20000000000002
+    },
+    "house": {
+      "type": 5,
+      "x": -88.203125,
+      "y": 19.2421875,
+      "width": 188.203125,
+      "height": 415.7578125
+    },
+    "score": 17,
+    "distance": 500,
+    "shared": true,
+    "shade": 0
+  },
+  {
+    "phase": "stars",
+    "progress": 0,
+    "elapsed": 3.1,
+    "logical": {
+      "x": 509.96421954466473,
+      "y": 419.110912703474
+    },
+    "hero": {
+      "x": 509.96421954466473,
+      "y": 232.53291667729545,
+      "size": 94
+    },
+    "arena": {
+      "left": 180,
+      "right": 820,
+      "top": 100,
+      "bottom": 381.40000000000003
+    },
+    "impact": {
+      "radiusX": 29,
+      "radiusY": 27.405
+    },
+    "offset": 0,
+    "camera": {
+      "state": "COURT_ACTIVE",
+      "focus": 1,
+      "top": -115,
+      "x": 0,
+      "y": -115,
+      "width": 960,
+      "height": 540,
+      "zoom": 1
+    },
+    "canvas": {
+      "x": 0,
+      "y": 0,
+      "width": 960,
+      "height": 540,
+      "top": 0,
+      "right": 960,
+      "bottom": 540,
+      "left": 0
+    },
+    "hoop": {
+      "type": 5,
+      "x": 277,
+      "y": -97.20000000000002,
+      "width": 107.51999999999998,
+      "height": 179.20000000000002
+    },
+    "house": {
+      "type": 5,
+      "x": -88.203125,
+      "y": 19.2421875,
+      "width": 188.203125,
+      "height": 415.7578125
+    },
+    "score": 17,
+    "distance": 500,
+    "shared": true,
+    "shade": 0
+  },
+  {
+    "phase": "stars",
+    "progress": 0,
+    "elapsed": 3.6,
+    "logical": {
+      "x": 499.5933200872621,
+      "y": 419.110912703474
+    },
+    "hero": {
+      "x": 499.5933200872621,
+      "y": 232.53291667729545,
+      "size": 94
+    },
+    "arena": {
+      "left": 180,
+      "right": 820,
+      "top": 100,
+      "bottom": 381.40000000000003
+    },
+    "impact": {
+      "radiusX": 29,
+      "radiusY": 27.405
+    },
+    "offset": 0,
+    "camera": {
+      "state": "COURT_ACTIVE",
+      "focus": 1,
+      "top": -115,
+      "x": 0,
+      "y": -115,
+      "width": 960,
+      "height": 540,
+      "zoom": 1
+    },
+    "canvas": {
+      "x": 0,
+      "y": 0,
+      "width": 960,
+      "height": 540,
+      "top": 0,
+      "right": 960,
+      "bottom": 540,
+      "left": 0
+    },
+    "hoop": {
+      "type": 5,
+      "x": 277,
+      "y": -97.20000000000002,
+      "width": 107.51999999999998,
+      "height": 179.20000000000002
+    },
+    "house": {
+      "type": 5,
+      "x": -88.203125,
+      "y": 19.2421875,
+      "width": 188.203125,
+      "height": 415.7578125
+    },
+    "score": 17,
+    "distance": 500,
+    "shared": true,
+    "shade": 0
+  },
+  {
+    "phase": "stars",
+    "progress": 0,
+    "elapsed": 4.091666666666667,
+    "logical": {
+      "x": 560.1854497287023,
+      "y": 430.778174593052
+    },
+    "hero": {
+      "x": 560.1854497287023,
+      "y": 257.0341666454092,
+      "size": 94
+    },
+    "arena": {
+      "left": 180,
+      "right": 820,
+      "top": 100,
+      "bottom": 381.40000000000003
+    },
+    "impact": {
+      "radiusX": 29,
+      "radiusY": 27.405
+    },
+    "offset": 0,
+    "camera": {
+      "state": "COURT_ACTIVE",
+      "focus": 1,
+      "top": -115,
+      "x": 0,
+      "y": -115,
+      "width": 960,
+      "height": 540,
+      "zoom": 1
+    },
+    "canvas": {
+      "x": 0,
+      "y": 0,
+      "width": 960,
+      "height": 540,
+      "top": 0,
+      "right": 960,
+      "bottom": 540,
+      "left": 0
+    },
+    "hoop": {
+      "type": 5,
+      "x": 277,
+      "y": -97.20000000000002,
+      "width": 107.51999999999998,
+      "height": 179.20000000000002
+    },
+    "house": {
+      "type": 5,
+      "x": -88.203125,
+      "y": 19.2421875,
+      "width": 188.203125,
+      "height": 415.7578125
+    },
+    "score": 17,
+    "distance": 500,
+    "shared": true,
+    "shade": 0
+  },
+  {
+    "phase": "stars",
+    "progress": 0,
+    "elapsed": 4.591666666666667,
+    "logical": {
+      "x": 553.1126983722082,
+      "y": 420.40727513564934
+    },
+    "hero": {
+      "x": 553.1126983722082,
+      "y": 235.25527778486364,
+      "size": 94
+    },
+    "arena": {
+      "left": 180,
+      "right": 820,
+      "top": 100,
+      "bottom": 381.40000000000003
+    },
+    "impact": {
+      "radiusX": 29,
+      "radiusY": 27.405
+    },
+    "offset": 0,
+    "camera": {
+      "state": "COURT_ACTIVE",
+      "focus": 1,
+      "top": -115,
+      "x": 0,
+      "y": -115,
+      "width": 960,
+      "height": 540,
+      "zoom": 1
+    },
+    "canvas": {
+      "x": 0,
+      "y": 0,
+      "width": 960,
+      "height": 540,
+      "top": 0,
+      "right": 960,
+      "bottom": 540,
+      "left": 0
+    },
+    "hoop": {
+      "type": 5,
+      "x": 277,
+      "y": -97.20000000000002,
+      "width": 107.51999999999998,
+      "height": 179.20000000000002
+    },
+    "house": {
+      "type": 5,
+      "x": -88.203125,
+      "y": 19.2421875,
+      "width": 188.203125,
+      "height": 415.7578125
+    },
+    "score": 17,
+    "distance": 500,
+    "shared": true,
+    "shade": 0
+  },
+  {
+    "phase": "stars",
+    "progress": 0,
+    "elapsed": 5.1,
+    "logical": {
+      "x": 497.7981481009089,
+      "y": 420.40727513564934
+    },
+    "hero": {
+      "x": 497.7981481009089,
+      "y": 235.25527778486364,
+      "size": 94
+    },
+    "arena": {
+      "left": 180,
+      "right": 820,
+      "top": 100,
+      "bottom": 381.40000000000003
+    },
+    "impact": {
+      "radiusX": 29,
+      "radiusY": 27.405
+    },
+    "offset": 0,
+    "camera": {
+      "state": "COURT_ACTIVE",
+      "focus": 1,
+      "top": -115,
+      "x": 0,
+      "y": -115,
+      "width": 960,
+      "height": 540,
+      "zoom": 1
+    },
+    "canvas": {
+      "x": 0,
+      "y": 0,
+      "width": 960,
+      "height": 540,
+      "top": 0,
+      "right": 960,
+      "bottom": 540,
+      "left": 0
+    },
+    "hoop": {
+      "type": 5,
+      "x": 277,
+      "y": -97.20000000000002,
+      "width": 107.51999999999998,
+      "height": 179.20000000000002
+    },
+    "house": {
+      "type": 5,
+      "x": -88.203125,
+      "y": 19.2421875,
+      "width": 188.203125,
+      "height": 415.7578125
+    },
+    "score": 17,
+    "distance": 500,
+    "shared": true,
+    "shade": 0
+  },
+  {
+    "phase": "stars",
+    "progress": 0,
+    "elapsed": 5.6,
+    "logical": {
+      "x": 501.46481476757555,
+      "y": 420.40727513564934
+    },
+    "hero": {
+      "x": 501.46481476757555,
+      "y": 235.25527778486364,
+      "size": 94
+    },
+    "arena": {
+      "left": 180,
+      "right": 820,
+      "top": 100,
+      "bottom": 381.40000000000003
+    },
+    "impact": {
+      "radiusX": 29,
+      "radiusY": 27.405
+    },
+    "offset": 0,
+    "camera": {
+      "state": "COURT_ACTIVE",
+      "focus": 1,
+      "top": -115,
+      "x": 0,
+      "y": -115,
+      "width": 960,
+      "height": 540,
+      "zoom": 1
+    },
+    "canvas": {
+      "x": 0,
+      "y": 0,
+      "width": 960,
+      "height": 540,
+      "top": 0,
+      "right": 960,
+      "bottom": 540,
+      "left": 0
+    },
+    "hoop": {
+      "type": 5,
+      "x": 277,
+      "y": -97.20000000000002,
+      "width": 107.51999999999998,
+      "height": 179.20000000000002
+    },
+    "house": {
+      "type": 5,
+      "x": -88.203125,
+      "y": 19.2421875,
+      "width": 188.203125,
+      "height": 415.7578125
+    },
+    "score": 17,
+    "distance": 500,
+    "shared": true,
+    "shade": 0
+  },
+  {
+    "phase": "stars",
+    "progress": 0,
+    "elapsed": 6.091666666666667,
+    "logical": {
+      "x": 497.57572747104956,
+      "y": 421.70363756782467
+    },
+    "hero": {
+      "x": 497.57572747104956,
+      "y": 237.97763889243183,
+      "size": 94
+    },
+    "arena": {
+      "left": 180,
+      "right": 820,
+      "top": 100,
+      "bottom": 381.40000000000003
+    },
+    "impact": {
+      "radiusX": 29,
+      "radiusY": 27.405
+    },
+    "offset": 0,
+    "camera": {
+      "state": "COURT_ACTIVE",
+      "focus": 1,
+      "top": -115,
+      "x": 0,
+      "y": -115,
+      "width": 960,
+      "height": 540,
+      "zoom": 1
+    },
+    "canvas": {
+      "x": 0,
+      "y": 0,
+      "width": 960,
+      "height": 540,
+      "top": 0,
+      "right": 960,
+      "bottom": 540,
+      "left": 0
+    },
+    "hoop": {
+      "type": 5,
+      "x": 277,
+      "y": -97.20000000000002,
+      "width": 107.51999999999998,
+      "height": 179.20000000000002
+    },
+    "house": {
+      "type": 5,
+      "x": -88.203125,
+      "y": 19.2421875,
+      "width": 188.203125,
+      "height": 415.7578125
+    },
+    "score": 17,
+    "distance": 500,
+    "shared": true,
+    "shade": 0
+  },
+  {
+    "phase": "stars",
+    "progress": 0,
+    "elapsed": 6.591666666666667,
+    "logical": {
+      "x": 524.224206298593,
+      "y": 428.1854497287013
+    },
+    "hero": {
+      "x": 524.224206298593,
+      "y": 251.58944443027278,
+      "size": 94
+    },
+    "arena": {
+      "left": 180,
+      "right": 820,
+      "top": 100,
+      "bottom": 381.40000000000003
+    },
+    "impact": {
+      "radiusX": 29,
+      "radiusY": 27.405
+    },
+    "offset": 0,
+    "camera": {
+      "state": "COURT_ACTIVE",
+      "focus": 1,
+      "top": -115,
+      "x": 0,
+      "y": -115,
+      "width": 960,
+      "height": 540,
+      "zoom": 1
+    },
+    "canvas": {
+      "x": 0,
+      "y": 0,
+      "width": 960,
+      "height": 540,
+      "top": 0,
+      "right": 960,
+      "bottom": 540,
+      "left": 0
+    },
+    "hoop": {
+      "type": 5,
+      "x": 277,
+      "y": -97.20000000000002,
+      "width": 107.51999999999998,
+      "height": 179.20000000000002
+    },
+    "house": {
+      "type": 5,
+      "x": -88.203125,
+      "y": 19.2421875,
+      "width": 188.203125,
+      "height": 415.7578125
+    },
+    "score": 17,
+    "distance": 500,
+    "shared": true,
+    "shade": 0
+  },
+  {
+    "phase": "stars",
+    "progress": 0,
+    "elapsed": 7.1,
+    "logical": {
+      "x": 484.5581348548372,
+      "y": 426.889087296526
+    },
+    "hero": {
+      "x": 484.5581348548372,
+      "y": 248.8670833227046,
+      "size": 94
+    },
+    "arena": {
+      "left": 180,
+      "right": 820,
+      "top": 100,
+      "bottom": 381.40000000000003
+    },
+    "impact": {
+      "radiusX": 29,
+      "radiusY": 27.405
+    },
+    "offset": 0,
+    "camera": {
+      "state": "COURT_ACTIVE",
+      "focus": 1,
+      "top": -115,
+      "x": 0,
+      "y": -115,
+      "width": 960,
+      "height": 540,
+      "zoom": 1
+    },
+    "canvas": {
+      "x": 0,
+      "y": 0,
+      "width": 960,
+      "height": 540,
+      "top": 0,
+      "right": 960,
+      "bottom": 540,
+      "left": 0
+    },
+    "hoop": {
+      "type": 5,
+      "x": 277,
+      "y": -97.20000000000002,
+      "width": 107.51999999999998,
+      "height": 179.20000000000002
+    },
+    "house": {
+      "type": 5,
+      "x": -88.203125,
+      "y": 19.2421875,
+      "width": 188.203125,
+      "height": 415.7578125
+    },
+    "score": 17,
+    "distance": 500,
+    "shared": true,
+    "shade": 0
+  },
+  {
+    "phase": "stars",
+    "progress": 0,
+    "elapsed": 7.6,
+    "logical": {
+      "x": 481.42843908932855,
+      "y": 415.221825406948
+    },
+    "hero": {
+      "x": 481.42843908932855,
+      "y": 224.36583335459085,
+      "size": 94
+    },
+    "arena": {
+      "left": 180,
+      "right": 820,
+      "top": 100,
+      "bottom": 381.40000000000003
+    },
+    "impact": {
+      "radiusX": 29,
+      "radiusY": 27.405
+    },
+    "offset": 0,
+    "camera": {
+      "state": "COURT_ACTIVE",
+      "focus": 1,
+      "top": -115,
+      "x": 0,
+      "y": -115,
+      "width": 960,
+      "height": 540,
+      "zoom": 1
+    },
+    "canvas": {
+      "x": 0,
+      "y": 0,
+      "width": 960,
+      "height": 540,
+      "top": 0,
+      "right": 960,
+      "bottom": 540,
+      "left": 0
+    },
+    "hoop": {
+      "type": 5,
+      "x": 277,
+      "y": -97.20000000000002,
+      "width": 107.51999999999998,
+      "height": 179.20000000000002
+    },
+    "house": {
+      "type": 5,
+      "x": -88.203125,
+      "y": 19.2421875,
+      "width": 188.203125,
+      "height": 415.7578125
+    },
+    "score": 17,
+    "distance": 500,
+    "shared": true,
+    "shade": 0
+  },
+  {
+    "phase": "stars",
+    "progress": 0,
+    "elapsed": 8.091666666666667,
+    "logical": {
+      "x": 493.89325385690466,
+      "y": 440.51997350785734
+    },
+    "hero": {
+      "x": 493.89325385690466,
+      "y": 277.49194436650043,
+      "size": 94
+    },
+    "arena": {
+      "left": 180,
+      "right": 820,
+      "top": 100,
+      "bottom": 381.40000000000003
+    },
+    "impact": {
+      "radiusX": 29,
+      "radiusY": 27.405
+    },
+    "offset": 0,
+    "camera": {
+      "state": "COURT_ACTIVE",
+      "focus": 1,
+      "top": -115,
+      "x": 0,
+      "y": -115,
+      "width": 960,
+      "height": 540,
+      "zoom": 1
+    },
+    "canvas": {
+      "x": 0,
+      "y": 0,
+      "width": 960,
+      "height": 540,
+      "top": 0,
+      "right": 960,
+      "bottom": 540,
+      "left": 0
+    },
+    "hoop": {
+      "type": 5,
+      "x": 277,
+      "y": -97.20000000000002,
+      "width": 107.51999999999998,
+      "height": 179.20000000000002
+    },
+    "house": {
+      "type": 5,
+      "x": -88.203125,
+      "y": 19.2421875,
+      "width": 188.203125,
+      "height": 415.7578125
+    },
+    "score": 17,
+    "distance": 500,
+    "shared": true,
+    "shade": 0
+  },
+  {
+    "phase": "stars",
+    "progress": 0,
+    "elapsed": 8.591666666666667,
+    "logical": {
+      "x": 496.0411374615366,
+      "y": 431.6678571124894
+    },
+    "hero": {
+      "x": 496.0411374615366,
+      "y": 258.90249993622774,
+      "size": 94
+    },
+    "arena": {
+      "left": 180,
+      "right": 820,
+      "top": 100,
+      "bottom": 381.40000000000003
+    },
+    "impact": {
+      "radiusX": 29,
+      "radiusY": 27.405
+    },
+    "offset": 0,
+    "camera": {
+      "state": "COURT_ACTIVE",
+      "focus": 1,
+      "top": -115,
+      "x": 0,
+      "y": -115,
+      "width": 960,
+      "height": 540,
+      "zoom": 1
+    },
+    "canvas": {
+      "x": 0,
+      "y": 0,
+      "width": 960,
+      "height": 540,
+      "top": 0,
+      "right": 960,
+      "bottom": 540,
+      "left": 0
+    },
+    "hoop": {
+      "type": 5,
+      "x": 277,
+      "y": -97.20000000000002,
+      "width": 107.51999999999998,
+      "height": 179.20000000000002
+    },
+    "house": {
+      "type": 5,
+      "x": -88.203125,
+      "y": 19.2421875,
+      "width": 188.203125,
+      "height": 415.7578125
+    },
+    "score": 17,
+    "distance": 500,
+    "shared": true,
+    "shade": 0
+  },
+  {
+    "phase": "stars",
+    "progress": 0,
+    "elapsed": 9.1,
+    "logical": {
+      "x": 510.76177242266164,
+      "y": 416.11150792638546
+    },
+    "hero": {
+      "x": 510.76177242266164,
+      "y": 226.23416664540946,
+      "size": 94
+    },
+    "arena": {
+      "left": 180,
+      "right": 820,
+      "top": 100,
+      "bottom": 381.40000000000003
+    },
+    "impact": {
+      "radiusX": 29,
+      "radiusY": 27.405
+    },
+    "offset": 0,
+    "camera": {
+      "state": "COURT_ACTIVE",
+      "focus": 1,
+      "top": -115,
+      "x": 0,
+      "y": -115,
+      "width": 960,
+      "height": 540,
+      "zoom": 1
+    },
+    "canvas": {
+      "x": 0,
+      "y": 0,
+      "width": 960,
+      "height": 540,
+      "top": 0,
+      "right": 960,
+      "bottom": 540,
+      "left": 0
+    },
+    "hoop": {
+      "type": 5,
+      "x": 277,
+      "y": -97.20000000000002,
+      "width": 107.51999999999998,
+      "height": 179.20000000000002
+    },
+    "house": {
+      "type": 5,
+      "x": -88.203125,
+      "y": 19.2421875,
+      "width": 188.203125,
+      "height": 415.7578125
+    },
+    "score": 17,
+    "distance": 500,
+    "shared": true,
+    "shade": 0
+  },
+  {
+    "phase": "stars",
+    "progress": 0,
+    "elapsed": 9.6,
+    "logical": {
+      "x": 494.74477502936134,
+      "y": 420.00059522291144
+    },
+    "hero": {
+      "x": 494.74477502936134,
+      "y": 234.40124996811403,
+      "size": 94
+    },
+    "arena": {
+      "left": 180,
+      "right": 820,
+      "top": 100,
+      "bottom": 381.40000000000003
+    },
+    "impact": {
+      "radiusX": 29,
+      "radiusY": 27.405
+    },
+    "offset": 0,
+    "camera": {
+      "state": "COURT_ACTIVE",
+      "focus": 1,
+      "top": -115,
+      "x": 0,
+      "y": -115,
+      "width": 960,
+      "height": 540,
+      "zoom": 1
+    },
+    "canvas": {
+      "x": 0,
+      "y": 0,
+      "width": 960,
+      "height": 540,
+      "top": 0,
+      "right": 960,
+      "bottom": 540,
+      "left": 0
+    },
+    "hoop": {
+      "type": 5,
+      "x": 277,
+      "y": -97.20000000000002,
+      "width": 107.51999999999998,
+      "height": 179.20000000000002
+    },
+    "house": {
+      "type": 5,
+      "x": -88.203125,
+      "y": 19.2421875,
+      "width": 188.203125,
+      "height": 415.7578125
+    },
+    "score": 17,
+    "distance": 500,
+    "shared": true,
+    "shade": 0
+  },
+  {
+    "phase": "stars",
+    "progress": 0,
+    "elapsed": 10.091666666666667,
+    "logical": {
+      "x": 502.1162697096753,
+      "y": 444.6314814342427
+    },
+    "hero": {
+      "x": 502.1162697096753,
+      "y": 286.12611101190964,
+      "size": 94
+    },
+    "arena": {
+      "left": 180,
+      "right": 820,
+      "top": 100,
+      "bottom": 381.40000000000003
+    },
+    "impact": {
+      "radiusX": 29,
+      "radiusY": 27.405
+    },
+    "offset": 0,
+    "camera": {
+      "state": "COURT_ACTIVE",
+      "focus": 1,
+      "top": -115,
+      "x": 0,
+      "y": -115,
+      "width": 960,
+      "height": 540,
+      "zoom": 1
+    },
+    "canvas": {
+      "x": 0,
+      "y": 0,
+      "width": 960,
+      "height": 540,
+      "top": 0,
+      "right": 960,
+      "bottom": 540,
+      "left": 0
+    },
+    "hoop": {
+      "type": 5,
+      "x": 277,
+      "y": -97.20000000000002,
+      "width": 107.51999999999998,
+      "height": 179.20000000000002
+    },
+    "house": {
+      "type": 5,
+      "x": -88.203125,
+      "y": 19.2421875,
+      "width": 188.203125,
+      "height": 415.7578125
+    },
+    "score": 17,
+    "distance": 500,
+    "shared": true,
+    "shade": 0
+  },
+  {
+    "phase": "stars",
+    "progress": 0,
+    "elapsed": 10.591666666666667,
+    "logical": {
+      "x": 480.2847220450764,
+      "y": 405.9630290988422
+    },
+    "hero": {
+      "x": 480.2847220450764,
+      "y": 204.92236110756858,
+      "size": 94
+    },
+    "arena": {
+      "left": 180,
+      "right": 820,
+      "top": 100,
+      "bottom": 381.40000000000003
+    },
+    "impact": {
+      "radiusX": 29,
+      "radiusY": 27.405
+    },
+    "offset": 0,
+    "camera": {
+      "state": "COURT_ACTIVE",
+      "focus": 1,
+      "top": -115,
+      "x": 0,
+      "y": -115,
+      "width": 960,
+      "height": 540,
+      "zoom": 1
+    },
+    "canvas": {
+      "x": 0,
+      "y": 0,
+      "width": 960,
+      "height": 540,
+      "top": 0,
+      "right": 960,
+      "bottom": 540,
+      "left": 0
+    },
+    "hoop": {
+      "type": 5,
+      "x": 277,
+      "y": -97.20000000000002,
+      "width": 107.51999999999998,
+      "height": 179.20000000000002
+    },
+    "house": {
+      "type": 5,
+      "x": -88.203125,
+      "y": 19.2421875,
+      "width": 188.203125,
+      "height": 415.7578125
+    },
+    "score": 17,
+    "distance": 500,
+    "shared": true,
+    "shade": 0
+  },
+  {
+    "phase": "stars",
+    "progress": 0,
+    "elapsed": 11.1,
+    "logical": {
+      "x": 499.3774469094269,
+      "y": 418.92665342059547
+    },
+    "hero": {
+      "x": 499.3774469094269,
+      "y": 232.1459721832505,
+      "size": 94
+    },
+    "arena": {
+      "left": 180,
+      "right": 820,
+      "top": 100,
+      "bottom": 381.40000000000003
+    },
+    "impact": {
+      "radiusX": 29,
+      "radiusY": 27.405
+    },
+    "offset": 0,
+    "camera": {
+      "state": "COURT_ACTIVE",
+      "focus": 1,
+      "top": -115,
+      "x": 0,
+      "y": -115,
+      "width": 960,
+      "height": 540,
+      "zoom": 1
+    },
+    "canvas": {
+      "x": 0,
+      "y": 0,
+      "width": 960,
+      "height": 540,
+      "top": 0,
+      "right": 960,
+      "bottom": 540,
+      "left": 0
+    },
+    "hoop": {
+      "type": 5,
+      "x": 277,
+      "y": -97.20000000000002,
+      "width": 107.51999999999998,
+      "height": 179.20000000000002
+    },
+    "house": {
+      "type": 5,
+      "x": -88.203125,
+      "y": 19.2421875,
+      "width": 188.203125,
+      "height": 415.7578125
+    },
+    "score": 17,
+    "distance": 500,
+    "shared": true,
+    "shade": 0
+  },
+  {
+    "phase": "stars",
+    "progress": 0,
+    "elapsed": 11.6,
+    "logical": {
+      "x": 516.1919971807255,
+      "y": 429.2975528779981
+    },
+    "hero": {
+      "x": 516.1919971807255,
+      "y": 253.92486104379603,
+      "size": 94
+    },
+    "arena": {
+      "left": 180,
+      "right": 820,
+      "top": 100,
+      "bottom": 381.40000000000003
+    },
+    "impact": {
+      "radiusX": 29,
+      "radiusY": 27.405
+    },
+    "offset": 0,
+    "camera": {
+      "state": "COURT_ACTIVE",
+      "focus": 1,
+      "top": -115,
+      "x": 0,
+      "y": -115,
+      "width": 960,
+      "height": 540,
+      "zoom": 1
+    },
+    "canvas": {
+      "x": 0,
+      "y": 0,
+      "width": 960,
+      "height": 540,
+      "top": 0,
+      "right": 960,
+      "bottom": 540,
+      "left": 0
+    },
+    "hoop": {
+      "type": 5,
+      "x": 277,
+      "y": -97.20000000000002,
+      "width": 107.51999999999998,
+      "height": 179.20000000000002
+    },
+    "house": {
+      "type": 5,
+      "x": -88.203125,
+      "y": 19.2421875,
+      "width": 188.203125,
+      "height": 415.7578125
+    },
+    "score": 17,
+    "distance": 500,
+    "shared": true,
+    "shade": 0
+  },
+  {
+    "phase": "stars",
+    "progress": 0,
+    "elapsed": 12.091666666666667,
+    "logical": {
+      "x": 452.11746015549863,
+      "y": 415.4824073837882
+    },
+    "hero": {
+      "x": 452.11746015549863,
+      "y": 224.91305550595524,
+      "size": 94
+    },
+    "arena": {
+      "left": 180,
+      "right": 820,
+      "top": 100,
+      "bottom": 381.40000000000003
+    },
+    "impact": {
+      "radiusX": 29,
+      "radiusY": 27.405
+    },
+    "offset": 0,
+    "camera": {
+      "state": "COURT_ACTIVE",
+      "focus": 1,
+      "top": -115,
+      "x": 0,
+      "y": -115,
+      "width": 960,
+      "height": 540,
+      "zoom": 1
+    },
+    "canvas": {
+      "x": 0,
+      "y": 0,
+      "width": 960,
+      "height": 540,
+      "top": 0,
+      "right": 960,
+      "bottom": 540,
+      "left": 0
+    },
+    "hoop": {
+      "type": 5,
+      "x": 277,
+      "y": -97.20000000000002,
+      "width": 107.51999999999998,
+      "height": 179.20000000000002
+    },
+    "house": {
+      "type": 5,
+      "x": -88.203125,
+      "y": 19.2421875,
+      "width": 188.203125,
+      "height": 415.7578125
+    },
+    "score": 17,
+    "distance": 500,
+    "shared": true,
+    "shade": 0
+  },
+  {
+    "phase": "stars",
+    "progress": 0,
+    "elapsed": 12.591666666666667,
+    "logical": {
+      "x": 365.37566124069406,
+      "y": 436.22420629859346
+    },
+    "hero": {
+      "x": 365.37566124069406,
+      "y": 268.4708332270462,
+      "size": 94
+    },
+    "arena": {
+      "left": 180,
+      "right": 820,
+      "top": 100,
+      "bottom": 381.40000000000003
+    },
+    "impact": {
+      "radiusX": 29,
+      "radiusY": 27.405
+    },
+    "offset": 0,
+    "camera": {
+      "state": "COURT_ACTIVE",
+      "focus": 1,
+      "top": -115,
+      "x": 0,
+      "y": -115,
+      "width": 960,
+      "height": 540,
+      "zoom": 1
+    },
+    "canvas": {
+      "x": 0,
+      "y": 0,
+      "width": 960,
+      "height": 540,
+      "top": 0,
+      "right": 960,
+      "bottom": 540,
+      "left": 0
+    },
+    "hoop": {
+      "type": 5,
+      "x": 277,
+      "y": -97.20000000000002,
+      "width": 107.51999999999998,
+      "height": 179.20000000000002
+    },
+    "house": {
+      "type": 5,
+      "x": -88.203125,
+      "y": 19.2421875,
+      "width": 188.203125,
+      "height": 415.7578125
+    },
+    "score": 17,
+    "distance": 500,
+    "shared": true,
+    "shade": 0
+  },
+  {
+    "phase": "stars",
+    "progress": 0,
+    "elapsed": 13.1,
+    "logical": {
+      "x": 458.4689813279552,
+      "y": 439.98300260669936
+    },
+    "hero": {
+      "x": 458.4689813279552,
+      "y": 276.36430547406866,
+      "size": 94
+    },
+    "arena": {
+      "left": 180,
+      "right": 820,
+      "top": 100,
+      "bottom": 381.40000000000003
+    },
+    "impact": {
+      "radiusX": 29,
+      "radiusY": 27.405
+    },
+    "offset": 0,
+    "camera": {
+      "state": "COURT_ACTIVE",
+      "focus": 1,
+      "top": -115,
+      "x": 0,
+      "y": -115,
+      "width": 960,
+      "height": 540,
+      "zoom": 1
+    },
+    "canvas": {
+      "x": 0,
+      "y": 0,
+      "width": 960,
+      "height": 540,
+      "top": 0,
+      "right": 960,
+      "bottom": 540,
+      "left": 0
+    },
+    "hoop": {
+      "type": 5,
+      "x": 277,
+      "y": -97.20000000000002,
+      "width": 107.51999999999998,
+      "height": 179.20000000000002
+    },
+    "house": {
+      "type": 5,
+      "x": -88.203125,
+      "y": 19.2421875,
+      "width": 188.203125,
+      "height": 415.7578125
+    },
+    "score": 17,
+    "distance": 500,
+    "shared": true,
+    "shade": 0
+  },
+  {
+    "phase": "stars",
+    "progress": 0,
+    "elapsed": 13.6,
+    "logical": {
+      "x": 499.52354484532464,
+      "y": 420.53756612406943
+    },
+    "hero": {
+      "x": 499.52354484532464,
+      "y": 235.5288888605458,
+      "size": 94
+    },
+    "arena": {
+      "left": 180,
+      "right": 820,
+      "top": 100,
+      "bottom": 381.40000000000003
+    },
+    "impact": {
+      "radiusX": 29,
+      "radiusY": 27.405
+    },
+    "offset": 0,
+    "camera": {
+      "state": "COURT_ACTIVE",
+      "focus": 1,
+      "top": -115,
+      "x": 0,
+      "y": -115,
+      "width": 960,
+      "height": 540,
+      "zoom": 1
+    },
+    "canvas": {
+      "x": 0,
+      "y": 0,
+      "width": 960,
+      "height": 540,
+      "top": 0,
+      "right": 960,
+      "bottom": 540,
+      "left": 0
+    },
+    "hoop": {
+      "type": 5,
+      "x": 277,
+      "y": -97.20000000000002,
+      "width": 107.51999999999998,
+      "height": 179.20000000000002
+    },
+    "house": {
+      "type": 5,
+      "x": -88.203125,
+      "y": 19.2421875,
+      "width": 188.203125,
+      "height": 415.7578125
+    },
+    "score": 17,
+    "distance": 500,
+    "shared": true,
+    "shade": 0
+  },
+  {
+    "phase": "stars",
+    "progress": 0,
+    "elapsed": 14.091666666666667,
+    "logical": {
+      "x": 478.2829363763422,
+      "y": 428.3157407171214
+    },
+    "hero": {
+      "x": 478.2829363763422,
+      "y": 251.86305550595495,
+      "size": 94
+    },
+    "arena": {
+      "left": 180,
+      "right": 820,
+      "top": 100,
+      "bottom": 381.40000000000003
+    },
+    "impact": {
+      "radiusX": 29,
+      "radiusY": 27.405
+    },
+    "offset": 0,
+    "camera": {
+      "state": "COURT_ACTIVE",
+      "focus": 1,
+      "top": -115,
+      "x": 0,
+      "y": -115,
+      "width": 960,
+      "height": 540,
+      "zoom": 1
+    },
+    "canvas": {
+      "x": 0,
+      "y": 0,
+      "width": 960,
+      "height": 540,
+      "top": 0,
+      "right": 960,
+      "bottom": 540,
+      "left": 0
+    },
+    "hoop": {
+      "type": 5,
+      "x": 277,
+      "y": -97.20000000000002,
+      "width": 107.51999999999998,
+      "height": 179.20000000000002
+    },
+    "house": {
+      "type": 5,
+      "x": -88.203125,
+      "y": 19.2421875,
+      "width": 188.203125,
+      "height": 415.7578125
+    },
+    "score": 17,
+    "distance": 500,
+    "shared": true,
+    "shade": 0
+  },
+  {
+    "phase": "stars",
+    "progress": 0,
+    "elapsed": 14.591666666666667,
+    "logical": {
+      "x": 418.09748664764146,
+      "y": 428.3157407171214
+    },
+    "hero": {
+      "x": 418.09748664764146,
+      "y": 251.86305550595495,
+      "size": 94
+    },
+    "arena": {
+      "left": 180,
+      "right": 820,
+      "top": 100,
+      "bottom": 381.40000000000003
+    },
+    "impact": {
+      "radiusX": 29,
+      "radiusY": 27.405
+    },
+    "offset": 0,
+    "camera": {
+      "state": "COURT_ACTIVE",
+      "focus": 1,
+      "top": -115,
+      "x": 0,
+      "y": -115,
+      "width": 960,
+      "height": 540,
+      "zoom": 1
+    },
+    "canvas": {
+      "x": 0,
+      "y": 0,
+      "width": 960,
+      "height": 540,
+      "top": 0,
+      "right": 960,
+      "bottom": 540,
+      "left": 0
+    },
+    "hoop": {
+      "type": 5,
+      "x": 277,
+      "y": -97.20000000000002,
+      "width": 107.51999999999998,
+      "height": 179.20000000000002
+    },
+    "house": {
+      "type": 5,
+      "x": -88.203125,
+      "y": 19.2421875,
+      "width": 188.203125,
+      "height": 415.7578125
+    },
+    "score": 17,
+    "distance": 500,
+    "shared": true,
+    "shade": 0
+  },
+  {
+    "phase": "stars",
+    "progress": 0,
+    "elapsed": 15.1,
+    "logical": {
+      "x": 346.87387557196,
+      "y": 439.98300260669936
+    },
+    "hero": {
+      "x": 346.87387557196,
+      "y": 276.36430547406866,
+      "size": 94
+    },
+    "arena": {
+      "left": 180,
+      "right": 820,
+      "top": 100,
+      "bottom": 381.40000000000003
+    },
+    "impact": {
+      "radiusX": 29,
+      "radiusY": 27.405
+    },
+    "offset": 0,
+    "camera": {
+      "state": "COURT_ACTIVE",
+      "focus": 1,
+      "top": -115,
+      "x": 0,
+      "y": -115,
+      "width": 960,
+      "height": 540,
+      "zoom": 1
+    },
+    "canvas": {
+      "x": 0,
+      "y": 0,
+      "width": 960,
+      "height": 540,
+      "top": 0,
+      "right": 960,
+      "bottom": 540,
+      "left": 0
+    },
+    "hoop": {
+      "type": 5,
+      "x": 277,
+      "y": -97.20000000000002,
+      "width": 107.51999999999998,
+      "height": 179.20000000000002
+    },
+    "house": {
+      "type": 5,
+      "x": -88.203125,
+      "y": 19.2421875,
+      "width": 188.203125,
+      "height": 415.7578125
+    },
+    "score": 17,
+    "distance": 500,
+    "shared": true,
+    "shade": 0
+  },
+  {
+    "phase": "stars",
+    "progress": 0,
+    "elapsed": 15.6,
+    "logical": {
+      "x": 426.8035051071117,
+      "y": 393.3139550483875
+    },
+    "hero": {
+      "x": 426.8035051071117,
+      "y": 178.3593056016138,
+      "size": 94
+    },
+    "arena": {
+      "left": 180,
+      "right": 820,
+      "top": 100,
+      "bottom": 381.40000000000003
+    },
+    "impact": {
+      "radiusX": 29,
+      "radiusY": 27.405
+    },
+    "offset": 0,
+    "camera": {
+      "state": "COURT_ACTIVE",
+      "focus": 1,
+      "top": -115,
+      "x": 0,
+      "y": -115,
+      "width": 960,
+      "height": 540,
+      "zoom": 1
+    },
+    "canvas": {
+      "x": 0,
+      "y": 0,
+      "width": 960,
+      "height": 540,
+      "top": 0,
+      "right": 960,
+      "bottom": 540,
+      "left": 0
+    },
+    "hoop": {
+      "type": 5,
+      "x": 277,
+      "y": -97.20000000000002,
+      "width": 107.51999999999998,
+      "height": 179.20000000000002
+    },
+    "house": {
+      "type": 5,
+      "x": -88.203125,
+      "y": 19.2421875,
+      "width": 188.203125,
+      "height": 415.7578125
+    },
+    "score": 17,
+    "distance": 500,
+    "shared": true,
+    "shade": 0
+  },
+  {
+    "phase": "stars",
+    "progress": 0,
+    "elapsed": 16.091666666666665,
+    "logical": {
+      "x": 476.30350510711116,
+      "y": 404.3139550483874
+    },
+    "hero": {
+      "x": 476.30350510711116,
+      "y": 201.45930560161358,
+      "size": 94
+    },
+    "arena": {
+      "left": 180,
+      "right": 820,
+      "top": 100,
+      "bottom": 381.40000000000003
+    },
+    "impact": {
+      "radiusX": 29,
+      "radiusY": 27.405
+    },
+    "offset": 0,
+    "camera": {
+      "state": "COURT_ACTIVE",
+      "focus": 1,
+      "top": -115,
+      "x": 0,
+      "y": -115,
+      "width": 960,
+      "height": 540,
+      "zoom": 1
+    },
+    "canvas": {
+      "x": 0,
+      "y": 0,
+      "width": 960,
+      "height": 540,
+      "top": 0,
+      "right": 960,
+      "bottom": 540,
+      "left": 0
+    },
+    "hoop": {
+      "type": 5,
+      "x": 277,
+      "y": -97.20000000000002,
+      "width": 107.51999999999998,
+      "height": 179.20000000000002
+    },
+    "house": {
+      "type": 5,
+      "x": -88.203125,
+      "y": 19.2421875,
+      "width": 188.203125,
+      "height": 415.7578125
+    },
+    "score": 17,
+    "distance": 500,
+    "shared": true,
+    "shade": 0
+  },
+  {
+    "phase": "stars",
+    "progress": 0,
+    "elapsed": 16.591666666666665,
+    "logical": {
+      "x": 435.26474853721936,
+      "y": 430.241203691894
+    },
+    "hero": {
+      "x": 435.26474853721936,
+      "y": 255.90652775297738,
+      "size": 94
+    },
+    "arena": {
+      "left": 180,
+      "right": 820,
+      "top": 100,
+      "bottom": 381.40000000000003
+    },
+    "impact": {
+      "radiusX": 29,
+      "radiusY": 27.405
+    },
+    "offset": 0,
+    "camera": {
+      "state": "COURT_ACTIVE",
+      "focus": 1,
+      "top": -115,
+      "x": 0,
+      "y": -115,
+      "width": 960,
+      "height": 540,
+      "zoom": 1
+    },
+    "canvas": {
+      "x": 0,
+      "y": 0,
+      "width": 960,
+      "height": 540,
+      "top": 0,
+      "right": 960,
+      "bottom": 540,
+      "left": 0
+    },
+    "hoop": {
+      "type": 5,
+      "x": 277,
+      "y": -97.20000000000002,
+      "width": 107.51999999999998,
+      "height": 179.20000000000002
+    },
+    "house": {
+      "type": 5,
+      "x": -88.203125,
+      "y": 19.2421875,
+      "width": 188.203125,
+      "height": 415.7578125
+    },
+    "score": 17,
+    "distance": 500,
+    "shared": true,
+    "shade": 0
+  },
+  {
+    "phase": "stars",
+    "progress": 0,
+    "elapsed": 17.1,
+    "logical": {
+      "x": 423.5974866476414,
+      "y": 415.98121693796537
+    },
+    "hero": {
+      "x": 423.5974866476414,
+      "y": 225.9605555697273,
+      "size": 94
+    },
+    "arena": {
+      "left": 180,
+      "right": 820,
+      "top": 100,
+      "bottom": 381.40000000000003
+    },
+    "impact": {
+      "radiusX": 29,
+      "radiusY": 27.405
+    },
+    "offset": 0,
+    "camera": {
+      "state": "COURT_ACTIVE",
+      "focus": 1,
+      "top": -115,
+      "x": 0,
+      "y": -115,
+      "width": 960,
+      "height": 540,
+      "zoom": 1
+    },
+    "canvas": {
+      "x": 0,
+      "y": 0,
+      "width": 960,
+      "height": 540,
+      "top": 0,
+      "right": 960,
+      "bottom": 540,
+      "left": 0
+    },
+    "hoop": {
+      "type": 5,
+      "x": 277,
+      "y": -97.20000000000002,
+      "width": 107.51999999999998,
+      "height": 179.20000000000002
+    },
+    "house": {
+      "type": 5,
+      "x": -88.203125,
+      "y": 19.2421875,
+      "width": 188.203125,
+      "height": 415.7578125
+    },
+    "score": 17,
+    "distance": 500,
+    "shared": true,
+    "shade": 0
+  },
+  {
+    "phase": "stars",
+    "progress": 0,
+    "elapsed": 17.6,
+    "logical": {
+      "x": 475.45198393465455,
+      "y": 390.0539682944588
+    },
+    "hero": {
+      "x": 475.45198393465455,
+      "y": 171.51333341836346,
+      "size": 94
+    },
+    "arena": {
+      "left": 180,
+      "right": 820,
+      "top": 100,
+      "bottom": 381.40000000000003
+    },
+    "impact": {
+      "radiusX": 29,
+      "radiusY": 27.405
+    },
+    "offset": 0,
+    "camera": {
+      "state": "COURT_ACTIVE",
+      "focus": 1,
+      "top": -115,
+      "x": 0,
+      "y": -115,
+      "width": 960,
+      "height": 540,
+      "zoom": 1
+    },
+    "canvas": {
+      "x": 0,
+      "y": 0,
+      "width": 960,
+      "height": 540,
+      "top": 0,
+      "right": 960,
+      "bottom": 540,
+      "left": 0
+    },
+    "hoop": {
+      "type": 5,
+      "x": 277,
+      "y": -97.20000000000002,
+      "width": 107.51999999999998,
+      "height": 179.20000000000002
+    },
+    "house": {
+      "type": 5,
+      "x": -88.203125,
+      "y": 19.2421875,
+      "width": 188.203125,
+      "height": 415.7578125
+    },
+    "score": 17,
+    "distance": 500,
+    "shared": true,
+    "shade": 0
+  },
+  {
+    "phase": "stars",
+    "progress": 0,
+    "elapsed": 18.091666666666665,
+    "logical": {
+      "x": 511.842261677003,
+      "y": 427.07334657940453
+    },
+    "hero": {
+      "x": 511.842261677003,
+      "y": 249.25402781674953,
+      "size": 94
+    },
+    "arena": {
+      "left": 180,
+      "right": 820,
+      "top": 100,
+      "bottom": 381.40000000000003
+    },
+    "impact": {
+      "radiusX": 29,
+      "radiusY": 27.405
+    },
+    "offset": 0,
+    "camera": {
+      "state": "COURT_ACTIVE",
+      "focus": 1,
+      "top": -115,
+      "x": 0,
+      "y": -115,
+      "width": 960,
+      "height": 540,
+      "zoom": 1
+    },
+    "canvas": {
+      "x": 0,
+      "y": 0,
+      "width": 960,
+      "height": 540,
+      "top": 0,
+      "right": 960,
+      "bottom": 540,
+      "left": 0
+    },
+    "hoop": {
+      "type": 5,
+      "x": 277,
+      "y": -97.20000000000002,
+      "width": 107.51999999999998,
+      "height": 179.20000000000002
+    },
+    "house": {
+      "type": 5,
+      "x": -88.203125,
+      "y": 19.2421875,
+      "width": 188.203125,
+      "height": 415.7578125
+    },
+    "score": 17,
+    "distance": 500,
+    "shared": true,
+    "shade": 0
+  }
+]

@@ -1,0 +1,208 @@
+{
+  "checkedOn": "2026-10-28",
+  "version": "court-modes-v9",
+  "unit": {
+    "passed": 126,
+    "total": 126,
+    "files": 18
+  },
+  "browser": {
+    "passed": 63,
+    "total": 63,
+    "workers": 1,
+    "timeoutMilliseconds": 60000,
+    "minutes": 5.1,
+    "files": [
+      "courtArena",
+      "courtContinuity",
+      "starsCollision",
+      "starsContinuous",
+      "mobile",
+      "locationIntegration",
+      "textureBoundaries",
+      "textures",
+      "references"
+    ],
+    "preliminary": "57/60; fractional viewport gap fixed, two neighbouring trench scenarios timed out under concurrent capture. All passed in final single run."
+  },
+  "typecheck": "passed",
+  "build": "passed (existing Phaser chunk size warning)",
+  "assetAudit": {
+    "passed": 35,
+    "total": 35
+  },
+  "documentation": {
+    "links": 208,
+    "markdownFiles": 61,
+    "passed": true
+  },
+  "screenshots": {
+    "count": 190,
+    "sets": 10,
+    "errors": [],
+    "fourDirectionLimits": [
+      {
+        "stage": "edge-top",
+        "logical": {
+          "x": 500,
+          "y": 356
+        }
+      },
+      {
+        "stage": "edge-bottom",
+        "logical": {
+          "x": 500,
+          "y": 490
+        }
+      },
+      {
+        "stage": "edge-left",
+        "logical": {
+          "x": 180,
+          "y": 423
+        }
+      },
+      {
+        "stage": "edge-right",
+        "logical": {
+          "x": 820,
+          "y": 423
+        }
+      }
+    ]
+  },
+  "videos": [
+    {
+      "viewport": [
+        960,
+        540
+      ],
+      "file": "cycle-960x540.webm",
+      "seconds": 34.84,
+      "scorePreserved": true,
+      "blackouts": false,
+      "naturalHitAt": 19.491666666666667,
+      "continuationDistance": 507.625,
+      "inputs": [
+        "-1,0",
+        "1,1",
+        "-1,-1",
+        "1,0",
+        "-1,1",
+        "1,-1",
+        "0,0"
+      ],
+      "errors": []
+    },
+    {
+      "viewport": [
+        1920,
+        1080
+      ],
+      "file": "cycle-1920x1080.webm",
+      "seconds": 34.237,
+      "scorePreserved": true,
+      "blackouts": false,
+      "naturalHitAt": 18.941666666666666,
+      "continuationDistance": 507.4166666666667,
+      "inputs": [
+        "-1,0",
+        "1,1",
+        "-1,-1",
+        "1,0",
+        "1,-1",
+        "-1,1",
+        "0,0",
+        "0,1",
+        "0,-1"
+      ],
+      "errors": []
+    },
+    {
+      "viewport": [
+        1230,
+        372
+      ],
+      "file": "cycle-1230x372.webm",
+      "seconds": 33.701,
+      "scorePreserved": true,
+      "blackouts": false,
+      "naturalHitAt": 18.391666666666666,
+      "continuationDistance": 507.5,
+      "inputs": [
+        "1,1",
+        "1,-1",
+        "-1,1",
+        "-1,-1",
+        "-1,0",
+        "1,0",
+        "0,0",
+        "0,-1",
+        "0,1"
+      ],
+      "errors": []
+    },
+    {
+      "viewport": [
+        375,
+        667
+      ],
+      "file": "cycle-375x667.webm",
+      "seconds": 36.783,
+      "scorePreserved": true,
+      "blackouts": false,
+      "naturalHitAt": 21.475,
+      "continuationDistance": 507.4583333333333,
+      "inputs": [
+        "-1,0",
+        "-1,-1",
+        "1,1",
+        "-1,1",
+        "1,0",
+        "1,-1",
+        "0,0",
+        "0,1"
+      ],
+      "errors": []
+    }
+  ],
+  "playback": {
+    "decoder": "Microsoft Edge, software VP9 (--disable-accelerated-video-decode)",
+    "decodedFrames": 72,
+    "files": [
+      {
+        "file": "cycle-960x540.webm",
+        "width": 960,
+        "height": 540,
+        "seconds": 34.84,
+        "errors": null
+      },
+      {
+        "file": "cycle-1920x1080.webm",
+        "width": 1920,
+        "height": 1080,
+        "seconds": 34.237,
+        "errors": null
+      },
+      {
+        "file": "cycle-1230x372.webm",
+        "width": 1230,
+        "height": 372,
+        "seconds": 33.701,
+        "errors": null
+      },
+      {
+        "file": "cycle-375x667.webm",
+        "width": 375,
+        "height": 667,
+        "seconds": 36.783,
+        "errors": null
+      }
+    ]
+  },
+  "limits": [
+    "Physical phones and Telegram WebView not tested",
+    "Browser tests limited to the listed nine files",
+    "Artistic approval remains with the user"
+  ]
+}

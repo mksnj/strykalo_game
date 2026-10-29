@@ -1,0 +1,229 @@
+{
+  "viewport": {
+    "width": 390,
+    "height": 844
+  },
+  "route": [
+    {
+      "distance": 50,
+      "road": "night-ground",
+      "visible": true,
+      "y": 435,
+      "scale": [
+        0.6402439024390244,
+        0.6402439024390244
+      ],
+      "width": 960,
+      "left": 0,
+      "foundation": false,
+      "city": "night-far-repeat",
+      "entranceCrop": 435,
+      "endingCrop": 435,
+      "wings": [
+        540,
+        540
+      ],
+      "camera": {
+        "left": 60,
+        "right": 780
+      }
+    },
+    {
+      "distance": 210,
+      "road": "night-ground",
+      "visible": true,
+      "y": 435,
+      "scale": [
+        0.6402439024390244,
+        0.6402439024390244
+      ],
+      "width": 960,
+      "left": 0,
+      "foundation": false,
+      "city": "night-far-court-sky",
+      "entranceCrop": 435,
+      "endingCrop": 435,
+      "wings": [
+        540,
+        540
+      ],
+      "camera": {
+        "left": 60,
+        "right": 780
+      }
+    },
+    {
+      "distance": 350,
+      "road": "night-ground",
+      "visible": true,
+      "y": 435,
+      "scale": [
+        0.6402439024390244,
+        0.6402439024390244
+      ],
+      "width": 960,
+      "left": 0,
+      "foundation": false,
+      "city": "night-far-court-sky",
+      "entranceCrop": 435,
+      "endingCrop": 435,
+      "wings": [
+        540,
+        540
+      ],
+      "camera": {
+        "left": 60,
+        "right": 780
+      }
+    },
+    {
+      "distance": 460,
+      "road": "night-ground",
+      "visible": true,
+      "y": 435,
+      "scale": [
+        0.6402439024390244,
+        0.6402439024390244
+      ],
+      "width": 960,
+      "left": 0,
+      "foundation": false,
+      "city": "night-far-court-sky",
+      "entranceCrop": 435,
+      "endingCrop": 435,
+      "wings": [
+        540,
+        540
+      ],
+      "camera": {
+        "left": 60,
+        "right": 780
+      }
+    },
+    {
+      "distance": 585,
+      "road": "night-ground",
+      "visible": true,
+      "y": 435,
+      "scale": [
+        0.6402439024390244,
+        0.6402439024390244
+      ],
+      "width": 960,
+      "left": 0,
+      "foundation": false,
+      "city": "night-far-court-sky",
+      "entranceCrop": 435,
+      "endingCrop": 435,
+      "wings": [
+        540,
+        540
+      ],
+      "camera": {
+        "left": 60,
+        "right": 780
+      }
+    },
+    {
+      "distance": 598,
+      "road": "night-ground",
+      "visible": true,
+      "y": 435,
+      "scale": [
+        0.6402439024390244,
+        0.6402439024390244
+      ],
+      "width": 960,
+      "left": 0,
+      "foundation": false,
+      "city": "night-far-court-sky",
+      "entranceCrop": 435,
+      "endingCrop": 435,
+      "wings": [
+        540,
+        540
+      ],
+      "camera": {
+        "left": 60,
+        "right": 780
+      }
+    },
+    {
+      "distance": 640,
+      "road": "night-ground",
+      "visible": true,
+      "y": 435,
+      "scale": [
+        0.6402439024390244,
+        0.6402439024390244
+      ],
+      "width": 960,
+      "left": 0,
+      "foundation": false,
+      "city": "night-far-court-sky",
+      "entranceCrop": 435,
+      "endingCrop": 435,
+      "wings": [
+        435,
+        435
+      ],
+      "camera": {
+        "left": 0,
+        "right": 960
+      }
+    },
+    {
+      "distance": 698,
+      "road": "night-ground",
+      "visible": true,
+      "y": 435,
+      "scale": [
+        0.6402439024390244,
+        0.6402439024390244
+      ],
+      "width": 960,
+      "left": 0,
+      "foundation": false,
+      "city": "night-far-court-sky",
+      "entranceCrop": 435,
+      "endingCrop": 435,
+      "wings": [
+        435,
+        435
+      ],
+      "camera": {
+        "left": 0,
+        "right": 960
+      }
+    }
+  ],
+  "lamp": {
+    "before": [
+      44.44,
+      8.653333333333334,
+      28.213333333333335
+    ],
+    "dimmed": [
+      32.973333333333336,
+      6.36,
+      20.92
+    ],
+    "between": [
+      44.44,
+      8.653333333333334,
+      28.213333333333335
+    ],
+    "response": {
+      "resets": 0,
+      "elapsed": 11.633333333333333,
+      "alpha": 0,
+      "parent": true,
+      "width": 960
+    }
+  },
+  "flash": {
+    "paths": 0,
+    "rectangles": 2
+  },
+  "errors": []
+}

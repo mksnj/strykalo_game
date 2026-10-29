@@ -1,0 +1,74 @@
+[
+  {
+    "name": "pipe",
+    "source": "assets/source/visual-v12/pipe.png",
+    "sourceSha256": "e1a92942afdbffead94313354dac55265a478cdcacfa25d428cc494639bf58b3",
+    "output": "apps/web/public/assets/visual-v12/pipe.webp",
+    "sha256": "15dda3d1909005a9992280de022ea7eedadc38483a046f6b4f3bbcaecc83b6d8",
+    "size": [
+      1920,
+      640
+    ],
+    "bytes": 1371508
+  },
+  {
+    "name": "front",
+    "source": "assets/source/visual-v12/front.png",
+    "sourceSha256": "4070ebc4ddce9e7e5f4ce8c5de6fc86a7d0560f518bddeba7372a6ad59bd5ad1",
+    "output": "apps/web/public/assets/visual-v12/front.webp",
+    "sha256": "b73927dde8181e6ed116010a5d075a38a95f202d61f263dc6f7b7202ccfaf9fa",
+    "crop": {
+      "l": 294,
+      "t": 55,
+      "r": 730,
+      "b": 1467
+    },
+    "size": [
+      128,
+      256
+    ],
+    "bytes": 20204
+  },
+  {
+    "name": "seated",
+    "source": "assets/source/visual-v12/seated.png",
+    "sourceSha256": "065895fed0c386ee8ea1f5dc634294d5a7e9195056fe2887482f14dc709f13e6",
+    "output": "apps/web/public/assets/visual-v12/seated.webp",
+    "sha256": "a9099b88d689b0ef326cabcf6eb7a1a00a5570d4fd252c8f8e1d33e1d2459fd3",
+    "crop": {
+      "l": 151,
+      "t": 125,
+      "r": 874,
+      "b": 1391
+    },
+    "size": [
+      128,
+      256
+    ],
+    "bytes": 29616
+  },
+  {
+    "name": "graffiti",
+    "source": "tools/prepare-visual-v12.mjs",
+    "sourceSha256": null,
+    "output": "apps/web/public/assets/visual-v12/graffiti.webp",
+    "sha256": "ff9b020691a6bf95fbe34c33a11d315190abb8fe94e7f7abaec2f28b2dededc3",
+    "size": [
+      480,
+      160
+    ],
+    "bytes": 26538
+  },
+  {
+    "name": "facade",
+    "source": "assets/source/visual-v12/facade.png",
+    "sourceSha256": "c09995361aa9fc2bba64cb6bfad8364f673b5b66ece22de8f5da9e6b45f14545",
+    "output": "apps/web/public/assets/visual-v12/facade.webp",
+    "sha256": "0f92444276f7556e22124ee155be61f1a8960509f300aa9613063c8cf84299b1",
+    "size": [
+      960,
+      540
+    ],
+    "bytes": 682884
+  }
+]

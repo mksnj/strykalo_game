@@ -1,0 +1,15 @@
+{
+  "createdOn": "2026-10-26",
+  "tool": "built-in image_gen",
+  "prompt": "Use case: stylized-concept. Asset type: one transparent-background sprite for a hand-painted 2D side-scrolling post-Soviet city game. Primary request: an abandoned old CRT television sinking in a shallow dirty BROWN puddle. The large boxy dark charcoal-grey television is tilted slightly clockwise and its bottom third is submerged in opaque muddy brown water, so the water naturally occludes the bottom of its case. Clearly readable rounded rectangular glass screen facing the viewer, a few knobs on the right, battered corners, tiny desaturated cold grey-blue glow, faint blurry newsreader-like face on screen; no bright bloom. Thin broken brown ripples around the submerged case and a very faint muted blue reflection in the water. A wide low irregular puddle with muddy earthy umber/brown tones, natural soft broken edges tapering into transparent alpha; absolutely no rectangular ground slab. Composition: entire television and entire puddle isolated on TRUE TRANSPARENCY, all objects fully in frame with modest margin. Low viewpoint appropriate for side-scrolling street; slightly see the water surface. Television occupies central 45% of width, about 65% of total composition height; puddle occupies lower 25% with irregular horizontal oval footprint. Style: detailed painterly gouache and irregular dark ink with worn collage grain, muted dark blue-grey casing, desaturated earthy brown mud, cold overcast evening lighting. Readable small silhouette at 150px wide in game. No building, window frame, wall, landscape, sky, people outside screen, trash piles, text, digits, brand logos, UI, checkered backdrop, white background, photorealism, pixel art, vector outlines or golden light. Landscape approximately 3:2.",
+  "source": "assets/source/references-v12/television-puddle.png",
+  "runtime": "apps/web/public/assets/references-v12/television-puddle.webp",
+  "packaging": {
+    "width": 768,
+    "height": 512,
+    "alpha": "preserved",
+    "command": "node tools/prepare-television-art.mjs"
+  },
+  "sourceSha256": "21f29cbd2459e3316677e70a959e980ee49082168af74f8b8f5db95d54d13be4",
+  "runtimeSha256": "4db5bfd3bce9878df3805c86dcf915a8a655b33cf8763499367fbe0ca9bb172b"
+}

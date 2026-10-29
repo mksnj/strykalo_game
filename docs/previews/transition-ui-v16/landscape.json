@@ -1,0 +1,4149 @@
+{
+  "viewport": {
+    "width": 844,
+    "height": 390
+  },
+  "approach": [
+    {
+      "phase": "beer-pickup",
+      "time": 0.008333333333333333,
+      "progress": 0.003205128205128205,
+      "pending": false,
+      "pipeVisible": false,
+      "modal": false,
+      "hud": 0,
+      "hero": {
+        "flip": false,
+        "texture": "hero-idle",
+        "x": 180,
+        "y": 438,
+        "visible": true
+      }
+    },
+    {
+      "phase": "beer-pickup",
+      "time": 0.025,
+      "progress": 0.009615384615384616,
+      "pending": false,
+      "pipeVisible": false,
+      "modal": false,
+      "hud": 0,
+      "hero": {
+        "flip": false,
+        "texture": "hero-idle",
+        "x": 180,
+        "y": 438,
+        "visible": true
+      }
+    },
+    {
+      "phase": "beer-pickup",
+      "time": 0.041666666666666664,
+      "progress": 0.016025641025641024,
+      "pending": false,
+      "pipeVisible": false,
+      "modal": false,
+      "hud": 0,
+      "hero": {
+        "flip": false,
+        "texture": "hero-idle",
+        "x": 180,
+        "y": 438,
+        "visible": true
+      }
+    },
+    {
+      "phase": "beer-pickup",
+      "time": 0.05833333333333333,
+      "progress": 0.022435897435897433,
+      "pending": false,
+      "pipeVisible": false,
+      "modal": false,
+      "hud": 0,
+      "hero": {
+        "flip": false,
+        "texture": "hero-idle",
+        "x": 180,
+        "y": 438,
+        "visible": true
+      }
+    },
+    {
+      "phase": "beer-pickup",
+      "time": 0.075,
+      "progress": 0.028846153846153844,
+      "pending": false,
+      "pipeVisible": false,
+      "modal": false,
+      "hud": 0,
+      "hero": {
+        "flip": false,
+        "texture": "hero-idle",
+        "x": 180,
+        "y": 438,
+        "visible": true
+      }
+    },
+    {
+      "phase": "beer-pickup",
+      "time": 0.09166666666666666,
+      "progress": 0.035256410256410256,
+      "pending": false,
+      "pipeVisible": false,
+      "modal": false,
+      "hud": 0,
+      "hero": {
+        "flip": false,
+        "texture": "hero-idle",
+        "x": 180,
+        "y": 438,
+        "visible": true
+      }
+    },
+    {
+      "phase": "beer-pickup",
+      "time": 0.10833333333333332,
+      "progress": 0.041666666666666664,
+      "pending": false,
+      "pipeVisible": false,
+      "modal": false,
+      "hud": 0,
+      "hero": {
+        "flip": false,
+        "texture": "hero-idle",
+        "x": 180,
+        "y": 438,
+        "visible": true
+      }
+    },
+    {
+      "phase": "beer-pickup",
+      "time": 0.12499999999999999,
+      "progress": 0.04807692307692307,
+      "pending": false,
+      "pipeVisible": false,
+      "modal": false,
+      "hud": 0,
+      "hero": {
+        "flip": false,
+        "texture": "hero-idle",
+        "x": 180,
+        "y": 438,
+        "visible": true
+      }
+    },
+    {
+      "phase": "beer-pickup",
+      "time": 0.14166666666666666,
+      "progress": 0.05448717948717948,
+      "pending": false,
+      "pipeVisible": false,
+      "modal": false,
+      "hud": 0,
+      "hero": {
+        "flip": false,
+        "texture": "hero-idle",
+        "x": 180,
+        "y": 438,
+        "visible": true
+      }
+    },
+    {
+      "phase": "beer-pickup",
+      "time": 0.15833333333333333,
+      "progress": 0.06089743589743589,
+      "pending": false,
+      "pipeVisible": false,
+      "modal": false,
+      "hud": 0,
+      "hero": {
+        "flip": false,
+        "texture": "hero-idle",
+        "x": 180,
+        "y": 438,
+        "visible": true
+      }
+    },
+    {
+      "phase": "beer-pickup",
+      "time": 0.175,
+      "progress": 0.0673076923076923,
+      "pending": false,
+      "pipeVisible": false,
+      "modal": false,
+      "hud": 0,
+      "hero": {
+        "flip": false,
+        "texture": "hero-idle",
+        "x": 180,
+        "y": 438,
+        "visible": true
+      }
+    },
+    {
+      "phase": "beer-pickup",
+      "time": 0.19166666666666665,
+      "progress": 0.0737179487179487,
+      "pending": false,
+      "pipeVisible": false,
+      "modal": false,
+      "hud": 0,
+      "hero": {
+        "flip": false,
+        "texture": "hero-idle",
+        "x": 180,
+        "y": 438,
+        "visible": true
+      }
+    },
+    {
+      "phase": "beer-pickup",
+      "time": 0.20833333333333331,
+      "progress": 0.08012820512820512,
+      "pending": false,
+      "pipeVisible": false,
+      "modal": false,
+      "hud": 0,
+      "hero": {
+        "flip": false,
+        "texture": "hero-idle",
+        "x": 180,
+        "y": 438,
+        "visible": true
+      }
+    },
+    {
+      "phase": "beer-pickup",
+      "time": 0.22499999999999998,
+      "progress": 0.08653846153846152,
+      "pending": false,
+      "pipeVisible": false,
+      "modal": false,
+      "hud": 0,
+      "hero": {
+        "flip": false,
+        "texture": "hero-idle",
+        "x": 180,
+        "y": 438,
+        "visible": true
+      }
+    },
+    {
+      "phase": "beer-pickup",
+      "time": 0.24166666666666664,
+      "progress": 0.09294871794871794,
+      "pending": false,
+      "pipeVisible": false,
+      "modal": false,
+      "hud": 0,
+      "hero": {
+        "flip": false,
+        "texture": "hero-idle",
+        "x": 180,
+        "y": 438,
+        "visible": true
+      }
+    },
+    {
+      "phase": "beer-pickup",
+      "time": 0.2583333333333333,
+      "progress": 0.09935897435897434,
+      "pending": false,
+      "pipeVisible": false,
+      "modal": false,
+      "hud": 0,
+      "hero": {
+        "flip": false,
+        "texture": "hero-idle",
+        "x": 180,
+        "y": 438,
+        "visible": true
+      }
+    },
+    {
+      "phase": "beer-pickup",
+      "time": 0.275,
+      "progress": 0.10576923076923077,
+      "pending": false,
+      "pipeVisible": false,
+      "modal": false,
+      "hud": 0,
+      "hero": {
+        "flip": false,
+        "texture": "hero-idle",
+        "x": 180,
+        "y": 438,
+        "visible": true
+      }
+    },
+    {
+      "phase": "beer-pickup",
+      "time": 0.29166666666666674,
+      "progress": 0.1121794871794872,
+      "pending": false,
+      "pipeVisible": false,
+      "modal": false,
+      "hud": 0,
+      "hero": {
+        "flip": false,
+        "texture": "hero-idle",
+        "x": 180,
+        "y": 438,
+        "visible": true
+      }
+    },
+    {
+      "phase": "beer-pickup",
+      "time": 0.30833333333333346,
+      "progress": 0.11858974358974364,
+      "pending": false,
+      "pipeVisible": false,
+      "modal": false,
+      "hud": 0,
+      "hero": {
+        "flip": false,
+        "texture": "hero-idle",
+        "x": 180,
+        "y": 438,
+        "visible": true
+      }
+    },
+    {
+      "phase": "beer-pickup",
+      "time": 0.3250000000000002,
+      "progress": 0.12500000000000006,
+      "pending": false,
+      "pipeVisible": false,
+      "modal": false,
+      "hud": 0,
+      "hero": {
+        "flip": false,
+        "texture": "hero-idle",
+        "x": 180,
+        "y": 438,
+        "visible": true
+      }
+    },
+    {
+      "phase": "beer-pickup",
+      "time": 0.3416666666666669,
+      "progress": 0.1314102564102565,
+      "pending": false,
+      "pipeVisible": false,
+      "modal": false,
+      "hud": 0,
+      "hero": {
+        "flip": false,
+        "texture": "hero-idle",
+        "x": 180,
+        "y": 438,
+        "visible": true
+      }
+    },
+    {
+      "phase": "beer-pickup",
+      "time": 0.3583333333333336,
+      "progress": 0.1378205128205129,
+      "pending": false,
+      "pipeVisible": false,
+      "modal": false,
+      "hud": 0,
+      "hero": {
+        "flip": false,
+        "texture": "hero-idle",
+        "x": 180,
+        "y": 438,
+        "visible": true
+      }
+    },
+    {
+      "phase": "beer-pickup",
+      "time": 0.37500000000000033,
+      "progress": 0.14423076923076936,
+      "pending": false,
+      "pipeVisible": false,
+      "modal": false,
+      "hud": 0,
+      "hero": {
+        "flip": false,
+        "texture": "hero-idle",
+        "x": 180,
+        "y": 438,
+        "visible": true
+      }
+    },
+    {
+      "phase": "beer-pickup",
+      "time": 0.39166666666666705,
+      "progress": 0.15064102564102577,
+      "pending": false,
+      "pipeVisible": false,
+      "modal": false,
+      "hud": 0,
+      "hero": {
+        "flip": false,
+        "texture": "hero-idle",
+        "x": 180,
+        "y": 438,
+        "visible": true
+      }
+    },
+    {
+      "phase": "beer-pickup",
+      "time": 0.40833333333333377,
+      "progress": 0.15705128205128221,
+      "pending": false,
+      "pipeVisible": false,
+      "modal": false,
+      "hud": 0,
+      "hero": {
+        "flip": false,
+        "texture": "hero-idle",
+        "x": 180,
+        "y": 438,
+        "visible": true
+      }
+    },
+    {
+      "phase": "beer-pickup",
+      "time": 0.4250000000000005,
+      "progress": 0.16346153846153863,
+      "pending": false,
+      "pipeVisible": false,
+      "modal": false,
+      "hud": 0,
+      "hero": {
+        "flip": false,
+        "texture": "hero-idle",
+        "x": 180,
+        "y": 438,
+        "visible": true
+      }
+    },
+    {
+      "phase": "beer-pickup",
+      "time": 0.4416666666666672,
+      "progress": 0.16987179487179507,
+      "pending": false,
+      "pipeVisible": false,
+      "modal": false,
+      "hud": 0,
+      "hero": {
+        "flip": false,
+        "texture": "hero-idle",
+        "x": 180,
+        "y": 438,
+        "visible": true
+      }
+    },
+    {
+      "phase": "beer-pickup",
+      "time": 0.4583333333333339,
+      "progress": 0.17628205128205152,
+      "pending": false,
+      "pipeVisible": false,
+      "modal": false,
+      "hud": 0,
+      "hero": {
+        "flip": false,
+        "texture": "hero-idle",
+        "x": 180,
+        "y": 438,
+        "visible": true
+      }
+    },
+    {
+      "phase": "beer-pickup",
+      "time": 0.47500000000000064,
+      "progress": 0.18269230769230793,
+      "pending": false,
+      "pipeVisible": false,
+      "modal": false,
+      "hud": 0,
+      "hero": {
+        "flip": false,
+        "texture": "hero-idle",
+        "x": 180,
+        "y": 438,
+        "visible": true
+      }
+    },
+    {
+      "phase": "beer-pickup",
+      "time": 0.49166666666666736,
+      "progress": 0.18910256410256437,
+      "pending": false,
+      "pipeVisible": false,
+      "modal": false,
+      "hud": 0,
+      "hero": {
+        "flip": false,
+        "texture": "hero-idle",
+        "x": 180,
+        "y": 438,
+        "visible": true
+      }
+    },
+    {
+      "phase": "beer-pickup",
+      "time": 0.508333333333334,
+      "progress": 0.19551282051282076,
+      "pending": false,
+      "pipeVisible": false,
+      "modal": false,
+      "hud": 0,
+      "hero": {
+        "flip": false,
+        "texture": "hero-idle",
+        "x": 180,
+        "y": 438,
+        "visible": true
+      }
+    },
+    {
+      "phase": "beer-pickup",
+      "time": 0.5250000000000006,
+      "progress": 0.20192307692307715,
+      "pending": false,
+      "pipeVisible": false,
+      "modal": false,
+      "hud": 0,
+      "hero": {
+        "flip": false,
+        "texture": "hero-idle",
+        "x": 180,
+        "y": 438,
+        "visible": true
+      }
+    },
+    {
+      "phase": "beer-pickup",
+      "time": 0.5416666666666672,
+      "progress": 0.20833333333333354,
+      "pending": false,
+      "pipeVisible": false,
+      "modal": false,
+      "hud": 0,
+      "hero": {
+        "flip": false,
+        "texture": "hero-idle",
+        "x": 180,
+        "y": 438,
+        "visible": true
+      }
+    },
+    {
+      "phase": "beer-pickup",
+      "time": 0.5583333333333338,
+      "progress": 0.21474358974358992,
+      "pending": false,
+      "pipeVisible": false,
+      "modal": false,
+      "hud": 0,
+      "hero": {
+        "flip": false,
+        "texture": "hero-idle",
+        "x": 180,
+        "y": 438,
+        "visible": true
+      }
+    },
+    {
+      "phase": "beer-pickup",
+      "time": 0.5750000000000004,
+      "progress": 0.2211538461538463,
+      "pending": false,
+      "pipeVisible": false,
+      "modal": false,
+      "hud": 0,
+      "hero": {
+        "flip": false,
+        "texture": "hero-idle",
+        "x": 180,
+        "y": 438,
+        "visible": true
+      }
+    },
+    {
+      "phase": "beer-pickup",
+      "time": 0.591666666666667,
+      "progress": 0.2275641025641027,
+      "pending": false,
+      "pipeVisible": false,
+      "modal": false,
+      "hud": 0,
+      "hero": {
+        "flip": false,
+        "texture": "hero-idle",
+        "x": 180,
+        "y": 438,
+        "visible": true
+      }
+    },
+    {
+      "phase": "beer-pickup",
+      "time": 0.6083333333333336,
+      "progress": 0.2339743589743591,
+      "pending": false,
+      "pipeVisible": false,
+      "modal": false,
+      "hud": 0,
+      "hero": {
+        "flip": false,
+        "texture": "hero-idle",
+        "x": 180,
+        "y": 438,
+        "visible": true
+      }
+    },
+    {
+      "phase": "beer-pickup",
+      "time": 0.6250000000000002,
+      "progress": 0.24038461538461547,
+      "pending": false,
+      "pipeVisible": false,
+      "modal": false,
+      "hud": 0,
+      "hero": {
+        "flip": false,
+        "texture": "hero-idle",
+        "x": 180,
+        "y": 438,
+        "visible": true
+      }
+    },
+    {
+      "phase": "beer-pickup",
+      "time": 0.6416666666666668,
+      "progress": 0.24679487179487186,
+      "pending": false,
+      "pipeVisible": false,
+      "modal": false,
+      "hud": 0,
+      "hero": {
+        "flip": false,
+        "texture": "hero-idle",
+        "x": 180,
+        "y": 438,
+        "visible": true
+      }
+    },
+    {
+      "phase": "beer-pickup",
+      "time": 0.6583333333333334,
+      "progress": 0.25320512820512825,
+      "pending": false,
+      "pipeVisible": false,
+      "modal": false,
+      "hud": 0,
+      "hero": {
+        "flip": false,
+        "texture": "hero-idle",
+        "x": 180,
+        "y": 438,
+        "visible": true
+      }
+    },
+    {
+      "phase": "beer-pickup",
+      "time": 0.675,
+      "progress": 0.25961538461538464,
+      "pending": false,
+      "pipeVisible": false,
+      "modal": false,
+      "hud": 0,
+      "hero": {
+        "flip": false,
+        "texture": "hero-idle",
+        "x": 180,
+        "y": 438,
+        "visible": true
+      }
+    },
+    {
+      "phase": "beer-pickup",
+      "time": 0.6916666666666667,
+      "progress": 0.266025641025641,
+      "pending": false,
+      "pipeVisible": false,
+      "modal": false,
+      "hud": 0,
+      "hero": {
+        "flip": false,
+        "texture": "hero-idle",
+        "x": 180,
+        "y": 438,
+        "visible": true
+      }
+    },
+    {
+      "phase": "beer-pickup",
+      "time": 0.7083333333333333,
+      "progress": 0.2724358974358974,
+      "pending": false,
+      "pipeVisible": false,
+      "modal": false,
+      "hud": 0,
+      "hero": {
+        "flip": false,
+        "texture": "hero-idle",
+        "x": 180,
+        "y": 438,
+        "visible": true
+      }
+    },
+    {
+      "phase": "beer-pickup",
+      "time": 0.7249999999999999,
+      "progress": 0.2788461538461538,
+      "pending": false,
+      "pipeVisible": false,
+      "modal": false,
+      "hud": 0,
+      "hero": {
+        "flip": false,
+        "texture": "hero-idle",
+        "x": 180,
+        "y": 438,
+        "visible": true
+      }
+    },
+    {
+      "phase": "beer-pickup",
+      "time": 0.7416666666666665,
+      "progress": 0.2852564102564102,
+      "pending": false,
+      "pipeVisible": false,
+      "modal": false,
+      "hud": 0,
+      "hero": {
+        "flip": false,
+        "texture": "hero-idle",
+        "x": 180,
+        "y": 438,
+        "visible": true
+      }
+    },
+    {
+      "phase": "beer-pickup",
+      "time": 0.7583333333333331,
+      "progress": 0.2916666666666666,
+      "pending": false,
+      "pipeVisible": false,
+      "modal": false,
+      "hud": 0,
+      "hero": {
+        "flip": false,
+        "texture": "hero-idle",
+        "x": 180,
+        "y": 438,
+        "visible": true
+      }
+    },
+    {
+      "phase": "beer-pickup",
+      "time": 0.7749999999999997,
+      "progress": 0.29807692307692296,
+      "pending": false,
+      "pipeVisible": false,
+      "modal": false,
+      "hud": 0,
+      "hero": {
+        "flip": false,
+        "texture": "hero-idle",
+        "x": 180,
+        "y": 438,
+        "visible": true
+      }
+    },
+    {
+      "phase": "beer-pickup",
+      "time": 0.7916666666666663,
+      "progress": 0.30448717948717935,
+      "pending": false,
+      "pipeVisible": false,
+      "modal": false,
+      "hud": 0,
+      "hero": {
+        "flip": false,
+        "texture": "hero-idle",
+        "x": 180,
+        "y": 438,
+        "visible": true
+      }
+    },
+    {
+      "phase": "beer-pickup",
+      "time": 0.8083333333333329,
+      "progress": 0.31089743589743574,
+      "pending": false,
+      "pipeVisible": false,
+      "modal": false,
+      "hud": 0,
+      "hero": {
+        "flip": false,
+        "texture": "hero-idle",
+        "x": 180,
+        "y": 438,
+        "visible": true
+      }
+    },
+    {
+      "phase": "beer-pickup",
+      "time": 0.8249999999999995,
+      "progress": 0.3173076923076921,
+      "pending": false,
+      "pipeVisible": false,
+      "modal": false,
+      "hud": 0,
+      "hero": {
+        "flip": false,
+        "texture": "hero-idle",
+        "x": 180,
+        "y": 438,
+        "visible": true
+      }
+    },
+    {
+      "phase": "beer-pickup",
+      "time": 0.8416666666666661,
+      "progress": 0.3237179487179485,
+      "pending": false,
+      "pipeVisible": false,
+      "modal": false,
+      "hud": 0,
+      "hero": {
+        "flip": false,
+        "texture": "hero-idle",
+        "x": 180,
+        "y": 438,
+        "visible": true
+      }
+    },
+    {
+      "phase": "beer-pickup",
+      "time": 0.8583333333333327,
+      "progress": 0.3301282051282049,
+      "pending": false,
+      "pipeVisible": false,
+      "modal": false,
+      "hud": 0,
+      "hero": {
+        "flip": false,
+        "texture": "hero-idle",
+        "x": 180,
+        "y": 438,
+        "visible": true
+      }
+    },
+    {
+      "phase": "beer-pickup",
+      "time": 0.8749999999999993,
+      "progress": 0.3365384615384613,
+      "pending": false,
+      "pipeVisible": false,
+      "modal": false,
+      "hud": 0,
+      "hero": {
+        "flip": false,
+        "texture": "hero-idle",
+        "x": 180,
+        "y": 438,
+        "visible": true
+      }
+    },
+    {
+      "phase": "beer-pickup",
+      "time": 0.8916666666666659,
+      "progress": 0.3429487179487177,
+      "pending": false,
+      "pipeVisible": false,
+      "modal": false,
+      "hud": 0,
+      "hero": {
+        "flip": false,
+        "texture": "hero-idle",
+        "x": 180,
+        "y": 438,
+        "visible": true
+      }
+    },
+    {
+      "phase": "beer-pickup",
+      "time": 0.9083333333333325,
+      "progress": 0.34935897435897406,
+      "pending": false,
+      "pipeVisible": false,
+      "modal": false,
+      "hud": 0,
+      "hero": {
+        "flip": false,
+        "texture": "hero-idle",
+        "x": 180,
+        "y": 438,
+        "visible": true
+      }
+    },
+    {
+      "phase": "beer-pickup",
+      "time": 0.9249999999999992,
+      "progress": 0.35576923076923045,
+      "pending": false,
+      "pipeVisible": false,
+      "modal": false,
+      "hud": 0,
+      "hero": {
+        "flip": false,
+        "texture": "hero-idle",
+        "x": 180,
+        "y": 438,
+        "visible": true
+      }
+    },
+    {
+      "phase": "beer-pickup",
+      "time": 0.9416666666666658,
+      "progress": 0.36217948717948684,
+      "pending": false,
+      "pipeVisible": false,
+      "modal": false,
+      "hud": 0,
+      "hero": {
+        "flip": false,
+        "texture": "hero-idle",
+        "x": 180,
+        "y": 438,
+        "visible": true
+      }
+    },
+    {
+      "phase": "beer-pickup",
+      "time": 0.9583333333333324,
+      "progress": 0.3685897435897432,
+      "pending": false,
+      "pipeVisible": false,
+      "modal": false,
+      "hud": 0,
+      "hero": {
+        "flip": false,
+        "texture": "hero-idle",
+        "x": 180,
+        "y": 438,
+        "visible": true
+      }
+    },
+    {
+      "phase": "beer-pickup",
+      "time": 0.974999999999999,
+      "progress": 0.3749999999999996,
+      "pending": false,
+      "pipeVisible": false,
+      "modal": false,
+      "hud": 0,
+      "hero": {
+        "flip": false,
+        "texture": "hero-idle",
+        "x": 180,
+        "y": 438,
+        "visible": true
+      }
+    },
+    {
+      "phase": "beer-pickup",
+      "time": 0.9916666666666656,
+      "progress": 0.381410256410256,
+      "pending": false,
+      "pipeVisible": false,
+      "modal": false,
+      "hud": 0,
+      "hero": {
+        "flip": false,
+        "texture": "hero-idle",
+        "x": 180,
+        "y": 438,
+        "visible": true
+      }
+    },
+    {
+      "phase": "beer-pickup",
+      "time": 1.0083333333333322,
+      "progress": 0.3878205128205124,
+      "pending": false,
+      "pipeVisible": false,
+      "modal": false,
+      "hud": 0,
+      "hero": {
+        "flip": false,
+        "texture": "hero-idle",
+        "x": 180,
+        "y": 438,
+        "visible": true
+      }
+    },
+    {
+      "phase": "beer-pickup",
+      "time": 1.0249999999999988,
+      "progress": 0.3942307692307688,
+      "pending": false,
+      "pipeVisible": false,
+      "modal": false,
+      "hud": 0,
+      "hero": {
+        "flip": false,
+        "texture": "hero-idle",
+        "x": 180,
+        "y": 438,
+        "visible": true
+      }
+    },
+    {
+      "phase": "beer-pickup",
+      "time": 1.0416666666666654,
+      "progress": 0.40064102564102516,
+      "pending": false,
+      "pipeVisible": false,
+      "modal": false,
+      "hud": 0,
+      "hero": {
+        "flip": false,
+        "texture": "hero-idle",
+        "x": 180,
+        "y": 438,
+        "visible": true
+      }
+    },
+    {
+      "phase": "pipe-approach",
+      "time": 0,
+      "progress": 0,
+      "pending": false,
+      "pipeVisible": false,
+      "modal": false,
+      "hud": 0,
+      "hero": {
+        "flip": false,
+        "texture": "night-hero",
+        "x": 180,
+        "y": 438,
+        "visible": true
+      }
+    },
+    {
+      "phase": "pipe-approach",
+      "time": 0.016666666666666666,
+      "progress": 0.0037878787878787876,
+      "pending": false,
+      "pipeVisible": false,
+      "modal": false,
+      "hud": 0,
+      "hero": {
+        "flip": false,
+        "texture": "night-hero",
+        "x": 180.4186612193767,
+        "y": 438,
+        "visible": true
+      }
+    },
+    {
+      "phase": "pipe-approach",
+      "time": 0.03333333333333333,
+      "progress": 0.007575757575757575,
+      "pending": false,
+      "pipeVisible": false,
+      "modal": false,
+      "hud": 0,
+      "hero": {
+        "flip": false,
+        "texture": "night-hero",
+        "x": 180.832894035756,
+        "y": 438,
+        "visible": true
+      }
+    },
+    {
+      "phase": "pipe-approach",
+      "time": 0.049999999999999996,
+      "progress": 0.011363636363636362,
+      "pending": false,
+      "pipeVisible": false,
+      "modal": false,
+      "hud": 0,
+      "hero": {
+        "flip": false,
+        "texture": "night-hero",
+        "x": 181.24269844913783,
+        "y": 438,
+        "visible": true
+      }
+    },
+    {
+      "phase": "pipe-approach",
+      "time": 0.06666666666666667,
+      "progress": 0.01515151515151515,
+      "pending": false,
+      "pipeVisible": false,
+      "modal": false,
+      "hud": 0,
+      "hero": {
+        "flip": false,
+        "texture": "night-hero",
+        "x": 181.64807445952226,
+        "y": 438,
+        "visible": true
+      }
+    },
+    {
+      "phase": "pipe-approach",
+      "time": 0.08333333333333333,
+      "progress": 0.018939393939393936,
+      "pending": false,
+      "pipeVisible": false,
+      "modal": false,
+      "hud": 0,
+      "hero": {
+        "flip": false,
+        "texture": "night-hero",
+        "x": 182.04902206690926,
+        "y": 438,
+        "visible": true
+      }
+    },
+    {
+      "phase": "pipe-approach",
+      "time": 0.09999999999999999,
+      "progress": 0.022727272727272724,
+      "pending": false,
+      "pipeVisible": false,
+      "modal": false,
+      "hud": 0,
+      "hero": {
+        "flip": false,
+        "texture": "night-hero",
+        "x": 182.44554127129885,
+        "y": 438,
+        "visible": true
+      }
+    },
+    {
+      "phase": "pipe-approach",
+      "time": 0.11666666666666665,
+      "progress": 0.02651515151515151,
+      "pending": false,
+      "pipeVisible": false,
+      "modal": false,
+      "hud": 0,
+      "hero": {
+        "flip": false,
+        "texture": "night-hero",
+        "x": 182.837632072691,
+        "y": 438,
+        "visible": true
+      }
+    },
+    {
+      "phase": "pipe-approach",
+      "time": 0.13333333333333333,
+      "progress": 0.0303030303030303,
+      "pending": false,
+      "pipeVisible": false,
+      "modal": false,
+      "hud": 0,
+      "hero": {
+        "flip": false,
+        "texture": "night-hero",
+        "x": 183.2252944710857,
+        "y": 438,
+        "visible": true
+      }
+    },
+    {
+      "phase": "pipe-approach",
+      "time": 0.15,
+      "progress": 0.03409090909090909,
+      "pending": false,
+      "pipeVisible": false,
+      "modal": false,
+      "hud": 0,
+      "hero": {
+        "flip": false,
+        "texture": "night-hero",
+        "x": 183.60852846648302,
+        "y": 438,
+        "visible": true
+      }
+    },
+    {
+      "phase": "pipe-approach",
+      "time": 0.16666666666666666,
+      "progress": 0.03787878787878787,
+      "pending": false,
+      "pipeVisible": false,
+      "modal": false,
+      "hud": 0,
+      "hero": {
+        "flip": false,
+        "texture": "night-hero",
+        "x": 183.98733405888288,
+        "y": 438,
+        "visible": true
+      }
+    },
+    {
+      "phase": "pipe-approach",
+      "time": 0.18333333333333332,
+      "progress": 0.04166666666666666,
+      "pending": false,
+      "pipeVisible": false,
+      "modal": false,
+      "hud": 0,
+      "hero": {
+        "flip": false,
+        "texture": "night-hero",
+        "x": 184.36171124828533,
+        "y": 438,
+        "visible": true
+      }
+    },
+    {
+      "phase": "pipe-approach",
+      "time": 0.19999999999999998,
+      "progress": 0.04545454545454545,
+      "pending": false,
+      "pipeVisible": false,
+      "modal": false,
+      "hud": 0,
+      "hero": {
+        "flip": false,
+        "texture": "night-hero",
+        "x": 184.73166003469035,
+        "y": 438,
+        "visible": true
+      }
+    },
+    {
+      "phase": "pipe-approach",
+      "time": 0.21666666666666665,
+      "progress": 0.04924242424242423,
+      "pending": false,
+      "pipeVisible": false,
+      "modal": false,
+      "hud": 0,
+      "hero": {
+        "flip": false,
+        "texture": "night-hero",
+        "x": 185.09718041809793,
+        "y": 438,
+        "visible": true
+      }
+    },
+    {
+      "phase": "pipe-approach",
+      "time": 0.2333333333333333,
+      "progress": 0.05303030303030302,
+      "pending": false,
+      "pipeVisible": false,
+      "modal": false,
+      "hud": 0,
+      "hero": {
+        "flip": false,
+        "texture": "night-hero",
+        "x": 185.4582723985081,
+        "y": 438,
+        "visible": true
+      }
+    },
+    {
+      "phase": "pipe-approach",
+      "time": 0.24999999999999997,
+      "progress": 0.05681818181818181,
+      "pending": false,
+      "pipeVisible": false,
+      "modal": false,
+      "hud": 0,
+      "hero": {
+        "flip": false,
+        "texture": "night-hero",
+        "x": 185.81493597592083,
+        "y": 438,
+        "visible": true
+      }
+    },
+    {
+      "phase": "pipe-approach",
+      "time": 0.26666666666666666,
+      "progress": 0.0606060606060606,
+      "pending": false,
+      "pipeVisible": false,
+      "modal": false,
+      "hud": 0,
+      "hero": {
+        "flip": false,
+        "texture": "night-hero",
+        "x": 186.16717115033615,
+        "y": 438,
+        "visible": true
+      }
+    },
+    {
+      "phase": "pipe-approach",
+      "time": 0.2833333333333334,
+      "progress": 0.0643939393939394,
+      "pending": false,
+      "pipeVisible": false,
+      "modal": false,
+      "hud": 0,
+      "hero": {
+        "flip": false,
+        "texture": "night-hero",
+        "x": 186.51497792175402,
+        "y": 438,
+        "visible": true
+      }
+    },
+    {
+      "phase": "pipe-approach",
+      "time": 0.3000000000000001,
+      "progress": 0.0681818181818182,
+      "pending": false,
+      "pipeVisible": false,
+      "modal": false,
+      "hud": 0,
+      "hero": {
+        "flip": false,
+        "texture": "night-hero",
+        "x": 186.85835629017447,
+        "y": 438,
+        "visible": true
+      }
+    },
+    {
+      "phase": "pipe-approach",
+      "time": 0.3166666666666668,
+      "progress": 0.071969696969697,
+      "pending": false,
+      "pipeVisible": false,
+      "modal": false,
+      "hud": 0,
+      "hero": {
+        "flip": false,
+        "texture": "night-hero",
+        "x": 187.1973062555975,
+        "y": 438,
+        "visible": true
+      }
+    },
+    {
+      "phase": "pipe-approach",
+      "time": 0.33333333333333354,
+      "progress": 0.0757575757575758,
+      "pending": false,
+      "pipeVisible": false,
+      "modal": false,
+      "hud": 0,
+      "hero": {
+        "flip": false,
+        "texture": "night-hero",
+        "x": 187.53182781802312,
+        "y": 438,
+        "visible": true
+      }
+    },
+    {
+      "phase": "pipe-approach",
+      "time": 0.35000000000000026,
+      "progress": 0.0795454545454546,
+      "pending": false,
+      "pipeVisible": false,
+      "modal": false,
+      "hud": 0,
+      "hero": {
+        "flip": false,
+        "texture": "night-hero",
+        "x": 187.8619209774513,
+        "y": 438,
+        "visible": true
+      }
+    },
+    {
+      "phase": "pipe-approach",
+      "time": 0.366666666666667,
+      "progress": 0.0833333333333334,
+      "pending": false,
+      "pipeVisible": false,
+      "modal": false,
+      "hud": 0,
+      "hero": {
+        "flip": false,
+        "texture": "night-hero",
+        "x": 188.18758573388203,
+        "y": 438,
+        "visible": true
+      }
+    },
+    {
+      "phase": "pipe-approach",
+      "time": 0.3833333333333337,
+      "progress": 0.0871212121212122,
+      "pending": false,
+      "pipeVisible": false,
+      "modal": false,
+      "hud": 0,
+      "hero": {
+        "flip": false,
+        "texture": "night-hero",
+        "x": 188.50882208731537,
+        "y": 438,
+        "visible": true
+      }
+    },
+    {
+      "phase": "pipe-approach",
+      "time": 0.4000000000000004,
+      "progress": 0.090909090909091,
+      "pending": false,
+      "pipeVisible": false,
+      "modal": false,
+      "hud": 0,
+      "hero": {
+        "flip": false,
+        "texture": "night-hero",
+        "x": 188.82563003775127,
+        "y": 438,
+        "visible": true
+      }
+    },
+    {
+      "phase": "pipe-approach",
+      "time": 0.41666666666666713,
+      "progress": 0.0946969696969698,
+      "pending": false,
+      "pipeVisible": false,
+      "modal": false,
+      "hud": 0,
+      "hero": {
+        "flip": false,
+        "texture": "night-hero",
+        "x": 189.13800958518974,
+        "y": 438,
+        "visible": true
+      }
+    },
+    {
+      "phase": "pipe-approach",
+      "time": 0.43333333333333385,
+      "progress": 0.09848484848484859,
+      "pending": false,
+      "pipeVisible": false,
+      "modal": false,
+      "hud": 0,
+      "hero": {
+        "flip": false,
+        "texture": "night-hero",
+        "x": 189.44596072963077,
+        "y": 438,
+        "visible": true
+      }
+    },
+    {
+      "phase": "pipe-approach",
+      "time": 0.45000000000000057,
+      "progress": 0.10227272727272739,
+      "pending": false,
+      "pipeVisible": false,
+      "modal": false,
+      "hud": 0,
+      "hero": {
+        "flip": false,
+        "texture": "night-hero",
+        "x": 189.7494834710744,
+        "y": 438,
+        "visible": true
+      }
+    },
+    {
+      "phase": "pipe-approach",
+      "time": 0.4666666666666673,
+      "progress": 0.10606060606060619,
+      "pending": false,
+      "pipeVisible": false,
+      "modal": false,
+      "hud": 0,
+      "hero": {
+        "flip": false,
+        "texture": "night-hero",
+        "x": 190.04857780952057,
+        "y": 438,
+        "visible": true
+      }
+    },
+    {
+      "phase": "pipe-approach",
+      "time": 0.483333333333334,
+      "progress": 0.10984848484848499,
+      "pending": false,
+      "pipeVisible": false,
+      "modal": false,
+      "hud": 0,
+      "hero": {
+        "flip": false,
+        "texture": "night-hero",
+        "x": 190.34324374496936,
+        "y": 438,
+        "visible": true
+      }
+    },
+    {
+      "phase": "pipe-approach",
+      "time": 0.5000000000000007,
+      "progress": 0.11363636363636379,
+      "pending": false,
+      "pipeVisible": false,
+      "modal": false,
+      "hud": 0,
+      "hero": {
+        "flip": false,
+        "texture": "night-hero",
+        "x": 190.63348127742069,
+        "y": 438,
+        "visible": true
+      }
+    },
+    {
+      "phase": "pipe-approach",
+      "time": 0.5166666666666673,
+      "progress": 0.11742424242424256,
+      "pending": false,
+      "pipeVisible": false,
+      "modal": false,
+      "hud": 0,
+      "hero": {
+        "flip": false,
+        "texture": "night-hero",
+        "x": 190.91929040687458,
+        "y": 438,
+        "visible": true
+      }
+    },
+    {
+      "phase": "pipe-approach",
+      "time": 0.5333333333333339,
+      "progress": 0.12121212121212133,
+      "pending": false,
+      "pipeVisible": false,
+      "modal": false,
+      "hud": 0,
+      "hero": {
+        "flip": false,
+        "texture": "night-hero",
+        "x": 191.20067113333107,
+        "y": 438,
+        "visible": true
+      }
+    },
+    {
+      "phase": "pipe-approach",
+      "time": 0.5500000000000005,
+      "progress": 0.1250000000000001,
+      "pending": false,
+      "pipeVisible": false,
+      "modal": false,
+      "hud": 0,
+      "hero": {
+        "flip": false,
+        "texture": "night-hero",
+        "x": 191.47762345679013,
+        "y": 438,
+        "visible": true
+      }
+    },
+    {
+      "phase": "pipe-approach",
+      "time": 0.5666666666666671,
+      "progress": 0.12878787878787887,
+      "pending": false,
+      "pipeVisible": false,
+      "modal": false,
+      "hud": 0,
+      "hero": {
+        "flip": false,
+        "texture": "night-hero",
+        "x": 191.75014737725175,
+        "y": 438,
+        "visible": true
+      }
+    },
+    {
+      "phase": "pipe-approach",
+      "time": 0.5833333333333337,
+      "progress": 0.13257575757575765,
+      "pending": false,
+      "pipeVisible": false,
+      "modal": false,
+      "hud": 0,
+      "hero": {
+        "flip": false,
+        "texture": "night-hero",
+        "x": 192.01824289471597,
+        "y": 438,
+        "visible": true
+      }
+    },
+    {
+      "phase": "pipe-approach",
+      "time": 0.6000000000000003,
+      "progress": 0.13636363636363644,
+      "pending": false,
+      "pipeVisible": false,
+      "modal": false,
+      "hud": 0,
+      "hero": {
+        "flip": false,
+        "texture": "night-hero",
+        "x": 192.28191000918275,
+        "y": 438,
+        "visible": true
+      }
+    },
+    {
+      "phase": "pipe-approach",
+      "time": 0.6166666666666669,
+      "progress": 0.1401515151515152,
+      "pending": false,
+      "pipeVisible": false,
+      "modal": false,
+      "hud": 0,
+      "hero": {
+        "flip": false,
+        "texture": "night-hero",
+        "x": 192.5411487206521,
+        "y": 438,
+        "visible": true
+      }
+    },
+    {
+      "phase": "pipe-approach",
+      "time": 0.6333333333333335,
+      "progress": 0.14393939393939398,
+      "pending": false,
+      "pipeVisible": false,
+      "modal": false,
+      "hud": 0,
+      "hero": {
+        "flip": false,
+        "texture": "night-hero",
+        "x": 192.79595902912402,
+        "y": 438,
+        "visible": true
+      }
+    },
+    {
+      "phase": "pipe-approach",
+      "time": 0.6500000000000001,
+      "progress": 0.14772727272727273,
+      "pending": false,
+      "pipeVisible": false,
+      "modal": false,
+      "hud": 0,
+      "hero": {
+        "flip": false,
+        "texture": "night-hero",
+        "x": 193.0463409345985,
+        "y": 438,
+        "visible": true
+      }
+    },
+    {
+      "phase": "pipe-approach",
+      "time": 0.6666666666666667,
+      "progress": 0.15151515151515152,
+      "pending": false,
+      "pipeVisible": false,
+      "modal": false,
+      "hud": 0,
+      "hero": {
+        "flip": false,
+        "texture": "night-hero",
+        "x": 193.29229443707558,
+        "y": 438,
+        "visible": true
+      }
+    },
+    {
+      "phase": "pipe-approach",
+      "time": 0.6833333333333333,
+      "progress": 0.1553030303030303,
+      "pending": false,
+      "pipeVisible": false,
+      "modal": false,
+      "hud": 0,
+      "hero": {
+        "flip": false,
+        "texture": "night-hero",
+        "x": 193.53381953655523,
+        "y": 438,
+        "visible": true
+      }
+    },
+    {
+      "phase": "pipe-approach",
+      "time": 0.7,
+      "progress": 0.15909090909090906,
+      "pending": false,
+      "pipeVisible": false,
+      "modal": false,
+      "hud": 0,
+      "hero": {
+        "flip": false,
+        "texture": "night-hero",
+        "x": 193.77091623303744,
+        "y": 438,
+        "visible": true
+      }
+    },
+    {
+      "phase": "pipe-approach",
+      "time": 0.7166666666666666,
+      "progress": 0.16287878787878785,
+      "pending": false,
+      "pipeVisible": false,
+      "modal": false,
+      "hud": 0,
+      "hero": {
+        "flip": false,
+        "texture": "night-hero",
+        "x": 194.00358452652225,
+        "y": 438,
+        "visible": true
+      }
+    },
+    {
+      "phase": "pipe-approach",
+      "time": 0.7333333333333332,
+      "progress": 0.16666666666666663,
+      "pending": false,
+      "pipeVisible": false,
+      "modal": false,
+      "hud": 0,
+      "hero": {
+        "flip": false,
+        "texture": "night-hero",
+        "x": 194.2318244170096,
+        "y": 438,
+        "visible": true
+      }
+    },
+    {
+      "phase": "pipe-approach",
+      "time": 0.7499999999999998,
+      "progress": 0.1704545454545454,
+      "pending": false,
+      "pipeVisible": false,
+      "modal": false,
+      "hud": 0,
+      "hero": {
+        "flip": false,
+        "texture": "night-hero",
+        "x": 194.45563590449953,
+        "y": 438,
+        "visible": true
+      }
+    },
+    {
+      "phase": "pipe-approach",
+      "time": 0.7666666666666664,
+      "progress": 0.17424242424242417,
+      "pending": false,
+      "pipeVisible": false,
+      "modal": false,
+      "hud": 0,
+      "hero": {
+        "flip": false,
+        "texture": "night-hero",
+        "x": 194.67501898899204,
+        "y": 438,
+        "visible": true
+      }
+    },
+    {
+      "phase": "pipe-approach",
+      "time": 0.7916666666666663,
+      "progress": 0.17992424242424232,
+      "pending": false,
+      "pipeVisible": false,
+      "modal": false,
+      "hud": 0,
+      "hero": {
+        "flip": false,
+        "texture": "night-hero",
+        "x": 194.99579036011065,
+        "y": 438,
+        "visible": true
+      }
+    },
+    {
+      "phase": "pipe-approach",
+      "time": 0.8083333333333329,
+      "progress": 0.1837121212121211,
+      "pending": false,
+      "pipeVisible": false,
+      "modal": false,
+      "hud": 0,
+      "hero": {
+        "flip": false,
+        "texture": "night-hero",
+        "x": 195.20410243710958,
+        "y": 438,
+        "visible": true
+      }
+    },
+    {
+      "phase": "pipe-approach",
+      "time": 0.8333333333333328,
+      "progress": 0.18939393939393925,
+      "pending": false,
+      "pipeVisible": false,
+      "modal": false,
+      "hud": 0,
+      "hero": {
+        "flip": false,
+        "texture": "night-hero",
+        "x": 195.50826729698784,
+        "y": 438,
+        "visible": true
+      }
+    },
+    {
+      "phase": "pipe-approach",
+      "time": 0.8583333333333327,
+      "progress": 0.19507575757575743,
+      "pending": false,
+      "pipeVisible": false,
+      "modal": false,
+      "hud": 0,
+      "hero": {
+        "flip": false,
+        "texture": "night-hero",
+        "x": 195.80246825012188,
+        "y": 438,
+        "visible": true
+      }
+    },
+    {
+      "phase": "pipe-approach",
+      "time": 0.8916666666666659,
+      "progress": 0.20265151515151497,
+      "pending": false,
+      "pipeVisible": false,
+      "modal": false,
+      "hud": 0,
+      "hero": {
+        "flip": false,
+        "texture": "night-hero",
+        "x": 196.1792367771429,
+        "y": 438,
+        "visible": true
+      }
+    },
+    {
+      "phase": "pipe-approach",
+      "time": 0.9166666666666659,
+      "progress": 0.20833333333333312,
+      "pending": false,
+      "pipeVisible": false,
+      "modal": false,
+      "hud": 0,
+      "hero": {
+        "flip": false,
+        "texture": "night-hero",
+        "x": 196.45018861454045,
+        "y": 438,
+        "visible": true
+      }
+    },
+    {
+      "phase": "pipe-approach",
+      "time": 0.9499999999999991,
+      "progress": 0.2159090909090907,
+      "pending": false,
+      "pipeVisible": false,
+      "modal": false,
+      "hud": 0,
+      "hero": {
+        "flip": false,
+        "texture": "night-hero",
+        "x": 196.79595832057953,
+        "y": 438,
+        "visible": true
+      }
+    },
+    {
+      "phase": "pipe-approach",
+      "time": 0.9916666666666656,
+      "progress": 0.22537878787878762,
+      "pending": false,
+      "pipeVisible": false,
+      "modal": false,
+      "hud": 0,
+      "hero": {
+        "flip": false,
+        "texture": "night-hero",
+        "x": 197.20326068626784,
+        "y": 438,
+        "visible": true
+      }
+    },
+    {
+      "phase": "pipe-approach",
+      "time": 1.0249999999999988,
+      "progress": 0.23295454545454516,
+      "pending": false,
+      "pipeVisible": false,
+      "modal": false,
+      "hud": 0,
+      "hero": {
+        "flip": false,
+        "texture": "night-hero",
+        "x": 197.50917476533004,
+        "y": 438,
+        "visible": true
+      }
+    },
+    {
+      "phase": "pipe-approach",
+      "time": 1.0666666666666653,
+      "progress": 0.2424242424242421,
+      "pending": false,
+      "pipeVisible": false,
+      "modal": false,
+      "hud": 0,
+      "hero": {
+        "flip": false,
+        "texture": "night-hero",
+        "x": 197.86665759729732,
+        "y": 438,
+        "visible": true
+      }
+    },
+    {
+      "phase": "pipe-approach",
+      "time": 1.1083333333333318,
+      "progress": 0.25189393939393906,
+      "pending": false,
+      "pipeVisible": false,
+      "modal": false,
+      "hud": 0,
+      "hero": {
+        "flip": false,
+        "texture": "night-hero",
+        "x": 198.19646291053067,
+        "y": 438,
+        "visible": true
+      }
+    },
+    {
+      "phase": "pipe-approach",
+      "time": 1.1499999999999984,
+      "progress": 0.26136363636363596,
+      "pending": false,
+      "pipeVisible": false,
+      "modal": false,
+      "hud": 0,
+      "hero": {
+        "flip": false,
+        "texture": "night-hero",
+        "x": 198.4985907050301,
+        "y": 438,
+        "visible": true
+      }
+    },
+    {
+      "phase": "pipe-approach",
+      "time": 1.1833333333333316,
+      "progress": 0.26893939393939353,
+      "pending": false,
+      "pipeVisible": false,
+      "modal": false,
+      "hud": 0,
+      "hero": {
+        "flip": false,
+        "texture": "night-hero",
+        "x": 198.7203651271412,
+        "y": 438,
+        "visible": true
+      }
+    },
+    {
+      "phase": "pipe-approach",
+      "time": 1.224999999999998,
+      "progress": 0.27840909090909044,
+      "pending": false,
+      "pipeVisible": false,
+      "modal": false,
+      "hud": 0,
+      "hero": {
+        "flip": false,
+        "texture": "night-hero",
+        "x": 198.9726733879196,
+        "y": 438,
+        "visible": true
+      }
+    },
+    {
+      "phase": "pipe-approach",
+      "time": 1.2666666666666646,
+      "progress": 0.2878787878787874,
+      "pending": false,
+      "pipeVisible": false,
+      "modal": false,
+      "hud": 0,
+      "hero": {
+        "flip": false,
+        "texture": "night-hero",
+        "x": 199.19730412996404,
+        "y": 438,
+        "visible": true
+      }
+    },
+    {
+      "phase": "pipe-approach",
+      "time": 1.3083333333333311,
+      "progress": 0.2973484848484843,
+      "pending": false,
+      "pipeVisible": false,
+      "modal": false,
+      "hud": 0,
+      "hero": {
+        "flip": false,
+        "texture": "night-hero",
+        "x": 199.3942573532746,
+        "y": 438,
+        "visible": true
+      }
+    },
+    {
+      "phase": "pipe-approach",
+      "time": 1.3499999999999976,
+      "progress": 0.30681818181818127,
+      "pending": false,
+      "pipeVisible": false,
+      "modal": false,
+      "hud": 0,
+      "hero": {
+        "flip": false,
+        "texture": "night-hero",
+        "x": 199.56353305785123,
+        "y": 438,
+        "visible": true
+      }
+    },
+    {
+      "phase": "pipe-approach",
+      "time": 1.3833333333333309,
+      "progress": 0.3143939393939388,
+      "pending": false,
+      "pipeVisible": false,
+      "modal": false,
+      "hud": 0,
+      "hero": {
+        "flip": false,
+        "texture": "night-hero",
+        "x": 199.6790258080241,
+        "y": 438,
+        "visible": true
+      }
+    },
+    {
+      "phase": "pipe-approach",
+      "time": 1.4249999999999974,
+      "progress": 0.32386363636363574,
+      "pending": false,
+      "pipeVisible": false,
+      "modal": false,
+      "hud": 0,
+      "hero": {
+        "flip": false,
+        "texture": "night-hero",
+        "x": 199.7984819788797,
+        "y": 438,
+        "visible": true
+      }
+    },
+    {
+      "phase": "pipe-approach",
+      "time": 1.466666666666664,
+      "progress": 0.3333333333333327,
+      "pending": false,
+      "pipeVisible": false,
+      "modal": false,
+      "hud": 0,
+      "hero": {
+        "flip": false,
+        "texture": "night-hero",
+        "x": 199.89026063100135,
+        "y": 438,
+        "visible": true
+      }
+    },
+    {
+      "phase": "pipe-approach",
+      "time": 1.5083333333333304,
+      "progress": 0.3428030303030296,
+      "pending": false,
+      "pipeVisible": false,
+      "modal": false,
+      "hud": 0,
+      "hero": {
+        "flip": false,
+        "texture": "night-hero",
+        "x": 199.95436176438912,
+        "y": 438,
+        "visible": true
+      }
+    },
+    {
+      "phase": "pipe-approach",
+      "time": 1.549999999999997,
+      "progress": 0.35227272727272657,
+      "pending": false,
+      "pipeVisible": false,
+      "modal": false,
+      "hud": 0,
+      "hero": {
+        "flip": false,
+        "texture": "night-hero",
+        "x": 199.99078537904296,
+        "y": 438,
+        "visible": true
+      }
+    },
+    {
+      "phase": "pipe-approach",
+      "time": 1.5833333333333302,
+      "progress": 0.3598484848484841,
+      "pending": false,
+      "pipeVisible": false,
+      "modal": false,
+      "hud": 0,
+      "hero": {
+        "flip": false,
+        "texture": "night-hero",
+        "x": 199.9999964572776,
+        "y": 438,
+        "visible": true
+      }
+    },
+    {
+      "phase": "balance",
+      "time": 0,
+      "progress": 0,
+      "pending": true,
+      "balance": 0,
+      "pipeVisible": true,
+      "modal": true,
+      "hud": 0,
+      "hero": {
+        "flip": false,
+        "texture": "night-hero",
+        "x": 180,
+        "y": 438,
+        "visible": false
+      }
+    }
+  ],
+  "pipeExit": {
+    "phase": "pipe-exit",
+    "time": 0.025,
+    "progress": 0.010416666666666668,
+    "pending": false,
+    "balance": 36,
+    "pipeVisible": true,
+    "modal": false,
+    "hud": 0,
+    "hero": {
+      "flip": false,
+      "texture": "night-hero",
+      "x": 180,
+      "y": 438,
+      "visible": true
+    }
+  },
+  "courtExit": [
+    {
+      "phase": "stars-exit",
+      "time": 0.03333333333333333,
+      "progress": 0.007246376811594203,
+      "pending": false,
+      "balance": 36,
+      "pipeVisible": false,
+      "modal": false,
+      "hud": 0,
+      "hero": {
+        "flip": false,
+        "texture": "night-hero",
+        "x": 640.0808036311724,
+        "y": 400.6446728646625,
+        "visible": true
+      }
+    },
+    {
+      "phase": "stars-exit",
+      "time": 0.075,
+      "progress": 0.016304347826086956,
+      "pending": false,
+      "balance": 36,
+      "pipeVisible": false,
+      "modal": false,
+      "hud": 0,
+      "hero": {
+        "flip": false,
+        "texture": "night-hero",
+        "x": 640.4042734139572,
+        "y": 400.8235054445735,
+        "visible": true
+      }
+    },
+    {
+      "phase": "stars-exit",
+      "time": 0.11666666666666665,
+      "progress": 0.02536231884057971,
+      "pending": false,
+      "balance": 36,
+      "pipeVisible": false,
+      "modal": false,
+      "hud": 0,
+      "hero": {
+        "flip": false,
+        "texture": "night-hero",
+        "x": 640.9666392004984,
+        "y": 401.1344133865613,
+        "visible": true
+      }
+    },
+    {
+      "phase": "stars-exit",
+      "time": 0.15,
+      "progress": 0.03260869565217391,
+      "pending": false,
+      "balance": 36,
+      "pipeVisible": false,
+      "modal": false,
+      "hud": 0,
+      "hero": {
+        "flip": false,
+        "texture": "night-hero",
+        "x": 641.5825698800852,
+        "y": 401.47493506227573,
+        "visible": true
+      }
+    },
+    {
+      "phase": "stars-exit",
+      "time": 0.19166666666666665,
+      "progress": 0.041666666666666664,
+      "pending": false,
+      "balance": 36,
+      "pipeVisible": false,
+      "modal": false,
+      "hud": 0,
+      "hero": {
+        "flip": false,
+        "texture": "night-hero",
+        "x": 642.5525719520726,
+        "y": 402.0112076363602,
+        "visible": true
+      }
+    },
+    {
+      "phase": "stars-exit",
+      "time": 0.2333333333333333,
+      "progress": 0.05072463768115942,
+      "pending": false,
+      "balance": 36,
+      "pipeVisible": false,
+      "modal": false,
+      "hud": 0,
+      "hero": {
+        "flip": false,
+        "texture": "night-hero",
+        "x": 643.7366072263552,
+        "y": 402.6658099951421,
+        "visible": true
+      }
+    },
+    {
+      "phase": "stars-exit",
+      "time": 0.275,
+      "progress": 0.05978260869565218,
+      "pending": false,
+      "balance": 36,
+      "pipeVisible": false,
+      "modal": false,
+      "hud": 0,
+      "hero": {
+        "flip": false,
+        "texture": "night-hero",
+        "x": 645.1257961309822,
+        "y": 403.433833003843,
+        "visible": true
+      }
+    },
+    {
+      "phase": "stars-exit",
+      "time": 0.3166666666666668,
+      "progress": 0.06884057971014497,
+      "pending": false,
+      "balance": 36,
+      "pipeVisible": false,
+      "modal": false,
+      "hud": 0,
+      "hero": {
+        "flip": false,
+        "texture": "night-hero",
+        "x": 646.7112590940031,
+        "y": 404.3103675276846,
+        "visible": true
+      }
+    },
+    {
+      "phase": "stars-exit",
+      "time": 0.35000000000000026,
+      "progress": 0.07608695652173919,
+      "pending": false,
+      "balance": 36,
+      "pipeVisible": false,
+      "modal": false,
+      "hud": 0,
+      "hero": {
+        "flip": false,
+        "texture": "night-hero",
+        "x": 648.1149797141129,
+        "y": 405.08642449908814,
+        "visible": true
+      }
+    },
+    {
+      "phase": "stars-exit",
+      "time": 0.39166666666666705,
+      "progress": 0.08514492753623197,
+      "pending": false,
+      "balance": 36,
+      "pipeVisible": false,
+      "modal": false,
+      "hud": 0,
+      "hero": {
+        "flip": false,
+        "texture": "night-hero",
+        "x": 650.0313594609278,
+        "y": 406.1459087305415,
+        "visible": true
+      }
+    },
+    {
+      "phase": "stars-exit",
+      "time": 0.43333333333333385,
+      "progress": 0.09420289855072475,
+      "pending": false,
+      "balance": 36,
+      "pipeVisible": false,
+      "modal": false,
+      "hud": 0,
+      "hero": {
+        "flip": false,
+        "texture": "night-hero",
+        "x": 652.1191504646753,
+        "y": 407.3001588997562,
+        "visible": true
+      }
+    },
+    {
+      "phase": "stars-exit",
+      "time": 0.47500000000000064,
+      "progress": 0.10326086956521754,
+      "pending": false,
+      "balance": 36,
+      "pipeVisible": false,
+      "modal": false,
+      "hud": 0,
+      "hero": {
+        "flip": false,
+        "texture": "night-hero",
+        "x": 654.3694731534048,
+        "y": 408.5442658719538,
+        "visible": true
+      }
+    },
+    {
+      "phase": "stars-exit",
+      "time": 0.5166666666666673,
+      "progress": 0.11231884057971028,
+      "pending": false,
+      "balance": 36,
+      "pipeVisible": false,
+      "modal": false,
+      "hud": 0,
+      "hero": {
+        "flip": false,
+        "texture": "night-hero",
+        "x": 656.7734479551659,
+        "y": 409.87332051235603,
+        "visible": true
+      }
+    },
+    {
+      "phase": "stars-exit",
+      "time": 0.5500000000000005,
+      "progress": 0.11956521739130446,
+      "pending": false,
+      "balance": 36,
+      "pipeVisible": false,
+      "modal": false,
+      "hud": 0,
+      "hero": {
+        "flip": false,
+        "texture": "night-hero",
+        "x": 658.8012902456068,
+        "y": 410.99442760721405,
+        "visible": true
+      }
+    },
+    {
+      "phase": "stars-exit",
+      "time": 0.591666666666667,
+      "progress": 0.12862318840579717,
+      "pending": false,
+      "balance": 36,
+      "pipeVisible": false,
+      "modal": false,
+      "hud": 0,
+      "hero": {
+        "flip": false,
+        "texture": "night-hero",
+        "x": 661.4594623295095,
+        "y": 412.4640170307431,
+        "visible": true
+      }
+    },
+    {
+      "phase": "stars-exit",
+      "time": 0.6333333333333335,
+      "progress": 0.1376811594202899,
+      "pending": false,
+      "balance": 36,
+      "pipeVisible": false,
+      "modal": false,
+      "hud": 0,
+      "hero": {
+        "flip": false,
+        "texture": "night-hero",
+        "x": 664.2464237249823,
+        "y": 414.0048085450973,
+        "visible": true
+      }
+    },
+    {
+      "phase": "stars-exit",
+      "time": 0.675,
+      "progress": 0.14673913043478262,
+      "pending": false,
+      "balance": 36,
+      "pipeVisible": false,
+      "modal": false,
+      "hud": 0,
+      "hero": {
+        "flip": false,
+        "texture": "night-hero",
+        "x": 667.1532948600747,
+        "y": 415.6118930154984,
+        "visible": true
+      }
+    },
+    {
+      "phase": "stars-exit",
+      "time": 0.7166666666666666,
+      "progress": 0.15579710144927536,
+      "pending": false,
+      "balance": 36,
+      "pipeVisible": false,
+      "modal": false,
+      "hud": 0,
+      "hero": {
+        "flip": false,
+        "texture": "night-hero",
+        "x": 670.1711961628363,
+        "y": 417.28036130716805,
+        "visible": true
+      }
+    },
+    {
+      "phase": "stars-exit",
+      "time": 0.7499999999999998,
+      "progress": 0.16304347826086954,
+      "pending": false,
+      "balance": 36,
+      "pipeVisible": false,
+      "modal": false,
+      "hud": 0,
+      "hero": {
+        "flip": false,
+        "texture": "night-hero",
+        "x": 672.6594918534165,
+        "y": 418.656033353246,
+        "visible": true
+      }
+    },
+    {
+      "phase": "stars-exit",
+      "time": 0.7916666666666663,
+      "progress": 0.17210144927536225,
+      "pending": false,
+      "balance": 36,
+      "pipeVisible": false,
+      "modal": false,
+      "hud": 0,
+      "hero": {
+        "flip": false,
+        "texture": "night-hero",
+        "x": 675.8548709366672,
+        "y": 420.4226215035575,
+        "visible": true
+      }
+    },
+    {
+      "phase": "stars-exit",
+      "time": 0.8333333333333328,
+      "progress": 0.18115942028985496,
+      "pending": false,
+      "balance": 36,
+      "pipeVisible": false,
+      "modal": false,
+      "hud": 0,
+      "hero": {
+        "flip": false,
+        "texture": "night-hero",
+        "x": 679.1364173861257,
+        "y": 422.2368478977581,
+        "visible": true
+      }
+    },
+    {
+      "phase": "stars-exit",
+      "time": 0.8749999999999993,
+      "progress": 0.1902173913043477,
+      "pending": false,
+      "balance": 36,
+      "pipeVisible": false,
+      "modal": false,
+      "hud": 0,
+      "hero": {
+        "flip": false,
+        "texture": "night-hero",
+        "x": 682.4952516298413,
+        "y": 424.0938034010694,
+        "visible": true
+      }
+    },
+    {
+      "phase": "stars-exit",
+      "time": 0.9166666666666659,
+      "progress": 0.1992753623188404,
+      "pending": false,
+      "balance": 36,
+      "pipeVisible": false,
+      "modal": false,
+      "hud": 0,
+      "hero": {
+        "flip": false,
+        "texture": "night-hero",
+        "x": 685.9224940958636,
+        "y": 425.9885788787132,
+        "visible": true
+      }
+    },
+    {
+      "phase": "stars-exit",
+      "time": 0.9499999999999991,
+      "progress": 0.2065217391304346,
+      "pending": false,
+      "balance": 36,
+      "pipeVisible": false,
+      "modal": false,
+      "hud": 0,
+      "hero": {
+        "flip": false,
+        "texture": "night-hero",
+        "x": 688.7075749163916,
+        "y": 427.52833070377653,
+        "visible": true
+      }
+    },
+    {
+      "phase": "stars-exit",
+      "time": 0.9916666666666656,
+      "progress": 0.21557971014492733,
+      "pending": false,
+      "balance": 36,
+      "pipeVisible": false,
+      "modal": false,
+      "hud": 0,
+      "hero": {
+        "flip": false,
+        "texture": "night-hero",
+        "x": 692.2355756612508,
+        "y": 429.47881111557723,
+        "visible": true
+      }
+    },
+    {
+      "phase": "stars-exit",
+      "time": 1.033333333333332,
+      "progress": 0.22463768115942004,
+      "pending": false,
+      "balance": 36,
+      "pipeVisible": false,
+      "modal": false,
+      "hud": 0,
+      "hero": {
+        "flip": false,
+        "texture": "night-hero",
+        "x": 695.8071218269552,
+        "y": 431.45336592433097,
+        "visible": true
+      }
+    },
+    {
+      "phase": "stars-exit",
+      "time": 1.0749999999999986,
+      "progress": 0.23369565217391275,
+      "pending": false,
+      "balance": 36,
+      "pipeVisible": false,
+      "modal": false,
+      "hud": 0,
+      "hero": {
+        "flip": false,
+        "texture": "night-hero",
+        "x": 699.4133338415544,
+        "y": 433.4470859952594,
+        "visible": true
+      }
+    },
+    {
+      "phase": "stars-exit",
+      "time": 1.1166666666666651,
+      "progress": 0.2427536231884055,
+      "pending": false,
+      "balance": 36,
+      "pipeVisible": false,
+      "modal": false,
+      "hud": 0,
+      "hero": {
+        "flip": false,
+        "texture": "night-hero",
+        "x": 703.0453321330979,
+        "y": 435.4550621935841,
+        "visible": true
+      }
+    },
+    {
+      "phase": "stars-exit",
+      "time": 1.1499999999999984,
+      "progress": 0.24999999999999967,
+      "pending": false,
+      "balance": 36,
+      "pipeVisible": false,
+      "modal": false,
+      "hud": 0,
+      "hero": {
+        "flip": false,
+        "texture": "night-hero",
+        "x": 705.9635298133817,
+        "y": 437.0684086253982,
+        "visible": true
+      }
+    },
+    {
+      "phase": "stars-exit",
+      "time": 1.1916666666666649,
+      "progress": 0.2590579710144924,
+      "pending": false,
+      "balance": 36,
+      "pipeVisible": false,
+      "modal": false,
+      "hud": 0,
+      "hero": {
+        "flip": false,
+        "texture": "night-hero",
+        "x": 709.6195668821097,
+        "y": 439.0896748333949,
+        "visible": true
+      }
+    },
+    {
+      "phase": "stars-exit",
+      "time": 1.2333333333333314,
+      "progress": 0.2681159420289851,
+      "pending": false,
+      "balance": 36,
+      "pipeVisible": false,
+      "modal": false,
+      "hud": 0,
+      "hero": {
+        "flip": false,
+        "texture": "night-hero",
+        "x": 713.2765274263204,
+        "y": 441.1114515914085,
+        "visible": true
+      }
+    },
+    {
+      "phase": "stars-exit",
+      "time": 1.274999999999998,
+      "progress": 0.2771739130434778,
+      "pending": false,
+      "balance": 36,
+      "pipeVisible": false,
+      "modal": false,
+      "hud": 0,
+      "hero": {
+        "flip": false,
+        "texture": "night-hero",
+        "x": 716.9255318740634,
+        "y": 443.1288297646608,
+        "visible": true
+      }
+    },
+    {
+      "phase": "stars-exit",
+      "time": 1.3166666666666644,
+      "progress": 0.28623188405797056,
+      "pending": false,
+      "balance": 36,
+      "pipeVisible": false,
+      "modal": false,
+      "hud": 0,
+      "hero": {
+        "flip": false,
+        "texture": "night-hero",
+        "x": 720.5577006533883,
+        "y": 445.1369002183733,
+        "visible": true
+      }
+    },
+    {
+      "phase": "stars-exit",
+      "time": 1.3499999999999976,
+      "progress": 0.29347826086956474,
+      "pending": false,
+      "balance": 36,
+      "pipeVisible": false,
+      "modal": false,
+      "hud": 0,
+      "hero": {
+        "flip": false,
+        "texture": "night-hero",
+        "x": 723.4453469232365,
+        "y": 446.7333560847036,
+        "visible": true
+      }
+    },
+    {
+      "phase": "stars-exit",
+      "time": 1.3916666666666642,
+      "progress": 0.3025362318840574,
+      "pending": false,
+      "balance": 36,
+      "pipeVisible": false,
+      "modal": false,
+      "hud": 0,
+      "hero": {
+        "flip": false,
+        "texture": "night-hero",
+        "x": 727.0248349780934,
+        "y": 448.7123016236031,
+        "visible": true
+      }
+    },
+    {
+      "phase": "stars-exit",
+      "time": 1.4333333333333307,
+      "progress": 0.31159420289855017,
+      "pending": false,
+      "balance": 36,
+      "pipeVisible": false,
+      "modal": false,
+      "hud": 0,
+      "hero": {
+        "flip": false,
+        "texture": "night-hero",
+        "x": 730.5626245630708,
+        "y": 450.6681938655834,
+        "visible": true
+      }
+    },
+    {
+      "phase": "stars-exit",
+      "time": 1.4749999999999972,
+      "progress": 0.3206521739130429,
+      "pending": false,
+      "balance": 36,
+      "pipeVisible": false,
+      "modal": false,
+      "hud": 0,
+      "hero": {
+        "flip": false,
+        "texture": "night-hero",
+        "x": 734.0498361062181,
+        "y": 452.5961236758663,
+        "visible": true
+      }
+    },
+    {
+      "phase": "stars-exit",
+      "time": 1.5166666666666637,
+      "progress": 0.32971014492753564,
+      "pending": false,
+      "balance": 36,
+      "pipeVisible": false,
+      "modal": false,
+      "hud": 0,
+      "hero": {
+        "flip": false,
+        "texture": "night-hero",
+        "x": 737.4775900355849,
+        "y": 454.4911819196733,
+        "visible": true
+      }
+    },
+    {
+      "phase": "stars-exit",
+      "time": 1.549999999999997,
+      "progress": 0.3369565217391298,
+      "pending": false,
+      "balance": 36,
+      "pipeVisible": false,
+      "modal": false,
+      "hud": 0,
+      "hero": {
+        "flip": false,
+        "texture": "night-hero",
+        "x": 740.1710166248054,
+        "y": 455.9802620482853,
+        "visible": true
+      }
+    },
+    {
+      "phase": "stars-exit",
+      "time": 1.5916666666666635,
+      "progress": 0.3460144927536225,
+      "pending": false,
+      "balance": 36,
+      "pipeVisible": false,
+      "modal": false,
+      "hud": 0,
+      "hero": {
+        "flip": false,
+        "texture": "night-hero",
+        "x": 743.4693703280517,
+        "y": 457.80378045279434,
+        "visible": true
+      }
+    },
+    {
+      "phase": "stars-exit",
+      "time": 1.63333333333333,
+      "progress": 0.35507246376811524,
+      "pending": false,
+      "balance": 36,
+      "pipeVisible": false,
+      "modal": false,
+      "hud": 0,
+      "hero": {
+        "flip": false,
+        "texture": "night-hero",
+        "x": 746.6834036160561,
+        "y": 459.58068171344814,
+        "visible": true
+      }
+    },
+    {
+      "phase": "stars-exit",
+      "time": 1.6749999999999965,
+      "progress": 0.364130434782608,
+      "pending": false,
+      "balance": 36,
+      "pipeVisible": false,
+      "modal": false,
+      "hud": 0,
+      "hero": {
+        "flip": false,
+        "texture": "night-hero",
+        "x": 749.8042369168679,
+        "y": 461.30605669546844,
+        "visible": true
+      }
+    },
+    {
+      "phase": "stars-exit",
+      "time": 1.716666666666663,
+      "progress": 0.37318840579710066,
+      "pending": false,
+      "balance": 36,
+      "pipeVisible": false,
+      "modal": false,
+      "hud": 0,
+      "hero": {
+        "flip": false,
+        "texture": "night-hero",
+        "x": 752.8229906585367,
+        "y": 462.97499626407676,
+        "visible": true
+      }
+    },
+    {
+      "phase": "stars-exit",
+      "time": 1.7499999999999962,
+      "progress": 0.38043478260869484,
+      "pending": false,
+      "balance": 36,
+      "pipeVisible": false,
+      "modal": false,
+      "hud": 0,
+      "hero": {
+        "flip": false,
+        "texture": "night-hero",
+        "x": 755.1585292969381,
+        "y": 464.2662154827358,
+        "visible": true
+      }
+    },
+    {
+      "phase": "stars-exit",
+      "time": 1.7916666666666627,
+      "progress": 0.3894927536231876,
+      "pending": false,
+      "balance": 36,
+      "pipeVisible": false,
+      "modal": false,
+      "hud": 0,
+      "hero": {
+        "flip": false,
+        "texture": "night-hero",
+        "x": 757.9711633108342,
+        "y": 465.82120028756117,
+        "visible": true
+      }
+    },
+    {
+      "phase": "stars-exit",
+      "time": 1.8333333333333293,
+      "progress": 0.3985507246376803,
+      "pending": false,
+      "balance": 36,
+      "pipeVisible": false,
+      "modal": false,
+      "hud": 0,
+      "hero": {
+        "flip": false,
+        "texture": "night-hero",
+        "x": 760.6568549641258,
+        "y": 467.3060041015953,
+        "visible": true
+      }
+    },
+    {
+      "phase": "stars-exit",
+      "time": 1.8749999999999958,
+      "progress": 0.407608695652173,
+      "pending": false,
+      "balance": 36,
+      "pipeVisible": false,
+      "modal": false,
+      "hud": 0,
+      "hero": {
+        "flip": false,
+        "texture": "night-hero",
+        "x": 763.2067246848626,
+        "y": 468.7157177900597,
+        "visible": true
+      }
+    },
+    {
+      "phase": "stars-exit",
+      "time": 1.9166666666666623,
+      "progress": 0.41666666666666574,
+      "pending": false,
+      "balance": 36,
+      "pipeVisible": false,
+      "modal": false,
+      "hud": 0,
+      "hero": {
+        "flip": false,
+        "texture": "night-hero",
+        "x": 765.6118929010938,
+        "y": 470.0454322181762,
+        "visible": true
+      }
+    },
+    {
+      "phase": "stars-exit",
+      "time": 1.9499999999999955,
+      "progress": 0.4239130434782599,
+      "pending": false,
+      "balance": 36,
+      "pipeVisible": false,
+      "modal": false,
+      "hud": 0,
+      "hero": {
+        "flip": false,
+        "texture": "night-hero",
+        "x": 767.4258753184841,
+        "y": 471.0483053546477,
+        "visible": true
+      }
+    },
+    {
+      "phase": "stars-exit",
+      "time": 1.991666666666662,
+      "progress": 0.43297101449275266,
+      "pending": false,
+      "balance": 36,
+      "pipeVisible": false,
+      "modal": false,
+      "hud": 0,
+      "hero": {
+        "flip": false,
+        "texture": "night-hero",
+        "x": 769.5482043052904,
+        "y": 472.2216500944962,
+        "visible": true
+      }
+    },
+    {
+      "phase": "stars-exit",
+      "time": 2.0333333333333288,
+      "progress": 0.4420289855072454,
+      "pending": false,
+      "balance": 36,
+      "pipeVisible": false,
+      "modal": false,
+      "hud": 0,
+      "hero": {
+        "flip": false,
+        "texture": "night-hero",
+        "x": 771.5009689861297,
+        "y": 473.3012499966174,
+        "visible": true
+      }
+    },
+    {
+      "phase": "stars-exit",
+      "time": 2.0749999999999953,
+      "progress": 0.45108695652173814,
+      "pending": false,
+      "balance": 36,
+      "pipeVisible": false,
+      "modal": false,
+      "hud": 0,
+      "hero": {
+        "flip": false,
+        "texture": "night-hero",
+        "x": 773.2752897890516,
+        "y": 474.2821959262328,
+        "visible": true
+      }
+    },
+    {
+      "phase": "stars-exit",
+      "time": 2.116666666666662,
+      "progress": 0.4601449275362309,
+      "pending": false,
+      "balance": 36,
+      "pipeVisible": false,
+      "modal": false,
+      "hud": 0,
+      "hero": {
+        "flip": false,
+        "texture": "night-hero",
+        "x": 774.8622871421056,
+        "y": 475.1595787485641,
+        "visible": true
+      }
+    },
+    {
+      "phase": "stars-exit",
+      "time": 2.149999999999995,
+      "progress": 0.46739130434782505,
+      "pending": false,
+      "balance": 36,
+      "pipeVisible": false,
+      "modal": false,
+      "hud": 0,
+      "hero": {
+        "flip": false,
+        "texture": "night-hero",
+        "x": 775.9910450682933,
+        "y": 475.78362063061354,
+        "visible": true
+      }
+    },
+    {
+      "phase": "stars-exit",
+      "time": 2.1916666666666615,
+      "progress": 0.47644927536231774,
+      "pending": false,
+      "balance": 36,
+      "pipeVisible": false,
+      "modal": false,
+      "hud": 0,
+      "hero": {
+        "flip": false,
+        "texture": "night-hero",
+        "x": 777.2184836902699,
+        "y": 476.46221884019207,
+        "visible": true
+      }
+    },
+    {
+      "phase": "stars-exit",
+      "time": 2.233333333333328,
+      "progress": 0.4855072463768105,
+      "pending": false,
+      "balance": 36,
+      "pipeVisible": false,
+      "modal": false,
+      "hud": 0,
+      "hero": {
+        "flip": false,
+        "texture": "night-hero",
+        "x": 778.2337360609172,
+        "y": 477.02350836510703,
+        "visible": true
+      }
+    },
+    {
+      "phase": "stars-exit",
+      "time": 2.2749999999999946,
+      "progress": 0.4945652173913032,
+      "pending": false,
+      "balance": 36,
+      "pipeVisible": false,
+      "modal": false,
+      "hud": 0,
+      "hero": {
+        "flip": false,
+        "texture": "night-hero",
+        "x": 779.0279226082846,
+        "y": 477.4625800705802,
+        "visible": true
+      }
+    },
+    {
+      "phase": "stars-exit",
+      "time": 2.316666666666661,
+      "progress": 0.5036231884057959,
+      "pending": false,
+      "balance": 36,
+      "pipeVisible": false,
+      "modal": false,
+      "hud": 0,
+      "hero": {
+        "flip": false,
+        "texture": "night-hero",
+        "x": 779.5921637604217,
+        "y": 477.7745248218332,
+        "visible": true
+      }
+    },
+    {
+      "phase": "stars-exit",
+      "time": 2.3499999999999943,
+      "progress": 0.5108695652173901,
+      "pending": false,
+      "balance": 36,
+      "pipeVisible": false,
+      "modal": false,
+      "hud": 0,
+      "hero": {
+        "flip": false,
+        "texture": "night-hero",
+        "x": 779.872028925215,
+        "y": 477.92925027722595,
+        "visible": true
+      }
+    },
+    {
+      "phase": "stars-exit",
+      "time": 2.391666666666661,
+      "progress": 0.5199275362318828,
+      "pending": false,
+      "balance": 36,
+      "pipeVisible": false,
+      "modal": false,
+      "hud": 0,
+      "hero": {
+        "flip": false,
+        "texture": "night-hero",
+        "x": 779.9999918446223,
+        "y": 477.9999954912412,
+        "visible": true
+      }
+    },
+    {
+      "phase": "stars-exit",
+      "time": 2.4333333333333274,
+      "progress": 0.5289855072463755,
+      "pending": false,
+      "balance": 36,
+      "pipeVisible": false,
+      "modal": false,
+      "hud": 0,
+      "hero": {
+        "flip": false,
+        "texture": "night-hero",
+        "x": 779.0857894202095,
+        "y": 477.8599778841319,
+        "visible": true
+      }
+    },
+    {
+      "phase": "stars-exit",
+      "time": 2.474999999999994,
+      "progress": 0.5380434782608683,
+      "pending": false,
+      "balance": 36,
+      "pipeVisible": false,
+      "modal": false,
+      "hud": 0,
+      "hero": {
+        "flip": false,
+        "texture": "night-hero",
+        "x": 776.3546082443892,
+        "y": 477.44880833413055,
+        "visible": true
+      }
+    },
+    {
+      "phase": "stars-exit",
+      "time": 2.5166666666666604,
+      "progress": 0.547101449275361,
+      "pending": false,
+      "balance": 36,
+      "pipeVisible": false,
+      "modal": false,
+      "hud": 0,
+      "hero": {
+        "flip": false,
+        "texture": "night-hero",
+        "x": 771.8683923569492,
+        "y": 476.7867781914246,
+        "visible": true
+      }
+    },
+    {
+      "phase": "stars-exit",
+      "time": 2.5499999999999936,
+      "progress": 0.5543478260869552,
+      "pending": false,
+      "balance": 36,
+      "pipeVisible": false,
+      "modal": false,
+      "hud": 0,
+      "hero": {
+        "flip": false,
+        "texture": "night-hero",
+        "x": 767.0574559684353,
+        "y": 476.09017347302847,
+        "visible": true
+      }
+    },
+    {
+      "phase": "stars-exit",
+      "time": 2.59166666666666,
+      "progress": 0.5634057971014479,
+      "pending": false,
+      "balance": 36,
+      "pipeVisible": false,
+      "modal": false,
+      "hud": 0,
+      "hero": {
+        "flip": false,
+        "texture": "night-hero",
+        "x": 759.5684075268454,
+        "y": 475.0277405978892,
+        "visible": true
+      }
+    },
+    {
+      "phase": "stars-exit",
+      "time": 2.6333333333333266,
+      "progress": 0.5724637681159406,
+      "pending": false,
+      "balance": 36,
+      "pipeVisible": false,
+      "modal": false,
+      "hud": 0,
+      "hero": {
+        "flip": false,
+        "texture": "night-hero",
+        "x": 750.497913181153,
+        "y": 473.7712763905285,
+        "visible": true
+      }
+    },
+    {
+      "phase": "stars-exit",
+      "time": 2.674999999999993,
+      "progress": 0.5815217391304334,
+      "pending": false,
+      "balance": 36,
+      "pipeVisible": false,
+      "modal": false,
+      "hud": 0,
+      "hero": {
+        "flip": false,
+        "texture": "night-hero",
+        "x": 739.9079689340424,
+        "y": 472.3410770154048,
+        "visible": true
+      }
+    },
+    {
+      "phase": "stars-exit",
+      "time": 2.7166666666666597,
+      "progress": 0.590579710144926,
+      "pending": false,
+      "balance": 36,
+      "pipeVisible": false,
+      "modal": false,
+      "hud": 0,
+      "hero": {
+        "flip": false,
+        "texture": "night-hero",
+        "x": 727.8605707881985,
+        "y": 470.7574386369763,
+        "visible": true
+      }
+    },
+    {
+      "phase": "stars-exit",
+      "time": 2.749999999999993,
+      "progress": 0.5978260869565203,
+      "pending": false,
+      "balance": 36,
+      "pipeVisible": false,
+      "modal": false,
+      "hud": 0,
+      "hero": {
+        "flip": false,
+        "texture": "night-hero",
+        "x": 717.2149467782393,
+        "y": 469.39369087437007,
+        "visible": true
+      }
+    },
+    {
+      "phase": "stars-exit",
+      "time": 2.7916666666666594,
+      "progress": 0.606884057971013,
+      "pending": false,
+      "balance": 36,
+      "pipeVisible": false,
+      "modal": false,
+      "hud": 0,
+      "hero": {
+        "flip": false,
+        "texture": "night-hero",
+        "x": 702.7003615414405,
+        "y": 467.5850086244279,
+        "visible": true
+      }
+    },
+    {
+      "phase": "stars-exit",
+      "time": 2.833333333333326,
+      "progress": 0.6159420289855057,
+      "pending": false,
+      "balance": 36,
+      "pipeVisible": false,
+      "modal": false,
+      "hud": 0,
+      "hero": {
+        "flip": false,
+        "texture": "night-hero",
+        "x": 686.9019112134254,
+        "y": 465.6797166316643,
+        "visible": true
+      }
+    },
+    {
+      "phase": "stars-exit",
+      "time": 2.8749999999999925,
+      "progress": 0.6249999999999984,
+      "pending": false,
+      "balance": 36,
+      "pipeVisible": false,
+      "modal": false,
+      "hud": 0,
+      "hero": {
+        "flip": false,
+        "texture": "night-hero",
+        "x": 669.8815917968781,
+        "y": 463.6981110605374,
+        "visible": true
+      }
+    },
+    {
+      "phase": "stars-exit",
+      "time": 2.916666666666659,
+      "progress": 0.6340579710144911,
+      "pending": false,
+      "balance": 36,
+      "pipeVisible": false,
+      "modal": false,
+      "hud": 0,
+      "hero": {
+        "flip": false,
+        "texture": "night-hero",
+        "x": 651.7013992944837,
+        "y": 461.66048807550567,
+        "visible": true
+      }
+    },
+    {
+      "phase": "stars-exit",
+      "time": 2.949999999999992,
+      "progress": 0.6413043478260853,
+      "pending": false,
+      "balance": 36,
+      "pipeVisible": false,
+      "modal": false,
+      "hud": 0,
+      "hero": {
+        "flip": false,
+        "texture": "night-hero",
+        "x": 636.3637979845623,
+        "y": 460.00369617198476,
+        "visible": true
+      }
+    },
+    {
+      "phase": "stars-exit",
+      "time": 2.9916666666666587,
+      "progress": 0.650362318840578,
+      "pending": false,
+      "balance": 36,
+      "pipeVisible": false,
+      "modal": false,
+      "hud": 0,
+      "hero": {
+        "flip": false,
+        "texture": "night-hero",
+        "x": 616.2520638544079,
+        "y": 457.916388176359,
+        "visible": true
+      }
+    },
+    {
+      "phase": "stars-exit",
+      "time": 3.033333333333325,
+      "progress": 0.6594202898550707,
+      "pending": false,
+      "balance": 36,
+      "pipeVisible": false,
+      "modal": false,
+      "hud": 0,
+      "hero": {
+        "flip": false,
+        "texture": "night-hero",
+        "x": 595.1540454459235,
+        "y": 455.8298920273117,
+        "visible": true
+      }
+    },
+    {
+      "phase": "stars-exit",
+      "time": 3.0749999999999917,
+      "progress": 0.6684782608695635,
+      "pending": false,
+      "balance": 36,
+      "pipeVisible": false,
+      "modal": false,
+      "hud": 0,
+      "hero": {
+        "flip": false,
+        "texture": "night-hero",
+        "x": 573.131738761793,
+        "y": 453.76450388930095,
+        "visible": true
+      }
+    },
+    {
+      "phase": "stars-exit",
+      "time": 3.1166666666666583,
+      "progress": 0.6775362318840562,
+      "pending": false,
+      "balance": 36,
+      "pipeVisible": false,
+      "modal": false,
+      "hud": 0,
+      "hero": {
+        "flip": false,
+        "texture": "night-hero",
+        "x": 550.2471398047018,
+        "y": 451.74051992678517,
+        "visible": true
+      }
+    },
+    {
+      "phase": "stars-exit",
+      "time": 3.1499999999999915,
+      "progress": 0.6847826086956503,
+      "pending": false,
+      "balance": 36,
+      "pipeVisible": false,
+      "modal": false,
+      "hud": 0,
+      "hero": {
+        "flip": false,
+        "texture": "night-hero",
+        "x": 531.3602715163008,
+        "y": 450.16478278564483,
+        "visible": true
+      }
+    },
+    {
+      "phase": "stars-exit",
+      "time": 3.191666666666658,
+      "progress": 0.6938405797101431,
+      "pending": false,
+      "balance": 36,
+      "pipeVisible": false,
+      "modal": false,
+      "hud": 0,
+      "hero": {
+        "flip": false,
+        "texture": "night-hero",
+        "x": 507.0797763946446,
+        "y": 448.2664726734548,
+        "visible": true
+      }
+    },
+    {
+      "phase": "stars-exit",
+      "time": 3.2333333333333245,
+      "progress": 0.7028985507246358,
+      "pending": false,
+      "balance": 36,
+      "pipeVisible": false,
+      "modal": false,
+      "hud": 0,
+      "hero": {
+        "flip": false,
+        "texture": "night-hero",
+        "x": 482.11057780754436,
+        "y": 446.46639599724296,
+        "visible": true
+      }
+    },
+    {
+      "phase": "stars-exit",
+      "time": 3.274999999999991,
+      "progress": 0.7119565217391285,
+      "pending": false,
+      "balance": 36,
+      "pipeVisible": false,
+      "modal": false,
+      "hud": 0,
+      "hero": {
+        "flip": false,
+        "texture": "night-hero",
+        "x": 456.51467175768454,
+        "y": 444.7848489214676,
+        "visible": true
+      }
+    },
+    {
+      "phase": "stars-exit",
+      "time": 3.3166666666666575,
+      "progress": 0.7210144927536213,
+      "pending": false,
+      "balance": 36,
+      "pipeVisible": false,
+      "modal": false,
+      "hud": 0,
+      "hero": {
+        "flip": false,
+        "texture": "night-hero",
+        "x": 430.35405424774945,
+        "y": 443.242127610587,
+        "visible": true
+      }
+    },
+    {
+      "phase": "stars-exit",
+      "time": 3.3499999999999908,
+      "progress": 0.7282608695652154,
+      "pending": false,
+      "balance": 36,
+      "pipeVisible": false,
+      "modal": false,
+      "hud": 0,
+      "hero": {
+        "flip": false,
+        "texture": "night-hero",
+        "x": 409.06062930235197,
+        "y": 442.1215441351227,
+        "visible": true
+      }
+    },
+    {
+      "phase": "stars-exit",
+      "time": 3.3916666666666573,
+      "progress": 0.7373188405797082,
+      "pending": false,
+      "balance": 36,
+      "pipeVisible": false,
+      "modal": false,
+      "hud": 0,
+      "hero": {
+        "flip": false,
+        "texture": "night-hero",
+        "x": 382.0397610910472,
+        "y": 440.8798555354876,
+        "visible": true
+      }
+    },
+    {
+      "phase": "stars-exit",
+      "time": 3.433333333333324,
+      "progress": 0.7463768115942009,
+      "pending": false,
+      "balance": 36,
+      "pipeVisible": false,
+      "modal": false,
+      "hud": 0,
+      "hero": {
+        "flip": false,
+        "texture": "night-hero",
+        "x": 354.6277702271847,
+        "y": 439.83382196123057,
+        "visible": true
+      }
+    },
+    {
+      "phase": "stars-exit",
+      "time": 3.4749999999999903,
+      "progress": 0.7554347826086936,
+      "pending": false,
+      "balance": 36,
+      "pipeVisible": false,
+      "modal": false,
+      "hud": 0,
+      "hero": {
+        "flip": false,
+        "texture": "night-hero",
+        "x": 326.88665271344877,
+        "y": 439.0037395768098,
+        "visible": true
+      }
+    },
+    {
+      "phase": "stars-exit",
+      "time": 3.516666666666657,
+      "progress": 0.7644927536231864,
+      "pending": false,
+      "balance": 36,
+      "pipeVisible": false,
+      "modal": false,
+      "hud": 0,
+      "hero": {
+        "flip": false,
+        "texture": "night-hero",
+        "x": 298.8784045525238,
+        "y": 438.4099045466836,
+        "visible": true
+      }
+    },
+    {
+      "phase": "stars-exit",
+      "time": 3.54999999999999,
+      "progress": 0.7717391304347805,
+      "pending": false,
+      "balance": 36,
+      "pipeVisible": false,
+      "modal": false,
+      "hud": 0,
+      "hero": {
+        "flip": false,
+        "texture": "night-hero",
+        "x": 276.32113327161215,
+        "y": 438.1185736401908,
+        "visible": true
+      }
+    },
+    {
+      "phase": "stars-exit",
+      "time": 3.5916666666666566,
+      "progress": 0.7807971014492733,
+      "pending": false,
+      "balance": 36,
+      "pipeVisible": false,
+      "modal": false,
+      "hud": 0,
+      "hero": {
+        "flip": false,
+        "texture": "night-hero",
+        "x": 248.0039524834608,
+        "y": 438,
+        "visible": true
+      }
+    },
+    {
+      "phase": "stars-exit",
+      "time": 3.633333333333323,
+      "progress": 0.789855072463766,
+      "pending": false,
+      "balance": 36,
+      "pipeVisible": false,
+      "modal": false,
+      "hud": 0,
+      "hero": {
+        "flip": false,
+        "texture": "night-hero",
+        "x": 221.90005595649052,
+        "y": 438,
+        "visible": true
+      }
+    },
+    {
+      "phase": "stars-exit",
+      "time": 3.6749999999999896,
+      "progress": 0.7989130434782586,
+      "pending": false,
+      "balance": 36,
+      "pipeVisible": false,
+      "modal": false,
+      "hud": 0,
+      "hero": {
+        "flip": false,
+        "texture": "night-hero",
+        "x": 199.50355126546003,
+        "y": 438,
+        "visible": true
+      }
+    },
+    {
+      "phase": "stars-exit",
+      "time": 3.716666666666656,
+      "progress": 0.8079710144927514,
+      "pending": false,
+      "balance": 36,
+      "pipeVisible": false,
+      "modal": false,
+      "hud": 0,
+      "hero": {
+        "flip": false,
+        "texture": "night-hero",
+        "x": 180.58480269914958,
+        "y": 438,
+        "visible": true
+      }
+    },
+    {
+      "phase": "stars-exit",
+      "time": 3.7499999999999893,
+      "progress": 0.8152173913043456,
+      "pending": false,
+      "balance": 36,
+      "pipeVisible": false,
+      "modal": false,
+      "hud": 0,
+      "hero": {
+        "flip": false,
+        "texture": "night-hero",
+        "x": 167.7994730579603,
+        "y": 438,
+        "visible": true
+      }
+    },
+    {
+      "phase": "stars-exit",
+      "time": 3.791666666666656,
+      "progress": 0.8242753623188382,
+      "pending": false,
+      "balance": 36,
+      "pipeVisible": false,
+      "modal": false,
+      "hud": 0,
+      "hero": {
+        "flip": false,
+        "texture": "night-hero",
+        "x": 154.56200352387373,
+        "y": 438,
+        "visible": true
+      }
+    },
+    {
+      "phase": "stars-exit",
+      "time": 3.8333333333333224,
+      "progress": 0.833333333333331,
+      "pending": false,
+      "balance": 36,
+      "pipeVisible": false,
+      "modal": false,
+      "hud": 0,
+      "hero": {
+        "flip": false,
+        "texture": "night-hero",
+        "x": 144.15931012309318,
+        "y": 438,
+        "visible": true
+      }
+    },
+    {
+      "phase": "stars-exit",
+      "time": 3.874999999999989,
+      "progress": 0.8423913043478237,
+      "pending": false,
+      "balance": 36,
+      "pipeVisible": false,
+      "modal": false,
+      "hud": 0,
+      "hero": {
+        "flip": false,
+        "texture": "night-hero",
+        "x": 136.3617571443997,
+        "y": 438,
+        "visible": true
+      }
+    },
+    {
+      "phase": "stars-exit",
+      "time": 3.9166666666666554,
+      "progress": 0.8514492753623165,
+      "pending": false,
+      "balance": 36,
+      "pipeVisible": false,
+      "modal": false,
+      "hud": 0,
+      "hero": {
+        "flip": false,
+        "texture": "night-hero",
+        "x": 130.93970887657417,
+        "y": 438,
+        "visible": true
+      }
+    },
+    {
+      "phase": "stars-exit",
+      "time": 3.9499999999999886,
+      "progress": 0.8586956521739106,
+      "pending": false,
+      "balance": 36,
+      "pipeVisible": false,
+      "modal": false,
+      "hud": 0,
+      "hero": {
+        "flip": false,
+        "texture": "night-hero",
+        "x": 128.15811845619874,
+        "y": 438,
+        "visible": true
+      }
+    },
+    {
+      "phase": "stars-exit",
+      "time": 3.991666666666655,
+      "progress": 0.8677536231884033,
+      "pending": false,
+      "balance": 36,
+      "pipeVisible": false,
+      "modal": false,
+      "hud": 0,
+      "hero": {
+        "flip": false,
+        "texture": "night-hero",
+        "x": 126.43329667566218,
+        "y": 438,
+        "visible": true
+      }
+    },
+    {
+      "phase": "stars-exit",
+      "time": 4.0333333333333234,
+      "progress": 0.8768115942028964,
+      "pending": false,
+      "balance": 36,
+      "pipeVisible": false,
+      "modal": false,
+      "hud": 0,
+      "hero": {
+        "flip": false,
+        "texture": "night-hero",
+        "x": 126.44099961457971,
+        "y": 438,
+        "visible": true
+      }
+    },
+    {
+      "phase": "stars-exit",
+      "time": 4.074999999999992,
+      "progress": 0.8858695652173897,
+      "pending": false,
+      "balance": 36,
+      "pipeVisible": false,
+      "modal": false,
+      "hud": 0,
+      "hero": {
+        "flip": false,
+        "texture": "night-hero",
+        "x": 127.95159156173156,
+        "y": 438,
+        "visible": true
+      }
+    },
+    {
+      "phase": "stars-exit",
+      "time": 4.116666666666661,
+      "progress": 0.8949275362318829,
+      "pending": false,
+      "balance": 36,
+      "pipeVisible": false,
+      "modal": false,
+      "hud": 0,
+      "hero": {
+        "flip": false,
+        "texture": "night-hero",
+        "x": 130.73543680589876,
+        "y": 438,
+        "visible": true
+      }
+    },
+    {
+      "phase": "stars-exit",
+      "time": 4.149999999999996,
+      "progress": 0.9021739130434775,
+      "pending": false,
+      "balance": 36,
+      "pipeVisible": false,
+      "modal": false,
+      "hud": 0,
+      "hero": {
+        "flip": false,
+        "texture": "night-hero",
+        "x": 133.72494017714405,
+        "y": 438,
+        "visible": true
+      }
+    },
+    {
+      "phase": "stars-exit",
+      "time": 4.191666666666665,
+      "progress": 0.9112318840579706,
+      "pending": false,
+      "balance": 36,
+      "pipeVisible": false,
+      "modal": false,
+      "hud": 0,
+      "hero": {
+        "flip": false,
+        "texture": "night-hero",
+        "x": 138.2219593636662,
+        "y": 438,
+        "visible": true
+      }
+    },
+    {
+      "phase": "stars-exit",
+      "time": 4.233333333333333,
+      "progress": 0.9202898550724639,
+      "pending": false,
+      "balance": 36,
+      "pipeVisible": false,
+      "modal": false,
+      "hud": 0,
+      "hero": {
+        "flip": false,
+        "texture": "night-hero",
+        "x": 143.34925185578925,
+        "y": 438,
+        "visible": true
+      }
+    },
+    {
+      "phase": "stars-exit",
+      "time": 4.275000000000002,
+      "progress": 0.9293478260869571,
+      "pending": false,
+      "balance": 36,
+      "pipeVisible": false,
+      "modal": false,
+      "hud": 0,
+      "hero": {
+        "flip": false,
+        "texture": "night-hero",
+        "x": 148.87718194229433,
+        "y": 438,
+        "visible": true
+      }
+    },
+    {
+      "phase": "stars-exit",
+      "time": 4.316666666666671,
+      "progress": 0.9384057971014502,
+      "pending": false,
+      "balance": 36,
+      "pipeVisible": false,
+      "modal": false,
+      "hud": 0,
+      "hero": {
+        "flip": false,
+        "texture": "night-hero",
+        "x": 154.576113911962,
+        "y": 438,
+        "visible": true
+      }
+    },
+    {
+      "phase": "stars-exit",
+      "time": 4.350000000000006,
+      "progress": 0.9456521739130448,
+      "pending": false,
+      "balance": 36,
+      "pipeVisible": false,
+      "modal": false,
+      "hud": 0,
+      "hero": {
+        "flip": false,
+        "texture": "night-hero",
+        "x": 159.1040656456338,
+        "y": 438,
+        "visible": true
+      }
+    },
+    {
+      "phase": "stars-exit",
+      "time": 4.391666666666675,
+      "progress": 0.954710144927538,
+      "pending": false,
+      "balance": 36,
+      "pipeVisible": false,
+      "modal": false,
+      "hud": 0,
+      "hero": {
+        "flip": false,
+        "texture": "night-hero",
+        "x": 164.5321190127213,
+        "y": 438,
+        "visible": true
+      }
+    },
+    {
+      "phase": "stars-exit",
+      "time": 4.433333333333343,
+      "progress": 0.9637681159420313,
+      "pending": false,
+      "balance": 36,
+      "pipeVisible": false,
+      "modal": false,
+      "hud": 0,
+      "hero": {
+        "flip": false,
+        "texture": "night-hero",
+        "x": 169.4881942715574,
+        "y": 438,
+        "visible": true
+      }
+    },
+    {
+      "phase": "stars-exit",
+      "time": 4.475000000000012,
+      "progress": 0.9728260869565244,
+      "pending": false,
+      "balance": 36,
+      "pipeVisible": false,
+      "modal": false,
+      "hud": 0,
+      "hero": {
+        "flip": false,
+        "texture": "night-hero",
+        "x": 173.7426557109227,
+        "y": 438,
+        "visible": true
+      }
+    },
+    {
+      "phase": "stars-exit",
+      "time": 4.516666666666681,
+      "progress": 0.9818840579710176,
+      "pending": false,
+      "balance": 36,
+      "pipeVisible": false,
+      "modal": false,
+      "hud": 0,
+      "hero": {
+        "flip": false,
+        "texture": "night-hero",
+        "x": 177.0658676195976,
+        "y": 438,
+        "visible": true
+      }
+    },
+    {
+      "phase": "stars-exit",
+      "time": 4.550000000000016,
+      "progress": 0.9891304347826122,
+      "pending": false,
+      "balance": 36,
+      "pipeVisible": false,
+      "modal": false,
+      "hud": 0,
+      "hero": {
+        "flip": false,
+        "texture": "night-hero",
+        "x": 178.89962228650165,
+        "y": 438,
+        "visible": true
+      }
+    },
+    {
+      "phase": "stars-exit",
+      "time": 4.5916666666666845,
+      "progress": 0.9981884057971054,
+      "pending": false,
+      "balance": 36,
+      "pipeVisible": false,
+      "modal": false,
+      "hud": 0,
+      "hero": {
+        "flip": false,
+        "texture": "night-hero",
+        "x": 179.96790304766114,
+        "y": 438,
+        "visible": true
+      }
+    }
+  ],
+  "third": {
+    "phase": "waiting",
+    "time": 0,
+    "progress": 0,
+    "pending": false,
+    "balance": 36,
+    "pipeVisible": false,
+    "modal": false,
+    "hud": 0,
+    "hero": {
+      "flip": false,
+      "texture": "night-hero",
+      "x": 180,
+      "y": 438,
+      "visible": false
+    },
+    "presses": 3,
+    "resets": 1,
+    "hint": false,
+    "elapsed": 0.075
+  },
+  "errors": []
+}

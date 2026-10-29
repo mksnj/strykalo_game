@@ -1,0 +1,126 @@
+{
+  "version": "rhythm-weather-v14",
+  "completedOn": "2026-10-29",
+  "outcome": {
+    "rhythm": "No time limit. Three distinct note mistakes end the mini-game; earlier mistakes continue it. Runner lives and cassette score are preserved for story continuation.",
+    "initialSpeed": {
+      "fallSeconds": 1.8,
+      "previousFallSeconds": 3.4,
+      "spawnInterval": 1.2,
+      "previousSpawnInterval": 2.45
+    },
+    "acceleration": {
+      "formula": "1 + 0.1 * floor(activeSeconds / 2)",
+      "at20Seconds": 2,
+      "at40Seconds": 3,
+      "appliesTo": [
+        "already falling notes",
+        "spawn frequency"
+      ],
+      "compound": false
+    },
+    "shelter": "Weather begins during the last running steps. One shared hero sprite continues into the entrance. Door reached after about 1.56s, interior plan after about 1.92s; no stopped storm phase.",
+    "waiting": "Weather lasts until 90 seconds of uninterrupted gameplay inactivity. A reset prolongs the rain. Weather then clears, hero rests for 2 seconds, opens the door and resumes running.",
+    "audio": "Repeating thunder and rain respect pause/mute; door sound occurs after the rest. Music loops expose a continuous rhythm clock."
+  },
+  "validation": {
+    "unit": {
+      "passed": 135,
+      "total": 135,
+      "files": 22
+    },
+    "typecheck": "passed",
+    "build": "passed; existing Phaser chunk-size warning",
+    "browser": {
+      "uniquePassed": 11,
+      "fullCatalogRun": false,
+      "normalRoute": {
+        "passed": 1,
+        "scope": "complete normal route through all games, weather, 90s inactivity, rest, ending and replay"
+      },
+      "finalTargetedRun": {
+        "passed": 10,
+        "total": 10,
+        "files": [
+          "developer.spec.ts",
+          "roomClock.spec.ts",
+          "rhythmWeatherV14.spec.ts",
+          "rhythmAudio.spec.ts",
+          "starsContinuous.spec.ts",
+          "starsCollision.spec.ts"
+        ]
+      },
+      "coverage": [
+        "perfect rhythm beyond old limit",
+        "two errors continue; third ends",
+        "linear 2-second acceleration",
+        "native keyboard and input-repeat rejection",
+        "real music clock and pause",
+        "running onset of rain",
+        "same hero identity through entrance",
+        "rain still active at 89s",
+        "input reset prolongs weather past 90 total seconds",
+        "dry two-second rest",
+        "normal and developer routes and replay"
+      ],
+      "viewports": [
+        "960x540",
+        "390x844",
+        "844x390"
+      ],
+      "pageErrorsInNewScenarios": []
+    },
+    "screenshots": 36,
+    "phonesAndTelegramWebView": "not tested on physical devices",
+    "artisticAcceptance": "owner review pending"
+  },
+  "files": {
+    "added": [
+      "apps/web/src/game/minigames/stars/rhythmTiming.ts",
+      "tests/browser/rhythmWeatherV14.spec.ts",
+      "tools/rhythm-weather-v14-gallery.mjs"
+    ],
+    "modified": [
+      "README.md",
+      "apps/web/src/game/config.ts",
+      "apps/web/src/game/minigames/stars/StarsEngine.ts",
+      "apps/web/src/game/state/RunSession.ts",
+      "apps/web/src/game/state/store.ts",
+      "apps/web/src/game/scenes/RunnerScene.ts",
+      "apps/web/src/game/audio/AudioManager.ts",
+      "apps/web/src/game/audio/StreamingMusicChannel.ts",
+      "apps/web/src/game/audio/GameplaySoundscape.ts",
+      "apps/web/src/game/audio/catalog.ts",
+      "apps/web/src/game/viewport.ts",
+      "apps/web/src/game/views/ArrivalView.ts",
+      "apps/web/src/game/views/arrivalLayout.ts",
+      "apps/web/src/game/views/WaitingView.ts",
+      "apps/web/src/game/views/WindowWeather.ts",
+      "apps/web/src/game/views/StarsView.ts",
+      "apps/web/src/game/views/stormTimeline.ts",
+      "apps/web/src/ui/App.tsx",
+      "apps/web/src/ui/StarsHud.tsx",
+      "apps/web/src/ui/StarsTutorial.tsx",
+      "apps/web/src/balance.css",
+      "tests/unit/audio.test.ts",
+      "tests/unit/arrivals.test.ts",
+      "tests/unit/developer.test.ts",
+      "tests/unit/finale.test.ts",
+      "tests/unit/rhythm.test.ts",
+      "tests/unit/rhythmMusicClock.test.ts",
+      "tests/unit/starsSurvival.test.ts",
+      "tests/unit/visualV12.test.ts",
+      "tests/browser/developer.spec.ts",
+      "tests/browser/journey.spec.ts",
+      "tests/browser/rhythmV13.spec.ts",
+      "tests/browser/roomClock.spec.ts",
+      "tests/browser/starsContinuous.spec.ts",
+      "tests/browser/starsController.ts",
+      "tests/browser/visualV12Lifecycle.spec.ts"
+    ],
+    "evidence": "docs/previews/rhythm-weather-v14/*; related existing test screenshots are also refreshed",
+    "newRasterOrAudioAssets": []
+  },
+  "gallery": "docs/previews/rhythm-weather-v14/index.html",
+  "documentation": "README.md#rhythm-weather-v14"
+}

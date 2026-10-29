@@ -1,0 +1,38 @@
+{
+  "assets": [
+    {
+      "createdOn": "2026-10-26",
+      "tool": "built-in image_gen",
+      "prompt": "Use case: precise-object-edit. Edit target/reference: attached painted game prop of an old CRT television partly submerged in mud. Create ONLY THE TELEVISION as a separate transparent game sprite, without the puddle or any water or ground. Preserve the same old charcoal-grey boxy CRT, slight clockwise tilt, frontal screen with blurry indistinct newsreader, knobs on right, cold dim blue-grey screen, worn gouache/ink collage texture. Restore the entire lower case and base that were previously hidden by water. Entire television is fully visible, dry outer silhouette, no ripples or ground shadow. Keep it a modest melancholy painted object, not photorealistic, no neon or extra glow. True transparent alpha everywhere outside the casing; no halo, fog or rectangular background. Tight centered composition with a small clear transparent margin, approximately square, no text or logos. This will be independently animated downward into a separate fixed water layer. Do not include any water, reflection, mud or puddle in this sprite.",
+      "reference": "assets/source/references-v12/television-puddle.png",
+      "source": "assets/source/references-v13/television.png",
+      "runtime": "apps/web/public/assets/references-v13/television.webp",
+      "packaging": {
+        "width": 384,
+        "height": 288,
+        "trimAlphaAbove": 32,
+        "padding": 4,
+        "command": "node tools/prepare-television-art.mjs"
+      },
+      "sourceSha256": "62f65d172fb3dfca6a7d0995e65dfb015f7d9a498064d192347bdddd219951a6",
+      "runtimeSha256": "a8aa9f59aee286c4ba0d6558db4d473d4b34aa25706894d801b69781ed6cfa54"
+    },
+    {
+      "createdOn": "2026-10-26",
+      "tool": "built-in image_gen",
+      "prompt": "Use case: precise-object-edit. Edit target: attached painted game prop. Remove the ENTIRE TELEVISION and its recognizable reflection, leaving ONLY the shallow dirty BROWN PUDDLE as an isolated transparent sprite. Reconstruct a continuous still opaque muddy umber-brown water surface where the television was, a few delicate irregular concentric ripples, a very faint desaturated cold blue glint near the center without any reflected face or TV silhouette. Preserve muted earthy brown color and painterly ink/gouache collage style, natural irregular shoreline with a few muddy flecks. Very WIDE and LOW side-scroller view: puddle footprint roughly 4:1 width to height, modest view onto its surface. Whole irregular edge in frame with modest transparent margin. True transparent alpha outside the puddle, no large blurred brown halo. No television, no objects, no buildings, no road slab, no reflection of a specific object, no text, no warm gold, no bright glow, no photo or vector look. This empty water layer must remain still while a separate CRT sprite sinks through its middle.",
+      "reference": "assets/source/references-v12/television-puddle.png",
+      "source": "assets/source/references-v13/puddle.png",
+      "runtime": "apps/web/public/assets/references-v13/puddle.webp",
+      "packaging": {
+        "width": 768,
+        "height": 192,
+        "trimAlphaAbove": 32,
+        "padding": 4,
+        "command": "node tools/prepare-television-art.mjs"
+      },
+      "sourceSha256": "7aced4979d831588dc7792826ebcc31190d5f8269987deeb46b6d2a2f84c8688",
+      "runtimeSha256": "cffbfb4cb7f0bd35c33598982dbc3eaed34a8fa52baacb0434b1c149a4f4a3f2"
+    }
+  ]
+}

@@ -1,0 +1,45 @@
+{
+  "date": "2026-10-29",
+  "revision": "gameplay-v17",
+  "mainMenuButtonsFollowup": {
+    "availableInProduction": true,
+    "labels": ["Мини-игра 1", "Мини-игра 2", "Мини-игра 3"],
+    "productionLaunchesVerified": ["balance", "stars", "waiting"],
+    "targetedUnitTestsPassed": 17,
+    "buildPassed": true,
+    "documentationLinksChecked": 278,
+    "screenshot": "main-menu-buttons.png"
+  },
+  "unit": { "command": "npm test", "passed": 156, "total": 156, "files": 23 },
+  "typecheck": { "command": "npm run typecheck", "passed": true },
+  "build": { "command": "npm run build", "passed": true, "warning": "Phaser chunk is approximately 1.2 MB" },
+  "browser": {
+    "runner": "npm run test:browser -- <specs> --workers=1",
+    "uniqueConfirmed": 78,
+    "fullCatalogRun": false,
+    "latestRun": { "passed": 27, "total": 27, "specs": ["gameplayRevision", "balanceStory", "rhythmV13", "visualV12Lifecycle"] },
+    "confirmedSpecs": {
+      "balanceStory": 13, "courtArena": 3, "courtContinuity": 13, "developer": 2,
+      "gameplayRevision": 9, "journey": 3, "mobile": 13, "rhythmAudio": 1,
+      "rhythmV13": 3, "rhythmWeatherV14": 3, "roomClock": 1, "runnerRoomV15": 3,
+      "starsContinuous": 1, "textureBoundaries": 5, "transitionUiV16": 3, "visualV12Lifecycle": 2
+    },
+    "normalRouteCompleted": true,
+    "shortRouteCompleted": true,
+    "realAudioRetryAndPause": true,
+    "directSecondRunAudioAlignment": true,
+    "mobileModalReturn": ["375x667", "568x320"],
+    "notes": "Earlier runs exposed old route/text/sky expectations and a raw-texture scale assertion; updated checks use current rules and measured painted bounds. Subsequent runs confirmed every scenario listed here."
+  },
+  "production": { "command": "node tools/check-production.mjs", "passed": true, "report": "production.json" },
+  "assets": { "command": "node tools/audit-assets.mjs", "passed": true, "checked": 38 },
+  "documentation": { "command": "npm run check:docs", "passed": true, "links": 277 },
+  "route": { "balanceAt": 200, "starsAt": 400, "waitingAt": 600, "availableEnd": 700 },
+  "rhythm": { "attempts": 5, "mistakesPerAttempt": 3, "retrySeconds": 1.25, "finalMessage": "бесполезно", "messageSeconds": 3.8 },
+  "music": {
+    "analysis": "audio-analysis.json", "jumpMarkers": [39.61, 41.06, 42.52],
+    "pipeExitStartPosition": 4.6, "secondRunStartPosition": 7, "approximateRunEndPosition": 48.73,
+    "listeningVerified": false, "verseAndChorusLabelsVerified": false
+  },
+  "manualChecksRemaining": ["Music markers and section boundaries by listening", "Composed leg animation artistic approval", "Physical phones and Telegram WebView"]
+}

@@ -1,0 +1,51 @@
+.tutorial { background: #101924ed; }
+.tutorial-content { width: min(760px, 100%); margin-block: auto; }
+.tutorial h1 { font-size: clamp(32px, 4vw, 48px); margin-bottom: 12px; }
+.tutorial h1:focus { outline: none; }
+.tutorial-intro { margin: 0 0 24px; color: #a7b7c7; font-size: 14px; line-height: 1.6; }
+.tutorial-rules { display: grid; grid-template-columns: 1fr 1fr; gap: 20px; }
+.tutorial-rule { padding: 20px; border: 1px solid #76849555; background: #25313e66; }
+.tutorial-examples { display: flex; align-items: end; justify-content: center; gap: 10px; height: 60px; margin-bottom: 20px; }
+.tutorial-obstacles img { width: calc((100% - 30px) / 4); max-width: 76px; max-height: 52px; object-fit: contain; }
+.tutorial-tape { align-items: center; }
+.tutorial-tape img { width: 80px; height: auto; }
+.tutorial h2 { font-size: 16px; font-weight: 400; line-height: 1.4; margin: 0 0 10px; }
+.tutorial h2 span { color: #91a5b8; font-size: 11px; white-space: nowrap; }
+.tutorial-rule p { color: #a7b7c7; font-size: 13px; line-height: 1.7; margin: 0; }
+.tutorial-rule strong { color: #d4dbe2; font-weight: 400; }
+.tutorial-rule .tutorial-hint { font-size: 11px; color: #91a5b8; margin-top: 10px; }
+.tutorial-actions { margin-top: 24px; }
+
+@media (orientation: portrait) {
+  .tutorial { padding-top: calc(max(12px, env(safe-area-inset-top)) + 92px); }
+  .tutorial .eyebrow { margin-bottom: 12px; }
+  .tutorial-rules { grid-template-columns: 1fr; gap: 12px; }
+  .tutorial-rule { padding: 14px; }
+  .tutorial-examples { height: 44px; margin-bottom: 12px; }
+  .tutorial-tape img { width: 66px; }
+  .tutorial-intro { margin-bottom: 14px; }
+  .tutorial-actions { margin-top: 14px; }
+}
+
+@media (max-height: 520px) and (orientation: landscape) {
+  .tutorial .eyebrow { margin-bottom: 6px; }
+  .tutorial h1 { font-size: 30px; margin-bottom: 6px; }
+  .tutorial-intro { font-size: 12px; margin-bottom: 12px; }
+  .tutorial-rules { gap: 12px; }
+  .tutorial-rule { padding: 12px; }
+  .tutorial-examples { height: 34px; margin-bottom: 10px; }
+  .tutorial-obstacles img { max-height: 34px; }
+  .tutorial-tape img { width: 52px; }
+  .tutorial h2 { font-size: 14px; margin-bottom: 6px; }
+  .tutorial-rule p { font-size: 12px; line-height: 1.5; }
+  .tutorial-rule .tutorial-hint { font-size: 10px; margin-top: 6px; }
+  .tutorial-actions { margin-top: 12px; }
+}
+
+@media (max-height: 360px) and (orientation: landscape) {
+  .tutorial .eyebrow, .tutorial-intro { display: none; }
+  .tutorial h1 { font-size: 26px; margin-bottom: 10px; }
+  .tutorial-rule { padding: 10px; }
+  .tutorial h2 { font-size: 13px; }
+  .tutorial-rule p { font-size: 11px; }
+}

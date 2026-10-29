@@ -1,0 +1,172 @@
+{
+  "version": "court-spatial-v8",
+  "date": "2026-10-27",
+  "source": [
+    {
+      "path": "apps/web/src/game/views/courtSpace.ts",
+      "sha256": "eec00f75a8a49b5e9ea581a9f037e02f455a25f89a477fd7c50360e6f3b0ea3a"
+    },
+    {
+      "path": "apps/web/src/game/views/arrivalLayout.ts",
+      "sha256": "f0f79c2c3eb175f47dae606e5325b88b07c7f12bfbba9aca38f1508d3ca5944b"
+    },
+    {
+      "path": "apps/web/src/game/views/CourtFence.ts",
+      "sha256": "9914f0dbfa2d3027fda377581ff3e1b0b0cee7fd1e8c3ec40979e7edef5b0cd0"
+    },
+    {
+      "path": "apps/web/src/game/views/CourtScenery.ts",
+      "sha256": "2f0c3c78aea9e3493a5043a7086a6e3b1a91357206e7f21fb1e80e47e6bebd47"
+    },
+    {
+      "path": "apps/web/src/game/views/NightDistrictArt.ts",
+      "sha256": "d9c5f768ff07296321ae45431898308124b9719bd00c03c4c37f80c0d6e86e07"
+    },
+    {
+      "path": "apps/web/src/game/views/RunnerView.ts",
+      "sha256": "176be924b7a0096a9076fd54038061356c5ffc4ae988ae15273f60ff7d6680af"
+    },
+    {
+      "path": "apps/web/src/game/views/StarsView.ts",
+      "sha256": "da1173a41add01a9557dfda83705779449c2e89e08b53da4109c8780471dcce3"
+    },
+    {
+      "path": "apps/web/src/game/scenes/RunnerScene.ts",
+      "sha256": "830dc54c945b462cd4ec424d1b80007f0eb4c34489434fc5fa0199a48e803678"
+    },
+    {
+      "path": "apps/web/src/game/viewport.ts",
+      "sha256": "ef14422667a8cc92b11d20714be79442dcf93d221bcd79467dda75f88493ca03"
+    },
+    {
+      "path": "apps/web/src/game/views/repeatPanorama.ts",
+      "sha256": "d763beab7ee3df4ab9f743860aae90906bea228926f7a3a5285699d72b6b9438"
+    },
+    {
+      "path": "apps/web/src/style.css",
+      "sha256": "ce969d424540f0a30807bc6148d959903c66daf02d69ea8a3b78b7b2eba8b941"
+    },
+    {
+      "path": "apps/web/src/game/config.ts",
+      "sha256": "1720c5e303b82f57640211b8a58e4622e77cb024e573852c718f0b16cd2ab4ee"
+    },
+    {
+      "path": "apps/web/src/game/minigames/stars/StarsEngine.ts",
+      "sha256": "0aed4f5bb40f7276af24a869b03e3c5170b279531b78127b549b7f613c603d31"
+    }
+  ],
+  "unit": {
+    "command": "npm test",
+    "passed": 126,
+    "failed": 0,
+    "files": 18
+  },
+  "typecheck": {
+    "command": "npm run typecheck",
+    "exitCode": 0
+  },
+  "build": {
+    "command": "npm run build",
+    "exitCode": 0,
+    "notice": "Existing Phaser chunk-size warning"
+  },
+  "assets": {
+    "command": "node tools/audit-assets.mjs",
+    "checked": 34,
+    "failed": 0
+  },
+  "docs": {
+    "command": "npm run check:docs",
+    "links": 199,
+    "markdownFiles": 61,
+    "exitCode": 0
+  },
+  "browser": {
+    "files": [
+      "courtArena",
+      "courtContinuity",
+      "locationIntegration",
+      "starsCollision",
+      "starsContinuous",
+      "mobile",
+      "textureBoundaries",
+      "textures",
+      "references"
+    ],
+    "workers": 1,
+    "mainRun": {
+      "passed": 63,
+      "failed": 0,
+      "total": 63
+    },
+    "preliminaryRun": {
+      "passed": 61,
+      "failed": 2,
+      "total": 63
+    },
+    "preliminaryFailures": [
+      "mobile 915x412: second menu load exceeded 5 seconds",
+      "textures: expected switch list did not yet include the court sky cache"
+    ],
+    "targetedRepeat": {
+      "passed": 2,
+      "failed": 0
+    },
+    "textureFileRepeat": {
+      "passed": 3,
+      "failed": 0
+    },
+    "finalWholeSpriteControlCheck": {
+      "file": "courtArena",
+      "passed": 5,
+      "failed": 0
+    },
+    "uniqueScenariosConfirmed": 63,
+    "singleFullGreenRunClaimed": true
+  },
+  "visual": {
+    "frames": 180,
+    "sizes": [
+      [
+        960,
+        540
+      ],
+      [
+        1920,
+        1080
+      ],
+      [
+        1230,
+        372
+      ],
+      [
+        375,
+        667
+      ],
+      [
+        390,
+        844
+      ]
+    ],
+    "routes": [
+      "normal",
+      "short"
+    ],
+    "pageErrors": [],
+    "diagrams": [
+      "plan.svg",
+      "depth.svg"
+    ],
+    "videos": [
+      "full-transition.webm",
+      "active-four-directions.webm"
+    ],
+    "playbackReport": "video-playback.json",
+    "inspected": "Contact sheets, individual frames, decoded video sequences"
+  },
+  "limitations": [
+    "No physical phones or Telegram WebView tested",
+    "Full browser suite beyond the nine listed files not run",
+    "Artistic owner acceptance is not inferred from automated tests"
+  ]
+}

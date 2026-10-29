@@ -1,0 +1,229 @@
+{
+  "viewport": {
+    "width": 1230,
+    "height": 372
+  },
+  "route": [
+    {
+      "distance": 50,
+      "road": "night-ground",
+      "visible": true,
+      "y": 435,
+      "scale": [
+        0.6402439024390244,
+        0.6402439024390244
+      ],
+      "width": 1785.483870967742,
+      "left": -412.741935483871,
+      "foundation": false,
+      "city": "night-far-repeat",
+      "entranceCrop": 435,
+      "endingCrop": 435,
+      "wings": [
+        540,
+        540
+      ],
+      "camera": {
+        "left": -412,
+        "right": 1373
+      }
+    },
+    {
+      "distance": 210,
+      "road": "night-ground",
+      "visible": true,
+      "y": 435,
+      "scale": [
+        0.6402439024390244,
+        0.6402439024390244
+      ],
+      "width": 1785.483870967742,
+      "left": -412.741935483871,
+      "foundation": false,
+      "city": "night-far-court-sky",
+      "entranceCrop": 435,
+      "endingCrop": 435,
+      "wings": [
+        540,
+        540
+      ],
+      "camera": {
+        "left": -412,
+        "right": 1373
+      }
+    },
+    {
+      "distance": 350,
+      "road": "night-ground",
+      "visible": true,
+      "y": 435,
+      "scale": [
+        0.6402439024390244,
+        0.6402439024390244
+      ],
+      "width": 1785.483870967742,
+      "left": -412.741935483871,
+      "foundation": false,
+      "city": "night-far-court-sky",
+      "entranceCrop": 435,
+      "endingCrop": 435,
+      "wings": [
+        540,
+        540
+      ],
+      "camera": {
+        "left": -412,
+        "right": 1373
+      }
+    },
+    {
+      "distance": 460,
+      "road": "night-ground",
+      "visible": true,
+      "y": 435,
+      "scale": [
+        0.6402439024390244,
+        0.6402439024390244
+      ],
+      "width": 1785.483870967742,
+      "left": -412.741935483871,
+      "foundation": false,
+      "city": "night-far-court-sky",
+      "entranceCrop": 435,
+      "endingCrop": 435,
+      "wings": [
+        540,
+        540
+      ],
+      "camera": {
+        "left": -412,
+        "right": 1373
+      }
+    },
+    {
+      "distance": 585,
+      "road": "night-ground",
+      "visible": true,
+      "y": 435,
+      "scale": [
+        0.6402439024390244,
+        0.6402439024390244
+      ],
+      "width": 1785.483870967742,
+      "left": -412.741935483871,
+      "foundation": false,
+      "city": "night-far-court-sky",
+      "entranceCrop": 435,
+      "endingCrop": 435,
+      "wings": [
+        540,
+        540
+      ],
+      "camera": {
+        "left": -412,
+        "right": 1373
+      }
+    },
+    {
+      "distance": 598,
+      "road": "night-ground",
+      "visible": true,
+      "y": 435,
+      "scale": [
+        0.6402439024390244,
+        0.6402439024390244
+      ],
+      "width": 1785.483870967742,
+      "left": -412.741935483871,
+      "foundation": false,
+      "city": "night-far-court-sky",
+      "entranceCrop": 435,
+      "endingCrop": 435,
+      "wings": [
+        540,
+        540
+      ],
+      "camera": {
+        "left": -412,
+        "right": 1373
+      }
+    },
+    {
+      "distance": 640,
+      "road": "night-ground",
+      "visible": true,
+      "y": 435,
+      "scale": [
+        0.6402439024390244,
+        0.6402439024390244
+      ],
+      "width": 1785.483870967742,
+      "left": -412.741935483871,
+      "foundation": false,
+      "city": "night-far-court-sky",
+      "entranceCrop": 435,
+      "endingCrop": 435,
+      "wings": [
+        435,
+        435
+      ],
+      "camera": {
+        "left": -412,
+        "right": 1373
+      }
+    },
+    {
+      "distance": 698,
+      "road": "night-ground",
+      "visible": true,
+      "y": 435,
+      "scale": [
+        0.6402439024390244,
+        0.6402439024390244
+      ],
+      "width": 1785.483870967742,
+      "left": -412.741935483871,
+      "foundation": false,
+      "city": "night-far-court-sky",
+      "entranceCrop": 435,
+      "endingCrop": 435,
+      "wings": [
+        435,
+        435
+      ],
+      "camera": {
+        "left": -412,
+        "right": 1373
+      }
+    }
+  ],
+  "lamp": {
+    "before": [
+      45.666666666666664,
+      4.933333333333334,
+      27.373333333333335
+    ],
+    "dimmed": [
+      33.93333333333333,
+      3.56,
+      20.30666666666667
+    ],
+    "between": [
+      45.666666666666664,
+      4.933333333333334,
+      27.373333333333335
+    ],
+    "response": {
+      "resets": 0,
+      "elapsed": 11.633333333333333,
+      "alpha": 0,
+      "parent": true,
+      "width": 1785.483870967742
+    }
+  },
+  "flash": {
+    "paths": 0,
+    "rectangles": 2
+  },
+  "errors": []
+}

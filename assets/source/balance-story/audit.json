@@ -1,0 +1,21 @@
+{
+  "source": "assets/source/balance-story/beer.png",
+  "output": "apps/web/public/assets/balance-story/beer.webp",
+  "crop": {
+    "l": 161,
+    "t": 82,
+    "r": 713,
+    "b": 1714
+  },
+  "sourceSize": [
+    873,
+    1801
+  ],
+  "size": [
+    80,
+    240
+  ],
+  "bytes": 9488,
+  "sourceSha256": "3a28c6e8e87d0b507f947839d3d932fd0b3dde52fa02caea910ddf09bc0a6a83",
+  "sha256": "4307f8c43679d36fd762c03dfe684ed671a4b10d60b6bdff56f8094d47ff9232"
+}

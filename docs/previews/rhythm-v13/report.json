@@ -1,0 +1,131 @@
+{
+  "version": "rhythm-v13",
+  "date": "2026-10-28",
+  "changes": {
+    "storm": "Moved from second-game boundary 500/50 to third-game boundary 1000/100. Outdoor StormView -> existing room-approach -> waiting. No room before entering and no return to the court after the storm.",
+    "rhythm": "Replaced dodge logic in StarsEngine with 12 sparse four-direction notes. Falling arrow-stars, stationary targets, edge-triggered keyboard and touch input, timed judgments and soft feedback. No global score/life penalty for a miss.",
+    "music": "98 BPM sparse four-beat grid with 0.1s offset estimated from local instrumental; music playhead drives notes. Graceful active-time fallback if audio cannot load or stalls.",
+    "tutorial": "Exact rhythm copy, independent looping target-coincidence demo, no simulation or stars music before Start.",
+    "visuals": "Existing original game artwork retained. Only the interaction principle from the user's reference was used; no foreign images, characters, styling or interface copied."
+  },
+  "files": {
+    "added": [
+      "tests/unit/rhythm.test.ts",
+      "tests/unit/rhythmMusicClock.test.ts",
+      "tests/browser/rhythmHarness.ts",
+      "tests/browser/rhythmV13.spec.ts",
+      "tests/browser/rhythmAudio.spec.ts",
+      "tools/rhythm-v13-gallery.mjs"
+    ],
+    "modified": [
+      "README.md",
+      "apps/web/src/balance.css",
+      "apps/web/src/game/config.ts",
+      "apps/web/src/game/assets/manifest.ts",
+      "apps/web/src/game/minigames/stars/StarsEngine.ts",
+      "apps/web/src/game/input/JourneyInput.ts",
+      "apps/web/src/game/state/RunSession.ts",
+      "apps/web/src/game/state/store.ts",
+      "apps/web/src/game/scenes/RunnerScene.ts",
+      "apps/web/src/game/audio/AudioManager.ts",
+      "apps/web/src/game/audio/GameplaySoundscape.ts",
+      "apps/web/src/game/audio/catalog.ts",
+      "apps/web/src/game/views/StarsView.ts",
+      "apps/web/src/game/views/StormView.ts",
+      "apps/web/src/game/views/ArrivalView.ts",
+      "apps/web/src/game/views/WaitingView.ts",
+      "apps/web/src/game/views/arrivalLayout.ts",
+      "apps/web/src/game/viewport.ts",
+      "apps/web/src/ui/StarsHud.tsx",
+      "apps/web/src/ui/StarsTutorial.tsx",
+      "tests/fixtures/starsPilot.ts",
+      "tests/fixtures/visual.ts",
+      "tests/browser/starsController.ts",
+      "tests/unit/arrivals.test.ts",
+      "tests/unit/audio.test.ts",
+      "tests/unit/corrections.test.ts",
+      "tests/unit/courtSpace.test.ts",
+      "tests/unit/developer.test.ts",
+      "tests/unit/finale.test.ts",
+      "tests/unit/mobileInput.test.ts",
+      "tests/unit/space.test.ts",
+      "tests/unit/starsSurvival.test.ts",
+      "tests/unit/visualV12.test.ts",
+      "tests/browser/starsCollision.spec.ts",
+      "tests/browser/starsContinuous.spec.ts",
+      "tests/browser/courtArena.spec.ts",
+      "tests/browser/courtContinuity.spec.ts",
+      "tests/browser/developer.spec.ts",
+      "tests/browser/journey.spec.ts",
+      "tests/browser/mobile.spec.ts",
+      "tests/browser/visualV12.spec.ts"
+    ],
+    "removed": [
+      "apps/web/src/game/minigames/stars/targeting.ts",
+      "apps/web/src/game/minigames/stars/movement.ts"
+    ],
+    "evidence": "docs/previews/rhythm-v13/*.png, *.json, index.html; related browser tests also refresh their existing evidence screenshots"
+  },
+  "validation": {
+    "unit": {
+      "passed": 131,
+      "total": 131,
+      "files": 22
+    },
+    "typecheck": "passed",
+    "build": "passed; existing Phaser chunk-size warning",
+    "browser": {
+      "uniquePassed": 47,
+      "fullCatalogRun": false,
+      "confirmedFirstGroup": {
+        "courtArena": 3,
+        "courtContinuity": 13,
+        "developer": 2,
+        "journey": 3
+      },
+      "secondGroup": {
+        "mobile": 13,
+        "rhythmV13": 3,
+        "roomClock": 1,
+        "starsCollision": 2,
+        "starsContinuous": 1,
+        "rhythmAudio": 1,
+        "visualV12": 3,
+        "visualV12Lifecycle": 2
+      },
+      "rerun": "Two new miss tests originally relied on fake wall-clock duration; they now wait for the actual note-time window. Final targeted rerun: 6/6.",
+      "realAudio": "Single real instrumental voice, note clock within 90 ms of its playhead, real timed input, pause/resume without restart.",
+      "touch": "CDP touch presses and separate mobile button tests",
+      "screenshots": 21,
+      "viewports": [
+        "960x540",
+        "390x844",
+        "844x390",
+        "375x667",
+        "360x800",
+        "667x375",
+        "915x412",
+        "1230x372",
+        "1920x1080"
+      ],
+      "coverage": [
+        "normal route completed and restarted",
+        "developer route completed and restarted",
+        "pause and rotation",
+        "blocked intro and cleared held keys",
+        "four directions and timing windows",
+        "no auto-repeat",
+        "checkpoint restoration",
+        "storm only before game 3",
+        "room entry after storm",
+        "preserved room reactions and bench"
+      ]
+    },
+    "physicalPhonesTested": false,
+    "telegramWebViewTested": false,
+    "ownerArtAcceptance": false
+  },
+  "newRasterAssets": [],
+  "gallery": "docs/previews/rhythm-v13/index.html",
+  "authoritativeDocumentation": "README.md#rhythm-v13"
+}

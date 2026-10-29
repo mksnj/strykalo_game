@@ -1,0 +1,98 @@
+﻿[
+    {
+        "slot":  "uskolszaet",
+        "source":  "Валентин Стрыкало - Ускользает (hitmos.fm).mp3",
+        "file":  "01-uskolszaet.mp3",
+        "bytes":  12243068,
+        "seconds":  306.02449,
+        "codec":  "mp3",
+        "channels":  2,
+        "sampleRate":  "44100",
+        "sha256":  "B8DE0F535430DB2C5F6FEC51B0D87C3879513870033A0338ACFE1DB3D58658FE",
+        "sourceMatchesInstalledAndBuild":  true
+    },
+    {
+        "slot":  "o-brat",
+        "source":  "Валентин Стрыкало - О брат (hitmos.fm).mp3",
+        "file":  "02-o-brat.mp3",
+        "bytes":  11769729,
+        "seconds":  294.19102,
+        "codec":  "mp3",
+        "channels":  2,
+        "sampleRate":  "44100",
+        "sha256":  "E97FD1C247623FC06782F1D1DD18011305BD4F2982AF4959619AFFD7C2D3310B",
+        "sourceMatchesInstalledAndBuild":  true
+    },
+    {
+        "slot":  "92",
+        "source":  "Валентин Стрыкало - 92 (hitmos.fm).mp3",
+        "file":  "03-92.mp3",
+        "bytes":  3680965,
+        "seconds":  229.983107,
+        "codec":  "mp3",
+        "channels":  2,
+        "sampleRate":  "44100",
+        "sha256":  "55C4EAEAB87CAB93883234C9DC8A2B50B804BDB59639D6A9BF7E75C17CC14F7A",
+        "sourceMatchesInstalledAndBuild":  true
+    },
+    {
+        "slot":  "delat-eto-trezvym",
+        "source":  "Валентин Стрыкало - Делать это трезвым (hitmos.fm).mp3",
+        "file":  "04-delat-eto-trezvym.mp3",
+        "bytes":  7725974,
+        "seconds":  193.097143,
+        "codec":  "mp3",
+        "channels":  2,
+        "sampleRate":  "44100",
+        "sha256":  "2CFA01BF8B855D1A3E4969977870137363FED150A2259FCB3E738D30D3D6BE23",
+        "sourceMatchesInstalledAndBuild":  true
+    },
+    {
+        "slot":  "teni",
+        "source":  "Валентин Стрыкало - Тени (hitmos.fm).mp3",
+        "file":  "05-teni.mp3",
+        "bytes":  13768619,
+        "seconds":  344.163265,
+        "codec":  "mp3",
+        "channels":  2,
+        "sampleRate":  "44100",
+        "sha256":  "7BD3F101D913D5013B77F8FAB6E9484D0EC0DEB94A07C61304EA662279A470A3",
+        "sourceMatchesInstalledAndBuild":  true
+    },
+    {
+        "slot":  "bespolezno",
+        "source":  "Валентин Стрыкало - Бесполезно (hitmos.fm).mp3",
+        "file":  "06-bespolezno.mp3",
+        "bytes":  6793089,
+        "seconds":  424.490862,
+        "codec":  "mp3",
+        "channels":  2,
+        "sampleRate":  "44100",
+        "sha256":  "E4BA9768521A7161F00DF7F4BA6E2E0A4689171AD7B3FD02F6111E0934B2D3DE",
+        "sourceMatchesInstalledAndBuild":  true
+    },
+    {
+        "slot":  "reshitsya-samo-soboy",
+        "source":  "Валентин Стрыкало - Решится само собой (hitmos.fm).mp3",
+        "file":  "07-reshitsya-samo-soboy.mp3",
+        "bytes":  4038320,
+        "seconds":  252.3178,
+        "codec":  "mp3",
+        "channels":  2,
+        "sampleRate":  "44100",
+        "sha256":  "D62A896EF9CE7777193C3FE4C7AC28503466979EA3172B1357DA643C4A01AEA9",
+        "sourceMatchesInstalledAndBuild":  true
+    },
+    {
+        "slot":  "podvorotnya-moy-dom",
+        "source":  "Валентин Стрыкало - Подворотня - мой дом (hitmos.fm).mp3",
+        "file":  "08-podvorotnya-moy-dom.mp3",
+        "bytes":  8067656,
+        "seconds":  201.639184,
+        "codec":  "mp3",
+        "channels":  2,
+        "sampleRate":  "44100",
+        "sha256":  "0953741FCC5106D8E9D22CAACF836B861667304A11785BD90E6C3C125C23782B",
+        "sourceMatchesInstalledAndBuild":  true
+    }
+]

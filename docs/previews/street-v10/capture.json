@@ -1,0 +1,506 @@
+[
+  {
+    "width": 960,
+    "height": 540,
+    "developer": false,
+    "stage": "yard",
+    "file": "normal-960x540-yard.png",
+    "geometry": {
+      "phase": "runner",
+      "arenaVisible": false,
+      "arenaAlpha": 0,
+      "facadeMask": false,
+      "memoryTextures": [],
+      "hero": {
+        "x": 180,
+        "y": 438
+      },
+      "distance": 325,
+      "score": 17
+    },
+    "errors": []
+  },
+  {
+    "width": 960,
+    "height": 540,
+    "developer": false,
+    "stage": "before",
+    "file": "normal-960x540-before.png",
+    "geometry": {
+      "phase": "runner",
+      "arenaVisible": false,
+      "arenaAlpha": 0,
+      "facadeMask": false,
+      "memoryTextures": [],
+      "hero": {
+        "x": 180,
+        "y": 438
+      },
+      "distance": 499.9,
+      "score": 17
+    },
+    "errors": []
+  },
+  {
+    "width": 960,
+    "height": 540,
+    "developer": false,
+    "stage": "entry",
+    "file": "normal-960x540-entry.png",
+    "geometry": {
+      "phase": "stars-approach",
+      "arenaVisible": false,
+      "arenaAlpha": 0,
+      "facadeMask": false,
+      "memoryTextures": [],
+      "hero": {
+        "x": 344.216,
+        "y": 438
+      },
+      "distance": 500,
+      "score": 17
+    },
+    "errors": []
+  },
+  {
+    "width": 960,
+    "height": 540,
+    "developer": true,
+    "stage": "yard",
+    "file": "short-960x540-yard.png",
+    "geometry": {
+      "phase": "runner",
+      "arenaVisible": false,
+      "arenaAlpha": 0,
+      "facadeMask": false,
+      "memoryTextures": [],
+      "hero": {
+        "x": 180,
+        "y": 438
+      },
+      "distance": 32.5,
+      "score": 17
+    },
+    "errors": []
+  },
+  {
+    "width": 960,
+    "height": 540,
+    "developer": true,
+    "stage": "before",
+    "file": "short-960x540-before.png",
+    "geometry": {
+      "phase": "runner",
+      "arenaVisible": false,
+      "arenaAlpha": 0,
+      "facadeMask": false,
+      "memoryTextures": [],
+      "hero": {
+        "x": 180,
+        "y": 438
+      },
+      "distance": 49.9,
+      "score": 17
+    },
+    "errors": []
+  },
+  {
+    "width": 960,
+    "height": 540,
+    "developer": true,
+    "stage": "entry",
+    "file": "short-960x540-entry.png",
+    "geometry": {
+      "phase": "stars-approach",
+      "arenaVisible": false,
+      "arenaAlpha": 0,
+      "facadeMask": false,
+      "memoryTextures": [],
+      "hero": {
+        "x": 344.216,
+        "y": 438
+      },
+      "distance": 50,
+      "score": 17
+    },
+    "errors": []
+  },
+  {
+    "width": 1920,
+    "height": 1080,
+    "developer": false,
+    "stage": "yard",
+    "file": "normal-1920x1080-yard.png",
+    "geometry": {
+      "phase": "runner",
+      "arenaVisible": false,
+      "arenaAlpha": 0,
+      "facadeMask": false,
+      "memoryTextures": [],
+      "hero": {
+        "x": 180,
+        "y": 438
+      },
+      "distance": 325,
+      "score": 17
+    },
+    "errors": []
+  },
+  {
+    "width": 1920,
+    "height": 1080,
+    "developer": false,
+    "stage": "before",
+    "file": "normal-1920x1080-before.png",
+    "geometry": {
+      "phase": "runner",
+      "arenaVisible": false,
+      "arenaAlpha": 0,
+      "facadeMask": false,
+      "memoryTextures": [],
+      "hero": {
+        "x": 180,
+        "y": 438
+      },
+      "distance": 499.9,
+      "score": 17
+    },
+    "errors": []
+  },
+  {
+    "width": 1920,
+    "height": 1080,
+    "developer": false,
+    "stage": "entry",
+    "file": "normal-1920x1080-entry.png",
+    "geometry": {
+      "phase": "stars-approach",
+      "arenaVisible": false,
+      "arenaAlpha": 0,
+      "facadeMask": false,
+      "memoryTextures": [],
+      "hero": {
+        "x": 344.216,
+        "y": 438
+      },
+      "distance": 500,
+      "score": 17
+    },
+    "errors": []
+  },
+  {
+    "width": 1920,
+    "height": 1080,
+    "developer": true,
+    "stage": "yard",
+    "file": "short-1920x1080-yard.png",
+    "geometry": {
+      "phase": "runner",
+      "arenaVisible": false,
+      "arenaAlpha": 0,
+      "facadeMask": false,
+      "memoryTextures": [],
+      "hero": {
+        "x": 180,
+        "y": 438
+      },
+      "distance": 32.5,
+      "score": 17
+    },
+    "errors": []
+  },
+  {
+    "width": 1920,
+    "height": 1080,
+    "developer": true,
+    "stage": "before",
+    "file": "short-1920x1080-before.png",
+    "geometry": {
+      "phase": "runner",
+      "arenaVisible": false,
+      "arenaAlpha": 0,
+      "facadeMask": false,
+      "memoryTextures": [],
+      "hero": {
+        "x": 180,
+        "y": 438
+      },
+      "distance": 49.9,
+      "score": 17
+    },
+    "errors": []
+  },
+  {
+    "width": 1920,
+    "height": 1080,
+    "developer": true,
+    "stage": "entry",
+    "file": "short-1920x1080-entry.png",
+    "geometry": {
+      "phase": "stars-approach",
+      "arenaVisible": false,
+      "arenaAlpha": 0,
+      "facadeMask": false,
+      "memoryTextures": [],
+      "hero": {
+        "x": 344.216,
+        "y": 438
+      },
+      "distance": 50,
+      "score": 17
+    },
+    "errors": []
+  },
+  {
+    "width": 1230,
+    "height": 372,
+    "developer": false,
+    "stage": "yard",
+    "file": "normal-1230x372-yard.png",
+    "geometry": {
+      "phase": "runner",
+      "arenaVisible": false,
+      "arenaAlpha": 0,
+      "facadeMask": false,
+      "memoryTextures": [],
+      "hero": {
+        "x": 180,
+        "y": 438
+      },
+      "distance": 325,
+      "score": 17
+    },
+    "errors": []
+  },
+  {
+    "width": 1230,
+    "height": 372,
+    "developer": false,
+    "stage": "before",
+    "file": "normal-1230x372-before.png",
+    "geometry": {
+      "phase": "runner",
+      "arenaVisible": false,
+      "arenaAlpha": 0,
+      "facadeMask": false,
+      "memoryTextures": [],
+      "hero": {
+        "x": 180,
+        "y": 438
+      },
+      "distance": 499.9,
+      "score": 17
+    },
+    "errors": []
+  },
+  {
+    "width": 1230,
+    "height": 372,
+    "developer": false,
+    "stage": "entry",
+    "file": "normal-1230x372-entry.png",
+    "geometry": {
+      "phase": "stars-approach",
+      "arenaVisible": false,
+      "arenaAlpha": 0,
+      "facadeMask": false,
+      "memoryTextures": [],
+      "hero": {
+        "x": 344.216,
+        "y": 438
+      },
+      "distance": 500,
+      "score": 17
+    },
+    "errors": []
+  },
+  {
+    "width": 1230,
+    "height": 372,
+    "developer": true,
+    "stage": "yard",
+    "file": "short-1230x372-yard.png",
+    "geometry": {
+      "phase": "runner",
+      "arenaVisible": false,
+      "arenaAlpha": 0,
+      "facadeMask": false,
+      "memoryTextures": [],
+      "hero": {
+        "x": 180,
+        "y": 438
+      },
+      "distance": 32.5,
+      "score": 17
+    },
+    "errors": []
+  },
+  {
+    "width": 1230,
+    "height": 372,
+    "developer": true,
+    "stage": "before",
+    "file": "short-1230x372-before.png",
+    "geometry": {
+      "phase": "runner",
+      "arenaVisible": false,
+      "arenaAlpha": 0,
+      "facadeMask": false,
+      "memoryTextures": [],
+      "hero": {
+        "x": 180,
+        "y": 438
+      },
+      "distance": 49.9,
+      "score": 17
+    },
+    "errors": []
+  },
+  {
+    "width": 1230,
+    "height": 372,
+    "developer": true,
+    "stage": "entry",
+    "file": "short-1230x372-entry.png",
+    "geometry": {
+      "phase": "stars-approach",
+      "arenaVisible": false,
+      "arenaAlpha": 0,
+      "facadeMask": false,
+      "memoryTextures": [],
+      "hero": {
+        "x": 344.216,
+        "y": 438
+      },
+      "distance": 50,
+      "score": 17
+    },
+    "errors": []
+  },
+  {
+    "width": 375,
+    "height": 667,
+    "developer": false,
+    "stage": "yard",
+    "file": "normal-375x667-yard.png",
+    "geometry": {
+      "phase": "runner",
+      "arenaVisible": false,
+      "arenaAlpha": 0,
+      "facadeMask": false,
+      "memoryTextures": [],
+      "hero": {
+        "x": 180,
+        "y": 438
+      },
+      "distance": 325,
+      "score": 17
+    },
+    "errors": []
+  },
+  {
+    "width": 375,
+    "height": 667,
+    "developer": false,
+    "stage": "before",
+    "file": "normal-375x667-before.png",
+    "geometry": {
+      "phase": "runner",
+      "arenaVisible": false,
+      "arenaAlpha": 0,
+      "facadeMask": false,
+      "memoryTextures": [],
+      "hero": {
+        "x": 180,
+        "y": 438
+      },
+      "distance": 499.9,
+      "score": 17
+    },
+    "errors": []
+  },
+  {
+    "width": 375,
+    "height": 667,
+    "developer": false,
+    "stage": "entry",
+    "file": "normal-375x667-entry.png",
+    "geometry": {
+      "phase": "stars-approach",
+      "arenaVisible": false,
+      "arenaAlpha": 0,
+      "facadeMask": false,
+      "memoryTextures": [],
+      "hero": {
+        "x": 344.216,
+        "y": 438
+      },
+      "distance": 500,
+      "score": 17
+    },
+    "errors": []
+  },
+  {
+    "width": 375,
+    "height": 667,
+    "developer": true,
+    "stage": "yard",
+    "file": "short-375x667-yard.png",
+    "geometry": {
+      "phase": "runner",
+      "arenaVisible": false,
+      "arenaAlpha": 0,
+      "facadeMask": false,
+      "memoryTextures": [],
+      "hero": {
+        "x": 180,
+        "y": 438
+      },
+      "distance": 32.5,
+      "score": 17
+    },
+    "errors": []
+  },
+  {
+    "width": 375,
+    "height": 667,
+    "developer": true,
+    "stage": "before",
+    "file": "short-375x667-before.png",
+    "geometry": {
+      "phase": "runner",
+      "arenaVisible": false,
+      "arenaAlpha": 0,
+      "facadeMask": false,
+      "memoryTextures": [],
+      "hero": {
+        "x": 180,
+        "y": 438
+      },
+      "distance": 49.9,
+      "score": 17
+    },
+    "errors": []
+  },
+  {
+    "width": 375,
+    "height": 667,
+    "developer": true,
+    "stage": "entry",
+    "file": "short-375x667-entry.png",
+    "geometry": {
+      "phase": "stars-approach",
+      "arenaVisible": false,
+      "arenaAlpha": 0,
+      "facadeMask": false,
+      "memoryTextures": [],
+      "hero": {
+        "x": 344.216,
+        "y": 438
+      },
+      "distance": 50,
+      "score": 17
+    },
+    "errors": []
+  }
+]

@@ -1,0 +1,11 @@
+{
+  "createdOn": "2026-10-25",
+  "tool": "built-in image_gen",
+  "prompt": "Use case: compositing / stylized-concept. Create a production game asset for a melancholic painted 2D side-scrolling post-Soviet city. Input image 1 is the visual-style and perspective reference; input image 2 is reference for the two ordinary hooded people. Create a NEW transparent-background courtyard vignette, not a screenshot and not a UI. One old wooden bench on the left, two small fully opaque people standing close together naturally turned slightly toward each other in the middle-right, one slender old streetlamp on the right with very restrained faded beige light. Faces indistinct. Both pairs of feet must visibly stand on a recessed wet paved courtyard path, with small contact shadows. Perspective matches reference 1: side-on, slightly looking down, distant courtyard behind the runner's street. An open break in a low ruined fence leads into this courtyard. Only a low fence fragment at far left/right, never behind the people so they cannot resemble a mural. Paint a short wet-asphalt path widening toward the viewer, with irregular natural leaf-strewn edges and soft contact shadows, no rectangular slab, no outlines, no geometric borders. Entire small diorama isolated on true transparency: no sky, no houses, no full-frame backdrop, no black background, no text or digits, no overlay fog. Hand-painted detailed collage texture matching the references, cool desaturated navy grey and worn concrete, restrained local lamplight, no cozy amber scene, no vector-art look. Landscape composition approximately 3:2, objects fully within frame, lamp tallest object; ground and people's feet near lower quarter. Do not add a playable protagonist. The two people must be properly grounded opaque figures, not ghostly or transparent.",
+  "references": [
+    "apps/web/public/assets/journey-v1/autumn.webp",
+    "apps/web/public/assets/journey-v1/memories.webp"
+  ],
+  "source": "assets/source/references-v9/courtyard.png",
+  "runtime": "apps/web/public/assets/references-v9/courtyard.webp"
+}

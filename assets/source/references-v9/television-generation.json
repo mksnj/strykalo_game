@@ -1,0 +1,10 @@
+{
+  "createdOn": "2026-10-25",
+  "tool": "built-in image_gen",
+  "prompt": "Use case: stylized-concept / compositing. Production transparent cutout asset for the same hand-painted melancholic post-Soviet side-scrolling game as the reference facade. Create ONE close view of an old apartment window seen straight-on from outside. Narrow vertical rectangular window with worn uneven blue-grey wooden outer frame, dirty glass, central thin vertical mullion, chipped plaster only in a narrow irregular border, small concrete sill. Inside is a dim room: a small old rounded-screen CRT television sits on a low wooden table toward the bottom half. TV must be clearly a physical old television with a dark curved case, knobs at right, slight rounded pale cold blue-grey screen containing a barely distinguishable blurry human newsreader, a horizontal desk and faint analogue scanlines. The screen is inside the television inside the room behind glass. The frame and plaster visibly occlude the room; no icons, no geometric UI, no white outline, no bright neon. Faint reflected screen light on the sill, restrained nearly constant light, no huge glow, no sparks. Paint with detailed gouache/ink collage texture of reference, irregular worn edges, cold desaturated grey-blue palette, not clean vector art, not photo, no text, no logos. Keep the entire object centered in a square transparent image, the window takes about 65% of width and 85% of height; everything outside the small plaster surround and sill truly transparent. No entire building, no full scene, no people outside, no scenery background.",
+  "references": [
+    "apps/web/public/assets/journey-v1/autumn.webp"
+  ],
+  "source": "assets/source/references-v9/television.png",
+  "runtime": "apps/web/public/assets/references-v9/television.webp"
+}

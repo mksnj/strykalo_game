@@ -1,0 +1,27 @@
+﻿[
+    {
+        "path":  "docs/92.png",
+        "sha256":  "a7e834e9e96090f172fe25e20a492eac44ad3034b1c0a4b56c3749aa23768edc",
+        "archive":  "../strykalo.rar"
+    },
+    {
+        "path":  "docs/ART_DIRECTION.png",
+        "sha256":  "3812a9a58c8a38f506b5ef4e0318af3fe7e19132daeb9db574bd27a92f9500e8",
+        "archive":  "../strykalo.rar"
+    },
+    {
+        "path":  "docs/блок.png",
+        "sha256":  "a2ef0c6d464e5b283012379bb884e9673ea743c607a2dfadc7c913c5efa9bc57",
+        "archive":  "../strykalo.rar"
+    },
+    {
+        "path":  "docs/лужа.png",
+        "sha256":  "95d3844a9c5006ab090d4c117cae0b8b4b6bb32f5ed90a559060dba695c8cbf5",
+        "archive":  "../strykalo.rar"
+    },
+    {
+        "path":  "docs/Мусор.png",
+        "sha256":  "a98d8b38666de7e8dbcd18d16279b69108400be1ed8e6a83db6a8d079cc1e7cf",
+        "archive":  "../strykalo.rar"
+    }
+]

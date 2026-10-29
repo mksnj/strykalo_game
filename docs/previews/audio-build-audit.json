@@ -1,0 +1,278 @@
+[
+  {
+    "name": "ambient-ending.mp3",
+    "bytes": 193580,
+    "sha256": "812115d405424b24f7c2355a883e3f690f991ca1dcad4138b46b9f231023dde8",
+    "buildMatch": true
+  },
+  {
+    "name": "ambient-ending.ogg",
+    "bytes": 163870,
+    "sha256": "214ac28d3c38f5cbe6af1ec8d1404df013a81e289e69e8608563a6512f64390d",
+    "buildMatch": true
+  },
+  {
+    "name": "ambient-pipe.mp3",
+    "bytes": 193580,
+    "sha256": "640030a48ded668fa3b2d16d3c9722a3c7e3bbd37d029cd8c7438353b7361809",
+    "buildMatch": true
+  },
+  {
+    "name": "ambient-pipe.ogg",
+    "bytes": 163130,
+    "sha256": "d66a286eb6c873ed82383f53f14ea147cf6491fa093cd391efe061019514a343",
+    "buildMatch": true
+  },
+  {
+    "name": "ambient-room.mp3",
+    "bytes": 193580,
+    "sha256": "f26e1cd34f1a0f3c91d70613de128c4417b2b8d344972c1284cf8c9f703dda49",
+    "buildMatch": true
+  },
+  {
+    "name": "ambient-room.ogg",
+    "bytes": 163663,
+    "sha256": "5ee800bd47bfdf79c07ba6608a369808c1eab3f52348f0f5175e188a03f02c66",
+    "buildMatch": true
+  },
+  {
+    "name": "ambient-street.mp3",
+    "bytes": 193580,
+    "sha256": "ec2f283df4715e87e6480cf4adcef9e34e0bc88bde2c7b00320103075313ef4a",
+    "buildMatch": true
+  },
+  {
+    "name": "ambient-street.ogg",
+    "bytes": 163551,
+    "sha256": "c0d9c01540700928a1fd9411108a1d3b65f1feae15a5929a5cfff91d3c40f3a5",
+    "buildMatch": true
+  },
+  {
+    "name": "cassette.mp3",
+    "bytes": 5804,
+    "sha256": "b53c3af7c2b37b6074bfc002ff00efcedd008eb6eeaa0ca7079c78af484d9e84",
+    "buildMatch": true
+  },
+  {
+    "name": "cassette.ogg",
+    "bytes": 8357,
+    "sha256": "c03d342081c2fda4f96119d6e597f56fc83b26c38dcd64a24973224e73d37b27",
+    "buildMatch": true
+  },
+  {
+    "name": "clock-chime.mp3",
+    "bytes": 23660,
+    "sha256": "2d8c93119e8e302e89b1deee01cd11d8819c9345b98b63a3d6332ce0d63e83a0",
+    "buildMatch": true
+  },
+  {
+    "name": "clock-chime.ogg",
+    "bytes": 19903,
+    "sha256": "ae1684aa20d129b9e15fd53ff00522164c32cd137d922f6f50c9f8e61dc1bf41",
+    "buildMatch": true
+  },
+  {
+    "name": "clock-tick.mp3",
+    "bytes": 4076,
+    "sha256": "e48f216dc2a2ba636f8403f9451bc5809f875dcc6623595f72dff9d158a909bf",
+    "buildMatch": true
+  },
+  {
+    "name": "clock-tick.ogg",
+    "bytes": 6945,
+    "sha256": "e09591e9e5c99e0c501d774c5841e9b38cb517469315d139337965a00aa8ab2b",
+    "buildMatch": true
+  },
+  {
+    "name": "collision.mp3",
+    "bytes": 15596,
+    "sha256": "292d19c68fffdceacbef17a425c3c3df26343b09406ed2a0c536f8b7bcc22238",
+    "buildMatch": true
+  },
+  {
+    "name": "collision.ogg",
+    "bytes": 15462,
+    "sha256": "8a2d1d20f03eaf41adaabc54115a7b8f651570e7b87a8d32aaf0459b46ba804e",
+    "buildMatch": true
+  },
+  {
+    "name": "door-creak.mp3",
+    "bytes": 41516,
+    "sha256": "b53dcb75ccd1e816eb2b62d44262bc8055623877510cb0ff32b97c3ef4fcb6be",
+    "buildMatch": true
+  },
+  {
+    "name": "door-creak.ogg",
+    "bytes": 30596,
+    "sha256": "e786ba6aaffc5edff419a751c6c9448d21d03e423f918ef5d20b7121ea4c7600",
+    "buildMatch": true
+  },
+  {
+    "name": "jump.mp3",
+    "bytes": 6956,
+    "sha256": "4dccc93d8b80cc7e2689aa3e201fdc7acc852922ceb5a19221cebf2bd9305f12",
+    "buildMatch": true
+  },
+  {
+    "name": "jump.ogg",
+    "bytes": 8852,
+    "sha256": "d370c81cd015adc8820ee72f1cc560e8c1f9d0499a932537c723f58e90fd1de5",
+    "buildMatch": true
+  },
+  {
+    "name": "land.mp3",
+    "bytes": 9260,
+    "sha256": "268df25ae163108841f168af72baf7331f6542ae8e5aded7b4ae80ad80db4aad",
+    "buildMatch": true
+  },
+  {
+    "name": "land.ogg",
+    "bytes": 10884,
+    "sha256": "325651fbacfc3511939d0625ccea0733dbbcfb0c77da8502d6d3ae9f184b08b5",
+    "buildMatch": true
+  },
+  {
+    "name": "music-balance.mp3",
+    "bytes": 385388,
+    "sha256": "d5383d6a8d0f4a70efc50c890583c512d123182f8eaafd5952a97ee7a97a6454",
+    "buildMatch": true
+  },
+  {
+    "name": "music-balance.ogg",
+    "bytes": 317665,
+    "sha256": "feac810b287aaa86d3d35770f66e72b5fee9e7d247958d1caf821283049d113f",
+    "buildMatch": true
+  },
+  {
+    "name": "music-ending.mp3",
+    "bytes": 385388,
+    "sha256": "baeb0bc2e664265f8990839e4ce2cfc3f1078f8d638791025b68278f5fb55034",
+    "buildMatch": true
+  },
+  {
+    "name": "music-ending.ogg",
+    "bytes": 319226,
+    "sha256": "4222ec0cf92dc9c61e72289e4b95851e79b0dd9cbfe93619c8a40b75e1f40930",
+    "buildMatch": true
+  },
+  {
+    "name": "music-runner.mp3",
+    "bytes": 385388,
+    "sha256": "b5ee43933e71b04415f4193739a9d77383a4d15649000865ddcf82faaca14d0a",
+    "buildMatch": true
+  },
+  {
+    "name": "music-runner.ogg",
+    "bytes": 316836,
+    "sha256": "c668f575b80a3bc786219ab4b3ec307478e3c6c9009ffa3c61f369a471beb2bf",
+    "buildMatch": true
+  },
+  {
+    "name": "music-stars.mp3",
+    "bytes": 385388,
+    "sha256": "94f58f4340a4be3b7235ba10c3660f5f9c18609081e8a72e1733f3d476ad28a6",
+    "buildMatch": true
+  },
+  {
+    "name": "music-stars.ogg",
+    "bytes": 318550,
+    "sha256": "0cce194d69f2c7b999b01eb59e5e4edab5cb52f1d14dba9eb2781b3016392fc5",
+    "buildMatch": true
+  },
+  {
+    "name": "music-waiting.mp3",
+    "bytes": 385388,
+    "sha256": "4dc1c23eb449c613c15a4136e572bb81f585d1c723d574f23c266d82449551e6",
+    "buildMatch": true
+  },
+  {
+    "name": "music-waiting.ogg",
+    "bytes": 319555,
+    "sha256": "74e9633221a1610168a1e8b09048630b3be3448105731eebf201fa2f75e86d1e",
+    "buildMatch": true
+  },
+  {
+    "name": "neon-flicker.mp3",
+    "bytes": 12140,
+    "sha256": "74153a5f5a213e7e381b89e472bfdf7f9dc44d497e4552dd240288815701c7da",
+    "buildMatch": true
+  },
+  {
+    "name": "neon-flicker.ogg",
+    "bytes": 13337,
+    "sha256": "64a49a0c441de61f3c71f5811651c5de412fcc2fa2c81a392949ec35217768c3",
+    "buildMatch": true
+  },
+  {
+    "name": "pipe-creak.mp3",
+    "bytes": 29996,
+    "sha256": "d6d54185e03d5118988063942163489768d5b2672f9fc26d19d85da2c712a7de",
+    "buildMatch": true
+  },
+  {
+    "name": "pipe-creak.ogg",
+    "bytes": 23650,
+    "sha256": "6d6fa398efb08538786992732f34cd620c53d845df69970a6bd2bd68089fd6e5",
+    "buildMatch": true
+  },
+  {
+    "name": "star-fall.mp3",
+    "bytes": 19052,
+    "sha256": "9ae9b94c3b424f5e4ced3d40960ddce4880117a93c0b95f7291964449eb90ca2",
+    "buildMatch": true
+  },
+  {
+    "name": "star-fall.ogg",
+    "bytes": 17500,
+    "sha256": "a14a7038272293352ac37b1cccb919a9ddfdc4b1457bf700a3e6ac3c7835373f",
+    "buildMatch": true
+  },
+  {
+    "name": "star-hit.mp3",
+    "bytes": 19052,
+    "sha256": "42892e893294b316782678222e6a7c957aab401632a3a697af4e4925cf33366b",
+    "buildMatch": true
+  },
+  {
+    "name": "star-hit.ogg",
+    "bytes": 16945,
+    "sha256": "81a8c68c87adb69452c5d55251ab23190387070f3026c6e6488a1d0cce1db771",
+    "buildMatch": true
+  },
+  {
+    "name": "step-left.mp3",
+    "bytes": 6380,
+    "sha256": "b2892bce8820fb7cba097992a75ddba6234bcb03509d3fec635805b33b080948",
+    "buildMatch": true
+  },
+  {
+    "name": "step-left.ogg",
+    "bytes": 8241,
+    "sha256": "f029ee0fd6da0d9f5574bc596162652060bc333dedcb17d4fe5c3f8ba7653e66",
+    "buildMatch": true
+  },
+  {
+    "name": "step-right.mp3",
+    "bytes": 6380,
+    "sha256": "2ec24a2eb93b76c852a28c6d1edd6e42a253f2712fa62bb066a82a0717294388",
+    "buildMatch": true
+  },
+  {
+    "name": "step-right.ogg",
+    "bytes": 8603,
+    "sha256": "c377fcd5c0330c6dc0a264569f5f3a19bbbfde1fa043a2ade7dbeb5109ddeb21",
+    "buildMatch": true
+  },
+  {
+    "name": "wind-gust.mp3",
+    "bytes": 52460,
+    "sha256": "502ad07119aa36d999c56d86425265a84dd7971907dc16e7c830b457f20fc455",
+    "buildMatch": true
+  },
+  {
+    "name": "wind-gust.ogg",
+    "bytes": 40467,
+    "sha256": "4ea2b70b0f4095e72bb3cc79ede2bd06469aa1d661b43c04f5a87c1d3973d79d",
+    "buildMatch": true
+  }
+]

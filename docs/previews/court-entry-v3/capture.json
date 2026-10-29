@@ -1,0 +1,1854 @@
+[
+  {
+    "width": 1588,
+    "height": 801,
+    "errors": [],
+    "frames": [
+      {
+        "p": "runner-340",
+        "developer": false,
+        "phase": "runner",
+        "x": 180,
+        "y": 438,
+        "visible": true,
+        "alpha": 1,
+        "frame": 0,
+        "texture": "night-hero",
+        "house": {
+          "type": 5,
+          "x": -88.203125,
+          "y": 19.2421875,
+          "width": 188.203125,
+          "height": 438
+        },
+        "houseScale": 0.85546875
+      },
+      {
+        "p": "runner-380",
+        "developer": false,
+        "phase": "runner",
+        "x": 180,
+        "y": 438,
+        "visible": true,
+        "alpha": 1,
+        "frame": 1,
+        "texture": "night-hero",
+        "house": {
+          "type": 5,
+          "x": -88.203125,
+          "y": 19.2421875,
+          "width": 188.203125,
+          "height": 438
+        },
+        "houseScale": 0.85546875
+      },
+      {
+        "p": "runner-420",
+        "developer": false,
+        "phase": "runner",
+        "x": 180,
+        "y": 438,
+        "visible": true,
+        "alpha": 1,
+        "frame": 2,
+        "texture": "night-hero",
+        "house": {
+          "type": 5,
+          "x": -88.203125,
+          "y": 19.2421875,
+          "width": 188.203125,
+          "height": 438
+        },
+        "houseScale": 0.85546875
+      },
+      {
+        "p": "runner-460",
+        "developer": false,
+        "phase": "runner",
+        "x": 180,
+        "y": 438,
+        "visible": true,
+        "alpha": 1,
+        "frame": 3,
+        "texture": "night-hero",
+        "house": {
+          "type": 5,
+          "x": -88.203125,
+          "y": 19.2421875,
+          "width": 188.203125,
+          "height": 438
+        },
+        "houseScale": 0.85546875
+      },
+      {
+        "p": "street",
+        "developer": false,
+        "phase": "runner",
+        "x": 180,
+        "y": 438,
+        "visible": true,
+        "alpha": 1,
+        "frame": 3,
+        "texture": "night-hero",
+        "house": {
+          "type": 5,
+          "x": 340.196875,
+          "y": 19.2421875,
+          "width": 188.203125,
+          "height": 438
+        },
+        "houseScale": 0.85546875
+      },
+      {
+        "p": 0,
+        "developer": false,
+        "phase": "stars-approach",
+        "x": 180,
+        "y": 438,
+        "visible": true,
+        "alpha": 1,
+        "frame": 0,
+        "texture": "night-hero",
+        "house": {
+          "type": 5,
+          "x": 37.796875,
+          "y": 19.2421875,
+          "width": 188.203125,
+          "height": 438
+        },
+        "houseScale": 0.85546875
+      },
+      {
+        "p": 0.25,
+        "developer": false,
+        "phase": "stars-approach",
+        "x": 226.875,
+        "y": 438,
+        "visible": true,
+        "alpha": 1,
+        "frame": 1,
+        "texture": "night-hero",
+        "house": {
+          "type": 5,
+          "x": -20.163125000000008,
+          "y": 19.2421875,
+          "width": 188.203125,
+          "height": 438
+        },
+        "houseScale": 0.85546875
+      },
+      {
+        "p": 0.5,
+        "developer": false,
+        "phase": "stars-approach",
+        "x": 330,
+        "y": 426.980163002249,
+        "visible": true,
+        "alpha": 1,
+        "frame": 2,
+        "texture": "night-hero",
+        "house": {
+          "type": 5,
+          "x": -59.22312500000001,
+          "y": 19.2421875,
+          "width": 188.203125,
+          "height": 438
+        },
+        "houseScale": 0.85546875
+      },
+      {
+        "p": 0.75,
+        "developer": false,
+        "phase": "stars-approach",
+        "x": 433.125,
+        "y": 390.7395450231666,
+        "visible": true,
+        "alpha": 1,
+        "frame": 2,
+        "texture": "night-hero",
+        "house": {
+          "type": 5,
+          "x": -81.273125,
+          "y": 19.2421875,
+          "width": 188.203125,
+          "height": 438
+        },
+        "houseScale": 0.85546875
+      },
+      {
+        "p": 1,
+        "developer": false,
+        "phase": "stars-approach",
+        "x": 480,
+        "y": 385,
+        "visible": true,
+        "alpha": 1,
+        "frame": 0,
+        "texture": "hero-idle",
+        "house": {
+          "type": 5,
+          "x": -88.203125,
+          "y": 19.2421875,
+          "width": 188.203125,
+          "height": 438
+        },
+        "houseScale": 0.85546875
+      },
+      {
+        "p": "stars",
+        "developer": false,
+        "phase": "stars",
+        "x": 480,
+        "y": 385,
+        "visible": true,
+        "alpha": 1,
+        "frame": 0,
+        "texture": "hero-idle",
+        "house": {
+          "type": 5,
+          "x": -88.203125,
+          "y": 19.2421875,
+          "width": 188.203125,
+          "height": 438
+        },
+        "houseScale": 0.85546875
+      },
+      {
+        "p": "exit",
+        "developer": false,
+        "phase": "stars-exit",
+        "x": 330,
+        "y": 437.87958676268863,
+        "visible": true,
+        "alpha": 1,
+        "frame": 0,
+        "texture": "night-hero",
+        "house": {
+          "type": 5,
+          "x": -334.953125,
+          "y": 19.2421875,
+          "width": 188.203125,
+          "height": 438
+        },
+        "houseScale": 0.85546875
+      },
+      {
+        "p": "runner-340",
+        "developer": true,
+        "phase": "runner",
+        "x": 180,
+        "y": 438,
+        "visible": true,
+        "alpha": 1,
+        "frame": 1,
+        "texture": "night-hero",
+        "house": {
+          "type": 5,
+          "x": 440.99687499999993,
+          "y": 19.2421875,
+          "width": 188.203125,
+          "height": 438
+        },
+        "houseScale": 0.85546875
+      },
+      {
+        "p": "runner-380",
+        "developer": true,
+        "phase": "runner",
+        "x": 180,
+        "y": 438,
+        "visible": true,
+        "alpha": 1,
+        "frame": 2,
+        "texture": "night-hero",
+        "house": {
+          "type": 5,
+          "x": 340.196875,
+          "y": 19.2421875,
+          "width": 188.203125,
+          "height": 438
+        },
+        "houseScale": 0.85546875
+      },
+      {
+        "p": "runner-420",
+        "developer": true,
+        "phase": "runner",
+        "x": 180,
+        "y": 438,
+        "visible": true,
+        "alpha": 1,
+        "frame": 3,
+        "texture": "night-hero",
+        "house": {
+          "type": 5,
+          "x": 239.3968749999999,
+          "y": 19.2421875,
+          "width": 188.203125,
+          "height": 438
+        },
+        "houseScale": 0.85546875
+      },
+      {
+        "p": "runner-460",
+        "developer": true,
+        "phase": "runner",
+        "x": 180,
+        "y": 438,
+        "visible": true,
+        "alpha": 1,
+        "frame": 3,
+        "texture": "night-hero",
+        "house": {
+          "type": 5,
+          "x": 138.59687499999995,
+          "y": 19.2421875,
+          "width": 188.203125,
+          "height": 438
+        },
+        "houseScale": 0.85546875
+      },
+      {
+        "p": "street",
+        "developer": true,
+        "phase": "runner",
+        "x": 180,
+        "y": 438,
+        "visible": true,
+        "alpha": 1,
+        "frame": 0,
+        "texture": "night-hero",
+        "house": {
+          "type": 5,
+          "x": 68.03687500000001,
+          "y": 19.2421875,
+          "width": 188.203125,
+          "height": 438
+        },
+        "houseScale": 0.85546875
+      },
+      {
+        "p": 0,
+        "developer": true,
+        "phase": "stars-approach",
+        "x": 180,
+        "y": 438,
+        "visible": true,
+        "alpha": 1,
+        "frame": 1,
+        "texture": "night-hero",
+        "house": {
+          "type": 5,
+          "x": 37.796875,
+          "y": 19.2421875,
+          "width": 188.203125,
+          "height": 438
+        },
+        "houseScale": 0.85546875
+      },
+      {
+        "p": 0.25,
+        "developer": true,
+        "phase": "stars-approach",
+        "x": 226.875,
+        "y": 438,
+        "visible": true,
+        "alpha": 1,
+        "frame": 2,
+        "texture": "night-hero",
+        "house": {
+          "type": 5,
+          "x": -20.163125000000008,
+          "y": 19.2421875,
+          "width": 188.203125,
+          "height": 438
+        },
+        "houseScale": 0.85546875
+      },
+      {
+        "p": 0.5,
+        "developer": true,
+        "phase": "stars-approach",
+        "x": 330,
+        "y": 426.980163002249,
+        "visible": true,
+        "alpha": 1,
+        "frame": 2,
+        "texture": "night-hero",
+        "house": {
+          "type": 5,
+          "x": -59.22312500000001,
+          "y": 19.2421875,
+          "width": 188.203125,
+          "height": 438
+        },
+        "houseScale": 0.85546875
+      },
+      {
+        "p": 0.75,
+        "developer": true,
+        "phase": "stars-approach",
+        "x": 433.125,
+        "y": 390.7395450231666,
+        "visible": true,
+        "alpha": 1,
+        "frame": 3,
+        "texture": "night-hero",
+        "house": {
+          "type": 5,
+          "x": -81.273125,
+          "y": 19.2421875,
+          "width": 188.203125,
+          "height": 438
+        },
+        "houseScale": 0.85546875
+      },
+      {
+        "p": 1,
+        "developer": true,
+        "phase": "stars-approach",
+        "x": 480,
+        "y": 385,
+        "visible": true,
+        "alpha": 1,
+        "frame": 0,
+        "texture": "hero-idle",
+        "house": {
+          "type": 5,
+          "x": -88.203125,
+          "y": 19.2421875,
+          "width": 188.203125,
+          "height": 438
+        },
+        "houseScale": 0.85546875
+      },
+      {
+        "p": "stars",
+        "developer": true,
+        "phase": "stars",
+        "x": 480,
+        "y": 385,
+        "visible": true,
+        "alpha": 1,
+        "frame": 0,
+        "texture": "hero-idle",
+        "house": {
+          "type": 5,
+          "x": -88.203125,
+          "y": 19.2421875,
+          "width": 188.203125,
+          "height": 438
+        },
+        "houseScale": 0.85546875
+      },
+      {
+        "p": "exit",
+        "developer": true,
+        "phase": "stars-exit",
+        "x": 330,
+        "y": 437.87958676268863,
+        "visible": true,
+        "alpha": 1,
+        "frame": 1,
+        "texture": "night-hero",
+        "house": {
+          "type": 5,
+          "x": -334.953125,
+          "y": 19.2421875,
+          "width": 188.203125,
+          "height": 438
+        },
+        "houseScale": 0.85546875
+      }
+    ]
+  },
+  {
+    "width": 960,
+    "height": 540,
+    "errors": [],
+    "frames": [
+      {
+        "p": "runner-340",
+        "developer": false,
+        "phase": "runner",
+        "x": 180,
+        "y": 438,
+        "visible": true,
+        "alpha": 1,
+        "frame": 0,
+        "texture": "night-hero",
+        "house": {
+          "type": 5,
+          "x": -88.203125,
+          "y": 19.2421875,
+          "width": 188.203125,
+          "height": 438
+        },
+        "houseScale": 0.85546875
+      },
+      {
+        "p": "runner-380",
+        "developer": false,
+        "phase": "runner",
+        "x": 180,
+        "y": 438,
+        "visible": true,
+        "alpha": 1,
+        "frame": 1,
+        "texture": "night-hero",
+        "house": {
+          "type": 5,
+          "x": -88.203125,
+          "y": 19.2421875,
+          "width": 188.203125,
+          "height": 438
+        },
+        "houseScale": 0.85546875
+      },
+      {
+        "p": "runner-420",
+        "developer": false,
+        "phase": "runner",
+        "x": 180,
+        "y": 438,
+        "visible": true,
+        "alpha": 1,
+        "frame": 2,
+        "texture": "night-hero",
+        "house": {
+          "type": 5,
+          "x": -88.203125,
+          "y": 19.2421875,
+          "width": 188.203125,
+          "height": 438
+        },
+        "houseScale": 0.85546875
+      },
+      {
+        "p": "runner-460",
+        "developer": false,
+        "phase": "runner",
+        "x": 180,
+        "y": 438,
+        "visible": true,
+        "alpha": 1,
+        "frame": 3,
+        "texture": "night-hero",
+        "house": {
+          "type": 5,
+          "x": -88.203125,
+          "y": 19.2421875,
+          "width": 188.203125,
+          "height": 438
+        },
+        "houseScale": 0.85546875
+      },
+      {
+        "p": "street",
+        "developer": false,
+        "phase": "runner",
+        "x": 180,
+        "y": 438,
+        "visible": true,
+        "alpha": 1,
+        "frame": 3,
+        "texture": "night-hero",
+        "house": {
+          "type": 5,
+          "x": 340.196875,
+          "y": 19.2421875,
+          "width": 188.203125,
+          "height": 438
+        },
+        "houseScale": 0.85546875
+      },
+      {
+        "p": 0,
+        "developer": false,
+        "phase": "stars-approach",
+        "x": 180,
+        "y": 438,
+        "visible": true,
+        "alpha": 1,
+        "frame": 0,
+        "texture": "night-hero",
+        "house": {
+          "type": 5,
+          "x": 37.796875,
+          "y": 19.2421875,
+          "width": 188.203125,
+          "height": 438
+        },
+        "houseScale": 0.85546875
+      },
+      {
+        "p": 0.25,
+        "developer": false,
+        "phase": "stars-approach",
+        "x": 226.875,
+        "y": 438,
+        "visible": true,
+        "alpha": 1,
+        "frame": 1,
+        "texture": "night-hero",
+        "house": {
+          "type": 5,
+          "x": -20.163125000000008,
+          "y": 19.2421875,
+          "width": 188.203125,
+          "height": 438
+        },
+        "houseScale": 0.85546875
+      },
+      {
+        "p": 0.5,
+        "developer": false,
+        "phase": "stars-approach",
+        "x": 330,
+        "y": 426.980163002249,
+        "visible": true,
+        "alpha": 1,
+        "frame": 2,
+        "texture": "night-hero",
+        "house": {
+          "type": 5,
+          "x": -59.22312500000001,
+          "y": 19.2421875,
+          "width": 188.203125,
+          "height": 438
+        },
+        "houseScale": 0.85546875
+      },
+      {
+        "p": 0.75,
+        "developer": false,
+        "phase": "stars-approach",
+        "x": 433.125,
+        "y": 390.7395450231666,
+        "visible": true,
+        "alpha": 1,
+        "frame": 2,
+        "texture": "night-hero",
+        "house": {
+          "type": 5,
+          "x": -81.273125,
+          "y": 19.2421875,
+          "width": 188.203125,
+          "height": 438
+        },
+        "houseScale": 0.85546875
+      },
+      {
+        "p": 1,
+        "developer": false,
+        "phase": "stars-approach",
+        "x": 480,
+        "y": 385,
+        "visible": true,
+        "alpha": 1,
+        "frame": 0,
+        "texture": "hero-idle",
+        "house": {
+          "type": 5,
+          "x": -88.203125,
+          "y": 19.2421875,
+          "width": 188.203125,
+          "height": 438
+        },
+        "houseScale": 0.85546875
+      },
+      {
+        "p": "stars",
+        "developer": false,
+        "phase": "stars",
+        "x": 480,
+        "y": 385,
+        "visible": true,
+        "alpha": 1,
+        "frame": 0,
+        "texture": "hero-idle",
+        "house": {
+          "type": 5,
+          "x": -88.203125,
+          "y": 19.2421875,
+          "width": 188.203125,
+          "height": 438
+        },
+        "houseScale": 0.85546875
+      },
+      {
+        "p": "exit",
+        "developer": false,
+        "phase": "stars-exit",
+        "x": 330,
+        "y": 437.87958676268863,
+        "visible": true,
+        "alpha": 1,
+        "frame": 0,
+        "texture": "night-hero",
+        "house": {
+          "type": 5,
+          "x": -334.953125,
+          "y": 19.2421875,
+          "width": 188.203125,
+          "height": 438
+        },
+        "houseScale": 0.85546875
+      },
+      {
+        "p": "runner-340",
+        "developer": true,
+        "phase": "runner",
+        "x": 180,
+        "y": 438,
+        "visible": true,
+        "alpha": 1,
+        "frame": 1,
+        "texture": "night-hero",
+        "house": {
+          "type": 5,
+          "x": 440.99687499999993,
+          "y": 19.2421875,
+          "width": 188.203125,
+          "height": 438
+        },
+        "houseScale": 0.85546875
+      },
+      {
+        "p": "runner-380",
+        "developer": true,
+        "phase": "runner",
+        "x": 180,
+        "y": 438,
+        "visible": true,
+        "alpha": 1,
+        "frame": 2,
+        "texture": "night-hero",
+        "house": {
+          "type": 5,
+          "x": 340.196875,
+          "y": 19.2421875,
+          "width": 188.203125,
+          "height": 438
+        },
+        "houseScale": 0.85546875
+      },
+      {
+        "p": "runner-420",
+        "developer": true,
+        "phase": "runner",
+        "x": 180,
+        "y": 438,
+        "visible": true,
+        "alpha": 1,
+        "frame": 3,
+        "texture": "night-hero",
+        "house": {
+          "type": 5,
+          "x": 239.3968749999999,
+          "y": 19.2421875,
+          "width": 188.203125,
+          "height": 438
+        },
+        "houseScale": 0.85546875
+      },
+      {
+        "p": "runner-460",
+        "developer": true,
+        "phase": "runner",
+        "x": 180,
+        "y": 438,
+        "visible": true,
+        "alpha": 1,
+        "frame": 3,
+        "texture": "night-hero",
+        "house": {
+          "type": 5,
+          "x": 138.59687499999995,
+          "y": 19.2421875,
+          "width": 188.203125,
+          "height": 438
+        },
+        "houseScale": 0.85546875
+      },
+      {
+        "p": "street",
+        "developer": true,
+        "phase": "runner",
+        "x": 180,
+        "y": 438,
+        "visible": true,
+        "alpha": 1,
+        "frame": 0,
+        "texture": "night-hero",
+        "house": {
+          "type": 5,
+          "x": 68.03687500000001,
+          "y": 19.2421875,
+          "width": 188.203125,
+          "height": 438
+        },
+        "houseScale": 0.85546875
+      },
+      {
+        "p": 0,
+        "developer": true,
+        "phase": "stars-approach",
+        "x": 180,
+        "y": 438,
+        "visible": true,
+        "alpha": 1,
+        "frame": 1,
+        "texture": "night-hero",
+        "house": {
+          "type": 5,
+          "x": 37.796875,
+          "y": 19.2421875,
+          "width": 188.203125,
+          "height": 438
+        },
+        "houseScale": 0.85546875
+      },
+      {
+        "p": 0.25,
+        "developer": true,
+        "phase": "stars-approach",
+        "x": 226.875,
+        "y": 438,
+        "visible": true,
+        "alpha": 1,
+        "frame": 2,
+        "texture": "night-hero",
+        "house": {
+          "type": 5,
+          "x": -20.163125000000008,
+          "y": 19.2421875,
+          "width": 188.203125,
+          "height": 438
+        },
+        "houseScale": 0.85546875
+      },
+      {
+        "p": 0.5,
+        "developer": true,
+        "phase": "stars-approach",
+        "x": 330,
+        "y": 426.980163002249,
+        "visible": true,
+        "alpha": 1,
+        "frame": 2,
+        "texture": "night-hero",
+        "house": {
+          "type": 5,
+          "x": -59.22312500000001,
+          "y": 19.2421875,
+          "width": 188.203125,
+          "height": 438
+        },
+        "houseScale": 0.85546875
+      },
+      {
+        "p": 0.75,
+        "developer": true,
+        "phase": "stars-approach",
+        "x": 433.125,
+        "y": 390.7395450231666,
+        "visible": true,
+        "alpha": 1,
+        "frame": 3,
+        "texture": "night-hero",
+        "house": {
+          "type": 5,
+          "x": -81.273125,
+          "y": 19.2421875,
+          "width": 188.203125,
+          "height": 438
+        },
+        "houseScale": 0.85546875
+      },
+      {
+        "p": 1,
+        "developer": true,
+        "phase": "stars-approach",
+        "x": 480,
+        "y": 385,
+        "visible": true,
+        "alpha": 1,
+        "frame": 0,
+        "texture": "hero-idle",
+        "house": {
+          "type": 5,
+          "x": -88.203125,
+          "y": 19.2421875,
+          "width": 188.203125,
+          "height": 438
+        },
+        "houseScale": 0.85546875
+      },
+      {
+        "p": "stars",
+        "developer": true,
+        "phase": "stars",
+        "x": 480,
+        "y": 385,
+        "visible": true,
+        "alpha": 1,
+        "frame": 0,
+        "texture": "hero-idle",
+        "house": {
+          "type": 5,
+          "x": -88.203125,
+          "y": 19.2421875,
+          "width": 188.203125,
+          "height": 438
+        },
+        "houseScale": 0.85546875
+      },
+      {
+        "p": "exit",
+        "developer": true,
+        "phase": "stars-exit",
+        "x": 330,
+        "y": 437.87958676268863,
+        "visible": true,
+        "alpha": 1,
+        "frame": 1,
+        "texture": "night-hero",
+        "house": {
+          "type": 5,
+          "x": -334.953125,
+          "y": 19.2421875,
+          "width": 188.203125,
+          "height": 438
+        },
+        "houseScale": 0.85546875
+      }
+    ]
+  },
+  {
+    "width": 375,
+    "height": 667,
+    "errors": [],
+    "frames": [
+      {
+        "p": "runner-340",
+        "developer": false,
+        "phase": "runner",
+        "x": 180,
+        "y": 438,
+        "visible": true,
+        "alpha": 1,
+        "frame": 0,
+        "texture": "night-hero",
+        "house": {
+          "type": 5,
+          "x": -88.203125,
+          "y": 19.2421875,
+          "width": 188.203125,
+          "height": 438
+        },
+        "houseScale": 0.85546875
+      },
+      {
+        "p": "runner-380",
+        "developer": false,
+        "phase": "runner",
+        "x": 180,
+        "y": 438,
+        "visible": true,
+        "alpha": 1,
+        "frame": 1,
+        "texture": "night-hero",
+        "house": {
+          "type": 5,
+          "x": -88.203125,
+          "y": 19.2421875,
+          "width": 188.203125,
+          "height": 438
+        },
+        "houseScale": 0.85546875
+      },
+      {
+        "p": "runner-420",
+        "developer": false,
+        "phase": "runner",
+        "x": 180,
+        "y": 438,
+        "visible": true,
+        "alpha": 1,
+        "frame": 2,
+        "texture": "night-hero",
+        "house": {
+          "type": 5,
+          "x": -88.203125,
+          "y": 19.2421875,
+          "width": 188.203125,
+          "height": 438
+        },
+        "houseScale": 0.85546875
+      },
+      {
+        "p": "runner-460",
+        "developer": false,
+        "phase": "runner",
+        "x": 180,
+        "y": 438,
+        "visible": true,
+        "alpha": 1,
+        "frame": 3,
+        "texture": "night-hero",
+        "house": {
+          "type": 5,
+          "x": -88.203125,
+          "y": 19.2421875,
+          "width": 188.203125,
+          "height": 438
+        },
+        "houseScale": 0.85546875
+      },
+      {
+        "p": "street",
+        "developer": false,
+        "phase": "runner",
+        "x": 180,
+        "y": 438,
+        "visible": true,
+        "alpha": 1,
+        "frame": 3,
+        "texture": "night-hero",
+        "house": {
+          "type": 5,
+          "x": 340.196875,
+          "y": 19.2421875,
+          "width": 188.203125,
+          "height": 438
+        },
+        "houseScale": 0.85546875
+      },
+      {
+        "p": 0,
+        "developer": false,
+        "phase": "stars-approach",
+        "x": 180,
+        "y": 438,
+        "visible": true,
+        "alpha": 1,
+        "frame": 0,
+        "texture": "night-hero",
+        "house": {
+          "type": 5,
+          "x": 37.796875,
+          "y": 19.2421875,
+          "width": 188.203125,
+          "height": 438
+        },
+        "houseScale": 0.85546875
+      },
+      {
+        "p": 0.25,
+        "developer": false,
+        "phase": "stars-approach",
+        "x": 226.875,
+        "y": 438,
+        "visible": true,
+        "alpha": 1,
+        "frame": 1,
+        "texture": "night-hero",
+        "house": {
+          "type": 5,
+          "x": -20.163125000000008,
+          "y": 19.2421875,
+          "width": 188.203125,
+          "height": 438
+        },
+        "houseScale": 0.85546875
+      },
+      {
+        "p": 0.5,
+        "developer": false,
+        "phase": "stars-approach",
+        "x": 330,
+        "y": 426.980163002249,
+        "visible": true,
+        "alpha": 1,
+        "frame": 2,
+        "texture": "night-hero",
+        "house": {
+          "type": 5,
+          "x": -59.22312500000001,
+          "y": 19.2421875,
+          "width": 188.203125,
+          "height": 438
+        },
+        "houseScale": 0.85546875
+      },
+      {
+        "p": 0.75,
+        "developer": false,
+        "phase": "stars-approach",
+        "x": 433.125,
+        "y": 390.7395450231666,
+        "visible": true,
+        "alpha": 1,
+        "frame": 2,
+        "texture": "night-hero",
+        "house": {
+          "type": 5,
+          "x": -81.273125,
+          "y": 19.2421875,
+          "width": 188.203125,
+          "height": 438
+        },
+        "houseScale": 0.85546875
+      },
+      {
+        "p": 1,
+        "developer": false,
+        "phase": "stars-approach",
+        "x": 480,
+        "y": 385,
+        "visible": true,
+        "alpha": 1,
+        "frame": 0,
+        "texture": "hero-idle",
+        "house": {
+          "type": 5,
+          "x": -88.203125,
+          "y": 19.2421875,
+          "width": 188.203125,
+          "height": 438
+        },
+        "houseScale": 0.85546875
+      },
+      {
+        "p": "stars",
+        "developer": false,
+        "phase": "stars",
+        "x": 480,
+        "y": 385,
+        "visible": true,
+        "alpha": 1,
+        "frame": 0,
+        "texture": "hero-idle",
+        "house": {
+          "type": 5,
+          "x": -88.203125,
+          "y": 19.2421875,
+          "width": 188.203125,
+          "height": 438
+        },
+        "houseScale": 0.85546875
+      },
+      {
+        "p": "exit",
+        "developer": false,
+        "phase": "stars-exit",
+        "x": 330,
+        "y": 437.87958676268863,
+        "visible": true,
+        "alpha": 1,
+        "frame": 0,
+        "texture": "night-hero",
+        "house": {
+          "type": 5,
+          "x": -334.953125,
+          "y": 19.2421875,
+          "width": 188.203125,
+          "height": 438
+        },
+        "houseScale": 0.85546875
+      },
+      {
+        "p": "runner-340",
+        "developer": true,
+        "phase": "runner",
+        "x": 180,
+        "y": 438,
+        "visible": true,
+        "alpha": 1,
+        "frame": 1,
+        "texture": "night-hero",
+        "house": {
+          "type": 5,
+          "x": 440.99687499999993,
+          "y": 19.2421875,
+          "width": 188.203125,
+          "height": 438
+        },
+        "houseScale": 0.85546875
+      },
+      {
+        "p": "runner-380",
+        "developer": true,
+        "phase": "runner",
+        "x": 180,
+        "y": 438,
+        "visible": true,
+        "alpha": 1,
+        "frame": 2,
+        "texture": "night-hero",
+        "house": {
+          "type": 5,
+          "x": 340.196875,
+          "y": 19.2421875,
+          "width": 188.203125,
+          "height": 438
+        },
+        "houseScale": 0.85546875
+      },
+      {
+        "p": "runner-420",
+        "developer": true,
+        "phase": "runner",
+        "x": 180,
+        "y": 438,
+        "visible": true,
+        "alpha": 1,
+        "frame": 3,
+        "texture": "night-hero",
+        "house": {
+          "type": 5,
+          "x": 239.3968749999999,
+          "y": 19.2421875,
+          "width": 188.203125,
+          "height": 438
+        },
+        "houseScale": 0.85546875
+      },
+      {
+        "p": "runner-460",
+        "developer": true,
+        "phase": "runner",
+        "x": 180,
+        "y": 438,
+        "visible": true,
+        "alpha": 1,
+        "frame": 3,
+        "texture": "night-hero",
+        "house": {
+          "type": 5,
+          "x": 138.59687499999995,
+          "y": 19.2421875,
+          "width": 188.203125,
+          "height": 438
+        },
+        "houseScale": 0.85546875
+      },
+      {
+        "p": "street",
+        "developer": true,
+        "phase": "runner",
+        "x": 180,
+        "y": 438,
+        "visible": true,
+        "alpha": 1,
+        "frame": 0,
+        "texture": "night-hero",
+        "house": {
+          "type": 5,
+          "x": 68.03687500000001,
+          "y": 19.2421875,
+          "width": 188.203125,
+          "height": 438
+        },
+        "houseScale": 0.85546875
+      },
+      {
+        "p": 0,
+        "developer": true,
+        "phase": "stars-approach",
+        "x": 180,
+        "y": 438,
+        "visible": true,
+        "alpha": 1,
+        "frame": 1,
+        "texture": "night-hero",
+        "house": {
+          "type": 5,
+          "x": 37.796875,
+          "y": 19.2421875,
+          "width": 188.203125,
+          "height": 438
+        },
+        "houseScale": 0.85546875
+      },
+      {
+        "p": 0.25,
+        "developer": true,
+        "phase": "stars-approach",
+        "x": 226.875,
+        "y": 438,
+        "visible": true,
+        "alpha": 1,
+        "frame": 2,
+        "texture": "night-hero",
+        "house": {
+          "type": 5,
+          "x": -20.163125000000008,
+          "y": 19.2421875,
+          "width": 188.203125,
+          "height": 438
+        },
+        "houseScale": 0.85546875
+      },
+      {
+        "p": 0.5,
+        "developer": true,
+        "phase": "stars-approach",
+        "x": 330,
+        "y": 426.980163002249,
+        "visible": true,
+        "alpha": 1,
+        "frame": 2,
+        "texture": "night-hero",
+        "house": {
+          "type": 5,
+          "x": -59.22312500000001,
+          "y": 19.2421875,
+          "width": 188.203125,
+          "height": 438
+        },
+        "houseScale": 0.85546875
+      },
+      {
+        "p": 0.75,
+        "developer": true,
+        "phase": "stars-approach",
+        "x": 433.125,
+        "y": 390.7395450231666,
+        "visible": true,
+        "alpha": 1,
+        "frame": 3,
+        "texture": "night-hero",
+        "house": {
+          "type": 5,
+          "x": -81.273125,
+          "y": 19.2421875,
+          "width": 188.203125,
+          "height": 438
+        },
+        "houseScale": 0.85546875
+      },
+      {
+        "p": 1,
+        "developer": true,
+        "phase": "stars-approach",
+        "x": 480,
+        "y": 385,
+        "visible": true,
+        "alpha": 1,
+        "frame": 0,
+        "texture": "hero-idle",
+        "house": {
+          "type": 5,
+          "x": -88.203125,
+          "y": 19.2421875,
+          "width": 188.203125,
+          "height": 438
+        },
+        "houseScale": 0.85546875
+      },
+      {
+        "p": "stars",
+        "developer": true,
+        "phase": "stars",
+        "x": 480,
+        "y": 385,
+        "visible": true,
+        "alpha": 1,
+        "frame": 0,
+        "texture": "hero-idle",
+        "house": {
+          "type": 5,
+          "x": -88.203125,
+          "y": 19.2421875,
+          "width": 188.203125,
+          "height": 438
+        },
+        "houseScale": 0.85546875
+      },
+      {
+        "p": "exit",
+        "developer": true,
+        "phase": "stars-exit",
+        "x": 330,
+        "y": 437.87958676268863,
+        "visible": true,
+        "alpha": 1,
+        "frame": 1,
+        "texture": "night-hero",
+        "house": {
+          "type": 5,
+          "x": -334.953125,
+          "y": 19.2421875,
+          "width": 188.203125,
+          "height": 438
+        },
+        "houseScale": 0.85546875
+      }
+    ]
+  },
+  {
+    "width": 1230,
+    "height": 372,
+    "errors": [],
+    "frames": [
+      {
+        "p": "runner-340",
+        "developer": false,
+        "phase": "runner",
+        "x": 180,
+        "y": 438,
+        "visible": true,
+        "alpha": 1,
+        "frame": 0,
+        "texture": "night-hero",
+        "house": {
+          "type": 5,
+          "x": -88.203125,
+          "y": 19.2421875,
+          "width": 188.203125,
+          "height": 438
+        },
+        "houseScale": 0.85546875
+      },
+      {
+        "p": "runner-380",
+        "developer": false,
+        "phase": "runner",
+        "x": 180,
+        "y": 438,
+        "visible": true,
+        "alpha": 1,
+        "frame": 1,
+        "texture": "night-hero",
+        "house": {
+          "type": 5,
+          "x": -88.203125,
+          "y": 19.2421875,
+          "width": 188.203125,
+          "height": 438
+        },
+        "houseScale": 0.85546875
+      },
+      {
+        "p": "runner-420",
+        "developer": false,
+        "phase": "runner",
+        "x": 180,
+        "y": 438,
+        "visible": true,
+        "alpha": 1,
+        "frame": 2,
+        "texture": "night-hero",
+        "house": {
+          "type": 5,
+          "x": -88.203125,
+          "y": 19.2421875,
+          "width": 188.203125,
+          "height": 438
+        },
+        "houseScale": 0.85546875
+      },
+      {
+        "p": "runner-460",
+        "developer": false,
+        "phase": "runner",
+        "x": 180,
+        "y": 438,
+        "visible": true,
+        "alpha": 1,
+        "frame": 3,
+        "texture": "night-hero",
+        "house": {
+          "type": 5,
+          "x": 1045.796875,
+          "y": 19.2421875,
+          "width": 188.203125,
+          "height": 438
+        },
+        "houseScale": 0.85546875
+      },
+      {
+        "p": "street",
+        "developer": false,
+        "phase": "runner",
+        "x": 180,
+        "y": 438,
+        "visible": true,
+        "alpha": 1,
+        "frame": 3,
+        "texture": "night-hero",
+        "house": {
+          "type": 5,
+          "x": 340.196875,
+          "y": 19.2421875,
+          "width": 188.203125,
+          "height": 438
+        },
+        "houseScale": 0.85546875
+      },
+      {
+        "p": 0,
+        "developer": false,
+        "phase": "stars-approach",
+        "x": 180,
+        "y": 438,
+        "visible": true,
+        "alpha": 1,
+        "frame": 0,
+        "texture": "night-hero",
+        "house": {
+          "type": 5,
+          "x": 37.796875,
+          "y": 19.2421875,
+          "width": 188.203125,
+          "height": 438
+        },
+        "houseScale": 0.85546875
+      },
+      {
+        "p": 0.25,
+        "developer": false,
+        "phase": "stars-approach",
+        "x": 226.875,
+        "y": 438,
+        "visible": true,
+        "alpha": 1,
+        "frame": 1,
+        "texture": "night-hero",
+        "house": {
+          "type": 5,
+          "x": -20.163125000000008,
+          "y": 19.2421875,
+          "width": 188.203125,
+          "height": 438
+        },
+        "houseScale": 0.85546875
+      },
+      {
+        "p": 0.5,
+        "developer": false,
+        "phase": "stars-approach",
+        "x": 330,
+        "y": 426.980163002249,
+        "visible": true,
+        "alpha": 1,
+        "frame": 2,
+        "texture": "night-hero",
+        "house": {
+          "type": 5,
+          "x": -59.22312500000001,
+          "y": 19.2421875,
+          "width": 188.203125,
+          "height": 438
+        },
+        "houseScale": 0.85546875
+      },
+      {
+        "p": 0.75,
+        "developer": false,
+        "phase": "stars-approach",
+        "x": 433.125,
+        "y": 390.7395450231666,
+        "visible": true,
+        "alpha": 1,
+        "frame": 2,
+        "texture": "night-hero",
+        "house": {
+          "type": 5,
+          "x": -81.273125,
+          "y": 19.2421875,
+          "width": 188.203125,
+          "height": 438
+        },
+        "houseScale": 0.85546875
+      },
+      {
+        "p": 1,
+        "developer": false,
+        "phase": "stars-approach",
+        "x": 480,
+        "y": 385,
+        "visible": true,
+        "alpha": 1,
+        "frame": 0,
+        "texture": "hero-idle",
+        "house": {
+          "type": 5,
+          "x": -88.203125,
+          "y": 19.2421875,
+          "width": 188.203125,
+          "height": 438
+        },
+        "houseScale": 0.85546875
+      },
+      {
+        "p": "stars",
+        "developer": false,
+        "phase": "stars",
+        "x": 480,
+        "y": 385,
+        "visible": true,
+        "alpha": 1,
+        "frame": 0,
+        "texture": "hero-idle",
+        "house": {
+          "type": 5,
+          "x": -88.203125,
+          "y": 19.2421875,
+          "width": 188.203125,
+          "height": 438
+        },
+        "houseScale": 0.85546875
+      },
+      {
+        "p": "exit",
+        "developer": false,
+        "phase": "stars-exit",
+        "x": 330,
+        "y": 437.87958676268863,
+        "visible": true,
+        "alpha": 1,
+        "frame": 0,
+        "texture": "night-hero",
+        "house": {
+          "type": 5,
+          "x": -334.953125,
+          "y": 19.2421875,
+          "width": 188.203125,
+          "height": 438
+        },
+        "houseScale": 0.85546875
+      },
+      {
+        "p": "runner-340",
+        "developer": true,
+        "phase": "runner",
+        "x": 180,
+        "y": 438,
+        "visible": true,
+        "alpha": 1,
+        "frame": 1,
+        "texture": "night-hero",
+        "house": {
+          "type": 5,
+          "x": 440.99687499999993,
+          "y": 19.2421875,
+          "width": 188.203125,
+          "height": 438
+        },
+        "houseScale": 0.85546875
+      },
+      {
+        "p": "runner-380",
+        "developer": true,
+        "phase": "runner",
+        "x": 180,
+        "y": 438,
+        "visible": true,
+        "alpha": 1,
+        "frame": 2,
+        "texture": "night-hero",
+        "house": {
+          "type": 5,
+          "x": 340.196875,
+          "y": 19.2421875,
+          "width": 188.203125,
+          "height": 438
+        },
+        "houseScale": 0.85546875
+      },
+      {
+        "p": "runner-420",
+        "developer": true,
+        "phase": "runner",
+        "x": 180,
+        "y": 438,
+        "visible": true,
+        "alpha": 1,
+        "frame": 3,
+        "texture": "night-hero",
+        "house": {
+          "type": 5,
+          "x": 239.3968749999999,
+          "y": 19.2421875,
+          "width": 188.203125,
+          "height": 438
+        },
+        "houseScale": 0.85546875
+      },
+      {
+        "p": "runner-460",
+        "developer": true,
+        "phase": "runner",
+        "x": 180,
+        "y": 438,
+        "visible": true,
+        "alpha": 1,
+        "frame": 3,
+        "texture": "night-hero",
+        "house": {
+          "type": 5,
+          "x": 138.59687499999995,
+          "y": 19.2421875,
+          "width": 188.203125,
+          "height": 438
+        },
+        "houseScale": 0.85546875
+      },
+      {
+        "p": "street",
+        "developer": true,
+        "phase": "runner",
+        "x": 180,
+        "y": 438,
+        "visible": true,
+        "alpha": 1,
+        "frame": 0,
+        "texture": "night-hero",
+        "house": {
+          "type": 5,
+          "x": 68.03687500000001,
+          "y": 19.2421875,
+          "width": 188.203125,
+          "height": 438
+        },
+        "houseScale": 0.85546875
+      },
+      {
+        "p": 0,
+        "developer": true,
+        "phase": "stars-approach",
+        "x": 180,
+        "y": 438,
+        "visible": true,
+        "alpha": 1,
+        "frame": 1,
+        "texture": "night-hero",
+        "house": {
+          "type": 5,
+          "x": 37.796875,
+          "y": 19.2421875,
+          "width": 188.203125,
+          "height": 438
+        },
+        "houseScale": 0.85546875
+      },
+      {
+        "p": 0.25,
+        "developer": true,
+        "phase": "stars-approach",
+        "x": 226.875,
+        "y": 438,
+        "visible": true,
+        "alpha": 1,
+        "frame": 2,
+        "texture": "night-hero",
+        "house": {
+          "type": 5,
+          "x": -20.163125000000008,
+          "y": 19.2421875,
+          "width": 188.203125,
+          "height": 438
+        },
+        "houseScale": 0.85546875
+      },
+      {
+        "p": 0.5,
+        "developer": true,
+        "phase": "stars-approach",
+        "x": 330,
+        "y": 426.980163002249,
+        "visible": true,
+        "alpha": 1,
+        "frame": 2,
+        "texture": "night-hero",
+        "house": {
+          "type": 5,
+          "x": -59.22312500000001,
+          "y": 19.2421875,
+          "width": 188.203125,
+          "height": 438
+        },
+        "houseScale": 0.85546875
+      },
+      {
+        "p": 0.75,
+        "developer": true,
+        "phase": "stars-approach",
+        "x": 433.125,
+        "y": 390.7395450231666,
+        "visible": true,
+        "alpha": 1,
+        "frame": 3,
+        "texture": "night-hero",
+        "house": {
+          "type": 5,
+          "x": -81.273125,
+          "y": 19.2421875,
+          "width": 188.203125,
+          "height": 438
+        },
+        "houseScale": 0.85546875
+      },
+      {
+        "p": 1,
+        "developer": true,
+        "phase": "stars-approach",
+        "x": 480,
+        "y": 385,
+        "visible": true,
+        "alpha": 1,
+        "frame": 0,
+        "texture": "hero-idle",
+        "house": {
+          "type": 5,
+          "x": -88.203125,
+          "y": 19.2421875,
+          "width": 188.203125,
+          "height": 438
+        },
+        "houseScale": 0.85546875
+      },
+      {
+        "p": "stars",
+        "developer": true,
+        "phase": "stars",
+        "x": 480,
+        "y": 385,
+        "visible": true,
+        "alpha": 1,
+        "frame": 0,
+        "texture": "hero-idle",
+        "house": {
+          "type": 5,
+          "x": -88.203125,
+          "y": 19.2421875,
+          "width": 188.203125,
+          "height": 438
+        },
+        "houseScale": 0.85546875
+      },
+      {
+        "p": "exit",
+        "developer": true,
+        "phase": "stars-exit",
+        "x": 330,
+        "y": 437.87958676268863,
+        "visible": true,
+        "alpha": 1,
+        "frame": 1,
+        "texture": "night-hero",
+        "house": {
+          "type": 5,
+          "x": -334.953125,
+          "y": 19.2421875,
+          "width": 188.203125,
+          "height": 438
+        },
+        "houseScale": 0.85546875
+      }
+    ]
+  }
+]

@@ -1,0 +1,61 @@
+{
+  "file": "apps/web/public/audio/user-instrumentals/03-92.mp3",
+  "sha256": "55c4eaeab87cab93883234c9dc8a2b50b804bdb59639d6a9bf7e75c17cc14f7a",
+  "decodedSeconds": 229.9835,
+  "method": "mono, 180 Hz low-pass, 50 ms RMS, 10 ms hop",
+  "peaks": [
+    {
+      "seconds": 38.14,
+      "rms": 0.4269521395342681
+    },
+    {
+      "seconds": 38.82,
+      "rms": 0.21038291083149555
+    },
+    {
+      "seconds": 39.61,
+      "rms": 0.48771100876793155
+    },
+    {
+      "seconds": 40.3,
+      "rms": 0.11972422806036027
+    },
+    {
+      "seconds": 41.06,
+      "rms": 0.48282980326399727
+    },
+    {
+      "seconds": 41.75,
+      "rms": 0.16293425456941035
+    },
+    {
+      "seconds": 42.52,
+      "rms": 0.4726989232599603
+    },
+    {
+      "seconds": 43.44,
+      "rms": 0.3884773328889187
+    },
+    {
+      "seconds": 44.52,
+      "rms": 0.43247708133966406
+    },
+    {
+      "seconds": 45.46,
+      "rms": 0.4595129276698413
+    }
+  ],
+  "selectedMarkers": [
+    39.61,
+    41.06,
+    42.52
+  ],
+  "listeningVerified": false,
+  "sectionLabelsVerified": false,
+  "candidateSections": {
+    "firstPart": 3,
+    "refrain": 25,
+    "nextVerse": 49
+  },
+  "note": "Section candidates inferred from energy changes, not established by listening. Calibrate AUTUMN_SCORE after listening."
+}

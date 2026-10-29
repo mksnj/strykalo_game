@@ -1,0 +1,595 @@
+[
+  {
+    "key": "ending-facade",
+    "url": "/assets/visual-v12/facade.webp",
+    "type": "image",
+    "width": 960,
+    "height": 540,
+    "frames": [
+      {
+        "name": "wall-left",
+        "x": 210,
+        "y": 0,
+        "width": 192,
+        "height": 540
+      },
+      {
+        "name": "wall-right",
+        "x": 600,
+        "y": 0,
+        "width": 192,
+        "height": 540
+      }
+    ],
+    "sha256": "0f92444276f7556e22124ee155be61f1a8960509f300aa9613063c8cf84299b1",
+    "buildMatch": true,
+    "actualWidth": 960,
+    "actualHeight": 540
+  },
+  {
+    "key": "pipe-sunset",
+    "url": "/assets/visual-v12/pipe.webp",
+    "type": "image",
+    "width": 1920,
+    "height": 640,
+    "sha256": "15dda3d1909005a9992280de022ea7eedadc38483a046f6b4f3bbcaecc83b6d8",
+    "buildMatch": true,
+    "actualWidth": 1920,
+    "actualHeight": 640
+  },
+  {
+    "key": "hero-front",
+    "url": "/assets/visual-v12/front.webp",
+    "type": "image",
+    "width": 128,
+    "height": 256,
+    "frames": [
+      {
+        "name": "body",
+        "x": 0,
+        "y": 72,
+        "width": 128,
+        "height": 184
+      },
+      {
+        "name": "head",
+        "x": 0,
+        "y": 0,
+        "width": 128,
+        "height": 72
+      }
+    ],
+    "sha256": "b73927dde8181e6ed116010a5d075a38a95f202d61f263dc6f7b7202ccfaf9fa",
+    "buildMatch": true,
+    "actualWidth": 128,
+    "actualHeight": 256
+  },
+  {
+    "key": "hero-rest",
+    "url": "/assets/visual-v12/seated.webp",
+    "type": "image",
+    "width": 128,
+    "height": 256,
+    "frames": [
+      {
+        "name": "body",
+        "x": 0,
+        "y": 72,
+        "width": 128,
+        "height": 184
+      },
+      {
+        "name": "head",
+        "x": 0,
+        "y": 0,
+        "width": 128,
+        "height": 72
+      }
+    ],
+    "sha256": "a9099b88d689b0ef326cabcf6eb7a1a00a5570d4fd252c8f8e1d33e1d2459fd3",
+    "buildMatch": true,
+    "actualWidth": 128,
+    "actualHeight": 256
+  },
+  {
+    "key": "room-graffiti",
+    "url": "/assets/visual-v12/graffiti.webp",
+    "type": "image",
+    "width": 480,
+    "height": 160,
+    "sha256": "ff9b020691a6bf95fbe34c33a11d315190abb8fe94e7f7abaec2f28b2dededc3",
+    "buildMatch": true,
+    "actualWidth": 480,
+    "actualHeight": 160
+  },
+  {
+    "key": "journey-autumn",
+    "url": "/assets/journey-v1/autumn.webp",
+    "type": "image",
+    "width": 1536,
+    "height": 512,
+    "frames": [
+      {
+        "name": "facades",
+        "x": 0,
+        "y": 0,
+        "width": 1536,
+        "height": 486
+      }
+    ],
+    "sha256": "88ebb76178684657561f193d51063a14569730c71dec6ece8d834c78b6eea41d",
+    "buildMatch": true,
+    "actualWidth": 1536,
+    "actualHeight": 512
+  },
+  {
+    "key": "journey-shadows",
+    "url": "/assets/journey-v1/shadows.webp",
+    "type": "image",
+    "width": 1536,
+    "height": 512,
+    "frames": [
+      {
+        "name": "facades",
+        "x": 0,
+        "y": 0,
+        "width": 1536,
+        "height": 466
+      }
+    ],
+    "sha256": "72b2d70c4eeb16f125838cd86d7f0fe5629e25be3178549a6f89709bce879696",
+    "buildMatch": true,
+    "actualWidth": 1536,
+    "actualHeight": 512
+  },
+  {
+    "key": "night-far",
+    "url": "/assets/runner-v1/far.webp",
+    "type": "image",
+    "width": 1536,
+    "height": 512,
+    "sha256": "0699c5561aab85e5edc9afffefacfae0ea2156e7fa192526d1d5c3c492df5e1c",
+    "buildMatch": true,
+    "actualWidth": 1536,
+    "actualHeight": 512
+  },
+  {
+    "key": "night-court",
+    "url": "/assets/runner-v1/court.webp",
+    "type": "image",
+    "width": 1536,
+    "height": 512,
+    "sha256": "41f2b8c291c3455b2b013bef035565d630e19388ebf15cafd8e4fdae3686715b",
+    "buildMatch": true,
+    "actualWidth": 1536,
+    "actualHeight": 512
+  },
+  {
+    "key": "night-ground",
+    "url": "/assets/runner-v1/ground.webp",
+    "type": "image",
+    "width": 1536,
+    "height": 164,
+    "frames": [
+      {
+        "name": "asphalt",
+        "x": 0,
+        "y": 24,
+        "width": 1536,
+        "height": 140
+      }
+    ],
+    "sha256": "38b55707b9b8d444205c03c91393ffc0a320a86140e6aa8ce94bfd4b918d75c6",
+    "buildMatch": true,
+    "actualWidth": 1536,
+    "actualHeight": 164
+  },
+  {
+    "key": "night-front",
+    "url": "/assets/runner-v1/front.webp",
+    "type": "image",
+    "width": 1536,
+    "height": 512,
+    "frames": [
+      {
+        "name": "canopy",
+        "x": 0,
+        "y": 0,
+        "width": 1536,
+        "height": 400
+      }
+    ],
+    "sha256": "aff3ef04ff7a8cda4b6f107d03da44bfc543a26e879b9d755aa85d1f03ac0946",
+    "buildMatch": true,
+    "actualWidth": 1536,
+    "actualHeight": 512
+  },
+  {
+    "key": "night-hero",
+    "url": "/assets/runner-v1/hero.webp",
+    "type": "sheet",
+    "width": 512,
+    "height": 128,
+    "frameWidth": 128,
+    "frameHeight": 128,
+    "sha256": "92d339fdd3de7a3ad648b29928ab22901d8a66a938ef343425893ab301503f2e",
+    "buildMatch": true,
+    "actualWidth": 512,
+    "actualHeight": 128
+  },
+  {
+    "key": "night-fence",
+    "type": "image",
+    "url": "/assets/provided-v4/barrier.webp",
+    "width": 264,
+    "height": 100,
+    "sha256": "dd66e0b80139d71e2bb5343fe81b376ca8eeb1e4d0ba63d953e4412caa166b17",
+    "buildMatch": true,
+    "actualWidth": 264,
+    "actualHeight": 100
+  },
+  {
+    "key": "night-broken-block",
+    "type": "image",
+    "url": "/assets/provided-v4/broken-block.webp",
+    "width": 264,
+    "height": 121,
+    "sha256": "d6e97a2ce6cecc1eeb36e9d6d265fd7a422fdcf38f7209975880aa52995a024a",
+    "buildMatch": true,
+    "actualWidth": 264,
+    "actualHeight": 121
+  },
+  {
+    "key": "night-debris",
+    "type": "image",
+    "url": "/assets/provided-v4/debris.webp",
+    "width": 224,
+    "height": 135,
+    "sha256": "b7ba63c11da4b0bbd340ff5c03aa1b30503b32fea0267846eec9357278a42328",
+    "buildMatch": true,
+    "actualWidth": 224,
+    "actualHeight": 135
+  },
+  {
+    "key": "night-rubble",
+    "type": "image",
+    "url": "/assets/provided-v4/rubble.webp",
+    "width": 224,
+    "height": 127,
+    "sha256": "c50ad656f8d47457004e4d8afc28d2934d8dde4422f9135a1941bf5457118bf8",
+    "buildMatch": true,
+    "actualWidth": 224,
+    "actualHeight": 127
+  },
+  {
+    "key": "tape",
+    "url": "/assets/runner-v1/cassette.webp",
+    "type": "image",
+    "width": 132,
+    "height": 84,
+    "sha256": "a2e49e43410c201852f066a17093ec055efdaf72042a39861f84644a03629274",
+    "buildMatch": true,
+    "actualWidth": 132,
+    "actualHeight": 84
+  },
+  {
+    "key": "story-beer",
+    "url": "/assets/balance-story/beer.webp",
+    "type": "image",
+    "width": 80,
+    "height": 240,
+    "sha256": "4307f8c43679d36fd762c03dfe684ed671a4b10d60b6bdff56f8094d47ff9232",
+    "buildMatch": true,
+    "actualWidth": 80,
+    "actualHeight": 240
+  },
+  {
+    "key": "pipe-illustration",
+    "url": "/assets/journey-v1/pipe.webp",
+    "type": "image",
+    "width": 340,
+    "height": 381,
+    "sha256": "5fa987f1fbca2b58da91156b923dfbac36513ce66424d52befd2127864d91291",
+    "buildMatch": true,
+    "actualWidth": 340,
+    "actualHeight": 381
+  },
+  {
+    "key": "pipe-construction",
+    "type": "image",
+    "url": "/assets/provided-v4/pipe.webp",
+    "width": 1920,
+    "height": 640,
+    "sha256": "2d4dbff6c0b2785ba0726919b3d7fabdaa918be25ee2a739fa7601f2413dec7d",
+    "buildMatch": true,
+    "actualWidth": 1920,
+    "actualHeight": 640
+  },
+  {
+    "key": "pipe-sky-clouds",
+    "url": "/assets/pipe-v2/sky-clouds.webp",
+    "type": "image",
+    "width": 1536,
+    "height": 512,
+    "sha256": "2aad5524e88b1ed06ec3fdbd45f0c27aafe38de0ecaca0bce2da6bb38d54a8d7",
+    "buildMatch": true,
+    "actualWidth": 1536,
+    "actualHeight": 512
+  },
+  {
+    "key": "pipe-side-illustration",
+    "url": "/assets/pipe-v2/side.webp",
+    "type": "image",
+    "width": 640,
+    "height": 140,
+    "frames": [
+      {
+        "name": "shaft",
+        "x": 80,
+        "y": 48,
+        "width": 480,
+        "height": 48
+      }
+    ],
+    "sha256": "fcddbadb66d4de97b6a7fc6d36dec84b38afcbb0563188e818814e1a534fd7bf",
+    "buildMatch": true,
+    "actualWidth": 640,
+    "actualHeight": 140
+  },
+  {
+    "key": "pipe-side-excavation",
+    "url": "/assets/location-v7/excavation.webp",
+    "type": "image",
+    "width": 1120,
+    "height": 204,
+    "sha256": "a7b27582e12a25527a3692be85f1ead3758d9e339912a02693f1ed9b8b7c605c",
+    "buildMatch": true,
+    "actualWidth": 1120,
+    "actualHeight": 204
+  },
+  {
+    "key": "room-stool",
+    "url": "/assets/repairs-v6/stool.webp",
+    "type": "image",
+    "width": 192,
+    "height": 192,
+    "sha256": "a2170cf61d22337772c33d178e74c5ba8e57b876b07577e6ee01ef65aaec3f05",
+    "buildMatch": true,
+    "actualWidth": 192,
+    "actualHeight": 192
+  },
+  {
+    "key": "room-clock",
+    "url": "/assets/props-v5/clock.webp",
+    "type": "image",
+    "width": 192,
+    "height": 192,
+    "sha256": "d6d7b90f04824d28e34bdc5ae5a55266ea3c5d3fccffedff946e8917d7b510ce",
+    "buildMatch": true,
+    "actualWidth": 192,
+    "actualHeight": 192
+  },
+  {
+    "key": "room-sign",
+    "url": "/assets/props-v5/sign.webp",
+    "type": "image",
+    "width": 480,
+    "height": 160,
+    "sha256": "23fb1d6ef068e35f53b0af77b8c1d0cdbac2c5d79674dceaf36c2f88833b75ff",
+    "buildMatch": true,
+    "actualWidth": 480,
+    "actualHeight": 160
+  },
+  {
+    "key": "ending-bench",
+    "url": "/assets/repairs-v6/bench.webp",
+    "type": "image",
+    "width": 480,
+    "height": 192,
+    "sha256": "b2f5b84920b6616b33ac69987b7f94913a4eb6937b8e7259c7bf1508ded2fc03",
+    "buildMatch": true,
+    "actualWidth": 480,
+    "actualHeight": 192
+  },
+  {
+    "key": "television-crt",
+    "url": "/assets/references-v13/television.webp",
+    "type": "image",
+    "width": 384,
+    "height": 288,
+    "sha256": "a8aa9f59aee286c4ba0d6558db4d473d4b34aa25706894d801b69781ed6cfa54",
+    "buildMatch": true,
+    "actualWidth": 384,
+    "actualHeight": 288
+  },
+  {
+    "key": "television-water",
+    "url": "/assets/references-v13/puddle.webp",
+    "type": "image",
+    "width": 768,
+    "height": 192,
+    "sha256": "cffbfb4cb7f0bd35c33598982dbc3eaed34a8fa52baacb0434b1c149a4f4a3f2",
+    "buildMatch": true,
+    "actualWidth": 768,
+    "actualHeight": 192
+  },
+  {
+    "key": "court-hoop",
+    "url": "/assets/court-v4/hoop.webp",
+    "type": "image",
+    "width": 384,
+    "height": 640,
+    "sha256": "88017f6418c65812256b9eb4ef28e75f8021c759fca7f72b4bb603b9c2de4f72",
+    "buildMatch": true,
+    "actualWidth": 384,
+    "actualHeight": 640
+  },
+  {
+    "key": "court-original",
+    "url": "/assets/court-original/court.webp",
+    "type": "image",
+    "width": 960,
+    "height": 540,
+    "frames": [
+      {
+        "name": "rhythm-platform",
+        "x": 340,
+        "y": 350,
+        "width": 280,
+        "height": 120
+      },
+      {
+        "name": "floor",
+        "x": 0,
+        "y": 320,
+        "width": 960,
+        "height": 220
+      },
+      {
+        "name": "mesh",
+        "x": 260,
+        "y": 230,
+        "width": 700,
+        "height": 90
+      },
+      {
+        "name": "gate-panel",
+        "x": 640,
+        "y": 210,
+        "width": 140,
+        "height": 110
+      },
+      {
+        "name": "gate-jamb",
+        "x": 270,
+        "y": 216,
+        "width": 7,
+        "height": 104
+      }
+    ],
+    "sha256": "48c8c037298716d6f914cb5d97186c6dabec0907b1e4b389b15ec25d98ca2c02",
+    "buildMatch": true,
+    "actualWidth": 960,
+    "actualHeight": 540
+  },
+  {
+    "key": "shared-asphalt",
+    "url": "/assets/court-v4/asphalt.webp",
+    "type": "image",
+    "width": 3072,
+    "height": 420,
+    "sha256": "a87fec2fef360287ebe12622826e8a2399ff5d1565c832631c3df43c23b60707",
+    "buildMatch": true,
+    "actualWidth": 3072,
+    "actualHeight": 420
+  },
+  {
+    "key": "room-entrance",
+    "url": "/assets/transitions-v4/facade.webp",
+    "type": "image",
+    "width": 960,
+    "height": 540,
+    "sha256": "30246afd5b0a15251d9c3c4eaaf470133d4d380770fe935855b2ae542c4bbb01",
+    "buildMatch": true,
+    "actualWidth": 960,
+    "actualHeight": 540
+  },
+  {
+    "key": "waiting-room",
+    "type": "image",
+    "url": "/assets/provided-v4/room.webp",
+    "width": 1920,
+    "height": 640,
+    "sha256": "5b4131011dffef71d5f258b5a0083a8759083bc565254baefeed809935a905ea",
+    "buildMatch": true,
+    "actualWidth": 1920,
+    "actualHeight": 640
+  },
+  {
+    "key": "room-door",
+    "url": "/assets/journey-v1/door.webp",
+    "type": "image",
+    "width": 96,
+    "height": 258,
+    "frames": [
+      {
+        "name": "leaf",
+        "x": 11,
+        "y": 20,
+        "width": 75,
+        "height": 228
+      }
+    ],
+    "sha256": "d792db5b153daa62acab7a9da205d0c795ec9df05d0d20fe95cfec9f2af6117c",
+    "buildMatch": true,
+    "actualWidth": 96,
+    "actualHeight": 258
+  },
+  {
+    "key": "hero-seated",
+    "url": "/assets/transitions-v4/seated.webp",
+    "type": "image",
+    "width": 256,
+    "height": 256,
+    "frames": [
+      {
+        "name": "body",
+        "x": 0,
+        "y": 70,
+        "width": 256,
+        "height": 186
+      },
+      {
+        "name": "head",
+        "x": 0,
+        "y": 0,
+        "width": 256,
+        "height": 70
+      }
+    ],
+    "sha256": "e9632e30728c1489d4d1cd33754c34eb5cf6c0ce05f7b1caaa02018b2a272665",
+    "buildMatch": true,
+    "actualWidth": 256,
+    "actualHeight": 256
+  },
+  {
+    "key": "hero-idle",
+    "url": "/assets/journey-v1/idle.webp",
+    "type": "sheet",
+    "width": 512,
+    "height": 128,
+    "frameWidth": 128,
+    "frameHeight": 128,
+    "sha256": "682d94f62164b98bf4d5ff36f15056218a2dbad17bf16c44a81653c4616f1ae0",
+    "buildMatch": true,
+    "actualWidth": 512,
+    "actualHeight": 128
+  },
+  {
+    "key": "archway",
+    "url": "/assets/entrance-v1/entrance.webp",
+    "type": "image",
+    "width": 960,
+    "height": 540,
+    "frames": [
+      {
+        "name": "wall-left",
+        "x": 210,
+        "y": 0,
+        "width": 192,
+        "height": 540
+      },
+      {
+        "name": "wall-right",
+        "x": 600,
+        "y": 0,
+        "width": 192,
+        "height": 540
+      }
+    ],
+    "sha256": "168b03af8b9f3a2ca7e1c1e6e5bcdf31e0d70eebae6e6472951489e77f514a00",
+    "buildMatch": true,
+    "actualWidth": 960,
+    "actualHeight": 540
+  }
+]

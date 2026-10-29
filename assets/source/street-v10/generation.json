@@ -1,0 +1,44 @@
+{
+  "createdOn": "2026-10-28",
+  "collection": "street-v10",
+  "tool": "built-in image_gen",
+  "skill": "imagegen",
+  "prompt": "Use case: precise-object-edit. Edit target: attached transparent 1536x512 game environment layer, a desaturated painterly post-Soviet courtyard. Change ONLY the tiny dark house number plaque reading 92 on the lower RIGHT building, around original coordinate (1384,379). Remove this plaque and its digits completely, replacing its small rectangle with matching worn grey plaster. Preserve the entire rest of the source image exactly: identical composition, every building, tree, fence, cables, faded autumn leaves, wall and pavement edge, colours, painted texture, scale, and camera. Preserve real transparent alpha in all sky openings and outside the scene. No additional writing, signs, people, basketball objects or new structures. Output same 3:1 composition. This is an asset repair, not a redesign. The tiny repaired area must blend naturally into the existing grey plaster.",
+  "transparent_background": true,
+  "input": "assets/source/street-v10/previous-autumn.webp",
+  "generated": "assets/source/street-v10/number-removal-generated.png",
+  "source": "assets/source/street-v10/autumn-no92.png",
+  "output": "apps/web/public/assets/journey-v1/autumn.webp",
+  "operation": "Only original-coordinate rectangle x=1369,y=365,width=31,height=30 is drawn from the generated image; retain original outside it. Lossless BGRA WebP packing.",
+  "packaging": "node tools/prepare-street-v10.mjs",
+  "audit": {
+    "width": 1536,
+    "height": 512,
+    "patch": {
+      "x": 1369,
+      "y": 365,
+      "width": 31,
+      "height": 30
+    },
+    "changedInside": 930,
+    "changedOutside": 310461,
+    "outsideAlphaChanges": 0,
+    "maximumOutsideCompositeDelta": 1.3254901960784267,
+    "sha256": "88ebb76178684657561f193d51063a14569730c71dec6ece8d834c78b6eea41d"
+  },
+  "retired": [
+    {
+      "file": "assets/source/street-v10/retired-runtime/memories.webp",
+      "sha256": "1414b1b5eab19a4cc6ebd3d835c23b23682962d2be544da60c3e27ef1a9ed0fb"
+    },
+    {
+      "file": "assets/source/street-v10/retired-runtime/route92.webp",
+      "sha256": "a20117656a0c93432a03ad68d3cd4d8f82fc0bd2fdfc905609abbebd85215891"
+    },
+    {
+      "file": "assets/source/street-v10/retired-runtime/courtyard.webp",
+      "sha256": "62a9cccd8e9f2307f013a660ec7c6aa914711d1ab279114bab06ba4b0d0117df"
+    }
+  ],
+  "sha256": "88ebb76178684657561f193d51063a14569730c71dec6ece8d834c78b6eea41d"
+}
