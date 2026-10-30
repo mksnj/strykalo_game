@@ -1,0 +1,33 @@
+{
+  "createdOn": "2026-10-30",
+  "tool": "Built-in image_gen",
+  "method": "Edit only the leg poses of the standard hero; keep plain charcoal clothes, palette and painterly style. Offline fabric brightness calibration to the unchanged idle sprite.",
+  "reference": "apps/web/public/assets/visual-v12/front.webp",
+  "up": "No animation; rhythm judgments stay unchanged",
+  "assets": [
+    {
+      "direction": "left",
+      "input": "apps/web/public/assets/visual-v12/front.webp",
+      "originalPose": "влево.png",
+      "output": "assets/source/court-dance-v23/left.png",
+      "transparent_background": true,
+      "prompt": "Use case: identity-preserve. EDIT THE ATTACHED STANDARD GAME SPRITE, changing ONLY the leg pose.\nThis is the ONLY visual reference. Preserve this exact hooded character, exact same clothing, exact same dark charcoal and black colors, backpack straps, hood shape, simple fabric and painterly low-detail shading. No wardrobe redesign. No fabric print, geometric pattern, diamonds or camouflage. Keep the upper body front-facing and hands inside the front hoodie pocket. Keep the face a featureless opaque black void inside the hood.\nRequired LEFT pose change: Keep the right leg planted. Move the LEFT shoe just a little outward toward the viewer's left and turn that shoe outward, bending the left knee a little. A restrained in-place dance accent.\nMatch the original slim body, shoulder width and head-to-body proportions. Clothing stays dark and matte; no lighter grey costume, exaggerated bright folds or outlines. Preserve the original visual character of the small 2D game sprite even if rendering it larger.\nOutput one complete head-to-toe character on a 1024x1536 transparent canvas with clean alpha, centred, small margins all around, feet near 91% canvas height. No scenery, floor, shadow, glow, text or labels. Do not edit any body part except the pose changes strictly necessary to create this leg movement."
+    },
+    {
+      "direction": "right",
+      "input": "apps/web/public/assets/visual-v12/front.webp",
+      "originalPose": "вправо.png",
+      "output": "assets/source/court-dance-v23/right.png",
+      "transparent_background": true,
+      "prompt": "Use case: identity-preserve. EDIT THE ATTACHED STANDARD GAME SPRITE, changing ONLY the leg pose.\nThis is the ONLY visual reference. Preserve this exact hooded character, exact same clothing, exact same dark charcoal and black colors, backpack straps, hood shape, simple fabric and painterly low-detail shading. No wardrobe redesign. No fabric print, geometric pattern, diamonds or camouflage. Keep the upper body front-facing and hands inside the front hoodie pocket. Keep the face a featureless opaque black void inside the hood.\nRequired RIGHT pose change: Keep the left leg planted. Move the RIGHT shoe just a little outward toward the viewer's right and turn that shoe outward, bending the right knee a little. A restrained in-place dance accent.\nMatch the original slim body, shoulder width and head-to-body proportions. Clothing stays dark and matte; no lighter grey costume, exaggerated bright folds or outlines. Preserve the original visual character of the small 2D game sprite even if rendering it larger.\nOutput one complete head-to-toe character on a 1024x1536 transparent canvas with clean alpha, centred, small margins all around, feet near 91% canvas height. No scenery, floor, shadow, glow, text or labels. Do not edit any body part except the pose changes strictly necessary to create this leg movement."
+    },
+    {
+      "direction": "down",
+      "input": "apps/web/public/assets/visual-v12/front.webp",
+      "originalPose": "вниз.png",
+      "output": "assets/source/court-dance-v23/down.png",
+      "transparent_background": true,
+      "prompt": "Use case: identity-preserve. EDIT THE ATTACHED STANDARD GAME SPRITE, changing ONLY the leg pose.\nThis is the ONLY visual reference. Preserve this exact hooded character, exact same clothing, exact same dark charcoal and black colors, backpack straps, hood shape, simple fabric and painterly low-detail shading. No wardrobe redesign. No fabric print, geometric pattern, diamonds or camouflage. Keep the upper body front-facing and hands inside the front hoodie pocket. Keep the face a featureless opaque black void inside the hood.\nRequired DOWN pose change: Bend BOTH knees in a shallow squat, with both feet planted a little apart. Lower the hips and torso a little naturally. A restrained in-place knee dip.\nMatch the original slim body, shoulder width and head-to-body proportions. Clothing stays dark and matte; no lighter grey costume, exaggerated bright folds or outlines. Preserve the original visual character of the small 2D game sprite even if rendering it larger.\nOutput one complete head-to-toe character on a 1024x1536 transparent canvas with clean alpha, centred, small margins all around, feet near 91% canvas height. No scenery, floor, shadow, glow, text or labels. Do not edit any body part except the pose changes strictly necessary to create this leg movement."
+    }
+  ]
+}

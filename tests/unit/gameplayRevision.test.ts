@@ -56,7 +56,7 @@ describe('five rhythm rounds in one session', () => {
 });
 
 describe('authored autumn combination', () => {
-  it.each([0, 1, 7, 42, 2026, 0xffffffff])('three deterministic accents with a protected preparation and landing zone: seed %i', seed => {
+  it.each([0, 1, 7, 42, 2026, 0xffffffff])('six authored obstacles with protected preparation and landing: seed %i', seed => {
     const e = new RunnerEngine(seed, { start: 200, end: 400, score: 0, clearance: JOURNEY.transitionClearance });
     const authored = autumnSequence(), seen = new Map<string, (typeof e.objects)[number]>();
     const jumped = new Set<string>(); let peak = 0;
@@ -67,28 +67,32 @@ describe('authored autumn combination', () => {
       e.step(); peak = Math.max(peak, e.objects.length);
     }
     expect(e.result.reason).toBe('stage-complete'); expect(e.lives).toBe(3); expect(peak).toBeLessThan(30);
-    const accents = [...seen.values()].filter(o => o.id.startsWith('autumn-accent'));
-    expect(accents).toEqual(authored.objects);
-    expect([...seen.values()].filter(o => !o.id.startsWith('autumn-accent')).every(o =>
+    const authoredObjects = [...seen.values()].filter(o => o.id.startsWith('autumn-'));
+    expect(authoredObjects).toEqual(authored.objects);
+    expect(authoredObjects.filter(o => o.id === 'autumn-single')).toHaveLength(1);
+    expect(authoredObjects.filter(o => o.id.startsWith('autumn-extra'))).toHaveLength(2);
+    expect(authoredObjects.filter(o => o.id.startsWith('autumn-accent'))).toHaveLength(3);
+    expect([...seen.values()].filter(o => !o.id.startsWith('autumn-')).every(o =>
       o.x + o.width < authored.reservedStart || o.x > authored.reservedEnd)).toBe(true);
-    expect(accents.every(o => o.x + o.width < 400 * 60 - JOURNEY.transitionClearance)).toBe(true);
+    expect(authoredObjects.every(o => o.x + o.width < 400 * 60 - JOURNEY.transitionClearance)).toBe(true);
     expect(e.tick * RUNNER.fixedStep + AUTUMN_SCORE.musicLeadSeconds + JOURNEY.courtApproachSeconds).toBeCloseTo(AUTUMN_SCORE.endSeconds, 1);
   });
-  it('all three marker jumps have a usable tap window and a separate landing', () => {
+  it('the single jump, two extra obstacles and three accents allow short taps and separate landings', () => {
+    const jumpTimes = [15, 18, 29, ...AUTUMN_SCORE.jumpMarkers.map(time => time - AUTUMN_SCORE.musicLeadSeconds)].sort((a, b) => a - b);
     for (const offset of [-.04, 0, .04]) {
       const e = new RunnerEngine(42, { start: 200, end: 400, score: 0, clearance: JOURNEY.transitionClearance });
       const authored = autumnSequence(); let jump = 0, landings = 0, grounded = true;
       while (!e.result) {
         // Isolate authored phrase; the preceding seeded route is covered above.
-        e.objects = e.objects.filter(o => o.id.startsWith('autumn-accent'));
-        if (jump < 3 && e.tick * RUNNER.fixedStep >= AUTUMN_SCORE.jumpMarkers[jump] - AUTUMN_SCORE.musicLeadSeconds + offset) {
+        e.objects = e.objects.filter(o => o.id.startsWith('autumn-'));
+        if (jump < jumpTimes.length && e.tick * RUNNER.fixedStep >= jumpTimes[jump] + offset) {
           expect(e.player.grounded).toBe(true); e.press(); e.release(); jump++;
         }
         e.step();
         if (!grounded && e.player.grounded) landings++;
         grounded = e.player.grounded;
       }
-      expect(jump).toBe(3); expect(landings).toBe(3); expect(e.lives).toBe(3);
+      expect(jump).toBe(6); expect(landings).toBe(6); expect(e.lives).toBe(3);
       expect(authored.jumps[2] - authored.jumps[1]).toBeGreaterThan(300);
     }
   });

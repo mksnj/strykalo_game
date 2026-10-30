@@ -57,6 +57,13 @@ export function autumnMusicTime(session?: RunSession): number | undefined {
   if (session.phase === 'stars-approach') return running + session.phaseTime;
   return undefined;
 }
+/** Keep the authored obstacles on the media clock, including slow frames and buffering. */
+export function autumnStepBudget(session: RunSession, musicTime: number | undefined): number | undefined {
+  if (session.phase !== 'runner' || session.route.scale !== 1 ||
+    session.runner.startDistance !== JOURNEY.balanceAt || musicTime === undefined || !Number.isFinite(musicTime)) return undefined;
+  return Math.min(AUTUMN_SCORE.maxCatchUpSeconds,
+    Math.max(0, musicTime - AUTUMN_SCORE.musicLeadSeconds - session.runner.tick * RUNNER.fixedStep));
+}
 /** Transition phases share the destination score, with no extra transition players. */
 export function soundscape(phase: JourneyPhase | string): { music: MusicScene; ambience: keyof typeof AMBIENCE } {
   if (phase === 'runner-storm') return { music: 'shadows', ambience: 'storm' };

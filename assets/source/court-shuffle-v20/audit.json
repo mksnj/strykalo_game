@@ -1,0 +1,1707 @@
+{
+  "createdOn": "2026-10-30",
+  "method": "Layered inverse mapping of original transparent game sprite; head and torso translate together with foot weight transfer, independent legs and rigid translated shoes. No colour removal or image generation.",
+  "source": {
+    "path": "apps/web/public/assets/visual-v12/front.webp",
+    "preserved": "assets/source/court-shuffle-v20/front.webp",
+    "sha256": "b73927dde8181e6ed116010a5d075a38a95f202d61f263dc6f7b7202ccfaf9fa",
+    "width": 128,
+    "height": 256,
+    "transparentPixels": 20657,
+    "pixels": 32768,
+    "corner": [
+      0,
+      0,
+      0,
+      0
+    ]
+  },
+  "reference": {
+    "path": "docs/front.png",
+    "sha256": "8bfccf0b70a8ec21393753e1767f50ca12e46e70cd61d712308561a18068196a",
+    "width": 1774,
+    "height": 887,
+    "transparentPixels": 0,
+    "pixels": 1573538,
+    "corner": [
+      0,
+      0,
+      0,
+      255
+    ],
+    "usage": "Visual reference only; opaque black background and inconsistent poses are not sliced or colour-keyed."
+  },
+  "output": {
+    "path": "assets/source/court-shuffle-v20/shuffle.png",
+    "sha256": "981fbd2e487b6da27d2e1f2a383c700c2376dd94cc05380a5e77b1799cb8e765",
+    "bytes": 1874474,
+    "width": 1280,
+    "height": 2992
+  },
+  "anchor": {
+    "x": 80,
+    "y": 264
+  },
+  "frames": [
+    {
+      "frame": 0,
+      "direction": "left",
+      "progress": 0,
+      "bounds": {
+        "left": 42,
+        "top": 15,
+        "right": 118,
+        "bottom": 263
+      },
+      "bodyX": 0,
+      "headTranslationError": 0,
+      "pose": {
+        "leadX": 0,
+        "leadLift": 0,
+        "followX": 0,
+        "followLift": 0,
+        "weight": 0
+      }
+    },
+    {
+      "frame": 1,
+      "direction": "left",
+      "progress": 0,
+      "bounds": {
+        "left": 42,
+        "top": 15,
+        "right": 118,
+        "bottom": 263
+      },
+      "bodyX": 0,
+      "headTranslationError": 0,
+      "pose": {
+        "leadX": 0,
+        "leadLift": 0,
+        "followX": 0,
+        "followLift": 0,
+        "weight": 0
+      }
+    },
+    {
+      "frame": 2,
+      "direction": "left",
+      "progress": 0.025,
+      "bounds": {
+        "left": 42,
+        "top": 15,
+        "right": 118,
+        "bottom": 263
+      },
+      "bodyX": 0,
+      "headTranslationError": 0,
+      "pose": {
+        "leadX": 0,
+        "leadLift": 0.18540451895043733,
+        "followX": 0,
+        "followLift": 0,
+        "weight": 0
+      }
+    },
+    {
+      "frame": 3,
+      "direction": "left",
+      "progress": 0.05,
+      "bounds": {
+        "left": 42,
+        "top": 15,
+        "right": 118,
+        "bottom": 263
+      },
+      "bodyX": 0,
+      "headTranslationError": 0,
+      "pose": {
+        "leadX": 0,
+        "leadLift": 0.6413994169096211,
+        "followX": 0,
+        "followLift": 0,
+        "weight": 0
+      }
+    },
+    {
+      "frame": 4,
+      "direction": "left",
+      "progress": 0.075,
+      "bounds": {
+        "left": 42,
+        "top": 15,
+        "right": 118,
+        "bottom": 263
+      },
+      "bodyX": 0,
+      "headTranslationError": 0,
+      "pose": {
+        "leadX": 0,
+        "leadLift": 1.2176567055393586,
+        "followX": 0,
+        "followLift": 0,
+        "weight": 0
+      }
+    },
+    {
+      "frame": 5,
+      "direction": "left",
+      "progress": 0.1,
+      "bounds": {
+        "left": 42,
+        "top": 15,
+        "right": 118,
+        "bottom": 263
+      },
+      "bodyX": 0,
+      "headTranslationError": 0,
+      "pose": {
+        "leadX": 0,
+        "leadLift": 1.7638483965014577,
+        "followX": 0,
+        "followLift": 0,
+        "weight": 0
+      }
+    },
+    {
+      "frame": 6,
+      "direction": "left",
+      "progress": 0.125,
+      "bounds": {
+        "left": 42,
+        "top": 15,
+        "right": 118,
+        "bottom": 263
+      },
+      "bodyX": 0,
+      "headTranslationError": 0,
+      "pose": {
+        "leadX": 0,
+        "leadLift": 2.129646501457726,
+        "followX": 0,
+        "followLift": 0,
+        "weight": 0
+      }
+    },
+    {
+      "frame": 7,
+      "direction": "left",
+      "progress": 0.15,
+      "bounds": {
+        "left": 42,
+        "top": 15,
+        "right": 118,
+        "bottom": 263
+      },
+      "bodyX": -0.01783264746227703,
+      "headTranslationError": 0.0007269058606303447,
+      "pose": {
+        "leadX": 0.10699588477366218,
+        "leadLift": 2.194650205761317,
+        "followX": 0,
+        "followLift": 0,
+        "weight": 0.01783264746227703
+      }
+    },
+    {
+      "frame": 8,
+      "direction": "left",
+      "progress": 0.175,
+      "bounds": {
+        "left": 41,
+        "top": 15,
+        "right": 118,
+        "bottom": 263
+      },
+      "bodyX": -0.19744513031550043,
+      "headTranslationError": 0.0010374097932339121,
+      "pose": {
+        "leadX": 1.1846707818930025,
+        "leadLift": 2.14076646090535,
+        "followX": 0,
+        "followLift": 0,
+        "weight": 0.19744513031550043
+      }
+    },
+    {
+      "frame": 9,
+      "direction": "left",
+      "progress": 0.2,
+      "bounds": {
+        "left": 41,
+        "top": 15,
+        "right": 118,
+        "bottom": 263
+      },
+      "bodyX": -0.5185185185185185,
+      "headTranslationError": 0.002863847594213653,
+      "pose": {
+        "leadX": 3.1111111111111107,
+        "leadLift": 2.0444444444444447,
+        "followX": 0,
+        "followLift": 0,
+        "weight": 0.5185185185185185
+      }
+    },
+    {
+      "frame": 10,
+      "direction": "left",
+      "progress": 0.225,
+      "bounds": {
+        "left": 41,
+        "top": 15,
+        "right": 118,
+        "bottom": 263
+      },
+      "bodyX": -0.9167524005486967,
+      "headTranslationError": 0.0012813155881645777,
+      "pose": {
+        "leadX": 5.50051440329218,
+        "leadLift": 1.924974279835391,
+        "followX": 0,
+        "followLift": 0,
+        "weight": 0.9167524005486967
+      }
+    },
+    {
+      "frame": 11,
+      "direction": "left",
+      "progress": 0.25,
+      "bounds": {
+        "left": 40,
+        "top": 15,
+        "right": 117,
+        "bottom": 263
+      },
+      "bodyX": -1.3278463648834018,
+      "headTranslationError": 0.0012114352021752595,
+      "pose": {
+        "leadX": 7.967078189300411,
+        "leadLift": 1.8016460905349796,
+        "followX": 0,
+        "followLift": 0,
+        "weight": 1.3278463648834018
+      }
+    },
+    {
+      "frame": 12,
+      "direction": "left",
+      "progress": 0.275,
+      "bounds": {
+        "left": 40,
+        "top": 15,
+        "right": 117,
+        "bottom": 263
+      },
+      "bodyX": -1.6875000000000004,
+      "headTranslationError": 0.0007096082666033787,
+      "pose": {
+        "leadX": 10.125000000000004,
+        "leadLift": 1.69375,
+        "followX": 0,
+        "followLift": 0,
+        "weight": 1.6875000000000004
+      }
+    },
+    {
+      "frame": 13,
+      "direction": "left",
+      "progress": 0.3,
+      "bounds": {
+        "left": 40,
+        "top": 15,
+        "right": 117,
+        "bottom": 263
+      },
+      "bodyX": -1.9314128943758573,
+      "headTranslationError": 0.0010044284740362563,
+      "pose": {
+        "leadX": 11.588477366255145,
+        "leadLift": 1.620576131687243,
+        "followX": 0,
+        "followLift": 0,
+        "weight": 1.9314128943758573
+      }
+    },
+    {
+      "frame": 14,
+      "direction": "left",
+      "progress": 0.325,
+      "bounds": {
+        "left": 40,
+        "top": 15,
+        "right": 116,
+        "bottom": 263
+      },
+      "bodyX": -2.044921875,
+      "headTranslationError": 0.0009061097801748019,
+      "pose": {
+        "leadX": 12,
+        "leadLift": 1.58203125,
+        "followX": 0,
+        "followLift": 0,
+        "weight": 2.044921875
+      }
+    },
+    {
+      "frame": 15,
+      "direction": "left",
+      "progress": 0.35,
+      "bounds": {
+        "left": 38,
+        "top": 15,
+        "right": 115,
+        "bottom": 263
+      },
+      "bodyX": -3.2656249999999973,
+      "headTranslationError": 0.0006777104561566105,
+      "pose": {
+        "leadX": 12,
+        "leadLift": 1.0937500000000009,
+        "followX": 0,
+        "followLift": 0,
+        "weight": 3.2656249999999973
+      }
+    },
+    {
+      "frame": 16,
+      "direction": "left",
+      "progress": 0.375,
+      "bounds": {
+        "left": 36,
+        "top": 15,
+        "right": 113,
+        "bottom": 263
+      },
+      "bodyX": -5.072265624999999,
+      "headTranslationError": 0.0007292832716165876,
+      "pose": {
+        "leadX": 12,
+        "leadLift": 0.37109375000000044,
+        "followX": 0,
+        "followLift": 0,
+        "weight": 5.072265624999999
+      }
+    },
+    {
+      "frame": 17,
+      "direction": "left",
+      "progress": 0.4,
+      "bounds": {
+        "left": 36,
+        "top": 15,
+        "right": 112,
+        "bottom": 263
+      },
+      "bodyX": -6,
+      "headTranslationError": 0,
+      "pose": {
+        "leadX": 12,
+        "leadLift": 0,
+        "followX": 0,
+        "followLift": 0,
+        "weight": 6
+      }
+    },
+    {
+      "frame": 18,
+      "direction": "left",
+      "progress": 0.425,
+      "bounds": {
+        "left": 35,
+        "top": 15,
+        "right": 112,
+        "bottom": 263
+      },
+      "bodyX": -6.336371527777777,
+      "headTranslationError": 0.001492274644474989,
+      "pose": {
+        "leadX": 12,
+        "leadLift": 0,
+        "followX": 0,
+        "followLift": 0,
+        "weight": 6.336371527777777
+      }
+    },
+    {
+      "frame": 19,
+      "direction": "left",
+      "progress": 0.45,
+      "bounds": {
+        "left": 34,
+        "top": 15,
+        "right": 111,
+        "bottom": 263
+      },
+      "bodyX": -7.128472222222221,
+      "headTranslationError": 0.000512348595975709,
+      "pose": {
+        "leadX": 12,
+        "leadLift": 0,
+        "followX": 0,
+        "followLift": 0,
+        "weight": 7.128472222222221
+      }
+    },
+    {
+      "frame": 20,
+      "direction": "left",
+      "progress": 0.475,
+      "bounds": {
+        "left": 34,
+        "top": 15,
+        "right": 110,
+        "bottom": 263
+      },
+      "bodyX": -8.050781249999998,
+      "headTranslationError": 0.0007831362043457801,
+      "pose": {
+        "leadX": 12,
+        "leadLift": 0,
+        "followX": 0,
+        "followLift": 0,
+        "weight": 8.050781249999998
+      }
+    },
+    {
+      "frame": 21,
+      "direction": "left",
+      "progress": 0.5,
+      "bounds": {
+        "left": 33,
+        "top": 15,
+        "right": 110,
+        "bottom": 263
+      },
+      "bodyX": -8.777777777777777,
+      "headTranslationError": 0.0012539826621864592,
+      "pose": {
+        "leadX": 12,
+        "leadLift": 0,
+        "followX": 0,
+        "followLift": 0,
+        "weight": 8.777777777777777
+      }
+    },
+    {
+      "frame": 22,
+      "direction": "left",
+      "progress": 0.525,
+      "bounds": {
+        "left": 33,
+        "top": 15,
+        "right": 109,
+        "bottom": 263
+      },
+      "bodyX": -9.004543895747599,
+      "headTranslationError": 0.00029832728131040653,
+      "pose": {
+        "leadX": 12,
+        "leadLift": 0,
+        "followX": 0.018175582990397846,
+        "followLift": 0.004089506172839516,
+        "weight": 9.004543895747599
+      }
+    },
+    {
+      "frame": 23,
+      "direction": "left",
+      "progress": 0.55,
+      "bounds": {
+        "left": 32,
+        "top": 15,
+        "right": 109,
+        "bottom": 263
+      },
+      "bodyX": -9.148148148148149,
+      "headTranslationError": 0.0010559587412863891,
+      "pose": {
+        "leadX": 12,
+        "leadLift": 0,
+        "followX": 0.592592592592594,
+        "followLift": 0.13333333333333366,
+        "weight": 9.148148148148149
+      }
+    },
+    {
+      "frame": 24,
+      "direction": "left",
+      "progress": 0.575,
+      "bounds": {
+        "left": 32,
+        "top": 15,
+        "right": 109,
+        "bottom": 263
+      },
+      "bodyX": -9.446073388203017,
+      "headTranslationError": 0.0020552509913525085,
+      "pose": {
+        "leadX": 12,
+        "leadLift": 0,
+        "followX": 1.7842935528120687,
+        "followLift": 0.40146604938271546,
+        "weight": 9.446073388203017
+      }
+    },
+    {
+      "frame": 25,
+      "direction": "left",
+      "progress": 0.6,
+      "bounds": {
+        "left": 32,
+        "top": 15,
+        "right": 109,
+        "bottom": 263
+      },
+      "bodyX": -9.834019204389575,
+      "headTranslationError": 0.00209918754578986,
+      "pose": {
+        "leadX": 12,
+        "leadLift": 0,
+        "followX": 3.336076817558298,
+        "followLift": 0.7506172839506171,
+        "weight": 9.834019204389575
+      }
+    },
+    {
+      "frame": 26,
+      "direction": "left",
+      "progress": 0.625,
+      "bounds": {
+        "left": 31,
+        "top": 15,
+        "right": 108,
+        "bottom": 263
+      },
+      "bodyX": -10.247685185185185,
+      "headTranslationError": 0.0022111742665575917,
+      "pose": {
+        "leadX": 12,
+        "leadLift": 0,
+        "followX": 4.990740740740742,
+        "followLift": 1.122916666666667,
+        "weight": 10.247685185185185
+      }
+    },
+    {
+      "frame": 27,
+      "direction": "left",
+      "progress": 0.65,
+      "bounds": {
+        "left": 31,
+        "top": 15,
+        "right": 108,
+        "bottom": 263
+      },
+      "bodyX": -10.622770919067216,
+      "headTranslationError": 0.0007268808699318896,
+      "pose": {
+        "leadX": 12,
+        "leadLift": 0,
+        "followX": 6.491083676268864,
+        "followLift": 1.4604938271604944,
+        "weight": 10.622770919067216
+      }
+    },
+    {
+      "frame": 28,
+      "direction": "left",
+      "progress": 0.675,
+      "bounds": {
+        "left": 31,
+        "top": 15,
+        "right": 108,
+        "bottom": 263
+      },
+      "bodyX": -10.894975994513032,
+      "headTranslationError": 0.000982996824255622,
+      "pose": {
+        "leadX": 12,
+        "leadLift": 0,
+        "followX": 7.579903978052129,
+        "followLift": 1.705478395061729,
+        "weight": 10.894975994513032
+      }
+    },
+    {
+      "frame": 29,
+      "direction": "left",
+      "progress": 0.7,
+      "bounds": {
+        "left": 31,
+        "top": 15,
+        "right": 107,
+        "bottom": 263
+      },
+      "bodyX": -11,
+      "headTranslationError": 0,
+      "pose": {
+        "leadX": 12,
+        "leadLift": 0,
+        "followX": 8,
+        "followLift": 1.8,
+        "weight": 11
+      }
+    },
+    {
+      "frame": 30,
+      "direction": "left",
+      "progress": 0.725,
+      "bounds": {
+        "left": 30,
+        "top": 15,
+        "right": 107,
+        "bottom": 263
+      },
+      "bodyX": -11.084274781341108,
+      "headTranslationError": 0.00029264908636861264,
+      "pose": {
+        "leadX": 12,
+        "leadLift": 0,
+        "followX": 8.337099125364432,
+        "followLift": 1.7325801749271137,
+        "weight": 11.084274781341108
+      }
+    },
+    {
+      "frame": 31,
+      "direction": "left",
+      "progress": 0.75,
+      "bounds": {
+        "left": 30,
+        "top": 15,
+        "right": 107,
+        "bottom": 263
+      },
+      "bodyX": -11.291545189504374,
+      "headTranslationError": 0.0007914184421107251,
+      "pose": {
+        "leadX": 12,
+        "leadLift": 0,
+        "followX": 9.166180758017495,
+        "followLift": 1.5667638483965012,
+        "weight": 11.291545189504374
+      }
+    },
+    {
+      "frame": 32,
+      "direction": "left",
+      "progress": 0.775,
+      "bounds": {
+        "left": 30,
+        "top": 15,
+        "right": 107,
+        "bottom": 263
+      },
+      "bodyX": -11.553480320699709,
+      "headTranslationError": 0.0019216325400357448,
+      "pose": {
+        "leadX": 12,
+        "leadLift": 0,
+        "followX": 10.213921282798836,
+        "followLift": 1.3572157434402328,
+        "weight": 11.553480320699709
+      }
+    },
+    {
+      "frame": 33,
+      "direction": "left",
+      "progress": 0.8,
+      "bounds": {
+        "left": 30,
+        "top": 15,
+        "right": 107,
+        "bottom": 263
+      },
+      "bodyX": -11.801749271137027,
+      "headTranslationError": 0.0009897514645942351,
+      "pose": {
+        "leadX": 12,
+        "leadLift": 0,
+        "followX": 11.206997084548107,
+        "followLift": 1.1586005830903785,
+        "weight": 11.801749271137027
+      }
+    },
+    {
+      "frame": 34,
+      "direction": "left",
+      "progress": 0.825,
+      "bounds": {
+        "left": 30,
+        "top": 15,
+        "right": 106,
+        "bottom": 263
+      },
+      "bodyX": -11.96802113702624,
+      "headTranslationError": 0.0006502421779845946,
+      "pose": {
+        "leadX": 12,
+        "leadLift": 0,
+        "followX": 11.872084548104956,
+        "followLift": 1.0255830903790089,
+        "weight": 11.96802113702624
+      }
+    },
+    {
+      "frame": 35,
+      "direction": "left",
+      "progress": 0.85,
+      "bounds": {
+        "left": 30,
+        "top": 15,
+        "right": 106,
+        "bottom": 263
+      },
+      "bodyX": -12,
+      "headTranslationError": 0,
+      "pose": {
+        "leadX": 12,
+        "leadLift": 0,
+        "followX": 12,
+        "followLift": 0.972,
+        "weight": 12
+      }
+    },
+    {
+      "frame": 36,
+      "direction": "left",
+      "progress": 0.875,
+      "bounds": {
+        "left": 30,
+        "top": 15,
+        "right": 106,
+        "bottom": 263
+      },
+      "bodyX": -12,
+      "headTranslationError": 0,
+      "pose": {
+        "leadX": 12,
+        "leadLift": 0,
+        "followX": 12,
+        "followLift": 0.7182499999999995,
+        "weight": 12
+      }
+    },
+    {
+      "frame": 37,
+      "direction": "left",
+      "progress": 0.9,
+      "bounds": {
+        "left": 30,
+        "top": 15,
+        "right": 106,
+        "bottom": 263
+      },
+      "bodyX": -12,
+      "headTranslationError": 0,
+      "pose": {
+        "leadX": 12,
+        "leadLift": 0,
+        "followX": 12,
+        "followLift": 0.3519999999999991,
+        "weight": 12
+      }
+    },
+    {
+      "frame": 38,
+      "direction": "left",
+      "progress": 0.925,
+      "bounds": {
+        "left": 30,
+        "top": 15,
+        "right": 106,
+        "bottom": 263
+      },
+      "bodyX": -12,
+      "headTranslationError": 0,
+      "pose": {
+        "leadX": 12,
+        "leadLift": 0,
+        "followX": 12,
+        "followLift": 0.060749999999999194,
+        "weight": 12
+      }
+    },
+    {
+      "frame": 39,
+      "direction": "left",
+      "progress": 0.95,
+      "bounds": {
+        "left": 30,
+        "top": 15,
+        "right": 106,
+        "bottom": 263
+      },
+      "bodyX": -12,
+      "headTranslationError": 0,
+      "pose": {
+        "leadX": 12,
+        "leadLift": 0,
+        "followX": 12,
+        "followLift": 0,
+        "weight": 12
+      }
+    },
+    {
+      "frame": 40,
+      "direction": "left",
+      "progress": 0.975,
+      "bounds": {
+        "left": 30,
+        "top": 15,
+        "right": 106,
+        "bottom": 263
+      },
+      "bodyX": -12,
+      "headTranslationError": 0,
+      "pose": {
+        "leadX": 12,
+        "leadLift": 0,
+        "followX": 12,
+        "followLift": 0,
+        "weight": 12
+      }
+    },
+    {
+      "frame": 41,
+      "direction": "left",
+      "progress": 1,
+      "bounds": {
+        "left": 30,
+        "top": 15,
+        "right": 106,
+        "bottom": 263
+      },
+      "bodyX": -12,
+      "headTranslationError": 0,
+      "pose": {
+        "leadX": 12,
+        "leadLift": 0,
+        "followX": 12,
+        "followLift": 0,
+        "weight": 12
+      }
+    },
+    {
+      "frame": 42,
+      "direction": "right",
+      "progress": 0,
+      "bounds": {
+        "left": 42,
+        "top": 15,
+        "right": 118,
+        "bottom": 263
+      },
+      "bodyX": 0,
+      "headTranslationError": 0,
+      "pose": {
+        "leadX": 0,
+        "leadLift": 0,
+        "followX": 0,
+        "followLift": 0,
+        "weight": 0
+      }
+    },
+    {
+      "frame": 43,
+      "direction": "right",
+      "progress": 0.025,
+      "bounds": {
+        "left": 42,
+        "top": 15,
+        "right": 118,
+        "bottom": 263
+      },
+      "bodyX": 0,
+      "headTranslationError": 0,
+      "pose": {
+        "leadX": 0,
+        "leadLift": 0.18540451895043733,
+        "followX": 0,
+        "followLift": 0,
+        "weight": 0
+      }
+    },
+    {
+      "frame": 44,
+      "direction": "right",
+      "progress": 0.05,
+      "bounds": {
+        "left": 42,
+        "top": 15,
+        "right": 118,
+        "bottom": 263
+      },
+      "bodyX": 0,
+      "headTranslationError": 0,
+      "pose": {
+        "leadX": 0,
+        "leadLift": 0.6413994169096211,
+        "followX": 0,
+        "followLift": 0,
+        "weight": 0
+      }
+    },
+    {
+      "frame": 45,
+      "direction": "right",
+      "progress": 0.075,
+      "bounds": {
+        "left": 42,
+        "top": 15,
+        "right": 118,
+        "bottom": 263
+      },
+      "bodyX": 0,
+      "headTranslationError": 0,
+      "pose": {
+        "leadX": 0,
+        "leadLift": 1.2176567055393586,
+        "followX": 0,
+        "followLift": 0,
+        "weight": 0
+      }
+    },
+    {
+      "frame": 46,
+      "direction": "right",
+      "progress": 0.1,
+      "bounds": {
+        "left": 42,
+        "top": 15,
+        "right": 118,
+        "bottom": 263
+      },
+      "bodyX": 0,
+      "headTranslationError": 0,
+      "pose": {
+        "leadX": 0,
+        "leadLift": 1.7638483965014577,
+        "followX": 0,
+        "followLift": 0,
+        "weight": 0
+      }
+    },
+    {
+      "frame": 47,
+      "direction": "right",
+      "progress": 0.125,
+      "bounds": {
+        "left": 42,
+        "top": 15,
+        "right": 118,
+        "bottom": 263
+      },
+      "bodyX": 0,
+      "headTranslationError": 0,
+      "pose": {
+        "leadX": 0,
+        "leadLift": 2.129646501457726,
+        "followX": 0,
+        "followLift": 0,
+        "weight": 0
+      }
+    },
+    {
+      "frame": 48,
+      "direction": "right",
+      "progress": 0.15,
+      "bounds": {
+        "left": 42,
+        "top": 15,
+        "right": 118,
+        "bottom": 263
+      },
+      "bodyX": 0.01783264746227703,
+      "headTranslationError": 0.0007224764406493223,
+      "pose": {
+        "leadX": 0.10699588477366218,
+        "leadLift": 2.194650205761317,
+        "followX": 0,
+        "followLift": 0,
+        "weight": 0.01783264746227703
+      }
+    },
+    {
+      "frame": 49,
+      "direction": "right",
+      "progress": 0.175,
+      "bounds": {
+        "left": 42,
+        "top": 15,
+        "right": 119,
+        "bottom": 263
+      },
+      "bodyX": 0.19744513031550043,
+      "headTranslationError": 0.001036017417184787,
+      "pose": {
+        "leadX": 1.1846707818930025,
+        "leadLift": 2.14076646090535,
+        "followX": 0,
+        "followLift": 0,
+        "weight": 0.19744513031550043
+      }
+    },
+    {
+      "frame": 50,
+      "direction": "right",
+      "progress": 0.2,
+      "bounds": {
+        "left": 42,
+        "top": 15,
+        "right": 119,
+        "bottom": 263
+      },
+      "bodyX": 0.5185185185185185,
+      "headTranslationError": 0.002863455330100906,
+      "pose": {
+        "leadX": 3.1111111111111107,
+        "leadLift": 2.0444444444444447,
+        "followX": 0,
+        "followLift": 0,
+        "weight": 0.5185185185185185
+      }
+    },
+    {
+      "frame": 51,
+      "direction": "right",
+      "progress": 0.225,
+      "bounds": {
+        "left": 42,
+        "top": 15,
+        "right": 119,
+        "bottom": 263
+      },
+      "bodyX": 0.9167524005486967,
+      "headTranslationError": 0.001283232839823345,
+      "pose": {
+        "leadX": 5.50051440329218,
+        "leadLift": 1.924974279835391,
+        "followX": 0,
+        "followLift": 0,
+        "weight": 0.9167524005486967
+      }
+    },
+    {
+      "frame": 52,
+      "direction": "right",
+      "progress": 0.25,
+      "bounds": {
+        "left": 43,
+        "top": 15,
+        "right": 120,
+        "bottom": 263
+      },
+      "bodyX": 1.3278463648834018,
+      "headTranslationError": 0.0012122303161943293,
+      "pose": {
+        "leadX": 7.967078189300411,
+        "leadLift": 1.8016460905349796,
+        "followX": 0,
+        "followLift": 0,
+        "weight": 1.3278463648834018
+      }
+    },
+    {
+      "frame": 53,
+      "direction": "right",
+      "progress": 0.275,
+      "bounds": {
+        "left": 43,
+        "top": 15,
+        "right": 120,
+        "bottom": 263
+      },
+      "bodyX": 1.6875000000000004,
+      "headTranslationError": 0.0007087450742129242,
+      "pose": {
+        "leadX": 10.125000000000004,
+        "leadLift": 1.69375,
+        "followX": 0,
+        "followLift": 0,
+        "weight": 1.6875000000000004
+      }
+    },
+    {
+      "frame": 54,
+      "direction": "right",
+      "progress": 0.3,
+      "bounds": {
+        "left": 43,
+        "top": 15,
+        "right": 120,
+        "bottom": 263
+      },
+      "bodyX": 1.9314128943758573,
+      "headTranslationError": 0.001008394923150302,
+      "pose": {
+        "leadX": 11.588477366255145,
+        "leadLift": 1.620576131687243,
+        "followX": 0,
+        "followLift": 0,
+        "weight": 1.9314128943758573
+      }
+    },
+    {
+      "frame": 55,
+      "direction": "right",
+      "progress": 0.325,
+      "bounds": {
+        "left": 44,
+        "top": 15,
+        "right": 120,
+        "bottom": 263
+      },
+      "bodyX": 2.044921875,
+      "headTranslationError": 0.0009082010864389645,
+      "pose": {
+        "leadX": 12,
+        "leadLift": 1.58203125,
+        "followX": 0,
+        "followLift": 0,
+        "weight": 2.044921875
+      }
+    },
+    {
+      "frame": 56,
+      "direction": "right",
+      "progress": 0.35,
+      "bounds": {
+        "left": 45,
+        "top": 15,
+        "right": 122,
+        "bottom": 263
+      },
+      "bodyX": 3.2656249999999973,
+      "headTranslationError": 0.0006884910339310935,
+      "pose": {
+        "leadX": 12,
+        "leadLift": 1.0937500000000009,
+        "followX": 0,
+        "followLift": 0,
+        "weight": 3.2656249999999973
+      }
+    },
+    {
+      "frame": 57,
+      "direction": "right",
+      "progress": 0.375,
+      "bounds": {
+        "left": 47,
+        "top": 15,
+        "right": 124,
+        "bottom": 263
+      },
+      "bodyX": 5.072265624999999,
+      "headTranslationError": 0.0007489345480626852,
+      "pose": {
+        "leadX": 12,
+        "leadLift": 0.37109375000000044,
+        "followX": 0,
+        "followLift": 0,
+        "weight": 5.072265624999999
+      }
+    },
+    {
+      "frame": 58,
+      "direction": "right",
+      "progress": 0.4,
+      "bounds": {
+        "left": 48,
+        "top": 15,
+        "right": 124,
+        "bottom": 263
+      },
+      "bodyX": 6,
+      "headTranslationError": 7.105427357601002e-15,
+      "pose": {
+        "leadX": 12,
+        "leadLift": 0,
+        "followX": 0,
+        "followLift": 0,
+        "weight": 6
+      }
+    },
+    {
+      "frame": 59,
+      "direction": "right",
+      "progress": 0.425,
+      "bounds": {
+        "left": 48,
+        "top": 15,
+        "right": 125,
+        "bottom": 263
+      },
+      "bodyX": 6.336371527777777,
+      "headTranslationError": 0.001488488183509773,
+      "pose": {
+        "leadX": 12,
+        "leadLift": 0,
+        "followX": 0,
+        "followLift": 0,
+        "weight": 6.336371527777777
+      }
+    },
+    {
+      "frame": 60,
+      "direction": "right",
+      "progress": 0.45,
+      "bounds": {
+        "left": 49,
+        "top": 15,
+        "right": 126,
+        "bottom": 263
+      },
+      "bodyX": 7.128472222222221,
+      "headTranslationError": 0.000515761221109301,
+      "pose": {
+        "leadX": 12,
+        "leadLift": 0,
+        "followX": 0,
+        "followLift": 0,
+        "weight": 7.128472222222221
+      }
+    },
+    {
+      "frame": 61,
+      "direction": "right",
+      "progress": 0.475,
+      "bounds": {
+        "left": 50,
+        "top": 15,
+        "right": 126,
+        "bottom": 263
+      },
+      "bodyX": 8.050781249999998,
+      "headTranslationError": 0.0007913917374562374,
+      "pose": {
+        "leadX": 12,
+        "leadLift": 0,
+        "followX": 0,
+        "followLift": 0,
+        "weight": 8.050781249999998
+      }
+    },
+    {
+      "frame": 62,
+      "direction": "right",
+      "progress": 0.5,
+      "bounds": {
+        "left": 50,
+        "top": 15,
+        "right": 127,
+        "bottom": 263
+      },
+      "bodyX": 8.777777777777777,
+      "headTranslationError": 0.00124630435066031,
+      "pose": {
+        "leadX": 12,
+        "leadLift": 0,
+        "followX": 0,
+        "followLift": 0,
+        "weight": 8.777777777777777
+      }
+    },
+    {
+      "frame": 63,
+      "direction": "right",
+      "progress": 0.525,
+      "bounds": {
+        "left": 51,
+        "top": 15,
+        "right": 127,
+        "bottom": 263
+      },
+      "bodyX": 9.004543895747599,
+      "headTranslationError": 0.0002937798994544494,
+      "pose": {
+        "leadX": 12,
+        "leadLift": 0,
+        "followX": 0.018175582990397846,
+        "followLift": 0.004089506172839516,
+        "weight": 9.004543895747599
+      }
+    },
+    {
+      "frame": 64,
+      "direction": "right",
+      "progress": 0.55,
+      "bounds": {
+        "left": 51,
+        "top": 15,
+        "right": 128,
+        "bottom": 263
+      },
+      "bodyX": 9.148148148148149,
+      "headTranslationError": 0.00105110310272849,
+      "pose": {
+        "leadX": 12,
+        "leadLift": 0,
+        "followX": 0.592592592592594,
+        "followLift": 0.13333333333333366,
+        "weight": 9.148148148148149
+      }
+    },
+    {
+      "frame": 65,
+      "direction": "right",
+      "progress": 0.575,
+      "bounds": {
+        "left": 51,
+        "top": 15,
+        "right": 128,
+        "bottom": 263
+      },
+      "bodyX": 9.446073388203017,
+      "headTranslationError": 0.0020531970114969766,
+      "pose": {
+        "leadX": 12,
+        "leadLift": 0,
+        "followX": 1.7842935528120687,
+        "followLift": 0.40146604938271546,
+        "weight": 9.446073388203017
+      }
+    },
+    {
+      "frame": 66,
+      "direction": "right",
+      "progress": 0.6,
+      "bounds": {
+        "left": 51,
+        "top": 15,
+        "right": 128,
+        "bottom": 263
+      },
+      "bodyX": 9.834019204389575,
+      "headTranslationError": 0.00209918754578986,
+      "pose": {
+        "leadX": 12,
+        "leadLift": 0,
+        "followX": 3.336076817558298,
+        "followLift": 0.7506172839506171,
+        "weight": 9.834019204389575
+      }
+    },
+    {
+      "frame": 67,
+      "direction": "right",
+      "progress": 0.625,
+      "bounds": {
+        "left": 52,
+        "top": 15,
+        "right": 129,
+        "bottom": 263
+      },
+      "bodyX": 10.247685185185185,
+      "headTranslationError": 0.0022030029879847035,
+      "pose": {
+        "leadX": 12,
+        "leadLift": 0,
+        "followX": 4.990740740740742,
+        "followLift": 1.122916666666667,
+        "weight": 10.247685185185185
+      }
+    },
+    {
+      "frame": 68,
+      "direction": "right",
+      "progress": 0.65,
+      "bounds": {
+        "left": 52,
+        "top": 15,
+        "right": 129,
+        "bottom": 263
+      },
+      "bodyX": 10.622770919067216,
+      "headTranslationError": 0.0007285800925398433,
+      "pose": {
+        "leadX": 12,
+        "leadLift": 0,
+        "followX": 6.491083676268864,
+        "followLift": 1.4604938271604944,
+        "weight": 10.622770919067216
+      }
+    },
+    {
+      "frame": 69,
+      "direction": "right",
+      "progress": 0.675,
+      "bounds": {
+        "left": 52,
+        "top": 15,
+        "right": 129,
+        "bottom": 263
+      },
+      "bodyX": 10.894975994513032,
+      "headTranslationError": 0.0010011572900268106,
+      "pose": {
+        "leadX": 12,
+        "leadLift": 0,
+        "followX": 7.579903978052129,
+        "followLift": 1.705478395061729,
+        "weight": 10.894975994513032
+      }
+    },
+    {
+      "frame": 70,
+      "direction": "right",
+      "progress": 0.7,
+      "bounds": {
+        "left": 53,
+        "top": 15,
+        "right": 129,
+        "bottom": 263
+      },
+      "bodyX": 11,
+      "headTranslationError": 7.105427357601002e-15,
+      "pose": {
+        "leadX": 12,
+        "leadLift": 0,
+        "followX": 8,
+        "followLift": 1.8,
+        "weight": 11
+      }
+    },
+    {
+      "frame": 71,
+      "direction": "right",
+      "progress": 0.725,
+      "bounds": {
+        "left": 53,
+        "top": 15,
+        "right": 130,
+        "bottom": 263
+      },
+      "bodyX": 11.084274781341108,
+      "headTranslationError": 0.0002926423754985308,
+      "pose": {
+        "leadX": 12,
+        "leadLift": 0,
+        "followX": 8.337099125364432,
+        "followLift": 1.7325801749271137,
+        "weight": 11.084274781341108
+      }
+    },
+    {
+      "frame": 72,
+      "direction": "right",
+      "progress": 0.75,
+      "bounds": {
+        "left": 53,
+        "top": 15,
+        "right": 130,
+        "bottom": 263
+      },
+      "bodyX": 11.291545189504374,
+      "headTranslationError": 0.0007933378021132143,
+      "pose": {
+        "leadX": 12,
+        "leadLift": 0,
+        "followX": 9.166180758017495,
+        "followLift": 1.5667638483965012,
+        "weight": 11.291545189504374
+      }
+    },
+    {
+      "frame": 73,
+      "direction": "right",
+      "progress": 0.775,
+      "bounds": {
+        "left": 53,
+        "top": 15,
+        "right": 130,
+        "bottom": 263
+      },
+      "bodyX": 11.553480320699709,
+      "headTranslationError": 0.001924681734255529,
+      "pose": {
+        "leadX": 12,
+        "leadLift": 0,
+        "followX": 10.213921282798836,
+        "followLift": 1.3572157434402328,
+        "weight": 11.553480320699709
+      }
+    },
+    {
+      "frame": 74,
+      "direction": "right",
+      "progress": 0.8,
+      "bounds": {
+        "left": 53,
+        "top": 15,
+        "right": 130,
+        "bottom": 263
+      },
+      "bodyX": 11.801749271137027,
+      "headTranslationError": 0.000998082374643161,
+      "pose": {
+        "leadX": 12,
+        "leadLift": 0,
+        "followX": 11.206997084548107,
+        "followLift": 1.1586005830903785,
+        "weight": 11.801749271137027
+      }
+    },
+    {
+      "frame": 75,
+      "direction": "right",
+      "progress": 0.825,
+      "bounds": {
+        "left": 54,
+        "top": 15,
+        "right": 130,
+        "bottom": 263
+      },
+      "bodyX": 11.96802113702624,
+      "headTranslationError": 0.0006394948557133517,
+      "pose": {
+        "leadX": 12,
+        "leadLift": 0,
+        "followX": 11.872084548104956,
+        "followLift": 1.0255830903790089,
+        "weight": 11.96802113702624
+      }
+    },
+    {
+      "frame": 76,
+      "direction": "right",
+      "progress": 0.85,
+      "bounds": {
+        "left": 54,
+        "top": 15,
+        "right": 130,
+        "bottom": 263
+      },
+      "bodyX": 12,
+      "headTranslationError": 7.105427357601002e-15,
+      "pose": {
+        "leadX": 12,
+        "leadLift": 0,
+        "followX": 12,
+        "followLift": 0.972,
+        "weight": 12
+      }
+    },
+    {
+      "frame": 77,
+      "direction": "right",
+      "progress": 0.875,
+      "bounds": {
+        "left": 54,
+        "top": 15,
+        "right": 130,
+        "bottom": 263
+      },
+      "bodyX": 12,
+      "headTranslationError": 7.105427357601002e-15,
+      "pose": {
+        "leadX": 12,
+        "leadLift": 0,
+        "followX": 12,
+        "followLift": 0.7182499999999995,
+        "weight": 12
+      }
+    },
+    {
+      "frame": 78,
+      "direction": "right",
+      "progress": 0.9,
+      "bounds": {
+        "left": 54,
+        "top": 15,
+        "right": 130,
+        "bottom": 263
+      },
+      "bodyX": 12,
+      "headTranslationError": 7.105427357601002e-15,
+      "pose": {
+        "leadX": 12,
+        "leadLift": 0,
+        "followX": 12,
+        "followLift": 0.3519999999999991,
+        "weight": 12
+      }
+    },
+    {
+      "frame": 79,
+      "direction": "right",
+      "progress": 0.925,
+      "bounds": {
+        "left": 54,
+        "top": 15,
+        "right": 130,
+        "bottom": 263
+      },
+      "bodyX": 12,
+      "headTranslationError": 7.105427357601002e-15,
+      "pose": {
+        "leadX": 12,
+        "leadLift": 0,
+        "followX": 12,
+        "followLift": 0.060749999999999194,
+        "weight": 12
+      }
+    },
+    {
+      "frame": 80,
+      "direction": "right",
+      "progress": 0.95,
+      "bounds": {
+        "left": 54,
+        "top": 15,
+        "right": 130,
+        "bottom": 263
+      },
+      "bodyX": 12,
+      "headTranslationError": 7.105427357601002e-15,
+      "pose": {
+        "leadX": 12,
+        "leadLift": 0,
+        "followX": 12,
+        "followLift": 0,
+        "weight": 12
+      }
+    },
+    {
+      "frame": 81,
+      "direction": "right",
+      "progress": 0.975,
+      "bounds": {
+        "left": 54,
+        "top": 15,
+        "right": 130,
+        "bottom": 263
+      },
+      "bodyX": 12,
+      "headTranslationError": 7.105427357601002e-15,
+      "pose": {
+        "leadX": 12,
+        "leadLift": 0,
+        "followX": 12,
+        "followLift": 0,
+        "weight": 12
+      }
+    },
+    {
+      "frame": 82,
+      "direction": "right",
+      "progress": 1,
+      "bounds": {
+        "left": 54,
+        "top": 15,
+        "right": 130,
+        "bottom": 263
+      },
+      "bodyX": 12,
+      "headTranslationError": 7.105427357601002e-15,
+      "pose": {
+        "leadX": 12,
+        "leadLift": 0,
+        "followX": 12,
+        "followLift": 0,
+        "weight": 12
+      }
+    }
+  ]
+}

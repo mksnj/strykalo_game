@@ -1,0 +1,139 @@
+{
+  "origin": "Side poses preserved from v23; down follows the new owner reference in the standard character style; no up pose",
+  "method": "Complete image_gen poses; uniform scale calibrated to the standard torso width, hoodie brightness matching, transparent trim and shared foot alignment",
+  "toneReference": {
+    "path": "apps/web/public/assets/visual-v12/front.webp",
+    "sha256": "b73927dde8181e6ed116010a5d075a38a95f202d61f263dc6f7b7202ccfaf9fa"
+  },
+  "inputs": [
+    {
+      "direction": "left",
+      "sha256": "d79e16a5250c98db5c46c561d64e4f673780253edbeff5a8beb13a10796fd449",
+      "file": "assets/source/court-dance-v25/left.png",
+      "original": {
+        "file": "assets/source/court-dance-v25/original-left.png",
+        "sha256": "8eb5d54c10985207ca0432cd72aab1d6e7339e3ca99abd43ba1e3054b4aa072c",
+        "suppliedAs": "влево.png"
+      }
+    },
+    {
+      "direction": "right",
+      "sha256": "c6a6838178c7e971f2821637b6a5745dc11422951e9bc3ea443d9374e100fd1d",
+      "file": "assets/source/court-dance-v25/right.png",
+      "original": {
+        "file": "assets/source/court-dance-v25/original-right.png",
+        "sha256": "227865dea2b3505c73aeb22d26a4bc389be9fc7ba744a30fcfef6df59a2f4b01",
+        "suppliedAs": "вправо.png"
+      }
+    },
+    {
+      "direction": "down",
+      "sha256": "b5bded68c2af460080dd93b4f3d7e982ce6d259882416ac7146bb4e5e88a73ea",
+      "file": "assets/source/court-dance-v25/down.png",
+      "original": {
+        "file": "assets/source/court-dance-v25/original-down.png",
+        "sha256": "5558260948eaa59caca1b672fecf198b63f3b2194fced3e0fca1f51d3eb080fd",
+        "suppliedAs": "вниз.png"
+      }
+    }
+  ],
+  "output": {
+    "path": "apps/web/public/assets/court-dance-v25/dance.webp",
+    "sha256": "261bb99cf7b6125bb68b35fae209499e9e428a3488f6825c2ec2c98cf5a8e758",
+    "bytes": 147654,
+    "width": 1536,
+    "height": 512
+  },
+  "frames": [
+    {
+      "direction": "left",
+      "index": 0,
+      "source": {
+        "left": 294,
+        "top": 60,
+        "right": 784,
+        "bottom": 1404
+      },
+      "visible": {
+        "x": 196.28628041531266,
+        "y": 143.85670127605613,
+        "width": 134.21891099310454,
+        "height": 368.1432987239439
+      },
+      "anchor": {
+        "x": 256,
+        "y": 512
+      },
+      "tone": {
+        "referenceMedian": 51,
+        "sourceMedian": 53.666666666666664,
+        "gain": 0.9503105590062112
+      },
+      "body": {
+        "referenceWidth": 111.48387096774194,
+        "sourceWidth": 407,
+        "packedWidth": 111.48387096774194
+      }
+    },
+    {
+      "direction": "right",
+      "index": 1,
+      "source": {
+        "left": 300,
+        "top": 65,
+        "right": 776,
+        "bottom": 1389
+      },
+      "visible": {
+        "x": 196.46705127163403,
+        "y": 140.1998862436012,
+        "width": 133.66831884293492,
+        "height": 371.8001137563988
+      },
+      "anchor": {
+        "x": 256,
+        "y": 512
+      },
+      "tone": {
+        "referenceMedian": 51,
+        "sourceMedian": 53.666666666666664,
+        "gain": 0.9503105590062112
+      },
+      "body": {
+        "referenceWidth": 111.48387096774194,
+        "sourceWidth": 397,
+        "packedWidth": 111.48387096774194
+      }
+    },
+    {
+      "direction": "down",
+      "index": 2,
+      "source": {
+        "left": 318,
+        "top": 174,
+        "right": 708,
+        "bottom": 1380
+      },
+      "visible": {
+        "x": 196.74555899248784,
+        "y": 143.64507291206365,
+        "width": 119.11975254087494,
+        "height": 368.35492708793635
+      },
+      "anchor": {
+        "x": 256,
+        "y": 512
+      },
+      "tone": {
+        "referenceMedian": 51,
+        "sourceMedian": 53.333333333333336,
+        "gain": 0.9562499999999999
+      },
+      "body": {
+        "referenceWidth": 111.48387096774194,
+        "sourceWidth": 365,
+        "packedWidth": 111.48387096774194
+      }
+    }
+  ]
+}

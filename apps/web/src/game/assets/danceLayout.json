@@ -1,15 +1,17 @@
 {
   "key": "court-dance",
-  "url": "/assets/court-dance-v19/dance.webp",
+  "collection": "court-dance-v25",
+  "url": "/assets/court-dance-v25/dance.webp",
+  "toneReference": "/assets/visual-v12/front.webp",
   "cellSize": 512,
   "bodyHeight": 384,
   "idleVisibleFraction": 0.96875,
-  "directions": ["left", "right", "down", "up"],
-  "frames": { "left": 0, "right": 1, "down": 2, "up": 3 },
+  "directions": ["left", "right", "down"],
+  "frames": { "left": 0, "right": 1, "down": 2 },
+  "bodySample": { "top": 0.24, "bottom": 0.40 },
   "sources": {
-    "left": { "file": "влево.png", "anchorX": 550, "heightScale": 1 },
-    "right": { "file": "вправо.png", "anchorX": 710, "heightScale": 1 },
-    "down": { "file": "вниз.png", "anchorX": 710, "heightScale": 0.88 },
-    "up": { "file": "вверх.png", "anchorX": 710, "heightScale": 0.95 }
+    "left": { "file": "влево.png", "preparedFile": "assets/source/court-dance-v23/left.png", "anchorX": 512, "heightScale": 1 },
+    "right": { "file": "вправо.png", "preparedFile": "assets/source/court-dance-v23/right.png", "anchorX": 512, "heightScale": 1 },
+    "down": { "file": "вниз.png", "preparedFile": "assets/source/court-dance-v25/down.png", "anchorX": 512, "heightScale": 1 }
   }
 }

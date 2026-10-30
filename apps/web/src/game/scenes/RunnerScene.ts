@@ -7,7 +7,7 @@ import { RunnerInput } from '../input/RunnerInput';
 import { BalanceInput, balanceControls } from '../input/BalanceInput';
 import { AudioManager } from '../audio/AudioManager';
 import { GameplaySoundscape } from '../audio/GameplaySoundscape';
-import { autumnMusicTime, musicCue } from '../audio/catalog';
+import { autumnMusicTime, autumnStepBudget, musicCue } from '../audio/catalog';
 import { RunnerView } from '../views/RunnerView';
 import { PipeView } from '../views/PipeView';
 import { StarsView } from '../views/StarsView';
@@ -160,7 +160,10 @@ export class RunnerScene extends Phaser.Scene {
     if (enabled && this.session) {
       const previousScore = this.session.score;
       const previousLives = this.session.lives;
-      this.accumulator += Math.min(delta / 1000, 0.05);
+      const scoreBudget = autumnMusicTime(this.session) === undefined ? undefined :
+        autumnStepBudget(this.session, this.audio.musicPosition('autumn'));
+      if (scoreBudget === undefined) this.accumulator += Math.min(delta / 1000, 0.05);
+      else this.accumulator = scoreBudget;
       while (this.accumulator >= C.fixedStep && !this.session.result) {
         for (const direction of rhythmControls.drain()) this.session.rhythmPress(direction);
         this.session.step(this.session.phase === 'balance' ? balanceControls.direction : 0, 0, this.journeyInput?.held,
@@ -174,9 +177,6 @@ export class RunnerScene extends Phaser.Scene {
           this.lastPhase = this.session.phase;
           const nextCue = musicCue(this.session);
           this.audio.setScene(nextCue);
-          if (this.session.phase === 'stars-exit' || this.session.phase === 'runner') {
-            this.audio.restartMusic();
-          }
         }
         this.syncStarsRound();
         if (this.session.balanceIntroPending || this.session.starsIntroPending || this.session.phase === 'stars-locked') { this.accumulator = 0; break; }

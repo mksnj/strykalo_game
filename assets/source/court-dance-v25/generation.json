@@ -1,0 +1,20 @@
+{
+  "createdOn": "2026-10-30",
+  "tool": "Built-in image_gen",
+  "method": "Replace the squashed head animation with a complete bowed-head pose in the standard sprite style. Recalibrate all poses uniformly to the standard upper-torso silhouette width.",
+  "identityReference": "apps/web/public/assets/visual-v12/front.webp",
+  "ownerPoseReference": "assets/source/court-dance-v25/original-down.png",
+  "ownerPoseReferenceSha256": "5558260948eaa59caca1b672fecf198b63f3b2194fced3e0fca1f51d3eb080fd",
+  "referenceUsage": "Owner reference informs the physical head bow; the selected final edit uses only the plain standard sprite as image input to prevent carrying over the reference's fabric print.",
+  "sidePoseGeneration": "assets/source/court-dance-v23/generation.json",
+  "assets": [
+    {
+      "direction": "down",
+      "input": "apps/web/public/assets/visual-v12/front.webp",
+      "output": "assets/source/court-dance-v25/down.png",
+      "transparent_background": true,
+      "prompt": "Use case: identity-preserve. Edit ONLY this attached standard 2D game character sprite.\nRequired change: a gentle forward head bow / chin tuck as if nodding along to music. The hood tilts physically forward in depth: show more of its crown, let its front rim become more horizontal and slightly lower, and point the hidden face downward. Keep the hood naturally rounded and full, with its normal height and volume; do not squash or flatten it.\nKeep exactly the same original plain dark charcoal hoodie, trousers, backpack straps, narrow shoulders, slim figure, muted sneakers, soft low-detail painted shading and empty black hidden face. Keep hands inside the hoodie pocket. Keep the original ordinary standing posture: knees straight, hips at normal height, feet parallel and planted. Torso and legs stay the same; only neck/head orientation changes subtly.\nThe hood and clothes are entirely PLAIN and matte: no decorative pattern, no diamonds, no camouflage, no shiny trim or bright grey costume. Match the darkness of the attached sprite and its simple folds.\nOne complete head-to-toe figure, centered at x=512 on a true transparent 1024x1536 canvas; feet near y=1400. No floor, glow, shadow, background or text. Transparent outside the silhouette and between legs; keep the hood opening opaque black. Preserve aspect ratios and original body proportions. The result must look like another frame of the same standard sprite, with just a modest natural head bow."
+    }
+  ],
+  "up": "No character pose change; rhythm judgment remains enabled"
+}

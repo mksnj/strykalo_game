@@ -1,0 +1,62 @@
+{
+  "createdOn": "2026-10-30",
+  "method": "Deterministic atlas packing and uniform scaling of two provided vertical PNGs; alpha preserved, no colour removal, rotation or image generation.",
+  "sources": [
+    {
+      "path": "docs/comet_vertical_1.png",
+      "preserved": "assets/source/rhythm-comets/comet_vertical_1.png",
+      "sha256": "98cec2ea6e938cdfca40a8984f45889722e0f87ba2eaf90cd81e8178f9529c07",
+      "frame": 0,
+      "width": 887,
+      "height": 887,
+      "transparentPixels": 619218,
+      "head": {
+        "x": 446.4287920751249,
+        "y": 695.5323792239093
+      },
+      "translation": {
+        "x": -47.60719801878122,
+        "y": 36.11690519402268
+      },
+      "clipped": false
+    },
+    {
+      "path": "docs/comet_vertical_2.png",
+      "preserved": "assets/source/rhythm-comets/comet_vertical_2.png",
+      "sha256": "b8ee09b2ff69eb2ae01810c32af1962944769f862694bbaf5349006517338af3",
+      "frame": 1,
+      "width": 887,
+      "height": 887,
+      "transparentPixels": 627876,
+      "head": {
+        "x": 441.84361860782303,
+        "y": 697.3200497082661
+      },
+      "translation": {
+        "x": -46.46090465195576,
+        "y": 35.66998757293348
+      },
+      "clipped": false
+    }
+  ],
+  "layout": {
+    "key": "rhythm-comet",
+    "url": "/assets/rhythm-comets/comets.png",
+    "cellWidth": 128,
+    "cellHeight": 256,
+    "anchor": {
+      "x": 64,
+      "y": 210
+    },
+    "sourceScale": 0.25,
+    "displayScale": 0.5,
+    "shimmerSeconds": 1.2
+  },
+  "output": {
+    "path": "apps/web/public/assets/rhythm-comets/comets.png",
+    "width": 256,
+    "height": 256,
+    "bytes": 60715,
+    "sha256": "9822b56c3a414eb66f4247e81a7f260d76efe9ff45877a3335c2ff52314c80f3"
+  }
+}

@@ -17,6 +17,8 @@ export const OBSTACLES = {
 } as const;
 export type ObstacleKind = keyof typeof OBSTACLES;
 
+/** Music keeps its previous entry; the silhouette appears around distance 530. */
+export const SHADOWS_SCORE = { musicStartSeconds: 52, shadowRunSeconds: 26, calibration: 'user-cue' } as const;
 export const JOURNEY = {
   balanceAt: 200, starsAt: 400, waitingAt: 600, availableEnd: 700,
   approachSeconds: 4.4, pipeStopAt: .36, exitSeconds: 2.4, sceneTransitionSeconds: 2.6, narrativeSeconds: 3.8,
@@ -25,7 +27,8 @@ export const JOURNEY = {
   endingSlowSeconds: 1.8, endingSitSeconds: 1, endingRestSeconds: 6,
   endingStandSeconds: 0.9, endingWalkSeconds: 1.6, endingEnterSeconds: 1, endingFadeSeconds: 2,
   // Keep the last obstacles clear of scene transitions.
-  transitionClearance: 650, shadowStart: 460, shadowEnd: 496
+  transitionClearance: 650,
+  shadowStart: 400 + SHADOWS_SCORE.shadowRunSeconds * RUNNER.speed / RUNNER.pixelsPerUnit, shadowEnd: 600
 } as const;
 export const DEVELOPER = { routeDivisor: 10 } as const;
 /** Guaranteed story beat in the cleared area before the pipe camera turn. */
@@ -68,6 +71,7 @@ export const STARS = {
 export const STARS_START = { x: 640, y: (STARS.top + STARS.bottom) / 2 } as const;
 /** Linear +10% of initial speed every 2s: 1× at 0s, 2× at 20s. */
 export const RHYTHM = {
+  musicStartSeconds: 26,
   firstSpawn: .35, spawnInterval: 1.2, travelSeconds: 2.1,
   attempts: 5, retrySeconds: 1.25,
   accelerationSeconds: 2, accelerationStep: 0, maxMistakes: 3, maxNotes: 32,
@@ -81,8 +85,11 @@ export const AUTUMN_SCORE = {
   musicLeadSeconds: autumnMusicStartSeconds + JOURNEY.exitSeconds,
   speed: (JOURNEY.starsAt - JOURNEY.balanceAt) * RUNNER.pixelsPerUnit /
     (autumnEndSeconds - autumnMusicStartSeconds - JOURNEY.exitSeconds - JOURNEY.courtApproachSeconds),
-  jumpMarkers: [26.79, 28.09, 29.2] as readonly number[],
+  singleJumpRunSeconds: 15,
+  extraJumpRunSeconds: [18, 29] as readonly number[],
+  jumpMarkers: [23.54, 25.34, 26.95] as readonly number[],
   jumpLead: 90, preparation: 500, landingClearance: 350,
+  maxCatchUpSeconds: .25,
   obstacleWidth: 72, obstacleHeight: 24, calibration: 'needs-listening'
 } as const;
 export const COURT_HERO = {
@@ -96,6 +103,4 @@ export const WAITING = {
 } as const;
 /** Client-time release notice; can be supplied with a server clock by RunSession. */
 export const STARS_ACCESS = { opensAt: '2026-10-30T08:00:00+03:00' } as const;
-/** Candidate after the quiet introduction of the installed 05-teni.mp3; confirm by listening. */
-export const SHADOWS_SCORE = { musicStartSeconds: 26, calibration: 'needs-listening' } as const;
 export const COLLISION_FEEDBACK = { seconds: .8, blinkSeconds: .1 } as const;

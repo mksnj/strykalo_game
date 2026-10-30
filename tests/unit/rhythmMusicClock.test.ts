@@ -7,7 +7,7 @@ it('an unavailable or paused mixer uses active-time fallback', () => {
 });
 it('a stalled audio voice falls back; resumed music becomes the master again', () => {
   const manager = new AudioManager(), state = manager as any;
-  const context = { currentTime: 0 }, voice = { url: MUSIC.stars.urls[0], fading: false, position: 0 };
+  const context = { currentTime: 0 }, voice = { url: MUSIC.stars.urls[0], fading: false, position: 0, started: true };
   state.context = context; state.paused = false; state.music = { status: [voice] };
   expect(manager.musicPosition('stars')).toBe(0);
   context.currentTime = 3.1; expect(manager.musicPosition('stars')).toBeUndefined();
@@ -18,8 +18,22 @@ it('a stalled audio voice falls back; resumed music becomes the master again', (
 it('a playing voice follows its track even when volume is muted', () => {
   const manager = new AudioManager(), state = manager as any;
   state.context = { currentTime: 12 }; state.paused = false; state.muted = true;
-  state.music = { status: [{ url: MUSIC.stars.urls[0], fading: false, position: 7.25 }] };
+  state.music = { status: [{ url: MUSIC.stars.urls[0], fading: false, position: 7.25, started: true }] };
   expect(manager.musicPosition('stars')).toBe(7.25);
+});
+it('a buffering or seeking autumn voice cannot advance obstacles on an inaudible playhead', () => {
+  const manager = new AudioManager(), state = manager as any;
+  const context = { currentTime: 0 }, voice = {
+    url: MUSIC.autumn.urls[0], fading: false, position: 12, started: false, seeking: false
+  };
+  state.context = context; state.paused = false; state.music = { status: [voice] };
+  expect(manager.musicPosition('autumn')).toBe(0);
+  voice.started = true; voice.seeking = true;
+  expect(manager.musicPosition('autumn')).toBe(0);
+  context.currentTime = 3.1;
+  expect(manager.musicPosition('autumn')).toBeUndefined();
+  voice.seeking = false;
+  expect(manager.musicPosition('autumn')).toBe(12);
 });
 it('music loops keep a continuous clock for an unlimited rhythm attempt', () => {
   const channel = new StreamingMusicChannel({ currentTime: 0 } as AudioContext, {} as AudioNode, () => {});

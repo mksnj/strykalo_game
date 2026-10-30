@@ -3,7 +3,7 @@ import { AMBIENCE, AMBIENT_EFFECTS, AUDIO, EFFECTS, MUSIC, soundscape, type Effe
 import { BufferLibrary } from './BufferLibrary';
 import { LoopChannel } from './LoopChannel';
 import { StreamingMusicChannel } from './StreamingMusicChannel';
-import { AUTUMN_SCORE, SHADOWS_SCORE } from '../config';
+import { AUTUMN_SCORE, RHYTHM, SHADOWS_SCORE } from '../config';
 
 /** File-backed mixer. Suspending one context preserves every loop playhead and fade. */
 export class AudioManager {
@@ -112,14 +112,14 @@ export class AudioManager {
     if (scene === 'runner-autumn') this.music?.seek(MUSIC.autumn, AUTUMN_SCORE.musicLeadSeconds);
 
     const selected = soundscape(this.scene);
-    if (selected.music === 'stars') this.music?.seek(MUSIC.stars, SHADOWS_SCORE.musicStartSeconds);
+    if (selected.music === 'stars') this.music?.seek(MUSIC.stars, RHYTHM.musicStartSeconds);
   }
 
   private selectScene(): void {
     const selected = soundscape(this.scene);
     const file = selected.music === 'ending' && this.finaleOverride ? this.finaleOverride : MUSIC[selected.music];
     const start = this.scene === 'runner-autumn' ? AUTUMN_SCORE.musicLeadSeconds : this.scene === 'pipe-exit' ? AUTUMN_SCORE.musicStartSeconds :
-      selected.music === 'shadows' || selected.music === 'stars' ? SHADOWS_SCORE.musicStartSeconds : 0;
+      selected.music === 'shadows' ? SHADOWS_SCORE.musicStartSeconds : selected.music === 'stars' ? RHYTHM.musicStartSeconds : 0;
     if (selected.music === 'autumn' && this.autumnClock) this.music?.select(file, start, this.autumnClock);
     else this.music?.select(file, start);
     void this.ambience?.select(AMBIENCE[selected.ambience]);
@@ -161,6 +161,7 @@ export class AudioManager {
     if (!this.context || this.paused) return undefined;
     const voice = this.music?.status.find(v => MUSIC[scene].urls.includes(v.url) && !v.fading);
     if (voice) {
+      if (!voice.started || voice.seeking) return this.context.currentTime - this.lastMusicAdvanceAt > 3 ? undefined : 0;
       const position = voice.elapsed ?? voice.position;
       if (this.lastMusicPosition === undefined || position > this.lastMusicPosition + .0001) {
         this.lastMusicPosition = position; this.lastMusicAdvanceAt = this.context.currentTime;

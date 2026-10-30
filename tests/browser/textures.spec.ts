@@ -55,7 +55,8 @@ test('все текстуры: точные файлы, размеры, кадр
       }
     } else {
       expect(actual.defaultFrame).toEqual({ name: '0', width: asset.frameWidth, height: asset.frameHeight });
-      expect(actual.frames.map((frame: any) => frame.name)).toEqual(['0', '1', '2', '3']);
+      const frameCount = asset.width / asset.frameWidth * (asset.height / asset.frameHeight);
+      expect(actual.frames.map((frame: any) => frame.name)).toEqual(Array.from({ length: frameCount }, (_, i) => String(i)));
     }
   }
   for (const object of report.objects) {
@@ -68,7 +69,8 @@ test('все текстуры: точные файлы, размеры, кадр
     }
     expect(keys.has(object.key), `объект ${object.type} использует неизвестную текстуру ${object.key}`).toBe(true);
     const asset = ASSETS.find(asset => asset.key === object.key)!;
-    const names = asset.type === 'sheet' ? ['0', '1', '2', '3'] : ['__BASE', ...(asset.frames ?? []).map(frame => frame.name)];
+    const names = asset.type === 'sheet' ? Array.from({ length: asset.width / asset.frameWidth * (asset.height / asset.frameHeight) }, (_, i) => String(i)) :
+      ['__BASE', ...(asset.frames ?? []).map(frame => frame.name)];
     expect(names, object.key).toContain(object.frame);
   }
   expect(report.runtimeTextures).toEqual([{ key: 'room-painted-graffiti', width: 480, height: 160 }]);

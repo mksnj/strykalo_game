@@ -1,0 +1,89 @@
+{
+  "origin": "Side poses preserved from v23; down is a native nod using the standard hero head/body frames; no up pose",
+  "method": "Existing image_gen side poses with hoodie fabric brightness matching, uniform scale, transparent trim and foot alignment on a 2-cell atlas",
+  "toneReference": {
+    "path": "apps/web/public/assets/visual-v12/front.webp",
+    "sha256": "b73927dde8181e6ed116010a5d075a38a95f202d61f263dc6f7b7202ccfaf9fa"
+  },
+  "inputs": [
+    {
+      "direction": "left",
+      "sha256": "d79e16a5250c98db5c46c561d64e4f673780253edbeff5a8beb13a10796fd449",
+      "file": "assets/source/court-dance-v24/left.png",
+      "original": {
+        "file": "assets/source/court-dance-v24/original-left.png",
+        "sha256": "8eb5d54c10985207ca0432cd72aab1d6e7339e3ca99abd43ba1e3054b4aa072c",
+        "suppliedAs": "влево.png"
+      }
+    },
+    {
+      "direction": "right",
+      "sha256": "c6a6838178c7e971f2821637b6a5745dc11422951e9bc3ea443d9374e100fd1d",
+      "file": "assets/source/court-dance-v24/right.png",
+      "original": {
+        "file": "assets/source/court-dance-v24/original-right.png",
+        "sha256": "227865dea2b3505c73aeb22d26a4bc389be9fc7ba744a30fcfef6df59a2f4b01",
+        "suppliedAs": "вправо.png"
+      }
+    }
+  ],
+  "output": {
+    "path": "apps/web/public/assets/court-dance-v24/dance.webp",
+    "sha256": "1e631eadacb238896649640574ce2cbf8b454df92a354a744d3455450b5c5b5b",
+    "bytes": 113012,
+    "width": 1024,
+    "height": 512
+  },
+  "frames": [
+    {
+      "direction": "left",
+      "index": 0,
+      "source": {
+        "left": 294,
+        "top": 60,
+        "right": 784,
+        "bottom": 1404
+      },
+      "visible": {
+        "x": 192.77341389728096,
+        "y": 122.1993957703927,
+        "width": 142.11480362537765,
+        "height": 389.8006042296073
+      },
+      "anchor": {
+        "x": 256,
+        "y": 512
+      },
+      "tone": {
+        "referenceMedian": 51,
+        "sourceMedian": 53.666666666666664,
+        "gain": 0.9503105590062112
+      }
+    },
+    {
+      "direction": "right",
+      "index": 1,
+      "source": {
+        "left": 300,
+        "top": 65,
+        "right": 776,
+        "bottom": 1389
+      },
+      "visible": {
+        "x": 194.51359516616313,
+        "y": 127.99999999999994,
+        "width": 138.05438066465257,
+        "height": 384.00000000000006
+      },
+      "anchor": {
+        "x": 256,
+        "y": 512
+      },
+      "tone": {
+        "referenceMedian": 51,
+        "sourceMedian": 53.666666666666664,
+        "gain": 0.9503105590062112
+      }
+    }
+  ]
+}

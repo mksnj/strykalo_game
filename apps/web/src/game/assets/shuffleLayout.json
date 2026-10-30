@@ -1,0 +1,35 @@
+{
+  "key": "court-dance",
+  "url": "/assets/court-groove-v21/groove.png",
+  "cellWidth": 160,
+  "cellHeight": 272,
+  "columns": 12,
+  "rows": 14,
+  "frameCount": 166,
+  "samples": 33,
+  "anchor": { "x": 80, "y": 264 },
+  "source": { "width": 128, "height": 256, "x": 16, "y": 8 },
+  "frames": { "idle": 0, "left": 1, "right": 34, "down": 67, "up": 100, "groove": 133 },
+  "durationSeconds": 0.72,
+  "grooveSeconds": 1.2,
+  "stride": 0,
+  "maxOffset": 0,
+  "profiles": {
+    "left": { "sign": -1, "travel": 1, "sway": 1, "dip": 1, "lean": 1, "lift": 1, "knee": 1 },
+    "right": { "sign": 1, "travel": 1, "sway": 1, "dip": 1, "lean": 1, "lift": 1, "knee": 1 },
+    "down": { "sign": 1, "travel": 0.25, "sway": 0.4, "dip": 1.5, "lean": 0.4, "lift": 0.4, "knee": 1.4 },
+    "up": { "sign": -1, "travel": 0.5, "sway": 0.7, "dip": 0.35, "lean": 0.7, "lift": 2, "knee": 0.5 },
+    "groove": { "sign": 1, "travel": 0.4, "sway": 0.65, "dip": 0.6, "lean": 0.65, "lift": 0.4, "knee": 0.6 }
+  },
+  "keys": [
+    { "at": 0,     "phase": "Спокойная стойка", "leadX": 0, "leadLift": 0, "followX": 0, "followLift": 0, "weight": 0, "dip": 0, "lean": 0, "knee": 0 },
+    { "at": 0.125, "phase": "Смягчение коленей", "leadX": 6, "leadLift": 2, "followX": 0, "followLift": 0, "weight": 2, "dip": 5, "lean": 2, "knee": 2 },
+    { "at": 0.25,  "phase": "Акцент и перенос веса", "leadX": 10, "leadLift": 0, "followX": 0, "followLift": 0, "weight": 8, "dip": 9, "lean": 4, "knee": 3 },
+    { "at": 0.375, "phase": "Мягкий возврат", "leadX": 8, "leadLift": 0, "followX": 0, "followLift": 2, "weight": 5, "dip": 4, "lean": 1, "knee": 1 },
+    { "at": 0.5,   "phase": "Смена опоры", "leadX": 0, "leadLift": 0, "followX": 0, "followLift": 0, "weight": 0, "dip": 0, "lean": 0, "knee": 0 },
+    { "at": 0.625, "phase": "Ответный акцент", "leadX": 0, "leadLift": 0, "followX": -6, "followLift": 2, "weight": -2, "dip": 5, "lean": -2, "knee": 2 },
+    { "at": 0.75,  "phase": "Перенос на другую ногу", "leadX": 0, "leadLift": 0, "followX": -10, "followLift": 0, "weight": -8, "dip": 9, "lean": -4, "knee": 3 },
+    { "at": 0.875, "phase": "Расслабление плеч", "leadX": 0, "leadLift": 2, "followX": -8, "followLift": 0, "weight": -5, "dip": 4, "lean": -1, "knee": 1 },
+    { "at": 1,     "phase": "Спокойная стойка", "leadX": 0, "leadLift": 0, "followX": 0, "followLift": 0, "weight": 0, "dip": 0, "lean": 0, "knee": 0 }
+  ]
+}

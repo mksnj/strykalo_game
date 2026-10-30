@@ -1,0 +1,32 @@
+{
+  "createdOn": "2026-10-30",
+  "tool": "Built-in image_gen",
+  "purpose": "Remove opaque black backgrounds from the three owner-supplied replacement sprites",
+  "assets": [
+    {
+      "direction": "left",
+      "original": "влево.png",
+      "output": "assets/source/court-dance-v22/left.png",
+      "generatedPath": "C:\\Users\\mgoli\\.codex\\generated_images\\01a18bd7-b76b-7883-883b-92345d0a4676\\exec-1ee62b9e-0ddc-43b5-9300-0f63c58146cb.png",
+      "transparent_background": true,
+      "prompt": "Use case: background-extraction. Extract the exact full-body hooded person in the attached LEFT, left shoe angled outward pose as a clean transparent game sprite. Remove the black exterior background completely; also remove background between the legs. Keep all of the original character, same exact pose, proportions, clothes, shoe placement, backpack straps, texture and colors. The dark face opening INSIDE the hood must remain opaque black. VERY IMPORTANT: NO GLOW, NO HALO, NO SHADOW and NO TRANSLUCENT BACKDROP around the figure. Everywhere outside the actual character silhouette must have alpha=0. Inside the character silhouette use solid opacity, including dark clothing and hood. Edge antialiasing only within one pixel. Preserve 1024x1536 dimensions, framing and exact original size and position. Do not redraw, stylize or improve the character. Only extract the foreground."
+    },
+    {
+      "direction": "right",
+      "original": "вправо.png",
+      "output": "assets/source/court-dance-v22/right.png",
+      "generatedPath": "C:\\Users\\mgoli\\.codex\\generated_images\\01a18bd7-b76b-7883-883b-92345d0a4676\\exec-ccb2c3ba-bf53-44f9-b8c2-617ee402f362.png",
+      "transparent_background": true,
+      "prompt": "Use case: background-extraction. Extract the exact full-body hooded person in the attached RIGHT, right shoe angled outward pose as a clean transparent game sprite. Remove the black exterior background completely; also remove background between the legs. Keep all of the original character, same exact pose, proportions, clothes, shoe placement, backpack straps, texture and colors. The dark face opening INSIDE the hood must remain opaque black. VERY IMPORTANT: NO GLOW, NO HALO, NO SHADOW and NO TRANSLUCENT BACKDROP around the figure. Everywhere outside the actual character silhouette must have alpha=0. Inside the character silhouette use solid opacity, including dark clothing and hood. Edge antialiasing only within one pixel. Preserve 1024x1536 dimensions, framing and exact original size and position. Do not redraw, stylize or improve the character. Only extract the foreground."
+    },
+    {
+      "direction": "down",
+      "original": "вниз.png",
+      "output": "assets/source/court-dance-v22/down.png",
+      "generatedPath": "C:\\Users\\mgoli\\.codex\\generated_images\\01a18bd7-b76b-7883-883b-92345d0a4676\\exec-bbd5fe96-10c7-4315-8563-905b38b1887b.png",
+      "transparent_background": true,
+      "prompt": "Use case: background-extraction. Extract the exact full-body hooded person in the attached DOWN, knees bent in a slight squat pose as a clean transparent game sprite. Remove the black exterior background completely; also remove background between the legs. Keep all of the original character, same exact pose, proportions, clothes, shoe placement, backpack straps, texture and colors. The dark face opening INSIDE the hood must remain opaque black. VERY IMPORTANT: NO GLOW, NO HALO, NO SHADOW and NO TRANSLUCENT BACKDROP around the figure. Everywhere outside the actual character silhouette must have alpha=0. Inside the character silhouette use solid opacity, including dark clothing and hood. Edge antialiasing only within one pixel. Preserve 1024x1536 dimensions, framing and exact original size and position. Do not redraw, stylize or improve the character. Only extract the foreground."
+    }
+  ],
+  "preservedUp": "assets/source/court-dance-v19/up.png"
+}

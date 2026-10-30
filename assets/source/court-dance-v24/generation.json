@@ -1,0 +1,16 @@
+{
+  "createdOn": "2026-10-30",
+  "tool": "Native Phaser head/body animation; existing image_gen side poses reused without regeneration",
+  "method": "Down is a small forward head nod: pitch at the neck with a smooth 0.45-second sin-squared envelope; the original body and legs stay in their standing pose. Existing side poses and tone calibration are retained.",
+  "reference": "apps/web/public/assets/visual-v12/front.webp",
+  "sourceFrames": {
+    "head": "hero-front/head",
+    "body": "hero-front/body"
+  },
+  "nod": {
+    "headCompression": 0.1,
+    "headWidthGain": 0.02
+  },
+  "sidePoseGeneration": "assets/source/court-dance-v23/generation.json",
+  "up": "No animation; rhythm judgments stay unchanged"
+}
