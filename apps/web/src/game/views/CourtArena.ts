@@ -8,11 +8,27 @@ export class CourtArena {
   readonly floor: Phaser.GameObjects.Image;
   readonly hoop: Phaser.GameObjects.Image;
   constructor(private scene: Phaser.Scene) {
-    const sky = scene.add.tileSprite(480, 0, 2400, 600, repeatPanorama(scene)).setOrigin(.5, 0).setTileScale(.78).setTint(0x8493ac);
+    // Настройка НЕБА (TileSprite)
+    // 480 (X-центр), 0 (Y-верх), 2400 (ширина), 600 (высота)
+    const sky = scene.add.tileSprite(480, 0, 2400, 600, repeatPanorama(scene))
+      .setOrigin(.5, 0)
+      .setTileScale(.78) // <-- МАСШТАБ ТЕКСТУРЫ НЕБА (можно менять, например, на 1)
+      .setTint(0x8493ac);
     sky.tilePositionX = 210;
+
+    // Настройка ПОЛА
+    // 0 (X), 260 (Y-координата верхнего края земли)
     this.floor = scene.add.image(0, 260, 'court-original', 'floor').setOrigin(0);
+
+    // Настройка СЕТКИ-ЗАБОРА
+    // 480 (X-центр), 170 (Y-координата сетки), 90 (высота забора)
     const fence = scene.add.tileSprite(480, 170, 2400, 90, 'court-original', 'mesh').setOrigin(.5, 0);
-    this.hoop = scene.add.image(107, 265, 'court-hoop').setOrigin(0, 1).setScale(.30);
+
+    // Настройка БАСКЕТБОЛЬНОГО КОЛЬЦА
+    // 107 (X), 265 (Y)
+    this.hoop = scene.add.image(107, 265, 'court-hoop')
+      .setOrigin(0, 1)
+      .setScale(.30); // <-- МАСШТАБ КОЛЬЦА
     const branches = scene.add.tileSprite(480, -24, 2400, 175, 'night-front', 'canopy')
       .setOrigin(.5, 0).setTileScale(.65).setAlpha(.65);
     this.container = scene.add.container(0, 0, [sky, fence, this.floor, this.hoop, branches]);

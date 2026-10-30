@@ -43,7 +43,7 @@ export class StarsView {
     this.feedback = scene.add.text(382, 438, '', { fontFamily: 'Georgia', fontSize: '16px', fontStyle: 'italic', color: '#bac7d0' }).setOrigin(.5);
     this.shade = scene.add.rectangle(480, 270, 960, 540, 0x101822).setAlpha(0);
     this.container.add([this.arena.container, this.platform, this.marks, ...this.targets, ...this.arrows,
-      ...(!sharedHero ? [this.hero] : []), this.feedback, this.shade]);
+    ...(!sharedHero ? [this.hero] : []), this.feedback, this.shade]);
   }
   renderArrival(_offset: number, progress: number | undefined, visualTime: number, playerY: number = RUNNER.groundY, distanceScale = 1): void {
     this.actor.hide();
@@ -76,7 +76,23 @@ export class StarsView {
     const latest = engine?.feedback.at(-1), age = elapsed - (latest?.at ?? -Infinity);
     if (!exitProgress) {
       this.hero.setAlpha(0);
-      this.actor.render(pose.x, pose.y, pose.size, visualTime, latest, elapsed, failureTime);
+      // ИСХОДНАЯ СТРОКА ОТРИСОВКИ ГЕРОЯ:
+      // this.actor.render(pose.x, pose.y, pose.size, visualTime, latest, elapsed, failureTime);
+
+      // ЗАМЕНИТЕ ЕЁ НА ВАРИАНТ СЕБЕ ДЛЯ РЕГУЛИРОВАНИЯ:
+      const myXOffset = 80;      // Сдвиг по горизонтали (например: +50 вправо, -50 влево)
+      const myYOffset = 180;      // Сдвиг по вертикали (например: -30 вверх, +30 вниз)
+      const mySizeMultiplier = 3.0; // Множитель размера (например: 1.5 для увеличения)
+
+      this.actor.render(
+        pose.x + myXOffset,
+        pose.y + myYOffset,
+        pose.size * mySizeMultiplier,
+        visualTime,
+        latest,
+        elapsed,
+        failureTime
+      );
     }
     const active = !exitProgress && !failureTime;
     this.platform.setVisible(!exitProgress).setAlpha((engine?.platformOpacity ?? 1) * .48);

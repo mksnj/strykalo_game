@@ -10,8 +10,10 @@ import { journeyRoute } from './route';
 import { ENDING_DURATION } from '../views/endingTimeline';
 import { starsAvailable } from './starsAccess';
 
-export interface RunCheckpoint { start: number; end: number; score: number; seed: number; empty: boolean;
-  phase?: 'runner' | 'final-run' | 'balance' | 'stars' | 'waiting'; runnerStart?: number }
+export interface RunCheckpoint {
+  start: number; end: number; score: number; seed: number; empty: boolean;
+  phase?: 'runner' | 'final-run' | 'balance' | 'stars' | 'waiting'; runnerStart?: number
+}
 
 export type JourneyPhase = 'runner' | 'beer-pickup' | 'pipe-approach' | 'balance' | 'pipe-exit' |
   'stars-approach' | 'stars-locked' | 'stars' | 'stars-retry' | 'stars-failure' | 'stars-exit' |
@@ -74,8 +76,8 @@ export class RunSession {
   get transitionProgress(): number {
     return this.phaseTime / (this.phase === 'pipe-approach' ? C.approachSeconds :
       this.phase === 'stars-approach' ? C.courtApproachSeconds : this.phase === 'room-approach' ? C.roomApproachSeconds :
-      this.phase === 'stars-exit' ? C.courtExitSeconds :
-      this.phase === 'pipe-exit' ? C.exitSeconds : C.sceneTransitionSeconds);
+        this.phase === 'stars-exit' ? C.courtExitSeconds :
+          this.phase === 'pipe-exit' ? C.exitSeconds : C.sceneTransitionSeconds);
   }
   get endingDuration(): number { return ENDING_DURATION; }
   continueFromCheckpoint(): boolean {
@@ -103,8 +105,10 @@ export class RunSession {
     this.checkpoint = Object.freeze({ start, end, seed, score: this.score, empty, phase: empty ? 'final-run' : 'runner' });
   }
   private saveMiniCheckpoint(phase: 'balance' | 'stars' | 'waiting'): void {
-    this.checkpoint = Object.freeze({ phase, start: this.distance, end: this.distance,
-      runnerStart: this.runner.startDistance, seed: this.runner.seed, score: this.score, empty: false });
+    this.checkpoint = Object.freeze({
+      phase, start: this.distance, end: this.distance,
+      runnerStart: this.runner.startDistance, seed: this.runner.seed, score: this.score, empty: false
+    });
   }
   private enterStars(optIn = false): void {
     if (!optIn && !starsAvailable(this.now(), this.developer || this.bypassStarsGate)) {
@@ -191,6 +195,8 @@ export class RunSession {
       if (this.stars!.outcome === 'narrative-failure') {
         this.starsDefeats++;
         this.changePhase(this.starsDefeats < RHYTHM.attempts ? 'stars-retry' : 'stars-failure');
+      } else if (this.stars!.outcome === 'passed') {
+        this.leaveStars();
       }
     } else if (this.phase === 'stars-retry') {
       this.phaseTime += RUNNER.fixedStep;
@@ -229,8 +235,10 @@ export class RunSession {
     }
   }
   private createRunner(seed: number, start: number, end: number, score: number, empty = false): RunnerEngine {
-    return new RunnerEngine(seed, { start, end, score, empty, clearance: this.route.clearance,
-      noObstacles: this.developer, distanceScale: this.route.scale, lives: this.runner?.lives ?? RUNNER.maxLives });
+    return new RunnerEngine(seed, {
+      start, end, score, empty, clearance: this.route.clearance,
+      noObstacles: this.developer, distanceScale: this.route.scale, lives: this.runner?.lives ?? RUNNER.maxLives
+    });
   }
   private failMiniGame(reason: 'fall' | 'star-hit'): void {
     this.runner.lives = 0;

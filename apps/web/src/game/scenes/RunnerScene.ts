@@ -168,10 +168,15 @@ export class RunnerScene extends Phaser.Scene {
         this.soundscape.step(this.session);
         for (const event of this.session.waiting?.drainEvents() ?? []) if (event !== 'door') this.audio.roomEvent(event);
         this.accumulator -= C.fixedStep;
+
         if (this.lastPhase !== this.session.phase) {
           this.clearInput();
           this.lastPhase = this.session.phase;
-          this.audio.setScene(musicCue(this.session));
+          const nextCue = musicCue(this.session);
+          this.audio.setScene(nextCue);
+          if (this.session.phase === 'stars-exit' || this.session.phase === 'runner') {
+            this.audio.restartMusic();
+          }
         }
         this.syncStarsRound();
         if (this.session.balanceIntroPending || this.session.starsIntroPending || this.session.phase === 'stars-locked') { this.accumulator = 0; break; }
@@ -247,7 +252,9 @@ export class RunnerScene extends Phaser.Scene {
   private syncStarsRound(): void {
     if (!this.session || this.starsRound === this.session.starsRound) return;
     this.starsRound = this.session.starsRound;
-    this.clearInput(); this.audio.restartMusic();
+    this.clearInput();
+    this.audio.setScene(musicCue(this.session));
+    this.audio.restartMusic();
   }
   private dispose(): void {
     this.unsubscribe?.();

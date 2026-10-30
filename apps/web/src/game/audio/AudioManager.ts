@@ -53,13 +53,13 @@ export class AudioManager {
         this.music = new StreamingMusicChannel(this.context, this.musicBus, url => this.errors.add(url));
         this.ambience = new LoopChannel(this.context, this.ambientBus, this.library);
         this.applyVolumes(true); this.selectScene();
-        for (const file of Object.values(EFFECTS)) void this.library.load(file).catch(() => {});
+        for (const file of Object.values(EFFECTS)) void this.library.load(file).catch(() => { });
       }
       this.paused = false;
       this.music?.resume();
       if (this.context.state !== 'running') void this.context.resume().then(() => {
-        if (this.paused && this.context?.state === 'running') void this.context.suspend().catch(() => {});
-      }).catch(() => {});
+        if (this.paused && this.context?.state === 'running') void this.context.suspend().catch(() => { });
+      }).catch(() => { });
     } catch { /* Unavailable audio never blocks gameplay; the next gesture can retry. */ }
   }
   setMuted(muted: boolean): void { if (this.muted !== muted) { this.muted = muted; this.applyVolumes(); } }
@@ -76,7 +76,7 @@ export class AudioManager {
   private applyVolumes(immediate = false): void {
     if (!this.context) return;
     for (const [bus, value] of [[this.master, this.muted ? 0 : .85], [this.musicBus, this.musicVolume],
-      [this.effectsBus, this.effectsVolume], [this.ambientBus, this.ambientVolume * (1 - this.quiet * .6)]] as const) {
+    [this.effectsBus, this.effectsVolume], [this.ambientBus, this.ambientVolume * (1 - this.quiet * .6)]] as const) {
       if (!bus) continue;
       if (immediate) bus.gain.value = value;
       else bus.gain.setTargetAtTime(value, this.context.currentTime, .045);
@@ -89,8 +89,8 @@ export class AudioManager {
     for (const source of this.voices) { try { source.stop(); } catch { /* Already ended. */ } }
     if (this.context?.state === 'running') void this.context.suspend().then(() => {
       // A user can resume before the asynchronous suspension has completed.
-      if (!this.paused && !this.disposed) void this.context?.resume().catch(() => {});
-    }).catch(() => {});
+      if (!this.paused && !this.disposed) void this.context?.resume().catch(() => { });
+    }).catch(() => { });
   }
   beginRun(): void {
     this.effectTailUntil = 0;
@@ -110,12 +110,16 @@ export class AudioManager {
     for (const source of this.voices) { try { source.stop(); } catch { /* Already ended. */ } }
     this.lastEffect.clear(); this.selectScene();
     if (scene === 'runner-autumn') this.music?.seek(MUSIC.autumn, AUTUMN_SCORE.musicLeadSeconds);
+
+    const selected = soundscape(this.scene);
+    if (selected.music === 'stars') this.music?.seek(MUSIC.stars, SHADOWS_SCORE.musicStartSeconds);
   }
+
   private selectScene(): void {
     const selected = soundscape(this.scene);
     const file = selected.music === 'ending' && this.finaleOverride ? this.finaleOverride : MUSIC[selected.music];
     const start = this.scene === 'runner-autumn' ? AUTUMN_SCORE.musicLeadSeconds : this.scene === 'pipe-exit' ? AUTUMN_SCORE.musicStartSeconds :
-      selected.music === 'shadows' ? SHADOWS_SCORE.musicStartSeconds : 0;
+      selected.music === 'shadows' || selected.music === 'stars' ? SHADOWS_SCORE.musicStartSeconds : 0;
     if (selected.music === 'autumn' && this.autumnClock) this.music?.select(file, start, this.autumnClock);
     else this.music?.select(file, start);
     void this.ambience?.select(AMBIENCE[selected.ambience]);
@@ -168,17 +172,19 @@ export class AudioManager {
   }
   /** Read-only mixer diagnostics, also used by browser verification. */
   get status() {
-    return { state: this.context?.state ?? 'locked', time: this.context?.currentTime ?? 0,
+    return {
+      state: this.context?.state ?? 'locked', time: this.context?.currentTime ?? 0,
       paused: this.paused, muted: this.muted, scene: this.scene,
       musicVolume: this.musicBus?.gain.value ?? this.musicVolume, effectsVolume: this.effectsBus?.gain.value ?? this.effectsVolume,
       ambientVolume: this.ambientBus?.gain.value ?? this.ambientVolume,
       master: this.master?.gain.value ?? 0, music: this.music?.status ?? [], ambience: this.ambience?.status ?? [],
-      effects: this.voices.size, errors: [...this.errors] };
+      effects: this.voices.size, errors: [...this.errors]
+    };
   }
   dispose(): void {
     this.autumnClock = undefined;
     this.disposed = true; this.pause(); this.effectRevision++;
     this.music?.dispose(); this.ambience?.dispose(); this.library?.dispose();
-    void this.context?.close().catch(() => {});
+    void this.context?.close().catch(() => { });
   }
 }
