@@ -10,13 +10,12 @@ import { CourtHero } from './CourtHero';
 export const RHYTHM_FIELD = { columns: [270, 345, 420, 495] as readonly number[], top: 145, target: 402 };
 const glyphs: Record<RhythmDirection, string> = { left: '←', down: '↓', up: '↑', right: '→' };
 
-/** Same painted schoolyard, now a sparse four-column rhythm composition. */
 export class StarsView {
   readonly container: Phaser.GameObjects.Container;
   readonly arena: CourtArena;
   private marks: Phaser.GameObjects.Graphics;
   private targets: Phaser.GameObjects.Text[];
-  private arrows: Phaser.GameObjects.Text[];
+  private cometSprites: Phaser.GameObjects.Sprite[];
   private hero: Phaser.GameObjects.Sprite;
   private shade: Phaser.GameObjects.Rectangle;
   private feedback: Phaser.GameObjects.Text;
@@ -38,11 +37,11 @@ export class StarsView {
     this.platformMask = this.platformClip.createGeometryMask(); this.platform.setMask(this.platformMask);
     this.targets = DIRECTIONS.map((direction, i) => scene.add.text(RHYTHM_FIELD.columns[i], RHYTHM_FIELD.target,
       glyphs[direction], { fontFamily: 'Georgia', fontSize: '35px', color: '#9babb8' }).setOrigin(.5));
-    this.arrows = Array.from({ length: 4 }, () => scene.add.text(0, 0, '',
-      { fontFamily: 'Georgia', fontSize: '27px', color: '#14212d' }).setOrigin(.5).setVisible(false));
+    this.cometSprites = Array.from({ length: 16 }, () => scene.add.sprite(0, 0, 'rhythm-comet')
+      .setOrigin(0.5, 1).setDisplaySize(160, 320).setVisible(false));
     this.feedback = scene.add.text(382, 438, '', { fontFamily: 'Georgia', fontSize: '16px', fontStyle: 'italic', color: '#bac7d0' }).setOrigin(.5);
     this.shade = scene.add.rectangle(480, 270, 960, 540, 0x101822).setAlpha(0);
-    this.container.add([this.arena.container, this.platform, this.marks, ...this.targets, ...this.arrows,
+    this.container.add([this.arena.container, this.platform, this.marks, ...this.targets, ...this.cometSprites,
     ...(!sharedHero ? [this.hero] : []), this.feedback, this.shade]);
   }
   renderArrival(_offset: number, progress: number | undefined, visualTime: number, playerY: number = RUNNER.groundY, distanceScale = 1): void {
@@ -50,7 +49,7 @@ export class StarsView {
     this.container.setVisible(true).setAlpha(1);
     const focus = progress === undefined ? 0 : courtCameraFrame('stars-approach', progress).focus;
     this.arena.render(focus); this.marks.clear();
-    this.platform.setVisible(false); this.targets.forEach(t => t.setVisible(false)); this.arrows.forEach(a => a.setVisible(false));
+    this.platform.setVisible(false); this.targets.forEach(t => t.setVisible(false)); this.cometSprites.forEach(s => s.setVisible(false));
     this.feedback.setVisible(false); this.shade.setAlpha(0);
     if (progress === undefined) return;
     const pose = courtArrival(progress, distanceScale);
@@ -76,14 +75,9 @@ export class StarsView {
     const latest = engine?.feedback.at(-1), age = elapsed - (latest?.at ?? -Infinity);
     if (!exitProgress) {
       this.hero.setAlpha(0);
-      // ИСХОДНАЯ СТРОКА ОТРИСОВКИ ГЕРОЯ:
-      // this.actor.render(pose.x, pose.y, pose.size, visualTime, latest, elapsed, failureTime);
-
-      // ЗАМЕНИТЕ ЕЁ НА ВАРИАНТ СЕБЕ ДЛЯ РЕГУЛИРОВАНИЯ:
-      const myXOffset = 80;      // Сдвиг по горизонтали (например: +50 вправо, -50 влево)
-      const myYOffset = 180;      // Сдвиг по вертикали (например: -30 вверх, +30 вниз)
-      const mySizeMultiplier = 3.0; // Множитель размера (например: 1.5 для увеличения)
-
+      const myXOffset = 80;
+      const myYOffset = 180;
+      const mySizeMultiplier = 3.0;
       this.actor.render(
         pose.x + myXOffset,
         pose.y + myYOffset,
@@ -97,7 +91,7 @@ export class StarsView {
     const active = !exitProgress && !failureTime;
     this.platform.setVisible(!exitProgress).setAlpha((engine?.platformOpacity ?? 1) * .48);
     const g = this.marks.clear();
-    this.arrows.forEach(a => a.setVisible(false));
+    this.cometSprites.forEach(s => s.setVisible(false));
     for (const [i, x] of RHYTHM_FIELD.columns.entries()) {
       this.targets[i].setVisible(active).setAlpha(.75).setColor('#9babb8');
       if (!active) continue;
@@ -113,19 +107,14 @@ export class StarsView {
       }
     }
     let drawn = 0;
+    const frameIndex = Math.floor(elapsed * 4) % 4;
     for (const note of engine?.notes ?? []) {
       const progress = engine?.progress(note) ?? -1, until = note.at - elapsed;
-      if (!active || note.state !== 'pending' || progress < 0 || until < -C.goodWindow || drawn >= this.arrows.length) continue;
+      if (!active || note.state !== 'pending' || progress < 0 || until < -C.goodWindow || drawn >= this.cometSprites.length) continue;
       const x = RHYTHM_FIELD.columns[DIRECTIONS.indexOf(note.direction)];
       const y = RHYTHM_FIELD.top + (RHYTHM_FIELD.target - RHYTHM_FIELD.top) * Math.min(1.08, progress);
-      g.fillStyle(0xa8b5b7, .83).lineStyle(1, 0xc0cccd, .4).beginPath();
-      for (let n = 0; n < 10; n++) {
-        const a = -Math.PI / 2 + n * Math.PI / 5, r = n % 2 ? 14 : 25;
-        const px = x + Math.cos(a) * r, py = y + Math.sin(a) * r;
-        if (n) g.lineTo(px, py); else g.moveTo(px, py);
-      }
-      g.closePath().fillPath().strokePath();
-      this.arrows[drawn++].setText(glyphs[note.direction]).setPosition(x, y - 1).setVisible(true);
+      this.cometSprites[drawn].setPosition(x, y + 25).setFrame(frameIndex).setVisible(true);
+      drawn++;
     }
     this.feedback.setVisible(active && !!latest && age < C.feedbackSeconds)
       .setText(latest?.judgment === 'perfect' ? 'Вовремя' : latest?.judgment === 'good' ? 'Почти в такт' : latest?.judgment === 'miss' ? 'Мимо' : '')
@@ -133,6 +122,8 @@ export class StarsView {
   }
   dispose(): void {
     this.actor.dispose();
+    this.cometSprites.forEach(s => s.destroy());
+    this.cometSprites = [];
     this.platform.clearMask(false); this.platformMask.destroy(); this.platformClip.destroy(); this.container.destroy(true);
   }
 }

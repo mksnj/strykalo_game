@@ -1368,6 +1368,19 @@
           }
         ]
       }
+    },
+    {
+      "collection": "rhythm-comets",
+      "createdOn": "2026-10-30",
+      "tool": "Deterministic atlas packing and uniform scaling of two provided vertical PNGs; alpha preserved, no colour removal, rotation or image generation.",
+      "sources": [
+        "docs/comet_vertical_1.png",
+        "docs/comet_vertical_2.png",
+        "docs/comet_vertical_3.png",
+        "docs/comet_vertical_4.png"
+      ],
+      "audit": "assets/source/rhythm-comets/audit.json",
+      "license": "Owner-provided project artwork; no external material added"
     }
   ],
   "restorations": [
