@@ -1,0 +1,295 @@
+{
+  "createdOn": "2026-10-30",
+  "method": "Eight owner-provided RGB sprites cropped and uniformly scaled into isolated atlas cells. No repainting, rotation or background removal; runtime SCREEN blending makes black invisible.",
+  "source": {
+    "path": "docs/Звезды-стрелки.png",
+    "preserved": "assets/source/rhythm-arrows-v2/original.png",
+    "width": 1448,
+    "height": 1086,
+    "sha256": "12ec9ce8990a4889faeda37324bd3f9c67e447d319743d22a487b8e45a84f240"
+  },
+  "layout": {
+    "collection": "rhythm-arrows-v2",
+    "key": "rhythm-arrow",
+    "url": "/assets/rhythm-arrows-v2/arrows.png",
+    "source": "docs/Звезды-стрелки.png",
+    "cellWidth": 160,
+    "cellHeight": 352,
+    "anchor": {
+      "x": 80,
+      "y": 240
+    },
+    "sourceScale": 0.5,
+    "displayScale": 0.5,
+    "shimmerSeconds": 1.2,
+    "directions": [
+      "left",
+      "right",
+      "up",
+      "down"
+    ],
+    "frames": {
+      "left": [
+        0,
+        1
+      ],
+      "right": [
+        2,
+        3
+      ],
+      "up": [
+        4,
+        5
+      ],
+      "down": [
+        6,
+        7
+      ]
+    },
+    "sources": [
+      {
+        "direction": "left",
+        "column": 0,
+        "anchors": [
+          {
+            "x": 235,
+            "y": 321
+          },
+          {
+            "x": 235,
+            "y": 799
+          }
+        ]
+      },
+      {
+        "direction": "right",
+        "column": 1,
+        "anchors": [
+          {
+            "x": 568,
+            "y": 321
+          },
+          {
+            "x": 570,
+            "y": 800
+          }
+        ]
+      },
+      {
+        "direction": "up",
+        "column": 2,
+        "anchors": [
+          {
+            "x": 875,
+            "y": 297
+          },
+          {
+            "x": 880,
+            "y": 776
+          }
+        ]
+      },
+      {
+        "direction": "down",
+        "column": 3,
+        "anchors": [
+          {
+            "x": 1218,
+            "y": 345
+          },
+          {
+            "x": 1227,
+            "y": 831
+          }
+        ]
+      }
+    ],
+    "rows": [
+      {
+        "y": 0,
+        "height": 480
+      },
+      {
+        "y": 480,
+        "height": 606
+      }
+    ]
+  },
+  "frames": [
+    {
+      "frame": 0,
+      "direction": "left",
+      "variant": 0,
+      "source": {
+        "x": 0,
+        "y": 0,
+        "width": 362,
+        "height": 480
+      },
+      "sourceAnchor": {
+        "x": 235,
+        "y": 321
+      },
+      "translation": {
+        "x": -37.5,
+        "y": 79.5
+      },
+      "brightPixels": 13087,
+      "clipped": false
+    },
+    {
+      "frame": 1,
+      "direction": "left",
+      "variant": 1,
+      "source": {
+        "x": 0,
+        "y": 480,
+        "width": 362,
+        "height": 606
+      },
+      "sourceAnchor": {
+        "x": 235,
+        "y": 799
+      },
+      "translation": {
+        "x": -37.5,
+        "y": 80.5
+      },
+      "brightPixels": 17135,
+      "clipped": false
+    },
+    {
+      "frame": 2,
+      "direction": "right",
+      "variant": 0,
+      "source": {
+        "x": 362,
+        "y": 0,
+        "width": 362,
+        "height": 480
+      },
+      "sourceAnchor": {
+        "x": 568,
+        "y": 321
+      },
+      "translation": {
+        "x": -23,
+        "y": 79.5
+      },
+      "brightPixels": 13191,
+      "clipped": false
+    },
+    {
+      "frame": 3,
+      "direction": "right",
+      "variant": 1,
+      "source": {
+        "x": 362,
+        "y": 480,
+        "width": 362,
+        "height": 606
+      },
+      "sourceAnchor": {
+        "x": 570,
+        "y": 800
+      },
+      "translation": {
+        "x": -24,
+        "y": 80
+      },
+      "brightPixels": 17128,
+      "clipped": false
+    },
+    {
+      "frame": 4,
+      "direction": "up",
+      "variant": 0,
+      "source": {
+        "x": 724,
+        "y": 0,
+        "width": 362,
+        "height": 480
+      },
+      "sourceAnchor": {
+        "x": 875,
+        "y": 297
+      },
+      "translation": {
+        "x": 4.5,
+        "y": 91.5
+      },
+      "brightPixels": 13118,
+      "clipped": false
+    },
+    {
+      "frame": 5,
+      "direction": "up",
+      "variant": 1,
+      "source": {
+        "x": 724,
+        "y": 480,
+        "width": 362,
+        "height": 606
+      },
+      "sourceAnchor": {
+        "x": 880,
+        "y": 776
+      },
+      "translation": {
+        "x": 2,
+        "y": 92
+      },
+      "brightPixels": 16886,
+      "clipped": false
+    },
+    {
+      "frame": 6,
+      "direction": "down",
+      "variant": 0,
+      "source": {
+        "x": 1086,
+        "y": 0,
+        "width": 362,
+        "height": 480
+      },
+      "sourceAnchor": {
+        "x": 1218,
+        "y": 345
+      },
+      "translation": {
+        "x": 14,
+        "y": 67.5
+      },
+      "brightPixels": 13217,
+      "clipped": false
+    },
+    {
+      "frame": 7,
+      "direction": "down",
+      "variant": 1,
+      "source": {
+        "x": 1086,
+        "y": 480,
+        "width": 362,
+        "height": 606
+      },
+      "sourceAnchor": {
+        "x": 1227,
+        "y": 831
+      },
+      "translation": {
+        "x": 9.5,
+        "y": 64.5
+      },
+      "brightPixels": 17135,
+      "clipped": false
+    }
+  ],
+  "output": {
+    "path": "apps/web/public/assets/rhythm-arrows-v2/arrows.png",
+    "width": 1280,
+    "height": 352,
+    "bytes": 353176,
+    "sha256": "94efbb0a08bf487db00a2bd5f9853d7e57e7c8e0fa498a98d5080b0b6e23c06f"
+  }
+}

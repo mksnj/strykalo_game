@@ -11,7 +11,6 @@ export function StarsHud({ paused }: { paused: boolean }) {
   const fresh = state.rhythmElapsed - state.rhythmFeedbackAt < .4;
   const press = (direction: RhythmDirection) => { if (!paused) rhythmControls.press(direction); };
   return <section className="rhythm-hud" aria-label="Ритм падающих звёзд">
-    <p className="rhythm-title">Лови ритм падающих звёзд<span>Нажми направление в момент совпадения</span></p>
     <p className="rhythm-attempts" role="status">Ошибки {state.rhythmMistakes} / {RHYTHM.maxMistakes}<span>Скорость ×{state.rhythmSpeed.toFixed(1)}</span></p>
     <div className="rhythm-controls" data-system-ui>
       <div className="rhythm-keys">

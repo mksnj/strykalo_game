@@ -41,7 +41,7 @@ class GameStore {
   ready(): void { if (this.snapshot.screen === 'loading') this.update({ screen: 'menu' }); }
   start(developer = false, debugStart?: DebugStartPoint, seed?: number, bypassStarsGate = false): void {
     if (!['menu', 'game-over', 'stage-complete', 'completed'].includes(this.snapshot.screen)) return;
-    if (!import.meta.env.DEV && (developer || bypassStarsGate || debugStart && !isMiniGameStartPoint(debugStart))) return;
+    if (!import.meta.env.DEV && (developer || bypassStarsGate) || debugStart && !isDebugStartPoint(debugStart)) return;
     this.update({ screen: 'playing', score: 0, distance: 0, lives: RUNNER.maxLives, paused: false, developer,
       debugStart, bypassStarsGate, phase: 'runner', region: 'night', balancePosition: 0, balanceProgress: 0, waitingHint: false,
       checkpointDistance: null, checkpointPhase: undefined, continued: false, balanceIntroOpen: false, starsIntroOpen: false, waitingHintOpacity: 0,
@@ -52,6 +52,11 @@ class GameStore {
     if (!import.meta.env.DEV || !isDebugStartPoint(point) ||
       seed !== undefined && (!Number.isInteger(seed) || seed < 0 || seed > 0xffffffff)) return;
     this.start(false, point, seed, true);
+  }
+  startStage(point: DebugStartPoint, seed?: number): void {
+    if (!isDebugStartPoint(point) ||
+      seed !== undefined && (!Number.isInteger(seed) || seed < 0 || seed > 0xffffffff)) return;
+    this.start(false, point, seed);
   }
   startMiniGame(point: MiniGameStartPoint, seed?: number): void {
     if (!isMiniGameStartPoint(point) ||

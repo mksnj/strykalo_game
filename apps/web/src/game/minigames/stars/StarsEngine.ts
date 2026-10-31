@@ -5,7 +5,7 @@ import { rhythmPhase, rhythmSpeed, rhythmTime } from './rhythmTiming';
 export const DIRECTIONS = ['left', 'down', 'up', 'right'] as const;
 export type RhythmDirection = typeof DIRECTIONS[number];
 export type Judgment = 'perfect' | 'good' | 'miss' | 'empty';
-export interface RhythmNote { id: number; direction: RhythmDirection; at: number; spawnPhase: number; state: 'pending' | 'hit' | 'missed', isBoss?: boolean; }
+export interface RhythmNote { id: number; direction: RhythmDirection; at: number; spawnPhase: number; state: 'pending' | 'hit' | 'missed' }
 export interface RhythmFeedback { direction: RhythmDirection; judgment: Judgment; at: number; noteId?: number }
 
 /** Endless accelerating rhythm, ending only on the third mistake. */
@@ -17,7 +17,7 @@ export class StarsEngine {
   hits = 0;
   misses = 0;
   feedback: RhythmFeedback[] = [];
-  outcome: 'narrative-failure' | 'passed' | null = null;
+  outcome: 'narrative-failure' | null = null;
   private serial = 0;
   private shift: number;
   constructor(seed: number) { this.shift = Math.floor(seededRandom(seed)() * 4); this.fill(); }
@@ -49,12 +49,6 @@ export class StarsEngine {
     if (note.state !== 'pending' || this.outcome) return;
     note.state = 'missed';
 
-    // Если это нота босса, мы засчитываем пропуск визуально, но НЕ увеличиваем счетчик misses
-    if (note.isBoss) {
-      this.respond(note.direction, 'miss', note.id);
-      return;
-    }
-
     this.misses++;
     this.respond(note.direction, 'miss', note.id);
     if (this.misses >= C.maxMistakes) this.outcome = 'narrative-failure';
@@ -64,36 +58,9 @@ export class StarsEngine {
     const horizon = currentPhase + C.travelSeconds;
     const phrase = [0, 1, 3, 2, 1, 0, 2, 3];
 
-    const bossSpawnTime = 36;
-    const bossSpawnPhase = rhythmPhase(bossSpawnTime);
-
     for (let work = 0; work < C.maxNotes && !this.outcome; work++) {
       const spawnPhase = C.firstSpawn + this.serial * C.spawnInterval;
-      const currentNoteTime = rhythmTime(spawnPhase);
-
-      // 1. Создаем пустое окно подготовки (с 33 по 36 секунду геймплея ноты не спавнятся)
-      if (currentNoteTime >= bossSpawnTime - 3 && currentNoteTime < bossSpawnTime) {
-        this.serial++;
-        continue;
-      }
-
-      // 2. Спавним босса ровно на 36-й секунде
-      if (bossSpawnPhase <= horizon && !this.notes.some(n => n.isBoss)) {
-        for (let i = 0; i < 4; i++) {
-          const bossNote: RhythmNote = {
-            id: this.serial++,
-            spawnPhase: bossSpawnPhase,
-            at: bossSpawnTime + C.travelSeconds,
-            direction: DIRECTIONS[i],
-            state: 'pending',
-            isBoss: true
-          };
-          this.notes.push(bossNote);
-        }
-        break;
-      }
-
-      if (currentNoteTime >= bossSpawnTime || spawnPhase > horizon || this.notes.length >= C.maxNotes) break;
+      if (spawnPhase > horizon || this.notes.length >= C.maxNotes) break;
 
       const id = this.serial++;
       const note: RhythmNote = {
@@ -107,15 +74,10 @@ export class StarsEngine {
   step(musicTime?: number): void {
     if (this.outcome) return;
 
-    // Вычитаем 26 секунд из времени аудио-трека, чтобы симуляция внутри движка всегда начиналась с 0
-    const adjustedTime = musicTime !== undefined && Number.isFinite(musicTime) ? Math.max(0, musicTime - 26) : undefined;
+    // The media clock includes the intro offset; the current round starts at zero.
+    const adjustedTime = musicTime !== undefined && Number.isFinite(musicTime) ? Math.max(0, musicTime - C.musicStartSeconds) : undefined;
     const next = adjustedTime !== undefined ? Math.floor(adjustedTime / RUNNER.fixedStep) : this.tick + 1;
     this.tick = Math.max(this.tick, next);
-
-    if (this.elapsed >= 40) {
-      this.outcome = 'passed';
-      return;
-    }
 
     for (const note of this.notes) if (note.state === 'pending' && this.elapsed > note.at + C.goodWindow + 1e-8) this.miss(note);
     for (let i = this.notes.length - 1; i >= 0; i--) {

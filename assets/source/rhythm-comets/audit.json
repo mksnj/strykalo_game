@@ -5,36 +5,72 @@
     {
       "path": "docs/comet_vertical_1.png",
       "preserved": "assets/source/rhythm-comets/comet_vertical_1.png",
-      "sha256": "98cec2ea6e938cdfca40a8984f45889722e0f87ba2eaf90cd81e8178f9529c07",
+      "sha256": "3147b5450989ab61eb2b1d918d384d76ead4791ef9add01e509c1d100f99ddf3",
       "frame": 0,
-      "width": 887,
-      "height": 887,
-      "transparentPixels": 619218,
+      "width": 1080,
+      "height": 1080,
+      "transparentPixels": 1108954,
       "head": {
-        "x": 446.4287920751249,
-        "y": 695.5323792239093
+        "x": 544.9438180498227,
+        "y": 810.8305768284494
       },
       "translation": {
-        "x": -47.60719801878122,
-        "y": 36.11690519402268
+        "x": -72.23595451245566,
+        "y": 7.292355792887662
       },
       "clipped": false
     },
     {
       "path": "docs/comet_vertical_2.png",
       "preserved": "assets/source/rhythm-comets/comet_vertical_2.png",
-      "sha256": "b8ee09b2ff69eb2ae01810c32af1962944769f862694bbaf5349006517338af3",
+      "sha256": "ccb6e5679598e283ee2e9c3b85810a678127d942bcb011a8dc080244e95838e9",
       "frame": 1,
-      "width": 887,
-      "height": 887,
-      "transparentPixels": 627876,
+      "width": 1080,
+      "height": 1080,
+      "transparentPixels": 1116559,
       "head": {
-        "x": 441.84361860782303,
-        "y": 697.3200497082661
+        "x": 539.0213706484308,
+        "y": 807.9785486050564
       },
       "translation": {
-        "x": -46.46090465195576,
-        "y": 35.66998757293348
+        "x": -70.7553426621077,
+        "y": 8.0053628487359
+      },
+      "clipped": false
+    },
+    {
+      "path": "docs/comet_vertical_3.png",
+      "preserved": "assets/source/rhythm-comets/comet_vertical_3.png",
+      "sha256": "91204563e8a1ed70c2da67181a7b354265c8178d16e035616f1d93fa66e401e0",
+      "frame": 2,
+      "width": 1080,
+      "height": 1080,
+      "transparentPixels": 1112382,
+      "head": {
+        "x": 541.6530684411374,
+        "y": 816.9766373212309
+      },
+      "translation": {
+        "x": -71.41326711028435,
+        "y": 5.755840669692276
+      },
+      "clipped": false
+    },
+    {
+      "path": "docs/comet_vertical_4.png",
+      "preserved": "assets/source/rhythm-comets/comet_vertical_4.png",
+      "sha256": "43ac3e4d988ebccc3f18f667dbe2e7c6bc494de1ca72041e504bf4f09711feab",
+      "frame": 3,
+      "width": 1080,
+      "height": 1080,
+      "transparentPixels": 1106944,
+      "head": {
+        "x": 546.4390216519419,
+        "y": 820.2893062214496
+      },
+      "translation": {
+        "x": -72.60975541298546,
+        "y": 4.927673444637605
       },
       "clipped": false
     }
@@ -54,9 +90,9 @@
   },
   "output": {
     "path": "apps/web/public/assets/rhythm-comets/comets.png",
-    "width": 256,
+    "width": 512,
     "height": 256,
-    "bytes": 60715,
-    "sha256": "9822b56c3a414eb66f4247e81a7f260d76efe9ff45877a3335c2ff52314c80f3"
+    "bytes": 51406,
+    "sha256": "9a9efe7b4140060f032706a5a762264e654c293bf8e74721bbd7d1096f026031"
   }
 }

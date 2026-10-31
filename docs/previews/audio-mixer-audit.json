@@ -1,7 +1,7 @@
 [
   {
     "state": "running",
-    "time": 2.2506666666666666,
+    "time": 7.810666666666667,
     "paused": false,
     "muted": false,
     "scene": "balance",
@@ -11,12 +11,61 @@
     "master": 0.8500000238418579,
     "music": [
       {
+        "id": 2,
         "url": "/audio/user-instrumentals/04-delat-eto-trezvym.mp3",
         "gain": 0.75,
         "fading": false,
-        "position": 1.799984,
-        "elapsed": 1.799984,
-        "duration": 193.097143
+        "started": true,
+        "paused": false,
+        "ended": false,
+        "readyState": 4,
+        "seeking": false,
+        "fadeInStartedAt": 0.88,
+        "position": 6.934059,
+        "elapsed": 6.934059,
+        "duration": 193.097143,
+        "effectiveGain": 0.5418750303983693
+      }
+    ],
+    "musicEvents": [
+      {
+        "id": 1,
+        "url": "/audio/user-instrumentals/01-uskolszaet.mp3",
+        "type": "playing",
+        "time": 0,
+        "gain": 0
+      },
+      {
+        "id": 2,
+        "url": "/audio/user-instrumentals/04-delat-eto-trezvym.mp3",
+        "type": "playing",
+        "time": 0.88,
+        "gain": 0
+      },
+      {
+        "id": 1,
+        "url": "/audio/user-instrumentals/01-uskolszaet.mp3",
+        "type": "fade-out",
+        "time": 0.88,
+        "gain": 0.12155132740736008,
+        "end": 6.88
+      },
+      {
+        "id": 1,
+        "url": "/audio/user-instrumentals/01-uskolszaet.mp3",
+        "type": "fade-complete",
+        "time": 6.912,
+        "gain": 0,
+        "end": 6.88
+      },
+      {
+        "id": 1,
+        "url": "/audio/user-instrumentals/01-uskolszaet.mp3",
+        "type": "released",
+        "time": 6.912,
+        "gain": 0,
+        "end": 6.88,
+        "reason": "fade-complete"
       }
     ],
     "ambience": [
@@ -31,7 +80,7 @@
   },
   {
     "state": "running",
-    "time": 4.08,
+    "time": 14.76,
     "paused": false,
     "muted": false,
     "scene": "stars",
@@ -41,12 +90,93 @@
     "master": 0.8500000238418579,
     "music": [
       {
+        "id": 3,
         "url": "/audio/user-instrumentals/06-bespolezno.mp3",
         "gain": 0.7300000190734863,
         "fading": false,
-        "position": 1.802449,
-        "elapsed": 1.802449,
-        "duration": 424.490862
+        "started": true,
+        "paused": false,
+        "ended": false,
+        "readyState": 4,
+        "seeking": false,
+        "fadeInStartedAt": 7.84,
+        "position": 32.919699,
+        "elapsed": 32.919699,
+        "duration": 424.490862,
+        "effectiveGain": 0.5274250433683407
+      }
+    ],
+    "musicEvents": [
+      {
+        "id": 1,
+        "url": "/audio/user-instrumentals/01-uskolszaet.mp3",
+        "type": "playing",
+        "time": 0,
+        "gain": 0
+      },
+      {
+        "id": 2,
+        "url": "/audio/user-instrumentals/04-delat-eto-trezvym.mp3",
+        "type": "playing",
+        "time": 0.88,
+        "gain": 0
+      },
+      {
+        "id": 1,
+        "url": "/audio/user-instrumentals/01-uskolszaet.mp3",
+        "type": "fade-out",
+        "time": 0.88,
+        "gain": 0.12155132740736008,
+        "end": 6.88
+      },
+      {
+        "id": 1,
+        "url": "/audio/user-instrumentals/01-uskolszaet.mp3",
+        "type": "fade-complete",
+        "time": 6.912,
+        "gain": 0,
+        "end": 6.88
+      },
+      {
+        "id": 1,
+        "url": "/audio/user-instrumentals/01-uskolszaet.mp3",
+        "type": "released",
+        "time": 6.912,
+        "gain": 0,
+        "end": 6.88,
+        "reason": "fade-complete"
+      },
+      {
+        "id": 3,
+        "url": "/audio/user-instrumentals/06-bespolezno.mp3",
+        "type": "playing",
+        "time": 7.84,
+        "gain": 0
+      },
+      {
+        "id": 2,
+        "url": "/audio/user-instrumentals/04-delat-eto-trezvym.mp3",
+        "type": "fade-out",
+        "time": 7.84,
+        "gain": 0.75,
+        "end": 13.84
+      },
+      {
+        "id": 2,
+        "url": "/audio/user-instrumentals/04-delat-eto-trezvym.mp3",
+        "type": "fade-complete",
+        "time": 13.861333333333333,
+        "gain": 0,
+        "end": 13.84
+      },
+      {
+        "id": 2,
+        "url": "/audio/user-instrumentals/04-delat-eto-trezvym.mp3",
+        "type": "released",
+        "time": 13.861333333333333,
+        "gain": 0,
+        "end": 13.84,
+        "reason": "fade-complete"
       }
     ],
     "ambience": [
@@ -61,7 +191,7 @@
   },
   {
     "state": "running",
-    "time": 5.912,
+    "time": 21.730666666666668,
     "paused": false,
     "muted": false,
     "scene": "waiting",
@@ -71,12 +201,125 @@
     "master": 0.8500000238418579,
     "music": [
       {
+        "id": 4,
         "url": "/audio/user-instrumentals/07-reshitsya-samo-soboy.mp3",
         "gain": 0.7200000286102295,
         "fading": false,
-        "position": 1.793026,
-        "elapsed": 1.793026,
-        "duration": 252.3178
+        "started": true,
+        "paused": false,
+        "ended": false,
+        "readyState": 4,
+        "seeking": false,
+        "fadeInStartedAt": 14.792,
+        "position": 6.939901,
+        "elapsed": 6.939901,
+        "duration": 252.3178,
+        "effectiveGain": 0.5202000498533265
+      }
+    ],
+    "musicEvents": [
+      {
+        "id": 1,
+        "url": "/audio/user-instrumentals/01-uskolszaet.mp3",
+        "type": "playing",
+        "time": 0,
+        "gain": 0
+      },
+      {
+        "id": 2,
+        "url": "/audio/user-instrumentals/04-delat-eto-trezvym.mp3",
+        "type": "playing",
+        "time": 0.88,
+        "gain": 0
+      },
+      {
+        "id": 1,
+        "url": "/audio/user-instrumentals/01-uskolszaet.mp3",
+        "type": "fade-out",
+        "time": 0.88,
+        "gain": 0.12155132740736008,
+        "end": 6.88
+      },
+      {
+        "id": 1,
+        "url": "/audio/user-instrumentals/01-uskolszaet.mp3",
+        "type": "fade-complete",
+        "time": 6.912,
+        "gain": 0,
+        "end": 6.88
+      },
+      {
+        "id": 1,
+        "url": "/audio/user-instrumentals/01-uskolszaet.mp3",
+        "type": "released",
+        "time": 6.912,
+        "gain": 0,
+        "end": 6.88,
+        "reason": "fade-complete"
+      },
+      {
+        "id": 3,
+        "url": "/audio/user-instrumentals/06-bespolezno.mp3",
+        "type": "playing",
+        "time": 7.84,
+        "gain": 0
+      },
+      {
+        "id": 2,
+        "url": "/audio/user-instrumentals/04-delat-eto-trezvym.mp3",
+        "type": "fade-out",
+        "time": 7.84,
+        "gain": 0.75,
+        "end": 13.84
+      },
+      {
+        "id": 2,
+        "url": "/audio/user-instrumentals/04-delat-eto-trezvym.mp3",
+        "type": "fade-complete",
+        "time": 13.861333333333333,
+        "gain": 0,
+        "end": 13.84
+      },
+      {
+        "id": 2,
+        "url": "/audio/user-instrumentals/04-delat-eto-trezvym.mp3",
+        "type": "released",
+        "time": 13.861333333333333,
+        "gain": 0,
+        "end": 13.84,
+        "reason": "fade-complete"
+      },
+      {
+        "id": 4,
+        "url": "/audio/user-instrumentals/07-reshitsya-samo-soboy.mp3",
+        "type": "playing",
+        "time": 14.792,
+        "gain": 0
+      },
+      {
+        "id": 3,
+        "url": "/audio/user-instrumentals/06-bespolezno.mp3",
+        "type": "fade-out",
+        "time": 14.792,
+        "gain": 0.7300000190734863,
+        "end": 20.792
+      },
+      {
+        "id": 3,
+        "url": "/audio/user-instrumentals/06-bespolezno.mp3",
+        "type": "fade-complete",
+        "time": 20.810666666666666,
+        "gain": 0,
+        "end": 20.792
+      },
+      {
+        "id": 3,
+        "url": "/audio/user-instrumentals/06-bespolezno.mp3",
+        "type": "released",
+        "time": 20.810666666666666,
+        "gain": 0,
+        "end": 20.792,
+        "reason": "fade-complete"
       }
     ],
     "ambience": [
@@ -91,7 +334,7 @@
   },
   {
     "state": "running",
-    "time": 7.752,
+    "time": 21.752,
     "paused": false,
     "muted": false,
     "scene": "final-run",
@@ -101,18 +344,131 @@
     "master": 0.8500000238418579,
     "music": [
       {
+        "id": 4,
         "url": "/audio/user-instrumentals/07-reshitsya-samo-soboy.mp3",
         "gain": 0.7200000286102295,
         "fading": false,
-        "position": 3.632132,
-        "elapsed": 3.632132,
-        "duration": 252.3178
+        "started": true,
+        "paused": false,
+        "ended": false,
+        "readyState": 4,
+        "seeking": false,
+        "fadeInStartedAt": 14.792,
+        "position": 6.963084,
+        "elapsed": 6.963084,
+        "duration": 252.3178,
+        "effectiveGain": 0.5202000498533265
+      }
+    ],
+    "musicEvents": [
+      {
+        "id": 1,
+        "url": "/audio/user-instrumentals/01-uskolszaet.mp3",
+        "type": "playing",
+        "time": 0,
+        "gain": 0
+      },
+      {
+        "id": 2,
+        "url": "/audio/user-instrumentals/04-delat-eto-trezvym.mp3",
+        "type": "playing",
+        "time": 0.88,
+        "gain": 0
+      },
+      {
+        "id": 1,
+        "url": "/audio/user-instrumentals/01-uskolszaet.mp3",
+        "type": "fade-out",
+        "time": 0.88,
+        "gain": 0.12155132740736008,
+        "end": 6.88
+      },
+      {
+        "id": 1,
+        "url": "/audio/user-instrumentals/01-uskolszaet.mp3",
+        "type": "fade-complete",
+        "time": 6.912,
+        "gain": 0,
+        "end": 6.88
+      },
+      {
+        "id": 1,
+        "url": "/audio/user-instrumentals/01-uskolszaet.mp3",
+        "type": "released",
+        "time": 6.912,
+        "gain": 0,
+        "end": 6.88,
+        "reason": "fade-complete"
+      },
+      {
+        "id": 3,
+        "url": "/audio/user-instrumentals/06-bespolezno.mp3",
+        "type": "playing",
+        "time": 7.84,
+        "gain": 0
+      },
+      {
+        "id": 2,
+        "url": "/audio/user-instrumentals/04-delat-eto-trezvym.mp3",
+        "type": "fade-out",
+        "time": 7.84,
+        "gain": 0.75,
+        "end": 13.84
+      },
+      {
+        "id": 2,
+        "url": "/audio/user-instrumentals/04-delat-eto-trezvym.mp3",
+        "type": "fade-complete",
+        "time": 13.861333333333333,
+        "gain": 0,
+        "end": 13.84
+      },
+      {
+        "id": 2,
+        "url": "/audio/user-instrumentals/04-delat-eto-trezvym.mp3",
+        "type": "released",
+        "time": 13.861333333333333,
+        "gain": 0,
+        "end": 13.84,
+        "reason": "fade-complete"
+      },
+      {
+        "id": 4,
+        "url": "/audio/user-instrumentals/07-reshitsya-samo-soboy.mp3",
+        "type": "playing",
+        "time": 14.792,
+        "gain": 0
+      },
+      {
+        "id": 3,
+        "url": "/audio/user-instrumentals/06-bespolezno.mp3",
+        "type": "fade-out",
+        "time": 14.792,
+        "gain": 0.7300000190734863,
+        "end": 20.792
+      },
+      {
+        "id": 3,
+        "url": "/audio/user-instrumentals/06-bespolezno.mp3",
+        "type": "fade-complete",
+        "time": 20.810666666666666,
+        "gain": 0,
+        "end": 20.792
+      },
+      {
+        "id": 3,
+        "url": "/audio/user-instrumentals/06-bespolezno.mp3",
+        "type": "released",
+        "time": 20.810666666666666,
+        "gain": 0,
+        "end": 20.792,
+        "reason": "fade-complete"
       }
     ],
     "ambience": [
       {
-        "url": "/audio/original-v1/ambient-ending.ogg",
-        "gain": 0.1599999964237213,
+        "url": "/audio/original-v1/ambient-room.ogg",
+        "gain": 0.15000000596046448,
         "fading": false
       }
     ],
@@ -121,7 +477,7 @@
   },
   {
     "state": "running",
-    "time": 9.570666666666666,
+    "time": 28.72,
     "paused": false,
     "muted": false,
     "scene": "ending",
@@ -131,12 +487,157 @@
     "master": 0.8500000238418579,
     "music": [
       {
+        "id": 5,
         "url": "/audio/user-instrumentals/08-podvorotnya-moy-dom.mp3",
         "gain": 0.7799999713897705,
         "fading": false,
-        "position": 1.790839,
-        "elapsed": 1.790839,
-        "duration": 201.639184
+        "started": true,
+        "paused": false,
+        "ended": false,
+        "readyState": 4,
+        "seeking": false,
+        "fadeInStartedAt": 21.752,
+        "position": 6.968889,
+        "elapsed": 6.968889,
+        "duration": 201.639184,
+        "effectiveGain": 0.5635500109434121
+      }
+    ],
+    "musicEvents": [
+      {
+        "id": 1,
+        "url": "/audio/user-instrumentals/01-uskolszaet.mp3",
+        "type": "playing",
+        "time": 0,
+        "gain": 0
+      },
+      {
+        "id": 2,
+        "url": "/audio/user-instrumentals/04-delat-eto-trezvym.mp3",
+        "type": "playing",
+        "time": 0.88,
+        "gain": 0
+      },
+      {
+        "id": 1,
+        "url": "/audio/user-instrumentals/01-uskolszaet.mp3",
+        "type": "fade-out",
+        "time": 0.88,
+        "gain": 0.12155132740736008,
+        "end": 6.88
+      },
+      {
+        "id": 1,
+        "url": "/audio/user-instrumentals/01-uskolszaet.mp3",
+        "type": "fade-complete",
+        "time": 6.912,
+        "gain": 0,
+        "end": 6.88
+      },
+      {
+        "id": 1,
+        "url": "/audio/user-instrumentals/01-uskolszaet.mp3",
+        "type": "released",
+        "time": 6.912,
+        "gain": 0,
+        "end": 6.88,
+        "reason": "fade-complete"
+      },
+      {
+        "id": 3,
+        "url": "/audio/user-instrumentals/06-bespolezno.mp3",
+        "type": "playing",
+        "time": 7.84,
+        "gain": 0
+      },
+      {
+        "id": 2,
+        "url": "/audio/user-instrumentals/04-delat-eto-trezvym.mp3",
+        "type": "fade-out",
+        "time": 7.84,
+        "gain": 0.75,
+        "end": 13.84
+      },
+      {
+        "id": 2,
+        "url": "/audio/user-instrumentals/04-delat-eto-trezvym.mp3",
+        "type": "fade-complete",
+        "time": 13.861333333333333,
+        "gain": 0,
+        "end": 13.84
+      },
+      {
+        "id": 2,
+        "url": "/audio/user-instrumentals/04-delat-eto-trezvym.mp3",
+        "type": "released",
+        "time": 13.861333333333333,
+        "gain": 0,
+        "end": 13.84,
+        "reason": "fade-complete"
+      },
+      {
+        "id": 4,
+        "url": "/audio/user-instrumentals/07-reshitsya-samo-soboy.mp3",
+        "type": "playing",
+        "time": 14.792,
+        "gain": 0
+      },
+      {
+        "id": 3,
+        "url": "/audio/user-instrumentals/06-bespolezno.mp3",
+        "type": "fade-out",
+        "time": 14.792,
+        "gain": 0.7300000190734863,
+        "end": 20.792
+      },
+      {
+        "id": 3,
+        "url": "/audio/user-instrumentals/06-bespolezno.mp3",
+        "type": "fade-complete",
+        "time": 20.810666666666666,
+        "gain": 0,
+        "end": 20.792
+      },
+      {
+        "id": 3,
+        "url": "/audio/user-instrumentals/06-bespolezno.mp3",
+        "type": "released",
+        "time": 20.810666666666666,
+        "gain": 0,
+        "end": 20.792,
+        "reason": "fade-complete"
+      },
+      {
+        "id": 5,
+        "url": "/audio/user-instrumentals/08-podvorotnya-moy-dom.mp3",
+        "type": "playing",
+        "time": 21.752,
+        "gain": 0
+      },
+      {
+        "id": 4,
+        "url": "/audio/user-instrumentals/07-reshitsya-samo-soboy.mp3",
+        "type": "fade-out",
+        "time": 21.752,
+        "gain": 0.7200000286102295,
+        "end": 27.752
+      },
+      {
+        "id": 4,
+        "url": "/audio/user-instrumentals/07-reshitsya-samo-soboy.mp3",
+        "type": "fade-complete",
+        "time": 27.770666666666667,
+        "gain": 0,
+        "end": 27.752
+      },
+      {
+        "id": 4,
+        "url": "/audio/user-instrumentals/07-reshitsya-samo-soboy.mp3",
+        "type": "released",
+        "time": 27.770666666666667,
+        "gain": 0,
+        "end": 27.752,
+        "reason": "fade-complete"
       }
     ],
     "ambience": [
@@ -151,7 +652,7 @@
   },
   {
     "state": "running",
-    "time": 11.410666666666666,
+    "time": 35.690666666666665,
     "paused": false,
     "muted": false,
     "scene": "runner",
@@ -161,12 +662,189 @@
     "master": 0.8500000238418579,
     "music": [
       {
+        "id": 6,
         "url": "/audio/user-instrumentals/01-uskolszaet.mp3",
         "gain": 0.7699999809265137,
         "fading": false,
-        "position": 1.790839,
-        "elapsed": 1.790839,
-        "duration": 306.02449
+        "started": true,
+        "paused": false,
+        "ended": false,
+        "readyState": 4,
+        "seeking": false,
+        "fadeInStartedAt": 28.741333333333333,
+        "position": 6.951474,
+        "elapsed": 6.951474,
+        "duration": 306.02449,
+        "effectiveGain": 0.5563250174283978
+      }
+    ],
+    "musicEvents": [
+      {
+        "id": 1,
+        "url": "/audio/user-instrumentals/01-uskolszaet.mp3",
+        "type": "playing",
+        "time": 0,
+        "gain": 0
+      },
+      {
+        "id": 2,
+        "url": "/audio/user-instrumentals/04-delat-eto-trezvym.mp3",
+        "type": "playing",
+        "time": 0.88,
+        "gain": 0
+      },
+      {
+        "id": 1,
+        "url": "/audio/user-instrumentals/01-uskolszaet.mp3",
+        "type": "fade-out",
+        "time": 0.88,
+        "gain": 0.12155132740736008,
+        "end": 6.88
+      },
+      {
+        "id": 1,
+        "url": "/audio/user-instrumentals/01-uskolszaet.mp3",
+        "type": "fade-complete",
+        "time": 6.912,
+        "gain": 0,
+        "end": 6.88
+      },
+      {
+        "id": 1,
+        "url": "/audio/user-instrumentals/01-uskolszaet.mp3",
+        "type": "released",
+        "time": 6.912,
+        "gain": 0,
+        "end": 6.88,
+        "reason": "fade-complete"
+      },
+      {
+        "id": 3,
+        "url": "/audio/user-instrumentals/06-bespolezno.mp3",
+        "type": "playing",
+        "time": 7.84,
+        "gain": 0
+      },
+      {
+        "id": 2,
+        "url": "/audio/user-instrumentals/04-delat-eto-trezvym.mp3",
+        "type": "fade-out",
+        "time": 7.84,
+        "gain": 0.75,
+        "end": 13.84
+      },
+      {
+        "id": 2,
+        "url": "/audio/user-instrumentals/04-delat-eto-trezvym.mp3",
+        "type": "fade-complete",
+        "time": 13.861333333333333,
+        "gain": 0,
+        "end": 13.84
+      },
+      {
+        "id": 2,
+        "url": "/audio/user-instrumentals/04-delat-eto-trezvym.mp3",
+        "type": "released",
+        "time": 13.861333333333333,
+        "gain": 0,
+        "end": 13.84,
+        "reason": "fade-complete"
+      },
+      {
+        "id": 4,
+        "url": "/audio/user-instrumentals/07-reshitsya-samo-soboy.mp3",
+        "type": "playing",
+        "time": 14.792,
+        "gain": 0
+      },
+      {
+        "id": 3,
+        "url": "/audio/user-instrumentals/06-bespolezno.mp3",
+        "type": "fade-out",
+        "time": 14.792,
+        "gain": 0.7300000190734863,
+        "end": 20.792
+      },
+      {
+        "id": 3,
+        "url": "/audio/user-instrumentals/06-bespolezno.mp3",
+        "type": "fade-complete",
+        "time": 20.810666666666666,
+        "gain": 0,
+        "end": 20.792
+      },
+      {
+        "id": 3,
+        "url": "/audio/user-instrumentals/06-bespolezno.mp3",
+        "type": "released",
+        "time": 20.810666666666666,
+        "gain": 0,
+        "end": 20.792,
+        "reason": "fade-complete"
+      },
+      {
+        "id": 5,
+        "url": "/audio/user-instrumentals/08-podvorotnya-moy-dom.mp3",
+        "type": "playing",
+        "time": 21.752,
+        "gain": 0
+      },
+      {
+        "id": 4,
+        "url": "/audio/user-instrumentals/07-reshitsya-samo-soboy.mp3",
+        "type": "fade-out",
+        "time": 21.752,
+        "gain": 0.7200000286102295,
+        "end": 27.752
+      },
+      {
+        "id": 4,
+        "url": "/audio/user-instrumentals/07-reshitsya-samo-soboy.mp3",
+        "type": "fade-complete",
+        "time": 27.770666666666667,
+        "gain": 0,
+        "end": 27.752
+      },
+      {
+        "id": 4,
+        "url": "/audio/user-instrumentals/07-reshitsya-samo-soboy.mp3",
+        "type": "released",
+        "time": 27.770666666666667,
+        "gain": 0,
+        "end": 27.752,
+        "reason": "fade-complete"
+      },
+      {
+        "id": 6,
+        "url": "/audio/user-instrumentals/01-uskolszaet.mp3",
+        "type": "playing",
+        "time": 28.741333333333333,
+        "gain": 0
+      },
+      {
+        "id": 5,
+        "url": "/audio/user-instrumentals/08-podvorotnya-moy-dom.mp3",
+        "type": "fade-out",
+        "time": 28.741333333333333,
+        "gain": 0.7799999713897705,
+        "end": 34.74133333333333
+      },
+      {
+        "id": 5,
+        "url": "/audio/user-instrumentals/08-podvorotnya-moy-dom.mp3",
+        "type": "fade-complete",
+        "time": 34.77066666666666,
+        "gain": 0,
+        "end": 34.74133333333333
+      },
+      {
+        "id": 5,
+        "url": "/audio/user-instrumentals/08-podvorotnya-moy-dom.mp3",
+        "type": "released",
+        "time": 34.77066666666666,
+        "gain": 0,
+        "end": 34.74133333333333,
+        "reason": "fade-complete"
       }
     ],
     "ambience": [

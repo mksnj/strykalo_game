@@ -2,8 +2,9 @@ import { useEffect, useState, useSyncExternalStore } from 'react';
 import { gameStore } from '../game/state/store';
 import { GameCanvas } from './GameCanvas';
 import { shareResult } from '../services/share';
-import { BalanceHud } from './BalanceHud';
+import { BalanceHud, BalanceInstructions } from './BalanceHud';
 import { StarsHud } from './StarsHud';
+import { MiniGameHeading } from './MiniGameHeading';
 import { albumUrl } from '../services/album';
 import { journeyRoute } from '../game/state/route';
 import { Tutorial } from './Tutorial';
@@ -12,6 +13,10 @@ import { StarsTutorial } from './StarsTutorial';
 import { RunnerCounters } from './RunnerCounters';
 import { DebugMenu } from './DebugMenu';
 import { isMiniGameStartPoint } from '../game/state/debugStart';
+
+const buildVersion = import.meta.env.VITE_BUILD_ID ? new Date(import.meta.env.VITE_BUILD_ID).toLocaleString('ru-RU', {
+  timeZone: 'Europe/Moscow', day: '2-digit', month: '2-digit', hour: '2-digit', minute: '2-digit',
+}) : 'разработка';
 
 export function App() {
   const state = useSyncExternalStore(gameStore.subscribe, gameStore.getSnapshot);
@@ -41,11 +46,14 @@ export function App() {
   const completed = state.screen === 'completed';
   const finished = state.screen === 'game-over' || state.screen === 'stage-complete' || completed;
   const playing = state.screen === 'playing';
-  const testing = state.developer || !!state.debugStart;
+  const testing = state.developer || state.bypassStarsGate;
+  const balanceHeading = playing && state.phase === 'balance' && !state.balanceIntroOpen;
+  const starsHeading = playing && ['stars', 'stars-retry', 'stars-failure'].includes(state.phase) && !state.starsIntroOpen;
+  const waitingHeading = playing && state.phase === 'waiting';
   const start = () => { if (state.debugStart && finished) {
     if (state.bypassStarsGate) gameStore.startDebug(state.debugStart, state.seed);
     else if (isMiniGameStartPoint(state.debugStart)) gameStore.startMiniGame(state.debugStart, state.seed);
-    else gameStore.startDebug(state.debugStart, state.seed);
+    else gameStore.startStage(state.debugStart, state.seed);
   }
     else gameStore.start(developer); (document.activeElement as HTMLElement | null)?.blur(); };
   const begin = () => {
@@ -57,11 +65,14 @@ export function App() {
   const district = state.phase.startsWith('pipe') || state.phase === 'balance' ? 'ГОРОДСКОЙ КОТЛОВАН' :
     state.phase.startsWith('stars') ? 'ЗАБРОШЕННАЯ ПЛОЩАДКА' : state.phase.startsWith('room') || state.phase === 'waiting' ? 'ПРОХОДНАЯ КОМНАТА' :
     { night: 'НОЧНОЙ РАЙОН', autumn: 'ОСЕННИЕ ДВОРЫ', shadows: 'ТЁМНЫЕ ДВОРЫ', archway: 'ПОДЪЕЗД' }[state.region];
-  return <main className="app" tabIndex={-1} data-screen={state.screen} data-paused={state.paused} data-phase={state.phase} data-developer={state.developer}>
+  return <main className="app" tabIndex={-1} data-screen={state.screen} data-paused={state.paused} data-phase={state.phase} data-developer={state.developer} data-minigame-heading={balanceHeading || starsHeading || waitingHeading}>
     <GameCanvas />
     <div className="grain" aria-hidden="true" />
     <header className="top-bar">
-      <div className="brand">ВАЛЕНТИН СТРЫКАЛО <span> / </span> 2016—2026</div>
+      <div className="brand">ВАЛЕНТИН СТРЫКАЛО <span> / </span> <span className="brand-years">2016—∞</span></div>
+      {balanceHeading && <BalanceInstructions />}
+      {starsHeading && <MiniGameHeading className="rhythm-title" title="Бесполезно" hint="Нажми направление в момент совпадения" />}
+      {waitingHeading && <MiniGameHeading title="Решится само собой" />}
       <div className="system-controls">
         <span className="demo-label">{testing && playing ? 'ДЛЯ РАЗРАБОТЧИКА' : 'ДЕМО · ДОРОГА ДОМОЙ'}</span>
         <button className="quiet-button" onClick={() => gameStore.toggleMute()} aria-label={state.muted ? 'Включить звук' : 'Выключить звук'} aria-pressed={state.muted}>{state.muted ? 'Звук выкл.' : 'Звук вкл.'}</button>
@@ -85,7 +96,7 @@ export function App() {
         <p className="instructions" id="launch-instructions">{developer ? <>Маршрут 0–70 без препятствий.<br />Мини-игры на 20, 40 и 60; их длительность сохранена.</> : <>Касание, пробел или ↑ — прыжок.<br />Удерживайте дольше, чтобы прыгнуть выше.</>}</p>
         <DebugMenu />
       </div>
-      <div className="menu-foot"><span>01 / НОЧНОЙ РАЙОН</span><p>Локальная пробная версия. Результаты не попадают в общий рейтинг.</p></div>
+      <div className="menu-foot"><span title={import.meta.env.VITE_BUILD_ID}>Версия {buildVersion} МСК</span><p>Локальная пробная версия. Результаты не попадают в общий рейтинг.</p></div>
     </section>}
     {state.screen === 'menu' && tutorialOpen && <Tutorial onStart={() => {
       setTutorialSeen(true); setTutorialOpen(false); start();
@@ -94,7 +105,8 @@ export function App() {
       requestAnimationFrame(() => document.querySelector<HTMLButtonElement>('.menu-actions .primary')?.focus());
     }} />}
     {playing && <>
-      <section className="hud" aria-label="Результат попытки"><RunnerCounters score={state.score} lives={state.lives} /><div className="distance">{testing && <b className="developer-badge">ДЛЯ РАЗРАБОТЧИКА</b>}{district} <span>{state.distance} / {routeEnd}</span><div className="progress"><i style={{ width: `${state.distance / routeEnd * 100}%` }} /></div></div></section>
+      <section className="hud" aria-label="Результат попытки"><RunnerCounters score={state.score} lives={state.lives} />
+        <div className="distance">{testing && <b className="developer-badge">ДЛЯ РАЗРАБОТЧИКА</b>}{district} <span>{state.distance} / {routeEnd}</span><div className="progress"><i style={{ width: `${state.distance / routeEnd * 100}%` }} /></div></div></section>
       {state.phase === 'runner' && <div className="jump-guide" aria-hidden="true">КАСАНИЕ — ПРЫЖОК</div>}
       {state.phase === 'balance' && !state.balanceIntroOpen && <BalanceHud position={state.balancePosition} progress={state.balanceProgress} />}
       {state.balanceIntroOpen && <BalanceTutorial onBack={state.debugStart ? () => gameStore.menu() : undefined} onStart={() => {
@@ -105,7 +117,8 @@ export function App() {
         gameStore.startStars();
         requestAnimationFrame(() => document.querySelector<HTMLElement>('.app')?.focus({ preventScroll: true }));
       }} />}
-      {state.phase === 'stars' && !state.starsIntroOpen && <StarsHud paused={state.paused} />}
+      {['stars', 'stars-retry', 'stars-failure'].includes(state.phase) && !state.starsIntroOpen &&
+        <StarsHud paused={state.paused || state.phase !== 'stars'} />}
       {state.phase === 'stars-retry' && <div className="transition-caption" role="status">Ещё раз</div>}
       {state.phase === 'stars-locked' && <section className="overlay stars-gate" data-system-ui>
         <div className="panel" role="dialog" aria-modal="true" aria-labelledby="stars-gate-title">
@@ -123,18 +136,18 @@ export function App() {
       {state.paused && state.phase !== 'stars-locked' && !state.balanceIntroOpen && !state.starsIntroOpen && <section className="overlay"><div className="panel"><p className="eyebrow">ГОРОД ПОДОЖДЁТ</p><h1>Пауза</h1><p>Вернитесь, когда будете готовы.</p><div className="actions"><button className="primary" onClick={resume}>Продолжить →</button><button onClick={() => gameStore.menu()}>В меню</button></div></div></section>}
     </>}
     {finished && <section className="overlay result"><div className="panel">
-      <p className="eyebrow">{testing ? 'ДЛЯ РАЗРАБОТЧИКА · ТЕСТОВАЯ ПОПЫТКА' : completed ? 'ДЕСЯТЬ ЛЕТ АЛЬБОМУ · 2016—2026' : 'ПОПЫТКА ЗАКОНЧЕНА'}</p>
+      <p className="eyebrow">{testing ? 'ДЛЯ РАЗРАБОТЧИКА · ТЕСТОВАЯ ПОПЫТКА' : completed ? 'ДЕСЯТЬ ЛЕТ АЛЬБОМУ · 2016—∞' : 'ПОПЫТКА ЗАКОНЧЕНА'}</p>
       <h1>{completed ? 'Путь домой завершён' : 'Не в этот раз'}</h1>
       <p>{completed ? 'Город остался за дверью.' : state.phase === 'balance' ? 'Не удалось удержаться на трубе. Можно попробовать ещё.' : 'Город остаётся. Можно попробовать ещё.'}</p>
       <div className="result-numbers"><div><strong>{state.score}</strong><span>собрано кассет</span></div><div><strong>{state.best}</strong><span>рекорд на устройстве</span></div><div><strong>{state.distance}</strong><span>пройдено / {routeEnd}</span></div></div>
       {completed && <div className="actions album-actions"><button disabled={!albumUrl} title={albumUrl ? undefined : 'Ссылка на альбом ещё не добавлена'} onClick={() => { if (albumUrl) window.open(albumUrl, '_blank', 'noopener,noreferrer'); }}>Переслушать альбом</button><button onClick={() => setNotice('Общий рейтинг будет доступен после подключения Telegram и сервера. Сейчас рекорд хранится на устройстве.')}>Таблица лидеров</button></div>}
       {state.screen === 'game-over' && state.checkpointDistance !== null && <div className="actions"><button className="primary" onClick={() => { gameStore.continueFromCheckpoint(); (document.activeElement as HTMLElement | null)?.blur(); }}>{['balance', 'stars', 'waiting'].includes(state.checkpointPhase ?? '') ? 'Играть ещё раз' : `Продолжить с ${state.checkpointDistance}`}</button></div>}
-      <div className="actions"><button className="primary" onClick={start}>{completed ? 'Играть снова' : ['balance', 'stars', 'waiting'].includes(state.checkpointPhase ?? '') ? 'С начала' : 'Ещё раз'} <span aria-hidden="true">↗</span></button><button disabled={testing} onClick={() => { void shareResult(state.score).then(setNotice); }}>Поделиться</button><button className="text-button" onClick={() => gameStore.menu()}>В меню</button></div>
-      <p className="notice" role="status">{testing ? 'Тестовый результат не сохраняется в рекорд.' : notice || 'Деморезультат сохраняется только на этом устройстве.'}</p>
+      <div className="actions"><button className="primary" onClick={start}>{completed ? 'Играть снова' : ['balance', 'stars', 'waiting'].includes(state.checkpointPhase ?? '') ? 'С начала' : 'Ещё раз'} <span aria-hidden="true">↗</span></button><button disabled={testing || !!state.debugStart} onClick={() => { void shareResult(state.score).then(setNotice); }}>Поделиться</button><button className="text-button" onClick={() => gameStore.menu()}>В меню</button></div>
+      <p className="notice" role="status">{testing ? 'Тестовый результат не сохраняется в рекорд.' : state.debugStart ? 'Результат отдельного этапа не сохраняется в рекорд.' : notice || 'Деморезультат сохраняется только на этом устройстве.'}</p>
     </div></section>}
     {playing && !state.paused && <div className="portrait-guide" aria-hidden="true">
       {state.phase === 'runner' ? <><strong>Дорога продолжается</strong><span>Касайтесь экрана для прыжка.<br />Удерживайте, чтобы прыгнуть выше.</span></> :
-       state.phase === 'waiting' ? <strong>Пусть решится само собой</strong> : null}
+       null}
     </div>}
   </main>;
 }

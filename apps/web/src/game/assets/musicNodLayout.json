@@ -1,0 +1,16 @@
+{
+  "key": "music_nod",
+  "collection": "music-nod-v1",
+  "url": "/assets/music-nod-v1/sprite_sheet_4x2.png",
+  "source": "music_nod_codex_ready",
+  "width": 1280,
+  "height": 1216,
+  "cellWidth": 320,
+  "cellHeight": 608,
+  "frameCount": 8,
+  "hitFrames": [0, 1, 2, 3],
+  "bpm": 120,
+  "canvasFootY": 588,
+  "footContactY": 585,
+  "bodyHeight": 555
+}

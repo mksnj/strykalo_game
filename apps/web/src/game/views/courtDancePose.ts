@@ -1,4 +1,5 @@
-import { COURT_HERO } from '../config';
+import { sideStepHitDuration } from './sideStepAnimation';
+import { musicNodDuration } from './musicNodAnimation';
 import type { RhythmDirection, RhythmFeedback } from '../minigames/stars/StarsEngine';
 
 export type CourtDancePose = Exclude<RhythmDirection, 'up'> | 'idle';
@@ -7,5 +8,6 @@ export type CourtDancePose = Exclude<RhythmDirection, 'up'> | 'idle';
 export function courtDancePose(latest: RhythmFeedback | undefined, elapsed: number, failure = 0): CourtDancePose {
   if (!latest || latest.direction === 'up' || failure > 0 || latest.judgment !== 'perfect' && latest.judgment !== 'good') return 'idle';
   const age = elapsed - latest.at;
-  return age >= 0 && age < COURT_HERO.gestureSeconds ? latest.direction : 'idle';
+  const duration = latest.direction === 'down' ? musicNodDuration() : sideStepHitDuration(latest.direction);
+  return age >= 0 && age < duration ? latest.direction : 'idle';
 }

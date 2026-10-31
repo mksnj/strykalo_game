@@ -1368,6 +1368,342 @@
           }
         ]
       }
+    },
+    {
+      "collection": "rhythm-comets",
+      "createdOn": "2026-10-30",
+      "tool": "Deterministic atlas packing and uniform scaling of two provided vertical PNGs; alpha preserved, no colour removal, rotation or image generation.",
+      "sources": [
+        "docs/comet_vertical_1.png",
+        "docs/comet_vertical_2.png",
+        "docs/comet_vertical_3.png",
+        "docs/comet_vertical_4.png"
+      ],
+      "audit": "assets/source/rhythm-comets/audit.json",
+      "license": "Owner-provided project artwork; no external material added"
+    },
+    {
+      "collection": "music-nod-v1",
+      "createdOn": "2026-10-31",
+      "tool": "Byte-for-byte copy; no generation, cropping, scaling, background or facial edits",
+      "source": "music_nod_codex_ready",
+      "audit": "assets/source/music-nod-v1/audit.json",
+      "license": "Owner-provided assets; original files and metadata preserved; no new license assigned",
+      "assets": {
+        "method": "Byte-for-byte copy; no generation, cropping, scaling, background or facial edits",
+        "inputs": [
+          {
+            "path": "music_nod_codex_ready/animation.json",
+            "bytes": 1705,
+            "sha256": "9ff16f63f0cefd225b077f957640bc473225244a4154e3ab852ee022f3b390c6"
+          },
+          {
+            "path": "music_nod_codex_ready/atlas.json",
+            "bytes": 3504,
+            "sha256": "c499e8af0f62029c63c5194df2e9b67224271f4ab4311afd89c4ccd3216428d5"
+          },
+          {
+            "path": "music_nod_codex_ready/CODEX_TASK.md",
+            "bytes": 4166,
+            "sha256": "0596190359d771ae84e3297fa9751e6e9938f66f10e2d979e877ce699d41528f"
+          },
+          {
+            "path": "music_nod_codex_ready/frames/nod_00.png",
+            "bytes": 152836,
+            "sha256": "119c2c3eb86ae47737da64e8efe0bbb4f55ef57a210f2d9f02c6a8d3e7976bbe"
+          },
+          {
+            "path": "music_nod_codex_ready/frames/nod_01.png",
+            "bytes": 134571,
+            "sha256": "5ea5e818225cde8ccc3a73dad2a22e54db227f677306cf6575f90dcdb7258849"
+          },
+          {
+            "path": "music_nod_codex_ready/frames/nod_02.png",
+            "bytes": 158031,
+            "sha256": "486cd894d4ae88ee5349f671a4bc0ff13e1f64a0a5f79b5bfd5e262a97dc9b05"
+          },
+          {
+            "path": "music_nod_codex_ready/frames/nod_03.png",
+            "bytes": 134439,
+            "sha256": "0e1553feb28618bfcbb7f575512d932e19714215fe04a7cd4a7f6265e64e19c2"
+          },
+          {
+            "path": "music_nod_codex_ready/frames/nod_04.png",
+            "bytes": 154248,
+            "sha256": "b5979fe455bc936aba231ab70e7c7e040cf2958db41bbe3b153de10fa70531e3"
+          },
+          {
+            "path": "music_nod_codex_ready/frames/nod_05.png",
+            "bytes": 134525,
+            "sha256": "c09e9e431cbfab62ade6b61d7a5395acea92ecaa79425b20e5e059c632fa716e"
+          },
+          {
+            "path": "music_nod_codex_ready/frames/nod_06.png",
+            "bytes": 158130,
+            "sha256": "4e74bccc20e6a33482ccee3a4c1b070a62d02b1ec55bf9e7da8c6c6effc84479"
+          },
+          {
+            "path": "music_nod_codex_ready/frames/nod_07.png",
+            "bytes": 134145,
+            "sha256": "ab526be0b7f33c42ff3c5d4b2a57a105aa0d3dce8da5b5d45f12013057464467"
+          },
+          {
+            "path": "music_nod_codex_ready/preview.gif",
+            "bytes": 725184,
+            "sha256": "e5ed8851b94e99d85db25529253df0cb43486be28a84c38786b0372de90ef557"
+          },
+          {
+            "path": "music_nod_codex_ready/preview_frames.png",
+            "bytes": 342201,
+            "sha256": "549fe19e3dd0bbef5cf801ebf1c25599d9280a539134e197cfdca7c6bda2c60b"
+          },
+          {
+            "path": "music_nod_codex_ready/README.md",
+            "bytes": 3011,
+            "sha256": "f7cfa4dcfcc772e4e6ac8845a140b9a75c7e6b11a38e72b8596294253a013812"
+          },
+          {
+            "path": "music_nod_codex_ready/sprite_sheet_4x2.png",
+            "bytes": 1156717,
+            "sha256": "8adbcbaffe65cb9ecdb8a93d4b50cdc8a358772facfd3891d9eaeaafc50a1af2"
+          },
+          {
+            "path": "music_nod_codex_ready/sprite_sheet_8x1.png",
+            "bytes": 1151701,
+            "sha256": "96f3626ec9f25919398aa00ed6ae76a72cf98ccf274fdd4c551dceba93bbbde1"
+          }
+        ],
+        "frames": [
+          {
+            "index": 0,
+            "top": 30,
+            "bottom": 585,
+            "feet": {
+              "top": 400,
+              "left": 84,
+              "right": 239,
+              "bottom": 585
+            }
+          },
+          {
+            "index": 1,
+            "top": 30,
+            "bottom": 585,
+            "feet": {
+              "top": 400,
+              "left": 81,
+              "right": 241,
+              "bottom": 585
+            }
+          },
+          {
+            "index": 2,
+            "top": 30,
+            "bottom": 585,
+            "feet": {
+              "top": 400,
+              "left": 79,
+              "right": 242,
+              "bottom": 585
+            }
+          },
+          {
+            "index": 3,
+            "top": 30,
+            "bottom": 585,
+            "feet": {
+              "top": 400,
+              "left": 80,
+              "right": 242,
+              "bottom": 585
+            }
+          },
+          {
+            "index": 4,
+            "top": 30,
+            "bottom": 585,
+            "feet": {
+              "top": 400,
+              "left": 82,
+              "right": 241,
+              "bottom": 585
+            }
+          },
+          {
+            "index": 5,
+            "top": 31,
+            "bottom": 585,
+            "feet": {
+              "top": 400,
+              "left": 81,
+              "right": 242,
+              "bottom": 585
+            }
+          },
+          {
+            "index": 6,
+            "top": 31,
+            "bottom": 585,
+            "feet": {
+              "top": 400,
+              "left": 79,
+              "right": 243,
+              "bottom": 585
+            }
+          },
+          {
+            "index": 7,
+            "top": 31,
+            "bottom": 585,
+            "feet": {
+              "top": 400,
+              "left": 82,
+              "right": 241,
+              "bottom": 585
+            }
+          }
+        ],
+        "output": {
+          "path": "apps/web/public/assets/music-nod-v1/sprite_sheet_4x2.png",
+          "width": 1280,
+          "height": 1216,
+          "bytes": 1156717,
+          "sha256": "8adbcbaffe65cb9ecdb8a93d4b50cdc8a358772facfd3891d9eaeaafc50a1af2"
+        },
+        "runtime": {
+          "layout": "apps/web/src/game/assets/musicNodLayout.json",
+          "clock": "One down-arrow hit uses frames 0..3 only: one nod in 0.5s at 120 BPM; the source frames 4..7 contain a second nod and are excluded",
+          "sizing": "apps/web/src/game/assets/courtHeroLayout.json: fixed width and height calibration per source; no per-frame zoom",
+          "anchor": "Shared world foot plane: idle alpha edge 255, step alpha edge 589, nod alpha edge 585",
+          "priority": "Down hit only; left/right hits select restored side-step clips; all other time uses hero-front; failure cancels the clip"
+        }
+      }
+    },
+    {
+      "collection": "court-side-step-v26",
+      "createdOn": "2026-10-31",
+      "tool": "Byte-for-byte copy of the owner-provided transparent sprite sheet; no image editing or generation",
+      "source": "hooded_step_game_sprites",
+      "audit": "assets/source/court-side-step-v26/audit.json",
+      "license": "Owner-provided assets; original metadata preserved; no new license assigned",
+      "assets": {
+        "method": "Byte-for-byte copy of the owner-provided transparent sprite sheet; no image editing or generation",
+        "inputs": [
+          {
+            "path": "hooded_step_game_sprites/animations.json",
+            "bytes": 6025,
+            "sha256": "dcb1b6175ec91664ceae9f495eabd70e0f347d9e316cf4e10b5ac37c3a816bf9"
+          },
+          {
+            "path": "hooded_step_game_sprites/atlas_phaser.json",
+            "bytes": 4594,
+            "sha256": "db0a50305bb3d7823b1e30f8183a515bca3d3094f3542dcede7a91db1338e1a6"
+          },
+          {
+            "path": "hooded_step_game_sprites/CODEX_PROMPT.md",
+            "bytes": 2756,
+            "sha256": "7457cd6275862a3d599d4fbbb03ec86ec56f3f07b67f8ef86c45b89eed67e7b2"
+          },
+          {
+            "path": "hooded_step_game_sprites/frames/frame_00.png",
+            "bytes": 130746,
+            "sha256": "00b9fbbead86f606a0ba3a42f8110d56fd7dd90b41b032fa01b3c5e8739ab7c6"
+          },
+          {
+            "path": "hooded_step_game_sprites/frames/frame_01.png",
+            "bytes": 134548,
+            "sha256": "9bf8fe31344d50fbd728e5a335d3cd57de66461861090e192b15aac850f7b761"
+          },
+          {
+            "path": "hooded_step_game_sprites/frames/frame_02.png",
+            "bytes": 134547,
+            "sha256": "1e9db78f17967ac01ac17e9343650c8072c1e6b8ae53adc51cb7725206c245ed"
+          },
+          {
+            "path": "hooded_step_game_sprites/frames/frame_03.png",
+            "bytes": 130720,
+            "sha256": "fc4a1e2ccca757be3648887267e3e4f211f7ecb97189cd6a6ccc67a853a6ee2f"
+          },
+          {
+            "path": "hooded_step_game_sprites/frames/frame_04.png",
+            "bytes": 134216,
+            "sha256": "8a99e3cb6c611e77cae609c46c41141796a5d4ec3acf8a1ad5da50b624d9520a"
+          },
+          {
+            "path": "hooded_step_game_sprites/frames/frame_05.png",
+            "bytes": 134219,
+            "sha256": "6e08f88877d5ef399fe8a929671741ae27522c5f47543ecb72104fe685ed30a7"
+          },
+          {
+            "path": "hooded_step_game_sprites/frames/frame_06.png",
+            "bytes": 130746,
+            "sha256": "00b9fbbead86f606a0ba3a42f8110d56fd7dd90b41b032fa01b3c5e8739ab7c6"
+          },
+          {
+            "path": "hooded_step_game_sprites/frames/frame_07.png",
+            "bytes": 134225,
+            "sha256": "6c02abd4babc307058c1e045690c17cd7e1bf24b21b6dfeaddfe08a6b01fc9fb"
+          },
+          {
+            "path": "hooded_step_game_sprites/frames/frame_08.png",
+            "bytes": 134235,
+            "sha256": "b9667e9347902c64036d1bb05c3b6a2f074492f2163f912c294de201fff6e699"
+          },
+          {
+            "path": "hooded_step_game_sprites/frames/frame_09.png",
+            "bytes": 130706,
+            "sha256": "48eb3932dc124b15c5a5d7023a367394e1e3e5972d2e836be5f7d13a8c711ffe"
+          },
+          {
+            "path": "hooded_step_game_sprites/frames/frame_10.png",
+            "bytes": 134553,
+            "sha256": "5410c5a4ccb66b025524ceafc9a4fa60d2e1445e9477582beab1a27102d20a7d"
+          },
+          {
+            "path": "hooded_step_game_sprites/frames/frame_11.png",
+            "bytes": 134552,
+            "sha256": "ddde2637f576ef2f7e7c98a9d7adba280a5ca69dd0d82e530dae43a6942489ee"
+          },
+          {
+            "path": "hooded_step_game_sprites/frames/frame_12.png",
+            "bytes": 130746,
+            "sha256": "00b9fbbead86f606a0ba3a42f8110d56fd7dd90b41b032fa01b3c5e8739ab7c6"
+          },
+          {
+            "path": "hooded_step_game_sprites/preview_animation.gif",
+            "bytes": 418125,
+            "sha256": "9a53871b7b2f2adf5b7f31aaaabcab3ed113abbbfe3fb30be375edd4f5b0431c"
+          },
+          {
+            "path": "hooded_step_game_sprites/preview_contact_sheet.png",
+            "bytes": 213247,
+            "sha256": "519edc36cd49add46d486a4969e15aac94e7fcdb785c4987536ada215e0eca41"
+          },
+          {
+            "path": "hooded_step_game_sprites/README.md",
+            "bytes": 5825,
+            "sha256": "16b254ae47201c6e0e20f3029189103df6d0f691285ee5711f8bb1862dc22f04"
+          },
+          {
+            "path": "hooded_step_game_sprites/sprite_sheet.png",
+            "bytes": 1116331,
+            "sha256": "1a34aa2a22ea775fcb3a9bc9c8a1bd13919c04aa113559d5e8c83e30c6f9c349"
+          }
+        ],
+        "output": {
+          "path": "apps/web/public/assets/court-side-step-v26/sprite_sheet.png",
+          "bytes": 1116331,
+          "sha256": "1a34aa2a22ea775fcb3a9bc9c8a1bd13919c04aa113559d5e8c83e30c6f9c349",
+          "width": 1280,
+          "height": 2432
+        },
+        "runtime": {
+          "layout": "apps/web/src/game/assets/sideStepLayout.json",
+          "timing": "Source clips keep every duration_ms and loop flag. Rhythm hits skip only the initial 460ms/360ms idle hold; movement, planted holds, returns and the preview loop retain their authored timing",
+          "placement": "courtHeroLayout.json calibrates fixed width/height to ordinary idle; origin at alpha foot edge 589/608; lateral motion already in pixels, no extra translation",
+          "preserved": "Original files, atlas, animation metadata, reference prompts and previews remain in hooded_step_game_sprites"
+        }
+      }
     }
   ],
   "restorations": [
@@ -1430,6 +1766,43 @@
       },
       "reference": "README.md#entry-control-pipe-v11",
       "previews": "docs/previews/entry-control-pipe-v11/index.html"
+    },
+    {
+      "version": "court-hero-size-v1",
+      "createdOn": "2026-10-31",
+      "tool": "Fixed horizontal and vertical size calibration per full source sheet; no frame-dependent zoom or texture editing",
+      "sources": [
+        {
+          "name": "idle",
+          "path": "apps/web/public/assets/visual-v12/front.webp",
+          "width": 128,
+          "height": 256,
+          "count": 1,
+          "columns": 1,
+          "sha256": "b73927dde8181e6ed116010a5d075a38a95f202d61f263dc6f7b7202ccfaf9fa"
+        },
+        {
+          "name": "step",
+          "path": "apps/web/public/assets/court-side-step-v26/sprite_sheet.png",
+          "width": 320,
+          "height": 608,
+          "count": 13,
+          "columns": 4,
+          "sha256": "1a34aa2a22ea775fcb3a9bc9c8a1bd13919c04aa113559d5e8c83e30c6f9c349"
+        },
+        {
+          "name": "nod",
+          "path": "apps/web/public/assets/music-nod-v1/sprite_sheet_4x2.png",
+          "width": 320,
+          "height": 608,
+          "count": 8,
+          "columns": 4,
+          "sha256": "8adbcbaffe65cb9ecdb8a93d4b50cdc8a358772facfd3891d9eaeaafc50a1af2"
+        }
+      ],
+      "layout": "apps/web/src/game/assets/courtHeroLayout.json",
+      "audit": "docs/previews/court-hero-size-audit.json",
+      "reference": "README.md#music-nod-v1"
     }
   ]
 }

@@ -1,4 +1,5 @@
 import { expect, type Page } from '@playwright/test';
+import { RHYTHM } from '../../apps/web/src/game/config';
 export async function bootRhythm(page: Page, developer = true) {
   await page.clock.install({ time: new Date('2026-10-31T00:00:00Z') });
   await page.addInitScript(() => {
@@ -54,12 +55,12 @@ export const readRhythm = (page: Page) => page.evaluate(() => {
 
 /** Finish all remaining rounds via the actual controller, for unrelated transition regressions. */
 export async function finishRhythmRounds(page: Page, sceneName = 'rhythmScene') {
-  await page.evaluate(sceneName => {
+  await page.evaluate(({ sceneName, musicStart }) => {
     const s = (window as any)[sceneName].session;
     for (let work = 0; work < 3000 && s.phase !== 'stars-failure'; work++) {
-      if (s.phase === 'stars') s.stars.step(s.stars.elapsed + 20);
+      if (s.phase === 'stars') s.stars.step(musicStart + s.stars.elapsed + 20);
       s.step();
     }
     if (s.phase !== 'stars-failure') throw new Error('Rhythm rounds did not reach the narrative');
-  }, sceneName);
+  }, { sceneName, musicStart: RHYTHM.musicStartSeconds });
 }

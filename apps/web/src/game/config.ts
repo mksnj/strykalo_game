@@ -28,7 +28,7 @@ export const JOURNEY = {
   endingStandSeconds: 0.9, endingWalkSeconds: 1.6, endingEnterSeconds: 1, endingFadeSeconds: 2,
   // Keep the last obstacles clear of scene transitions.
   transitionClearance: 650,
-  shadowStart: 400 + SHADOWS_SCORE.shadowRunSeconds * RUNNER.speed / RUNNER.pixelsPerUnit, shadowEnd: 600
+  shadowStart: 400 + SHADOWS_SCORE.shadowRunSeconds * RUNNER.speed / RUNNER.pixelsPerUnit, shadowEnd: 565
 } as const;
 export const DEVELOPER = { routeDivisor: 10 } as const;
 /** Guaranteed story beat in the cleared area before the pipe camera turn. */
@@ -74,20 +74,24 @@ export const RHYTHM = {
   musicStartSeconds: 26,
   firstSpawn: .35, spawnInterval: 1.2, travelSeconds: 2.1,
   attempts: 5, retrySeconds: 1.25,
-  accelerationSeconds: 2, accelerationStep: 0, maxMistakes: 3, maxNotes: 32,
+  accelerationSeconds: 2, accelerationStep: .1, maxMistakes: 3, maxNotes: 32,
   perfectWindow: .15, goodWindow: .3, feedbackSeconds: .8
 } as const;
 const autumnMusicStartSeconds = 0;
-const autumnEndSeconds = 41;
+const autumnEndSeconds = autumnMusicStartSeconds + JOURNEY.exitSeconds +
+  (JOURNEY.starsAt - JOURNEY.balanceAt) * RUNNER.pixelsPerUnit / RUNNER.speed + JOURNEY.courtApproachSeconds;
 /** File positions, including the pipe exit and court approach. Accents need listening approval. */
 export const AUTUMN_SCORE = {
   endSeconds: autumnEndSeconds, musicStartSeconds: autumnMusicStartSeconds,
   musicLeadSeconds: autumnMusicStartSeconds + JOURNEY.exitSeconds,
-  speed: (JOURNEY.starsAt - JOURNEY.balanceAt) * RUNNER.pixelsPerUnit /
-    (autumnEndSeconds - autumnMusicStartSeconds - JOURNEY.exitSeconds - JOURNEY.courtApproachSeconds),
-  singleJumpRunSeconds: 15,
-  extraJumpRunSeconds: [18, 29] as readonly number[],
-  jumpMarkers: [23.54, 25.34, 26.95] as readonly number[],
+  speed: RUNNER.speed,
+  singleObstacleAt: 256,
+  extraJumpRunSeconds: [18, 28] as readonly number[],
+  closingObstacleAt: [360, 374, 384] as readonly number[],
+  closingObstacleKinds: ['broken-block', 'debris', 'rubble'] as const,
+  fillingObstacleAt: [270, 281, 299, 334, 351, 367] as readonly number[],
+  fillingObstacleKinds: ['broken-block', 'rubble', 'debris', 'broken-block', 'debris', 'broken-block'] as const,
+  jumpMarkers: [23.54, 25.1, 26.8] as readonly number[],
   jumpLead: 90, preparation: 500, landingClearance: 350,
   maxCatchUpSeconds: .25,
   obstacleWidth: 72, obstacleHeight: 24, calibration: 'needs-listening'

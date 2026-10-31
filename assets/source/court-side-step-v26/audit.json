@@ -1,0 +1,118 @@
+{
+  "method": "Byte-for-byte copy of the owner-provided transparent sprite sheet; no image editing or generation",
+  "inputs": [
+    {
+      "path": "hooded_step_game_sprites/animations.json",
+      "bytes": 6025,
+      "sha256": "dcb1b6175ec91664ceae9f495eabd70e0f347d9e316cf4e10b5ac37c3a816bf9"
+    },
+    {
+      "path": "hooded_step_game_sprites/atlas_phaser.json",
+      "bytes": 4594,
+      "sha256": "db0a50305bb3d7823b1e30f8183a515bca3d3094f3542dcede7a91db1338e1a6"
+    },
+    {
+      "path": "hooded_step_game_sprites/CODEX_PROMPT.md",
+      "bytes": 2756,
+      "sha256": "7457cd6275862a3d599d4fbbb03ec86ec56f3f07b67f8ef86c45b89eed67e7b2"
+    },
+    {
+      "path": "hooded_step_game_sprites/frames/frame_00.png",
+      "bytes": 130746,
+      "sha256": "00b9fbbead86f606a0ba3a42f8110d56fd7dd90b41b032fa01b3c5e8739ab7c6"
+    },
+    {
+      "path": "hooded_step_game_sprites/frames/frame_01.png",
+      "bytes": 134548,
+      "sha256": "9bf8fe31344d50fbd728e5a335d3cd57de66461861090e192b15aac850f7b761"
+    },
+    {
+      "path": "hooded_step_game_sprites/frames/frame_02.png",
+      "bytes": 134547,
+      "sha256": "1e9db78f17967ac01ac17e9343650c8072c1e6b8ae53adc51cb7725206c245ed"
+    },
+    {
+      "path": "hooded_step_game_sprites/frames/frame_03.png",
+      "bytes": 130720,
+      "sha256": "fc4a1e2ccca757be3648887267e3e4f211f7ecb97189cd6a6ccc67a853a6ee2f"
+    },
+    {
+      "path": "hooded_step_game_sprites/frames/frame_04.png",
+      "bytes": 134216,
+      "sha256": "8a99e3cb6c611e77cae609c46c41141796a5d4ec3acf8a1ad5da50b624d9520a"
+    },
+    {
+      "path": "hooded_step_game_sprites/frames/frame_05.png",
+      "bytes": 134219,
+      "sha256": "6e08f88877d5ef399fe8a929671741ae27522c5f47543ecb72104fe685ed30a7"
+    },
+    {
+      "path": "hooded_step_game_sprites/frames/frame_06.png",
+      "bytes": 130746,
+      "sha256": "00b9fbbead86f606a0ba3a42f8110d56fd7dd90b41b032fa01b3c5e8739ab7c6"
+    },
+    {
+      "path": "hooded_step_game_sprites/frames/frame_07.png",
+      "bytes": 134225,
+      "sha256": "6c02abd4babc307058c1e045690c17cd7e1bf24b21b6dfeaddfe08a6b01fc9fb"
+    },
+    {
+      "path": "hooded_step_game_sprites/frames/frame_08.png",
+      "bytes": 134235,
+      "sha256": "b9667e9347902c64036d1bb05c3b6a2f074492f2163f912c294de201fff6e699"
+    },
+    {
+      "path": "hooded_step_game_sprites/frames/frame_09.png",
+      "bytes": 130706,
+      "sha256": "48eb3932dc124b15c5a5d7023a367394e1e3e5972d2e836be5f7d13a8c711ffe"
+    },
+    {
+      "path": "hooded_step_game_sprites/frames/frame_10.png",
+      "bytes": 134553,
+      "sha256": "5410c5a4ccb66b025524ceafc9a4fa60d2e1445e9477582beab1a27102d20a7d"
+    },
+    {
+      "path": "hooded_step_game_sprites/frames/frame_11.png",
+      "bytes": 134552,
+      "sha256": "ddde2637f576ef2f7e7c98a9d7adba280a5ca69dd0d82e530dae43a6942489ee"
+    },
+    {
+      "path": "hooded_step_game_sprites/frames/frame_12.png",
+      "bytes": 130746,
+      "sha256": "00b9fbbead86f606a0ba3a42f8110d56fd7dd90b41b032fa01b3c5e8739ab7c6"
+    },
+    {
+      "path": "hooded_step_game_sprites/preview_animation.gif",
+      "bytes": 418125,
+      "sha256": "9a53871b7b2f2adf5b7f31aaaabcab3ed113abbbfe3fb30be375edd4f5b0431c"
+    },
+    {
+      "path": "hooded_step_game_sprites/preview_contact_sheet.png",
+      "bytes": 213247,
+      "sha256": "519edc36cd49add46d486a4969e15aac94e7fcdb785c4987536ada215e0eca41"
+    },
+    {
+      "path": "hooded_step_game_sprites/README.md",
+      "bytes": 5825,
+      "sha256": "16b254ae47201c6e0e20f3029189103df6d0f691285ee5711f8bb1862dc22f04"
+    },
+    {
+      "path": "hooded_step_game_sprites/sprite_sheet.png",
+      "bytes": 1116331,
+      "sha256": "1a34aa2a22ea775fcb3a9bc9c8a1bd13919c04aa113559d5e8c83e30c6f9c349"
+    }
+  ],
+  "output": {
+    "path": "apps/web/public/assets/court-side-step-v26/sprite_sheet.png",
+    "bytes": 1116331,
+    "sha256": "1a34aa2a22ea775fcb3a9bc9c8a1bd13919c04aa113559d5e8c83e30c6f9c349",
+    "width": 1280,
+    "height": 2432
+  },
+  "runtime": {
+    "layout": "apps/web/src/game/assets/sideStepLayout.json",
+    "timing": "Source clips keep every duration_ms and loop flag. Rhythm hits skip only the initial 460ms/360ms idle hold; movement, planted holds, returns and the preview loop retain their authored timing",
+    "placement": "courtHeroLayout.json calibrates fixed width/height to ordinary idle; origin at alpha foot edge 589/608; lateral motion already in pixels, no extra translation",
+    "preserved": "Original files, atlas, animation metadata, reference prompts and previews remain in hooded_step_game_sprites"
+  }
+}

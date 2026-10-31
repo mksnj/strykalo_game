@@ -1,3 +1,5 @@
+import { MiniGameHeading } from './MiniGameHeading';
+
 export function BalanceMeter({ position = 0, demo = false }: { position?: number; demo?: boolean }) {
   const bounded = Math.max(-1, Math.min(1, position));
   return <div className={`balance-meter${Math.abs(bounded) > .7 ? ' unstable' : ''}${demo ? ' demo-meter' : ''}`}
@@ -11,10 +13,13 @@ export function BalanceMeter({ position = 0, demo = false }: { position?: number
   </div>;
 }
 
+export function BalanceInstructions() {
+  return <MiniGameHeading className="balance-instructions" title="Делать это трезвым" hint="← / A · ДЕРЖИСЬ ПО ЦЕНТРУ · D / →" />;
+}
+
 export function BalanceHud({ position, progress }: { position: number; progress: number }) {
   const percent = Math.max(0, Math.min(100, progress));
   return <section className="balance-hud" aria-label="Равновесие на трубе">
-    <div className="balance-instructions"><p>Делать это трезвым</p><span>← / A · ДЕРЖИСЬ ПО ЦЕНТРУ · D / →</span></div>
     <div className="balance-instruments">
       <div className="balance-label"><span>Равновесие</span><span>{Math.abs(position) > .7 ? 'Осторожно, край' : 'Держись по центру'}</span></div>
       <BalanceMeter position={position} />

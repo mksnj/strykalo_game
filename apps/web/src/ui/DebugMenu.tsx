@@ -4,6 +4,7 @@ import { gameStore } from '../game/state/store';
 
 export function DebugMenu() {
   const [seed, setSeed] = useState('');
+  const [stage, setStage] = useState<DebugStartPoint>('first-run');
   const parsed = seed === '' ? undefined : Number(seed);
   const valid = parsed === undefined || Number.isInteger(parsed) && parsed >= 0 && parsed <= 0xffffffff;
   const launch = (point: DebugStartPoint, developerEntry = false) => {
@@ -13,6 +14,14 @@ export function DebugMenu() {
     (document.activeElement as HTMLElement | null)?.blur();
   };
   return <section className="debug-launch" aria-label="Тестирование мини-игр" data-system-ui>
+    <div className="stage-picker">
+      <label htmlFor="stage-select">Выбор этапа</label>
+      <div><select id="stage-select" value={stage} onChange={event => setStage(event.target.value as DebugStartPoint)}>
+        {DEBUG_START_POINTS.map(point => <option key={point.id} value={point.id}>{point.label}</option>)}
+      </select><button disabled={!valid} onClick={() => {
+        gameStore.startStage(stage, parsed); (document.activeElement as HTMLElement | null)?.blur();
+      }}>Начать этап →</button></div>
+    </div>
     <div className="debug-minigames">{DEBUG_MINIGAME_POINTS.map(point => <button key={point.id}
       disabled={!valid} title={point.label} onClick={() => launch(point.id)}>Мини-игра {point.miniGame}</button>)}</div>
     {import.meta.env.DEV && <details className="debug-menu">

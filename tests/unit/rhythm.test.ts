@@ -28,33 +28,60 @@ describe('endless accelerating four-direction rhythm', () => {
     expect(rhythmPhase(2 - .000001)).toBeCloseTo(rhythmPhase(2), 4);
   });
   it('perfect play lasts beyond the former limit, generates all directions and stays bounded for 2 minutes', () => {
-    const e = new StarsEngine(7), seen = new Set<string>();
+    const e = new StarsEngine(7), seen = new Set<string>(), spawnPhases = new Map<number, number>();
     while (e.elapsed < 120 && !e.outcome) {
       for (const n of e.notes) {
         seen.add(n.direction);
+        spawnPhases.set(n.id, n.spawnPhase);
         if (n.state === 'pending' && Math.abs(n.at - e.elapsed) <= RUNNER.fixedStep) e.press(n.direction);
       }
       e.step(); expect(e.notes.length).toBeLessThanOrEqual(RHYTHM.maxNotes);
     }
     expect(seen).toEqual(new Set(DIRECTIONS)); expect(e.elapsed).toBeGreaterThanOrEqual(120);
     expect(e.outcome).toBeNull(); expect(e.misses).toBe(0); expect(e.hits).toBeGreaterThan(100);
+    const phases = [...spawnPhases.values()];
+    for (let i = 1; i < phases.length; i++) expect(phases[i] - phases[i - 1]).toBeCloseTo(RHYTHM.spawnInterval, 8);
+    expect(new Set(phases).size).toBe(phases.length);
+  });
+  it('the session cannot exit on perfect play, including the former 33–40s finale', () => {
+    const session = new RunSession(42, false, 'stars');
+    expect(session.startStars()).toBe(true);
+    session.runner.score = 17;
+    const generated = new Map<number, number>();
+    while (session.phase === 'stars' && session.stars!.elapsed < 120) {
+      const engine = session.stars!;
+      for (const note of engine.notes) {
+        generated.set(note.id, note.spawnPhase);
+        if (note.state === 'pending' && Math.abs(note.at - engine.elapsed) <= RUNNER.fixedStep) session.rhythmPress(note.direction);
+      }
+      session.step();
+    }
+    expect(session.phase).toBe('stars'); expect(session.stars!.elapsed).toBeGreaterThanOrEqual(120);
+    expect([session.stars!.outcome, session.result]).toEqual([null, null]);
+    expect([session.starsDefeats, session.stars!.misses, session.distance, session.score, session.lives]).toEqual([0, 0, 400, 17, 3]);
+    const phases = [...generated.values()].sort((a, b) => a - b);
+    expect(new Set(phases).size).toBe(phases.length);
+    for (let i = 1; i < phases.length; i++) expect(phases[i] - phases[i - 1]).toBeCloseTo(RHYTHM.spawnInterval, 8);
+    // There is no preparation gap or simultaneous four-lane note at the former finale.
+    const formerFinale = phases.map(rhythmTime).filter(time => time >= 33 && time <= 40);
+    expect(formerFinale.length).toBeGreaterThan(15);
   });
   it.each([-.23, -.12, 0, .12, .23])('judges the relaxed window without consuming another note: %f', offset => {
-    const e = new StarsEngine(1), n = e.notes[0]; e.step(n.at + offset);
-    expect(e.press(n.direction)).toBe(offset === 0 ? 'perfect' : 'good'); expect(e.hits).toBe(1);
+    const e = new StarsEngine(1), n = e.notes[0]; e.step(RHYTHM.musicStartSeconds + n.at + offset);
+    expect(e.press(n.direction)).toBe(Math.abs(offset) <= RHYTHM.perfectWindow ? 'perfect' : 'good'); expect(e.hits).toBe(1);
     expect(e.remainingMistakes).toBe(3);
   });
   it('one wrong direction consumes one note and exactly one mistake, not another on expiry', () => {
-    const e = new StarsEngine(1), n = e.notes[0]; e.step(n.at);
+    const e = new StarsEngine(1), n = e.notes[0]; e.step(RHYTHM.musicStartSeconds + n.at);
     expect(e.press(DIRECTIONS.find(d => d !== n.direction)!)).toBe('miss');
     expect(e.misses).toBe(1); expect(n.state).toBe('missed');
-    e.step(n.at + .3); expect(e.misses).toBe(1); expect(e.outcome).toBeNull();
+    e.step(RHYTHM.musicStartSeconds + n.at + .3); expect(e.misses).toBe(1); expect(e.outcome).toBeNull();
   });
   it('misses one and two continue, the third ends it; no end is scheduled by time', () => {
     const e = new StarsEngine(1);
     for (let i = 1; i <= 3; i++) {
       const n = e.notes.find(n => n.state === 'pending')!;
-      e.step(n.at + RHYTHM.goodWindow + .02);
+      e.step(RHYTHM.musicStartSeconds + n.at + RHYTHM.goodWindow + .02);
       expect(e.misses).toBe(i); expect(e.remainingMistakes).toBe(3 - i);
       expect(e.outcome).toBe(i === 3 ? 'narrative-failure' : null);
     }
@@ -66,9 +93,10 @@ describe('endless accelerating four-direction rhythm', () => {
     expect([a.x, a.y]).toEqual(position);
   });
   it('music playhead is authoritative; repeated positions do not advance rhythm', () => {
-    const e = new StarsEngine(1); e.step(.5);
-    const tick = e.tick; for (let i = 0; i < 100; i++) e.step(.5);
-    expect(e.tick).toBe(tick); e.step(.1); expect(e.tick).toBe(tick);
+    const e = new StarsEngine(1); e.step(RHYTHM.musicStartSeconds + .5);
+    const tick = e.tick; expect(tick).toBe(60);
+    for (let i = 0; i < 100; i++) e.step(RHYTHM.musicStartSeconds + .5);
+    expect(e.tick).toBe(tick); e.step(RHYTHM.musicStartSeconds + .1); expect(e.tick).toBe(tick);
   });
   it('bounded gestures drain once and clear on pause', () => {
     rhythmControls.clear(); rhythmControls.press('left'); expect(rhythmControls.drain()).toEqual(['left']);

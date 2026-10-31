@@ -1,0 +1,13 @@
+{
+  "key": "court-side-step",
+  "collection": "court-side-step-v26",
+  "url": "/assets/court-side-step-v26/sprite_sheet.png",
+  "source": "hooded_step_game_sprites",
+  "width": 1280,
+  "height": 2432,
+  "cellWidth": 320,
+  "cellHeight": 608,
+  "origin": { "x": 0.5, "y": 0.9671 },
+  "bodyHeight": 549,
+  "reducedFrame": { "left": 3, "right": 9 }
+}

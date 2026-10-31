@@ -52,7 +52,7 @@ test('public gate checks scene access, freezes gameplay and opens at the exact r
   expect(await page.evaluate(() => (window as any).rhythmScene.session.stars.elapsed)).toBe(0);
 });
 
-for (const action of ['Пройти на площадку на свой страх и риск', 'Пройти дальше']) test('release gate: ' + action, async ({ page }) => {
+for (const action of ['Пройти в коробку на свой страх и риск', 'Пройти дальше']) test('release gate: ' + action, async ({ page }) => {
   await gate(page); await page.getByRole('button', { name: action, exact: true }).click(); await page.clock.runFor(80);
   await expect(page.locator('main')).toHaveAttribute('data-phase', action === 'Пройти дальше' ? 'stars-exit' : 'stars');
   expect(await page.locator('.score strong').innerText()).toBe('17');
@@ -74,7 +74,7 @@ test('public mini-game 2 shortcut shows the notice; the developer stage remains 
   await page.getByRole('button', { name: 'Мини-игра 2', exact: true }).click(); await page.clock.runFor(80);
   await expect(page.locator('main')).toHaveAttribute('data-phase', 'stars-locked');
   await expect(page.getByRole('heading', { name: 'Звезд пока нет', exact: true })).toBeVisible();
-  await page.getByRole('button', { name: 'Пройти на площадку на свой страх и риск', exact: true }).click();
+  await page.getByRole('button', { name: 'Пройти в коробку на свой страх и риск', exact: true }).click();
   await page.clock.runFor(80); await expect(page.locator('.stars-tutorial')).toBeVisible();
   await page.getByRole('dialog').getByRole('button', { name: 'К этапам', exact: true }).click();
   await page.getByText('Тестирование этапов', { exact: true }).click();

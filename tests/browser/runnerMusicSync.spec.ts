@@ -1,5 +1,6 @@
 import { expect, test, type Page } from '@playwright/test';
 import { AUTUMN_SCORE, JOURNEY, SHADOWS_SCORE } from '../../apps/web/src/game/config';
+import { mkdir, writeFile } from 'node:fs/promises';
 
 async function open(page: Page) {
   await page.goto('/');
@@ -15,8 +16,13 @@ async function open(page: Page) {
     const shadowPath = '/src/game/views/ShadowsEpisode.ts', { ShadowsEpisode } = await import(/* @vite-ignore */ shadowPath);
     const shadowRender = ShadowsEpisode.prototype.render;
     (window as any).shadowCues = [];
+    (window as any).shadowFadeSamples = [];
     ShadowsEpisode.prototype.render = function (...args: any[]) {
       shadowRender.apply(this, args as any);
+      const distance = args[0], samples = (window as any).shadowFadeSamples;
+      if (distance >= 548 && distance <= 570 && (!samples.length || Math.floor(distance) > Math.floor(samples.at(-1).distance))) {
+        samples.push({ distance, visible: this.container.visible, alpha: this.container.visible ? (this.container.list[0] as any).alpha : 0 });
+      }
       if (this.container.visible && !(window as any).shadowCues.length) {
         const scene = (window as any).musicScene;
         (window as any).shadowCues.push({ position: scene.audio.status.music.find((v: any) => !v.fading && v.url.includes('05-teni'))?.position,
@@ -27,7 +33,7 @@ async function open(page: Page) {
   await page.getByText('Тестирование этапов', { exact: true }).click();
 }
 
-test('all six authored takeoffs follow the real MP3 through slow frames, buffering and pause', async ({ page }) => {
+test('all fifteen authored takeoffs follow the real MP3 through slow frames, buffering and pause', async ({ page }) => {
   test.setTimeout(65000);
   await page.route('**/03-92.mp3', async route => {
     await new Promise(resolve => setTimeout(resolve, 600)); await route.continue();
@@ -64,16 +70,18 @@ test('all six authored takeoffs follow the real MP3 through slow frames, bufferi
   await page.waitForTimeout(300);
   expect(await page.evaluate(() => (window as any).musicScene.session.runner.tick)).toBe(frozen);
   await page.getByRole('button', { name: 'Продолжить' }).click();
-  await page.waitForFunction(() => (window as any).takeoffs.length === 6, undefined, { timeout: 40000 });
+  await page.waitForFunction(() => (window as any).takeoffs.length === 15, undefined, { timeout: 45000 });
   const takeoffs = await page.evaluate(() => (window as any).takeoffs);
-  const expectedMusic = [15 + AUTUMN_SCORE.musicLeadSeconds, 18 + AUTUMN_SCORE.musicLeadSeconds,
-    ...AUTUMN_SCORE.jumpMarkers, 29 + AUTUMN_SCORE.musicLeadSeconds];
-  expect(takeoffs.map((event: { id: string }) => event.id)).toEqual(['autumn-single', 'autumn-extra-0', 'autumn-accent-0', 'autumn-accent-1', 'autumn-accent-2', 'autumn-extra-1']);
-  expect(Math.abs(takeoffs[0].tick / 120 - 15)).toBeLessThan(.01);
-  for (let i = 0; i < 6; i++) expect(Math.abs(takeoffs[i].position - expectedMusic[i]), JSON.stringify(takeoffs)).toBeLessThan(.15);
+  const expectedMusic = [10.9, 13.7, 15.9, 18, 19.5, 21.14, 22.7, 24.4, 26.5, 28, 29.9, 31.7, 33.1, 34.5, 36.5]
+    .map(t => t + AUTUMN_SCORE.musicLeadSeconds);
+  expect(takeoffs.map((event: { id: string }) => event.id)).toEqual(['autumn-single', 'autumn-filling-0', 'autumn-filling-1', 'autumn-extra-0', 'autumn-filling-2', 'autumn-accent-0', 'autumn-accent-1', 'autumn-accent-2', 'autumn-filling-3', 'autumn-extra-1', 'autumn-filling-4', 'autumn-closing-0', 'autumn-filling-5', 'autumn-closing-1', 'autumn-closing-2']);
+  expect(Math.abs(takeoffs[0].tick / 120 - 10.9)).toBeLessThan(.01);
+  for (let i = 0; i < 15; i++) expect(Math.abs(takeoffs[i].position - expectedMusic[i]), JSON.stringify(takeoffs)).toBeLessThan(.15);
   expect(await page.evaluate(() => (window as any).musicScene.session.lives)).toBe(3);
   await page.waitForFunction(() => (window as any).musicScene.session.phase !== 'runner', undefined, { timeout: 15000 });
   expect(await page.evaluate(() => (window as any).musicScene.session.distance)).toBe(400);
+  await mkdir('docs/previews/route-density', { recursive: true });
+  await writeFile('docs/previews/route-density/second-run.json', JSON.stringify(takeoffs, null, 2));
 });
 
 test('shadows skips the intro and keeps the same stream from the court exit into the run and rain', async ({ page }) => {
@@ -90,16 +98,24 @@ test('shadows skips the intro and keeps the same stream from the court exit into
     v.url.includes('05-teni') && v.started && !v.seeking && v.position > offset + .1), SHADOWS_SCORE.musicStartSeconds);
   await page.evaluate(() => {
     const scene = (window as any).musicScene;
-    (window as any).shadowsElement = [...scene.audio.music.voices].find((v: any) => v.url.includes('05-teni')).audio;
+    const element = [...scene.audio.music.voices].find((v: any) => v.url.includes('05-teni')).audio;
+    (window as any).shadowsElement = element;
+    (window as any).shadowsStarted = { position: element.currentTime, time: scene.audio.status.time };
   });
   await page.waitForFunction(() => (window as any).musicScene.session.phase === 'runner');
   const read = () => page.evaluate(() => {
     const scene = (window as any).musicScene;
     const voice = [...scene.audio.music.voices].find((v: any) => v.url.includes('05-teni')) as any;
-    return { same: voice.audio === (window as any).shadowsElement, position: voice.audio.currentTime };
+    return { same: voice.audio === (window as any).shadowsElement, position: voice.audio.currentTime,
+      time: scene.audio.status.time, started: (window as any).shadowsStarted };
   });
   const running = await read(); expect(running.same).toBe(true);
-  expect(running.position).toBeGreaterThan(SHADOWS_SCORE.musicStartSeconds + JOURNEY.courtExitSeconds - .5);
+  // Buffering can consume part of the visual exit. Measure actual playback time,
+  // preserving the authored 52s entry rather than counting load time as audible music.
+  expect(running.started.position).toBeGreaterThanOrEqual(SHADOWS_SCORE.musicStartSeconds);
+  expect(running.started.position).toBeLessThan(SHADOWS_SCORE.musicStartSeconds + 1);
+  expect(running.position).toBeGreaterThan(running.started.position);
+  expect(Math.abs((running.position - running.started.position) - (running.time - running.started.time))).toBeLessThan(.15);
   await page.evaluate(() => { (window as any).clearRunnerObstacles = true; });
   await page.waitForFunction(() => (window as any).shadowCues.length === 1, undefined, { timeout: 45000 });
   const cue = await page.evaluate(() => (window as any).shadowCues[0]);
@@ -139,4 +155,14 @@ test('direct third-run entry shows the shadow at distance 530, preserving the pr
   expect(Math.abs(cue.position - 78)).toBeLessThan(1.5);
   expect(cue.distance).toBeGreaterThan(530);
   expect(cue.distance).toBeLessThan(531);
+  await page.waitForFunction(() => (window as any).musicScene.session.distance >= 566, undefined, { timeout: 15000 });
+  const samples = await page.evaluate(() => (window as any).shadowFadeSamples);
+  const at = (distance: number) => samples.find((sample: any) => Math.floor(sample.distance) === distance);
+  expect(at(550).alpha).toBeGreaterThan(.7);
+  expect(at(555).alpha).toBeLessThan(at(550).alpha);
+  expect(at(560).alpha).toBeLessThan(at(555).alpha);
+  expect(at(564).alpha).toBeLessThan(.02);
+  expect(at(565).visible).toBe(false); expect(at(565).alpha).toBe(0);
+  await mkdir('docs/previews/route-density', { recursive: true });
+  await writeFile('docs/previews/route-density/shadow-fade.json', JSON.stringify(samples, null, 2));
 });

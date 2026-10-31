@@ -9,7 +9,7 @@ for (const [width, height, name] of [[960, 540, 'desktop'], [390, 844, 'portrait
     test.setTimeout(90000); const errors: string[] = []; page.on('pageerror', e => errors.push(e.message));
     await page.setViewportSize({ width, height }); await bootRhythm(page); await mkdir(directory, { recursive: true });
     await reachRhythm(page);
-    await expect(page.getByText('Лови ритм падающих звёзд.', { exact: false }).first()).toBeVisible();
+    await expect(page.getByText('Танцуй в ритме падающих звезд.', { exact: false }).first()).toBeVisible();
     await page.screenshot({ path: directory + '/' + name + '-01-tutorial.png' });
     const frozen = await readRhythm(page);
     await page.keyboard.down('ArrowLeft'); await page.clock.runFor(3000);

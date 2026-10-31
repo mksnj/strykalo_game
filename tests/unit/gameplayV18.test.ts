@@ -112,15 +112,17 @@ describe('route, collision feedback and music', () => {
   it('a delayed media start seeks to active gameplay time without moving the runner', () => {
     const s = new RunSession(42, false, 'second-run');
     const events = new Map<string, () => void>();
-    const audio = { currentTime: 0, duration: 193, canPlayType: () => 'probably', load: vi.fn(), pause: vi.fn(),
+    const audio = { currentTime: 0, duration: 193, readyState: 4, paused: false, seeking: false,
+      play: () => Promise.resolve(), canPlayType: () => 'probably', load: vi.fn(), pause: vi.fn(),
       addEventListener: (name: string, handler: () => void) => events.set(name, handler), removeAttribute: vi.fn() };
-    const gain = { gain: { setValueAtTime: vi.fn(), linearRampToValueAtTime: vi.fn() }, connect: vi.fn(), disconnect: vi.fn() };
+    const gain = { gain: { value: 0, cancelScheduledValues: vi.fn(), setValueAtTime: vi.fn(), linearRampToValueAtTime: vi.fn() }, connect: vi.fn(), disconnect: vi.fn() };
     const source = { connect: () => gain, disconnect: vi.fn() };
     const context = { currentTime: 0, createGain: () => gain, createMediaElementSource: () => source };
     vi.stubGlobal('document', { createElement: () => audio });
     try {
       const channel = new StreamingMusicChannel(context as any, {} as any, vi.fn());
       channel.select(MUSIC.autumn, AUTUMN_SCORE.musicLeadSeconds, () => autumnMusicTime(s));
+      channel.resume();
       // Simulate a buffer delay, with the game staying responsive throughout.
       for (let i = 0; i < 90; i++) s.step();
       events.get('loadedmetadata')!(); expect(audio.currentTime).toBeCloseTo(3.15);
@@ -135,7 +137,7 @@ describe('route, collision feedback and music', () => {
     for (let seed = 0; seed < 100; seed++) {
       const e = new RunnerEngine(seed, { start: 200, end: 400, score: 0, clearance: JOURNEY.transitionClearance });
       const jumped = new Set<string>(), seen = new Set<string>();
-      expect(e.speed).toBe(AUTUMN_SCORE.speed);
+      expect(e.speed).toBe(RUNNER.speed);
       while (!e.result) {
         const next = e.objects.find(o => o.kind !== 'tape' && !jumped.has(o.id) && o.x - e.travel - RUNNER.playerX <= AUTUMN_SCORE.jumpLead);
         if (next && e.player.grounded) { e.press(); e.release(); jumped.add(next.id); }
@@ -143,8 +145,9 @@ describe('route, collision feedback and music', () => {
         e.step();
       }
       expect(e.lives, `seed ${seed}`).toBe(3); expect(seen.size).toBe(3);
-      expect(e.speed).toBe(AUTUMN_SCORE.speed);
-      expect(e.tick * RUNNER.fixedStep + JOURNEY.exitSeconds + JOURNEY.courtApproachSeconds).toBeCloseTo(41, 1);
+      expect(e.speed).toBe(RUNNER.speed);
+      expect(e.tick * RUNNER.fixedStep).toBe(40);
+      expect(e.tick * RUNNER.fixedStep + JOURNEY.exitSeconds + JOURNEY.courtApproachSeconds).toBeCloseTo(47.2, 1);
     }
   });
   it('third run takes 40 seconds, with shadows, weather and room entrance preserved', () => {
@@ -169,12 +172,20 @@ describe('route, collision feedback and music', () => {
   });
   it('real music selection skips the shadows intro once and keeps the file through weather cues', () => {
     const a = new AudioManager(), state = a as any, select = vi.fn(), seek = vi.fn();
-    state.music = { select, seek }; a.setScene('stars-exit');
-    expect(select).toHaveBeenLastCalledWith(MUSIC.shadows, SHADOWS_SCORE.musicStartSeconds);
+    state.music = { select, seek, prepare: vi.fn() }; a.setScene('stars-exit');
+    expect(select).toHaveBeenLastCalledWith(MUSIC.shadows, SHADOWS_SCORE.musicStartSeconds, undefined, { fadeOut: 6, fadeIn: 3.5 }, false);
     a.setScene('runner-shadows'); a.setScene('runner-storm');
     expect(seek).not.toHaveBeenCalled();
-    a.setScene('pipe-exit'); expect(select).toHaveBeenLastCalledWith(MUSIC.autumn, 0);
+    a.setScene('pipe-exit'); expect(select).toHaveBeenLastCalledWith(MUSIC.autumn, 0, undefined, { fadeOut: 6, fadeIn: 3.5 }, false);
     a.setScene('runner-autumn'); expect(seek).toHaveBeenCalledWith(MUSIC.autumn, JOURNEY.exitSeconds);
+  });
+  it('rhythm reaction cues keep playing the same phrase; only restartMusic requests a new stream', () => {
+    const a = new AudioManager(), state = a as any, select = vi.fn(), seek = vi.fn();
+    state.music = { select, seek, prepare: vi.fn() };
+    for (const cue of ['stars', 'stars-retry', 'stars-failure']) a.setScene(cue);
+    expect(seek).not.toHaveBeenCalled();
+    expect(select.mock.calls.every(call => call[4] === false)).toBe(true);
+    a.restartMusic(); expect(select.mock.calls.at(-1)?.[4]).toBe(true);
   });
 });
 

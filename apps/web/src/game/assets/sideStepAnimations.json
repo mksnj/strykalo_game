@@ -1,0 +1,294 @@
+{
+  "name": "hooded-character-side-step",
+  "version": "1.0",
+  "source": "approved corrected small step left/right loop",
+  "format": "RGBA PNG; transparent backgrounds; untrimmed equal-sized cells",
+  "cell": {
+    "width": 320,
+    "height": 608
+  },
+  "sheet": {
+    "file": "sprite_sheet.png",
+    "width": 1280,
+    "height": 2432,
+    "columns": 4,
+    "rows": 4
+  },
+  "origin": {
+    "x": 0.5,
+    "y": 0.9671,
+    "meaning": "constant sprite anchor, feet baseline approx y=588"
+  },
+  "directions": "Front facing. Short steps both sides; hands in pockets; no facial detail.",
+  "runtime": {
+    "loop": true,
+    "duration_mode": "per_frame_milliseconds",
+    "all_frames": [
+      "step_00",
+      "step_01",
+      "step_02",
+      "step_03",
+      "step_04",
+      "step_05",
+      "step_06",
+      "step_07",
+      "step_08",
+      "step_09",
+      "step_10",
+      "step_11",
+      "step_12"
+    ],
+    "total_duration_ms": 2960,
+    "world_movement": "in_place_preview_only",
+    "note": "Lateral movement is baked into the cells only. Do not also move the entity by shift_x_px per frame. Controls for game-world translation are independent."
+  },
+  "animations": {
+    "idle": {
+      "frames": [
+        "step_00"
+      ],
+      "loop": true
+    },
+    "step_left": {
+      "frames": [
+        "step_00",
+        "step_01",
+        "step_02",
+        "step_03",
+        "step_04",
+        "step_05",
+        "step_06"
+      ],
+      "loop": false,
+      "meaning": "center -> left (feet together) -> center"
+    },
+    "step_right": {
+      "frames": [
+        "step_06",
+        "step_07",
+        "step_08",
+        "step_09",
+        "step_10",
+        "step_11",
+        "step_12"
+      ],
+      "loop": false,
+      "meaning": "center -> right (feet together) -> center"
+    },
+    "side_to_side": {
+      "frames": [
+        "step_00",
+        "step_01",
+        "step_02",
+        "step_03",
+        "step_04",
+        "step_05",
+        "step_06",
+        "step_07",
+        "step_08",
+        "step_09",
+        "step_10",
+        "step_11",
+        "step_12"
+      ],
+      "loop": true
+    }
+  },
+  "frames": [
+    {
+      "index": 0,
+      "name": "step_00",
+      "file": "frames/frame_00.png",
+      "rect": {
+        "x": 0,
+        "y": 0,
+        "w": 320,
+        "h": 608
+      },
+      "duration_ms": 460,
+      "pose": "center_idle",
+      "shift_x_px": 0,
+      "feet_together": true
+    },
+    {
+      "index": 1,
+      "name": "step_01",
+      "file": "frames/frame_01.png",
+      "rect": {
+        "x": 320,
+        "y": 0,
+        "w": 320,
+        "h": 608
+      },
+      "duration_ms": 85,
+      "pose": "left_start",
+      "shift_x_px": -6,
+      "feet_together": false
+    },
+    {
+      "index": 2,
+      "name": "step_02",
+      "file": "frames/frame_02.png",
+      "rect": {
+        "x": 640,
+        "y": 0,
+        "w": 320,
+        "h": 608
+      },
+      "duration_ms": 90,
+      "pose": "left_transition",
+      "shift_x_px": -14,
+      "feet_together": false
+    },
+    {
+      "index": 3,
+      "name": "step_03",
+      "file": "frames/frame_03.png",
+      "rect": {
+        "x": 960,
+        "y": 0,
+        "w": 320,
+        "h": 608
+      },
+      "duration_ms": 420,
+      "pose": "left_feet_together",
+      "shift_x_px": -25,
+      "feet_together": true
+    },
+    {
+      "index": 4,
+      "name": "step_04",
+      "file": "frames/frame_04.png",
+      "rect": {
+        "x": 0,
+        "y": 608,
+        "w": 320,
+        "h": 608
+      },
+      "duration_ms": 90,
+      "pose": "return_from_left",
+      "shift_x_px": -12,
+      "feet_together": false
+    },
+    {
+      "index": 5,
+      "name": "step_05",
+      "file": "frames/frame_05.png",
+      "rect": {
+        "x": 320,
+        "y": 608,
+        "w": 320,
+        "h": 608
+      },
+      "duration_ms": 85,
+      "pose": "return_to_center",
+      "shift_x_px": -6,
+      "feet_together": false
+    },
+    {
+      "index": 6,
+      "name": "step_06",
+      "file": "frames/frame_06.png",
+      "rect": {
+        "x": 640,
+        "y": 608,
+        "w": 320,
+        "h": 608
+      },
+      "duration_ms": 360,
+      "pose": "center_idle",
+      "shift_x_px": 0,
+      "feet_together": true
+    },
+    {
+      "index": 7,
+      "name": "step_07",
+      "file": "frames/frame_07.png",
+      "rect": {
+        "x": 960,
+        "y": 608,
+        "w": 320,
+        "h": 608
+      },
+      "duration_ms": 85,
+      "pose": "right_start",
+      "shift_x_px": 6,
+      "feet_together": false
+    },
+    {
+      "index": 8,
+      "name": "step_08",
+      "file": "frames/frame_08.png",
+      "rect": {
+        "x": 0,
+        "y": 1216,
+        "w": 320,
+        "h": 608
+      },
+      "duration_ms": 90,
+      "pose": "right_transition",
+      "shift_x_px": 14,
+      "feet_together": false
+    },
+    {
+      "index": 9,
+      "name": "step_09",
+      "file": "frames/frame_09.png",
+      "rect": {
+        "x": 320,
+        "y": 1216,
+        "w": 320,
+        "h": 608
+      },
+      "duration_ms": 420,
+      "pose": "right_feet_together",
+      "shift_x_px": 25,
+      "feet_together": true
+    },
+    {
+      "index": 10,
+      "name": "step_10",
+      "file": "frames/frame_10.png",
+      "rect": {
+        "x": 640,
+        "y": 1216,
+        "w": 320,
+        "h": 608
+      },
+      "duration_ms": 90,
+      "pose": "return_from_right",
+      "shift_x_px": 12,
+      "feet_together": false
+    },
+    {
+      "index": 11,
+      "name": "step_11",
+      "file": "frames/frame_11.png",
+      "rect": {
+        "x": 960,
+        "y": 1216,
+        "w": 320,
+        "h": 608
+      },
+      "duration_ms": 85,
+      "pose": "return_to_center",
+      "shift_x_px": 6,
+      "feet_together": false
+    },
+    {
+      "index": 12,
+      "name": "step_12",
+      "file": "frames/frame_12.png",
+      "rect": {
+        "x": 0,
+        "y": 1824,
+        "w": 320,
+        "h": 608
+      },
+      "duration_ms": 600,
+      "pose": "center_idle",
+      "shift_x_px": 0,
+      "feet_together": true
+    }
+  ]
+}

@@ -1,0 +1,208 @@
+{
+  "frames": {
+    "nod_00.png": {
+      "frame": {
+        "x": 0,
+        "y": 0,
+        "w": 320,
+        "h": 608
+      },
+      "rotated": false,
+      "trimmed": false,
+      "spriteSourceSize": {
+        "x": 0,
+        "y": 0,
+        "w": 320,
+        "h": 608
+      },
+      "sourceSize": {
+        "w": 320,
+        "h": 608
+      },
+      "pivot": {
+        "x": 0.5,
+        "y": 0.967105
+      }
+    },
+    "nod_01.png": {
+      "frame": {
+        "x": 320,
+        "y": 0,
+        "w": 320,
+        "h": 608
+      },
+      "rotated": false,
+      "trimmed": false,
+      "spriteSourceSize": {
+        "x": 0,
+        "y": 0,
+        "w": 320,
+        "h": 608
+      },
+      "sourceSize": {
+        "w": 320,
+        "h": 608
+      },
+      "pivot": {
+        "x": 0.5,
+        "y": 0.967105
+      }
+    },
+    "nod_02.png": {
+      "frame": {
+        "x": 640,
+        "y": 0,
+        "w": 320,
+        "h": 608
+      },
+      "rotated": false,
+      "trimmed": false,
+      "spriteSourceSize": {
+        "x": 0,
+        "y": 0,
+        "w": 320,
+        "h": 608
+      },
+      "sourceSize": {
+        "w": 320,
+        "h": 608
+      },
+      "pivot": {
+        "x": 0.5,
+        "y": 0.967105
+      }
+    },
+    "nod_03.png": {
+      "frame": {
+        "x": 960,
+        "y": 0,
+        "w": 320,
+        "h": 608
+      },
+      "rotated": false,
+      "trimmed": false,
+      "spriteSourceSize": {
+        "x": 0,
+        "y": 0,
+        "w": 320,
+        "h": 608
+      },
+      "sourceSize": {
+        "w": 320,
+        "h": 608
+      },
+      "pivot": {
+        "x": 0.5,
+        "y": 0.967105
+      }
+    },
+    "nod_04.png": {
+      "frame": {
+        "x": 0,
+        "y": 608,
+        "w": 320,
+        "h": 608
+      },
+      "rotated": false,
+      "trimmed": false,
+      "spriteSourceSize": {
+        "x": 0,
+        "y": 0,
+        "w": 320,
+        "h": 608
+      },
+      "sourceSize": {
+        "w": 320,
+        "h": 608
+      },
+      "pivot": {
+        "x": 0.5,
+        "y": 0.967105
+      }
+    },
+    "nod_05.png": {
+      "frame": {
+        "x": 320,
+        "y": 608,
+        "w": 320,
+        "h": 608
+      },
+      "rotated": false,
+      "trimmed": false,
+      "spriteSourceSize": {
+        "x": 0,
+        "y": 0,
+        "w": 320,
+        "h": 608
+      },
+      "sourceSize": {
+        "w": 320,
+        "h": 608
+      },
+      "pivot": {
+        "x": 0.5,
+        "y": 0.967105
+      }
+    },
+    "nod_06.png": {
+      "frame": {
+        "x": 640,
+        "y": 608,
+        "w": 320,
+        "h": 608
+      },
+      "rotated": false,
+      "trimmed": false,
+      "spriteSourceSize": {
+        "x": 0,
+        "y": 0,
+        "w": 320,
+        "h": 608
+      },
+      "sourceSize": {
+        "w": 320,
+        "h": 608
+      },
+      "pivot": {
+        "x": 0.5,
+        "y": 0.967105
+      }
+    },
+    "nod_07.png": {
+      "frame": {
+        "x": 960,
+        "y": 608,
+        "w": 320,
+        "h": 608
+      },
+      "rotated": false,
+      "trimmed": false,
+      "spriteSourceSize": {
+        "x": 0,
+        "y": 0,
+        "w": 320,
+        "h": 608
+      },
+      "sourceSize": {
+        "w": 320,
+        "h": 608
+      },
+      "pivot": {
+        "x": 0.5,
+        "y": 0.967105
+      }
+    }
+  },
+  "meta": {
+    "app": "OpenAI sprite export",
+    "version": "1.0",
+    "image": "sprite_sheet_4x2.png",
+    "format": "RGBA8888",
+    "size": {
+      "w": 1280,
+      "h": 1216
+    },
+    "scale": "1",
+    "related_multi_packs": []
+  }
+}

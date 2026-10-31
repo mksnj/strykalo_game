@@ -1,9 +1,209 @@
 {
   "textures": [
     {
+      "key": "court-side-step",
+      "url": "/assets/court-side-step-v26/sprite_sheet.png",
+      "decodedSourceUrl": "blob:http://127.0.0.1:5174/d8c546bb-8e4c-4799-93e4-f635a2c65b70",
+      "pixelSha256": "8d802cd3aa6d3274e0715ddd2b906c117c025dd30068c6557cd6e597b228277b",
+      "width": 1280,
+      "height": 2432,
+      "firstFrame": "0",
+      "defaultFrame": {
+        "name": "0",
+        "width": 320,
+        "height": 608
+      },
+      "frames": [
+        {
+          "name": "0",
+          "x": 0,
+          "y": 0,
+          "width": 320,
+          "height": 608
+        },
+        {
+          "name": "1",
+          "x": 320,
+          "y": 0,
+          "width": 320,
+          "height": 608
+        },
+        {
+          "name": "2",
+          "x": 640,
+          "y": 0,
+          "width": 320,
+          "height": 608
+        },
+        {
+          "name": "3",
+          "x": 960,
+          "y": 0,
+          "width": 320,
+          "height": 608
+        },
+        {
+          "name": "4",
+          "x": 0,
+          "y": 608,
+          "width": 320,
+          "height": 608
+        },
+        {
+          "name": "5",
+          "x": 320,
+          "y": 608,
+          "width": 320,
+          "height": 608
+        },
+        {
+          "name": "6",
+          "x": 640,
+          "y": 608,
+          "width": 320,
+          "height": 608
+        },
+        {
+          "name": "7",
+          "x": 960,
+          "y": 608,
+          "width": 320,
+          "height": 608
+        },
+        {
+          "name": "8",
+          "x": 0,
+          "y": 1216,
+          "width": 320,
+          "height": 608
+        },
+        {
+          "name": "9",
+          "x": 320,
+          "y": 1216,
+          "width": 320,
+          "height": 608
+        },
+        {
+          "name": "10",
+          "x": 640,
+          "y": 1216,
+          "width": 320,
+          "height": 608
+        },
+        {
+          "name": "11",
+          "x": 960,
+          "y": 1216,
+          "width": 320,
+          "height": 608
+        },
+        {
+          "name": "12",
+          "x": 0,
+          "y": 1824,
+          "width": 320,
+          "height": 608
+        },
+        {
+          "name": "13",
+          "x": 320,
+          "y": 1824,
+          "width": 320,
+          "height": 608
+        },
+        {
+          "name": "14",
+          "x": 640,
+          "y": 1824,
+          "width": 320,
+          "height": 608
+        },
+        {
+          "name": "15",
+          "x": 960,
+          "y": 1824,
+          "width": 320,
+          "height": 608
+        }
+      ]
+    },
+    {
+      "key": "music_nod",
+      "url": "/assets/music-nod-v1/sprite_sheet_4x2.png",
+      "decodedSourceUrl": "blob:http://127.0.0.1:5174/c0062819-346b-42f0-ad6e-b20afaa30ae7",
+      "pixelSha256": "ffadc9417bff852c9911c3fe19ddc4ffa099ef3cdfc092c4b2103e3f02521cbd",
+      "width": 1280,
+      "height": 1216,
+      "firstFrame": "0",
+      "defaultFrame": {
+        "name": "0",
+        "width": 320,
+        "height": 608
+      },
+      "frames": [
+        {
+          "name": "0",
+          "x": 0,
+          "y": 0,
+          "width": 320,
+          "height": 608
+        },
+        {
+          "name": "1",
+          "x": 320,
+          "y": 0,
+          "width": 320,
+          "height": 608
+        },
+        {
+          "name": "2",
+          "x": 640,
+          "y": 0,
+          "width": 320,
+          "height": 608
+        },
+        {
+          "name": "3",
+          "x": 960,
+          "y": 0,
+          "width": 320,
+          "height": 608
+        },
+        {
+          "name": "4",
+          "x": 0,
+          "y": 608,
+          "width": 320,
+          "height": 608
+        },
+        {
+          "name": "5",
+          "x": 320,
+          "y": 608,
+          "width": 320,
+          "height": 608
+        },
+        {
+          "name": "6",
+          "x": 640,
+          "y": 608,
+          "width": 320,
+          "height": 608
+        },
+        {
+          "name": "7",
+          "x": 960,
+          "y": 608,
+          "width": 320,
+          "height": 608
+        }
+      ]
+    },
+    {
       "key": "court-dance",
       "url": "/assets/court-dance-v25/dance.webp",
-      "decodedSourceUrl": "blob:http://127.0.0.1:5174/593e9b14-c252-472c-8ff2-16660b619361",
+      "decodedSourceUrl": "blob:http://127.0.0.1:5174/90e8b58e-b545-482a-9fc3-8edfdfa8cb7c",
       "pixelSha256": "fa39b53c8a79dcfda3dc38364ef5fc3f41e12bbcccba4b25f535d0107a3e1403",
       "width": 1536,
       "height": 512,
@@ -40,7 +240,7 @@
     {
       "key": "ending-facade",
       "url": "/assets/visual-v12/facade.webp",
-      "decodedSourceUrl": "blob:http://127.0.0.1:5174/5c1d411e-05eb-4bc0-bd86-625e54820f2e",
+      "decodedSourceUrl": "blob:http://127.0.0.1:5174/bb8a07f0-fe8e-4c20-b69d-4bd2a7b20168",
       "pixelSha256": "84a5920fce66ede27fcbf20cd35531c0ba9dbf90fe44d33870aa78d0f4cf31e4",
       "width": 960,
       "height": 540,
@@ -70,7 +270,7 @@
     {
       "key": "pipe-sunset",
       "url": "/assets/visual-v12/pipe.webp",
-      "decodedSourceUrl": "blob:http://127.0.0.1:5174/94a55176-1b50-4322-820d-bb4b14c11b62",
+      "decodedSourceUrl": "blob:http://127.0.0.1:5174/421df61a-29b3-4737-98b3-85d2869f84b4",
       "pixelSha256": "31042caf597a11d201bcfd397081752ccf42b26df7712d6ccd04ef240958fdcc",
       "width": 1920,
       "height": 640,
@@ -85,7 +285,7 @@
     {
       "key": "hero-front",
       "url": "/assets/visual-v12/front.webp",
-      "decodedSourceUrl": "blob:http://127.0.0.1:5174/318c12bf-7ba8-40d5-945c-f1c622d58559",
+      "decodedSourceUrl": "blob:http://127.0.0.1:5174/81a19248-786b-4108-8f08-3c8cd1448861",
       "pixelSha256": "eaa7fdeafa5cd5eed2591da90d49d691d2d49e92e3d9257c816ab75797293636",
       "width": 128,
       "height": 256,
@@ -115,7 +315,7 @@
     {
       "key": "hero-rest",
       "url": "/assets/visual-v12/seated.webp",
-      "decodedSourceUrl": "blob:http://127.0.0.1:5174/dc58c1f1-dc54-46c7-805e-df55c1cecf54",
+      "decodedSourceUrl": "blob:http://127.0.0.1:5174/3e25f2eb-00c6-4085-bfde-fb20ef9f265f",
       "pixelSha256": "78ae77c5d7aed1344716e4a1b82e9632ee3ef1fe0d220168c3ecc75e324c9982",
       "width": 128,
       "height": 256,
@@ -145,7 +345,7 @@
     {
       "key": "room-graffiti",
       "url": "/assets/visual-v12/graffiti.webp",
-      "decodedSourceUrl": "blob:http://127.0.0.1:5174/075f495e-ae04-4da2-bc37-56a3e2387145",
+      "decodedSourceUrl": "blob:http://127.0.0.1:5174/8f8a784c-8c73-452c-acef-4e43e58e7dc9",
       "pixelSha256": "37879922171cd309c5e87f52a2feb0e659956e165159173f07317a47a28ee1d8",
       "width": 480,
       "height": 160,
@@ -160,7 +360,7 @@
     {
       "key": "journey-autumn",
       "url": "/assets/journey-v1/autumn.webp",
-      "decodedSourceUrl": "blob:http://127.0.0.1:5174/991485f7-d886-43a6-880f-c14bbf4c8a28",
+      "decodedSourceUrl": "blob:http://127.0.0.1:5174/e727e54f-fa4f-4a2f-82d0-a271535681dc",
       "pixelSha256": "87db4ead41377da1d2b83a3716031d0d6a34c19b216ac623dde8d16100bda8ad",
       "width": 1536,
       "height": 512,
@@ -183,7 +383,7 @@
     {
       "key": "journey-shadows",
       "url": "/assets/journey-v1/shadows.webp",
-      "decodedSourceUrl": "blob:http://127.0.0.1:5174/50d28067-240f-4de6-ac66-62b70f16ced2",
+      "decodedSourceUrl": "blob:http://127.0.0.1:5174/fe757d38-829b-4617-add9-82f444764869",
       "pixelSha256": "65b405f014980d9f1ec1d817be77f6f715a136f8213241c55f778c59e49e41b6",
       "width": 1536,
       "height": 512,
@@ -206,7 +406,7 @@
     {
       "key": "night-far",
       "url": "/assets/runner-v1/far.webp",
-      "decodedSourceUrl": "blob:http://127.0.0.1:5174/9d7e2280-3f8d-480e-9ac7-b803e43aced9",
+      "decodedSourceUrl": "blob:http://127.0.0.1:5174/eb73aa99-bccb-41f5-8cca-58e98fcba1b7",
       "pixelSha256": "be6c20a9038b0bb8bf68644bf754ce86d1365e84bea15a0f7837fe600b756505",
       "width": 1536,
       "height": 512,
@@ -221,7 +421,7 @@
     {
       "key": "night-court",
       "url": "/assets/runner-v1/court.webp",
-      "decodedSourceUrl": "blob:http://127.0.0.1:5174/5326d7de-3fbc-468c-bbda-04cb1721460c",
+      "decodedSourceUrl": "blob:http://127.0.0.1:5174/d54cc896-1be4-4609-ace2-4e332a51cf39",
       "pixelSha256": "fb6c871ac08c929315ed262d7989a327c6d85737b05813279ef7b5dd4fc69764",
       "width": 1536,
       "height": 512,
@@ -236,7 +436,7 @@
     {
       "key": "night-ground",
       "url": "/assets/runner-v1/ground.webp",
-      "decodedSourceUrl": "blob:http://127.0.0.1:5174/2408af95-dd98-41c1-bac4-f970aa6bf3ac",
+      "decodedSourceUrl": "blob:http://127.0.0.1:5174/7d5ccc9b-dee6-47fd-9f7d-347a7512227b",
       "pixelSha256": "9c82820a91c5a534b62962458a3e9cfaf5820e2865911299af1fb8246499562a",
       "width": 1536,
       "height": 164,
@@ -259,7 +459,7 @@
     {
       "key": "night-front",
       "url": "/assets/runner-v1/front.webp",
-      "decodedSourceUrl": "blob:http://127.0.0.1:5174/6c4863f3-2cb0-4e41-8be3-4f5a7e10f7a6",
+      "decodedSourceUrl": "blob:http://127.0.0.1:5174/e4fce47b-56cf-45a3-9359-ce554f533718",
       "pixelSha256": "dfa8209f11effa1bdd932610d37e27de262e34e62d1562f235906a5f6db910a8",
       "width": 1536,
       "height": 512,
@@ -282,7 +482,7 @@
     {
       "key": "night-hero",
       "url": "/assets/runner-v1/hero.webp",
-      "decodedSourceUrl": "blob:http://127.0.0.1:5174/6269a74c-6d2d-4cc3-a824-988a1bffb56c",
+      "decodedSourceUrl": "blob:http://127.0.0.1:5174/87b8bdb1-f195-40b3-855f-f93172cea297",
       "pixelSha256": "5795b06cce9b33e8eda4a6f280b7ea321c55968d101e3b8ff1d60ad73e629216",
       "width": 512,
       "height": 128,
@@ -326,7 +526,7 @@
     {
       "key": "night-fence",
       "url": "/assets/provided-v4/barrier.webp",
-      "decodedSourceUrl": "blob:http://127.0.0.1:5174/fc4ae88f-1552-44a1-ba51-1334994015ef",
+      "decodedSourceUrl": "blob:http://127.0.0.1:5174/6f54a547-28de-4024-a680-93b649067efc",
       "pixelSha256": "eef128d683c8e8528e52739909abf1de7c270df64bddd7c87b11958f209fad89",
       "width": 264,
       "height": 100,
@@ -341,7 +541,7 @@
     {
       "key": "night-broken-block",
       "url": "/assets/provided-v4/broken-block.webp",
-      "decodedSourceUrl": "blob:http://127.0.0.1:5174/a9aea417-a144-4e91-b3e9-4316d217ce32",
+      "decodedSourceUrl": "blob:http://127.0.0.1:5174/be0f3078-7caa-4bfc-86a8-2cf35f22615c",
       "pixelSha256": "279cfd67ea165b38974c8e7bb6f088325fc051c348ab91112b7e8dd29ea92a32",
       "width": 264,
       "height": 121,
@@ -356,7 +556,7 @@
     {
       "key": "night-debris",
       "url": "/assets/provided-v4/debris.webp",
-      "decodedSourceUrl": "blob:http://127.0.0.1:5174/8a60e391-86f9-4257-af41-d6757eefd266",
+      "decodedSourceUrl": "blob:http://127.0.0.1:5174/564f902b-0bce-4936-86c8-4ec1a10a525f",
       "pixelSha256": "49e03a2541980021234d6871f278a71bc7b327074fc28344b98eeac63a52f493",
       "width": 224,
       "height": 135,
@@ -371,7 +571,7 @@
     {
       "key": "night-rubble",
       "url": "/assets/provided-v4/rubble.webp",
-      "decodedSourceUrl": "blob:http://127.0.0.1:5174/c6471998-a81f-4ca8-a4a2-a6747b16b11a",
+      "decodedSourceUrl": "blob:http://127.0.0.1:5174/6273bf8f-fc26-4028-9c0d-8ec0e815a753",
       "pixelSha256": "89e79ad2cd77183f8a1c91d0a922f2941ac668e473383adfb8ecd0fcc5895a81",
       "width": 224,
       "height": 127,
@@ -386,7 +586,7 @@
     {
       "key": "tape",
       "url": "/assets/runner-v1/cassette.webp",
-      "decodedSourceUrl": "blob:http://127.0.0.1:5174/a2edbda3-627b-4a43-983a-be5f3be4076f",
+      "decodedSourceUrl": "blob:http://127.0.0.1:5174/7ed15bff-7339-42cd-b2af-125d43f43956",
       "pixelSha256": "2b51551edc6f0f3009c041c2e9d86122ae2b26931e3340038ae1a9dcdfc8ad7d",
       "width": 132,
       "height": 84,
@@ -401,7 +601,7 @@
     {
       "key": "story-beer",
       "url": "/assets/balance-story/beer.webp",
-      "decodedSourceUrl": "blob:http://127.0.0.1:5174/2bc262fb-8431-4b2a-84b5-afe56fae0ea8",
+      "decodedSourceUrl": "blob:http://127.0.0.1:5174/29bd6cd0-b6a7-42d1-9f93-13e0f7fe47bd",
       "pixelSha256": "3f552917857da314e2087f54df2b0367b66857bbe5921b0b98ade94c27afe2c0",
       "width": 80,
       "height": 240,
@@ -416,7 +616,7 @@
     {
       "key": "pipe-illustration",
       "url": "/assets/journey-v1/pipe.webp",
-      "decodedSourceUrl": "blob:http://127.0.0.1:5174/e7284c88-dedc-4b72-983b-45b8bcd48e87",
+      "decodedSourceUrl": "blob:http://127.0.0.1:5174/cdfbdff6-f919-4a3f-a53d-cf78116d9221",
       "pixelSha256": "a29ac59f995cc04960ba45034bdf40ab6f3d7be3841b9cfbda8542d4c9fba4e3",
       "width": 340,
       "height": 381,
@@ -431,7 +631,7 @@
     {
       "key": "pipe-construction",
       "url": "/assets/provided-v4/pipe.webp",
-      "decodedSourceUrl": "blob:http://127.0.0.1:5174/68a1802f-a934-45fc-a32e-6e6f1b560dcc",
+      "decodedSourceUrl": "blob:http://127.0.0.1:5174/84a3cc2d-b9f1-4f01-9c66-46d64d69bc2d",
       "pixelSha256": "5a4d973de2d2bbad1bd1c63315044b7bd8b2933d876a73c2541f6ca66e35aab6",
       "width": 1920,
       "height": 640,
@@ -446,7 +646,7 @@
     {
       "key": "pipe-sky-clouds",
       "url": "/assets/pipe-v2/sky-clouds.webp",
-      "decodedSourceUrl": "blob:http://127.0.0.1:5174/210aa853-af95-4b49-8de6-482ec8f6487f",
+      "decodedSourceUrl": "blob:http://127.0.0.1:5174/c920fa2d-771c-49bb-a1d1-9de72e90d6a2",
       "pixelSha256": "84e03f8bc60299d49b0ca656d710cc2f47e0a0754c8b700504907e367067b663",
       "width": 1536,
       "height": 512,
@@ -461,7 +661,7 @@
     {
       "key": "pipe-side-illustration",
       "url": "/assets/pipe-v2/side.webp",
-      "decodedSourceUrl": "blob:http://127.0.0.1:5174/444119bb-f721-4c0b-8fd7-447c9aa28316",
+      "decodedSourceUrl": "blob:http://127.0.0.1:5174/28428704-cabe-4598-9bc4-56f2101509ad",
       "pixelSha256": "8640d64b796b0ab5d3b0e7dcd47510538ef91a00a32f2c618510c9e008c63b40",
       "width": 640,
       "height": 140,
@@ -484,7 +684,7 @@
     {
       "key": "pipe-side-excavation",
       "url": "/assets/location-v7/excavation.webp",
-      "decodedSourceUrl": "blob:http://127.0.0.1:5174/8d8d84b1-a078-44f3-b897-f227b528d485",
+      "decodedSourceUrl": "blob:http://127.0.0.1:5174/43c4ed53-141e-46b5-b765-497594ac5c68",
       "pixelSha256": "9854c7ada461f1bad95797a94801138e89b05dbf5a9822e4e7e97edf223bdefb",
       "width": 1120,
       "height": 204,
@@ -499,7 +699,7 @@
     {
       "key": "room-stool",
       "url": "/assets/repairs-v6/stool.webp",
-      "decodedSourceUrl": "blob:http://127.0.0.1:5174/bda63a4d-1e34-42a4-bcb6-a92cf53f1eaf",
+      "decodedSourceUrl": "blob:http://127.0.0.1:5174/57045423-294c-4f2c-baa3-07ffe71ca51e",
       "pixelSha256": "cd49012de7d3519d1d1977c114a3ba4889c0e6d68f4d542cb271f30a9c1c351e",
       "width": 192,
       "height": 192,
@@ -514,7 +714,7 @@
     {
       "key": "room-clock",
       "url": "/assets/props-v5/clock.webp",
-      "decodedSourceUrl": "blob:http://127.0.0.1:5174/9a91d693-c48e-4328-857d-b586a428a2d7",
+      "decodedSourceUrl": "blob:http://127.0.0.1:5174/f6e102b4-21cb-436e-9457-5773a92aba95",
       "pixelSha256": "7b657abb64d346904678bcfd7ff2d18ea0e4b65d3f6c732bbf228384922a066c",
       "width": 192,
       "height": 192,
@@ -529,7 +729,7 @@
     {
       "key": "room-sign",
       "url": "/assets/props-v5/sign.webp",
-      "decodedSourceUrl": "blob:http://127.0.0.1:5174/b1a317d1-436c-4aed-86e6-22a61f5c44a0",
+      "decodedSourceUrl": "blob:http://127.0.0.1:5174/d493aba7-88a0-475a-815e-a7bd24b795c5",
       "pixelSha256": "cdd91ee9ca027919f576e676a5051f6e6759be0832a8352d1f8ef32ddcd42303",
       "width": 480,
       "height": 160,
@@ -544,7 +744,7 @@
     {
       "key": "ending-bench",
       "url": "/assets/repairs-v6/bench.webp",
-      "decodedSourceUrl": "blob:http://127.0.0.1:5174/56b40e58-c641-4d5b-b0e6-782096ee49f0",
+      "decodedSourceUrl": "blob:http://127.0.0.1:5174/0bdf8d92-13b1-4ed9-840a-6808cca8ddbb",
       "pixelSha256": "9a19d439dcf910aeca1892dcb4e3f07b4d7f0b7cb53058e06ef2befcd339ff98",
       "width": 480,
       "height": 192,
@@ -559,7 +759,7 @@
     {
       "key": "television-crt",
       "url": "/assets/references-v13/television.webp",
-      "decodedSourceUrl": "blob:http://127.0.0.1:5174/9a1f3e18-3284-4461-b951-34e5ca0540c6",
+      "decodedSourceUrl": "blob:http://127.0.0.1:5174/a4d8b075-9c85-4ed8-839c-18ff56fcef66",
       "pixelSha256": "3c37b570cd169bec5d7a0b115fa86e4ed66d05142094ae713041fccf5628474d",
       "width": 384,
       "height": 288,
@@ -574,7 +774,7 @@
     {
       "key": "television-water",
       "url": "/assets/references-v13/puddle.webp",
-      "decodedSourceUrl": "blob:http://127.0.0.1:5174/4ad78aa9-7403-4e05-8729-81176c63b3a8",
+      "decodedSourceUrl": "blob:http://127.0.0.1:5174/380c0063-0935-4c4a-bdd2-8a27480f5551",
       "pixelSha256": "7aeb2f70f99863bd7f13c99133fa2563fa5e48a515ba68062c68dd0db501df87",
       "width": 768,
       "height": 192,
@@ -589,7 +789,7 @@
     {
       "key": "court-hoop",
       "url": "/assets/court-v4/hoop.webp",
-      "decodedSourceUrl": "blob:http://127.0.0.1:5174/b5e4069f-db6e-4b2e-8a4b-e174df7705ea",
+      "decodedSourceUrl": "blob:http://127.0.0.1:5174/0b935433-a0e3-49df-9ada-9223c45b3388",
       "pixelSha256": "1249d6ef9a22ee1176ae4de4e6476ffacc44910e6bdaaf3b560b9e5840fdc779",
       "width": 384,
       "height": 640,
@@ -604,7 +804,7 @@
     {
       "key": "court-original",
       "url": "/assets/court-original/court.webp",
-      "decodedSourceUrl": "blob:http://127.0.0.1:5174/40e5861f-7694-4b85-bde7-a08294f66c78",
+      "decodedSourceUrl": "blob:http://127.0.0.1:5174/884ab44d-df82-4691-b6a4-ddd064cba564",
       "pixelSha256": "aafab426df8797ed5f3650d8cd342cb6f11cb5ce0852db55e11518fdd7c13d51",
       "width": 960,
       "height": 540,
@@ -655,7 +855,7 @@
     {
       "key": "shared-asphalt",
       "url": "/assets/court-v4/asphalt.webp",
-      "decodedSourceUrl": "blob:http://127.0.0.1:5174/83b86813-3951-42e6-8a82-aa3305e7692a",
+      "decodedSourceUrl": "blob:http://127.0.0.1:5174/ff89845a-2f6a-4255-9131-f01c6b5280a5",
       "pixelSha256": "5e4a9d28f646ee9a1bd0295b0c507490cd77e9a141c5cf486ef88213e36c44bb",
       "width": 3072,
       "height": 420,
@@ -670,7 +870,7 @@
     {
       "key": "room-entrance",
       "url": "/assets/transitions-v4/facade.webp",
-      "decodedSourceUrl": "blob:http://127.0.0.1:5174/30a804b6-5cea-4b21-8cc7-0450788c17af",
+      "decodedSourceUrl": "blob:http://127.0.0.1:5174/afceb15f-8c30-4a92-b581-9f4b1b446456",
       "pixelSha256": "43b11a2fb8ca34a0a76370120c30548bd3f3062893e7d399d9e180b4edb94e61",
       "width": 960,
       "height": 540,
@@ -685,7 +885,7 @@
     {
       "key": "waiting-room",
       "url": "/assets/provided-v4/room.webp",
-      "decodedSourceUrl": "blob:http://127.0.0.1:5174/f4d38b36-b344-4f60-867d-6a2697a06965",
+      "decodedSourceUrl": "blob:http://127.0.0.1:5174/b004019d-edce-47e5-badc-61b2a6fb6006",
       "pixelSha256": "420d30a412fe55cc1018d4ff497d87638f984e232d88111cea13fe8d6f854dd3",
       "width": 1920,
       "height": 640,
@@ -700,7 +900,7 @@
     {
       "key": "room-door",
       "url": "/assets/journey-v1/door.webp",
-      "decodedSourceUrl": "blob:http://127.0.0.1:5174/b06acd67-fcd5-481d-a38b-2b2b93523b63",
+      "decodedSourceUrl": "blob:http://127.0.0.1:5174/3c9b52c6-5e0a-40f4-971c-87781cd012fa",
       "pixelSha256": "eadc2c2ea0a3bc18e79e89be4ecae982f73463ac90ab2166fbd76c09b6b829ae",
       "width": 96,
       "height": 258,
@@ -723,7 +923,7 @@
     {
       "key": "hero-seated",
       "url": "/assets/transitions-v4/seated.webp",
-      "decodedSourceUrl": "blob:http://127.0.0.1:5174/5a696324-afb8-4ef0-b324-fec324b9b47f",
+      "decodedSourceUrl": "blob:http://127.0.0.1:5174/4b12147e-64a2-442b-9aa2-81505cdc58cd",
       "pixelSha256": "acaab63934a30104d2b4a74c403f2e41569b1374ffde6d2df540ef81806028e4",
       "width": 256,
       "height": 256,
@@ -753,7 +953,7 @@
     {
       "key": "hero-idle",
       "url": "/assets/journey-v1/idle.webp",
-      "decodedSourceUrl": "blob:http://127.0.0.1:5174/c60d264e-f438-4be9-aa00-85604fac7d72",
+      "decodedSourceUrl": "blob:http://127.0.0.1:5174/3e91d12c-046b-4f92-b904-a18a15c284d5",
       "pixelSha256": "2cd313e0cf68d50738258aaa4348967144ae38f3b3e18fc1d18d1dd2ddebcaad",
       "width": 512,
       "height": 128,
@@ -797,7 +997,7 @@
     {
       "key": "archway",
       "url": "/assets/entrance-v1/entrance.webp",
-      "decodedSourceUrl": "blob:http://127.0.0.1:5174/3ce1fbfc-5c6a-4bef-8e15-1a58e023535c",
+      "decodedSourceUrl": "blob:http://127.0.0.1:5174/4f0a7c1b-a0bc-4dcf-a7aa-0c6d6d8da35d",
       "pixelSha256": "4fcdc8716e1fbd8776ff480f66cd0f5634c0f60a44e94753e78d18639d1bdd79",
       "width": 960,
       "height": 540,
@@ -821,6 +1021,50 @@
           "y": 0,
           "width": 192,
           "height": 540
+        }
+      ]
+    },
+    {
+      "key": "rhythm-comet",
+      "url": "/assets/rhythm-comets/comets.png",
+      "decodedSourceUrl": "blob:http://127.0.0.1:5174/3281bb1e-d419-448a-a8ef-439831ad9702",
+      "pixelSha256": "2fd586979a61b28072118a7317de5509cbb6918fa653b103996d05a063c34010",
+      "width": 512,
+      "height": 256,
+      "firstFrame": "0",
+      "defaultFrame": {
+        "name": "0",
+        "width": 128,
+        "height": 256
+      },
+      "frames": [
+        {
+          "name": "0",
+          "x": 0,
+          "y": 0,
+          "width": 128,
+          "height": 256
+        },
+        {
+          "name": "1",
+          "x": 128,
+          "y": 0,
+          "width": 128,
+          "height": 256
+        },
+        {
+          "name": "2",
+          "x": 256,
+          "y": 0,
+          "width": 128,
+          "height": 256
+        },
+        {
+          "name": "3",
+          "x": 384,
+          "y": 0,
+          "width": 128,
+          "height": 256
         }
       ]
     }
@@ -962,6 +1206,86 @@
       "frame": "rhythm-platform"
     },
     {
+      "type": "Sprite",
+      "key": "rhythm-comet",
+      "frame": "0"
+    },
+    {
+      "type": "Sprite",
+      "key": "rhythm-comet",
+      "frame": "0"
+    },
+    {
+      "type": "Sprite",
+      "key": "rhythm-comet",
+      "frame": "0"
+    },
+    {
+      "type": "Sprite",
+      "key": "rhythm-comet",
+      "frame": "0"
+    },
+    {
+      "type": "Sprite",
+      "key": "rhythm-comet",
+      "frame": "0"
+    },
+    {
+      "type": "Sprite",
+      "key": "rhythm-comet",
+      "frame": "0"
+    },
+    {
+      "type": "Sprite",
+      "key": "rhythm-comet",
+      "frame": "0"
+    },
+    {
+      "type": "Sprite",
+      "key": "rhythm-comet",
+      "frame": "0"
+    },
+    {
+      "type": "Sprite",
+      "key": "rhythm-comet",
+      "frame": "0"
+    },
+    {
+      "type": "Sprite",
+      "key": "rhythm-comet",
+      "frame": "0"
+    },
+    {
+      "type": "Sprite",
+      "key": "rhythm-comet",
+      "frame": "0"
+    },
+    {
+      "type": "Sprite",
+      "key": "rhythm-comet",
+      "frame": "0"
+    },
+    {
+      "type": "Sprite",
+      "key": "rhythm-comet",
+      "frame": "0"
+    },
+    {
+      "type": "Sprite",
+      "key": "rhythm-comet",
+      "frame": "0"
+    },
+    {
+      "type": "Sprite",
+      "key": "rhythm-comet",
+      "frame": "0"
+    },
+    {
+      "type": "Sprite",
+      "key": "rhythm-comet",
+      "frame": "0"
+    },
+    {
       "type": "Image",
       "key": "waiting-room",
       "frame": "__BASE"
@@ -1062,29 +1386,31 @@
   "sha256": {
     "/assets/court-dance-v25/dance.webp": "261bb99cf7b6125bb68b35fae209499e9e428a3488f6825c2ec2c98cf5a8e758",
     "/assets/visual-v12/front.webp": "b73927dde8181e6ed116010a5d075a38a95f202d61f263dc6f7b7202ccfaf9fa",
-    "/assets/visual-v12/seated.webp": "a9099b88d689b0ef326cabcf6eb7a1a00a5570d4fd252c8f8e1d33e1d2459fd3",
-    "/assets/visual-v12/graffiti.webp": "ff9b020691a6bf95fbe34c33a11d315190abb8fe94e7f7abaec2f28b2dededc3",
-    "/assets/runner-v1/far.webp": "0699c5561aab85e5edc9afffefacfae0ea2156e7fa192526d1d5c3c492df5e1c",
-    "/assets/journey-v1/shadows.webp": "72b2d70c4eeb16f125838cd86d7f0fe5629e25be3178549a6f89709bce879696",
+    "/assets/music-nod-v1/sprite_sheet_4x2.png": "8adbcbaffe65cb9ecdb8a93d4b50cdc8a358772facfd3891d9eaeaafc50a1af2",
     "/assets/visual-v12/facade.webp": "0f92444276f7556e22124ee155be61f1a8960509f300aa9613063c8cf84299b1",
-    "/assets/runner-v1/court.webp": "41f2b8c291c3455b2b013bef035565d630e19388ebf15cafd8e4fdae3686715b",
+    "/assets/visual-v12/pipe.webp": "15dda3d1909005a9992280de022ea7eedadc38483a046f6b4f3bbcaecc83b6d8",
+    "/assets/visual-v12/seated.webp": "a9099b88d689b0ef326cabcf6eb7a1a00a5570d4fd252c8f8e1d33e1d2459fd3",
+    "/assets/court-side-step-v26/sprite_sheet.png": "1a34aa2a22ea775fcb3a9bc9c8a1bd13919c04aa113559d5e8c83e30c6f9c349",
     "/assets/journey-v1/autumn.webp": "88ebb76178684657561f193d51063a14569730c71dec6ece8d834c78b6eea41d",
+    "/assets/journey-v1/shadows.webp": "72b2d70c4eeb16f125838cd86d7f0fe5629e25be3178549a6f89709bce879696",
+    "/assets/runner-v1/far.webp": "0699c5561aab85e5edc9afffefacfae0ea2156e7fa192526d1d5c3c492df5e1c",
+    "/assets/visual-v12/graffiti.webp": "ff9b020691a6bf95fbe34c33a11d315190abb8fe94e7f7abaec2f28b2dededc3",
+    "/assets/runner-v1/court.webp": "41f2b8c291c3455b2b013bef035565d630e19388ebf15cafd8e4fdae3686715b",
     "/assets/runner-v1/ground.webp": "38b55707b9b8d444205c03c91393ffc0a320a86140e6aa8ce94bfd4b918d75c6",
     "/assets/runner-v1/front.webp": "aff3ef04ff7a8cda4b6f107d03da44bfc543a26e879b9d755aa85d1f03ac0946",
     "/assets/runner-v1/hero.webp": "92d339fdd3de7a3ad648b29928ab22901d8a66a938ef343425893ab301503f2e",
     "/assets/provided-v4/barrier.webp": "dd66e0b80139d71e2bb5343fe81b376ca8eeb1e4d0ba63d953e4412caa166b17",
     "/assets/provided-v4/broken-block.webp": "d6e97a2ce6cecc1eeb36e9d6d265fd7a422fdcf38f7209975880aa52995a024a",
     "/assets/provided-v4/debris.webp": "b7ba63c11da4b0bbd340ff5c03aa1b30503b32fea0267846eec9357278a42328",
-    "/assets/visual-v12/pipe.webp": "15dda3d1909005a9992280de022ea7eedadc38483a046f6b4f3bbcaecc83b6d8",
     "/assets/provided-v4/rubble.webp": "c50ad656f8d47457004e4d8afc28d2934d8dde4422f9135a1941bf5457118bf8",
     "/assets/runner-v1/cassette.webp": "a2e49e43410c201852f066a17093ec055efdaf72042a39861f84644a03629274",
     "/assets/balance-story/beer.webp": "4307f8c43679d36fd762c03dfe684ed671a4b10d60b6bdff56f8094d47ff9232",
     "/assets/journey-v1/pipe.webp": "5fa987f1fbca2b58da91156b923dfbac36513ce66424d52befd2127864d91291",
     "/assets/provided-v4/pipe.webp": "2d4dbff6c0b2785ba0726919b3d7fabdaa918be25ee2a739fa7601f2413dec7d",
-    "/assets/pipe-v2/sky-clouds.webp": "2aad5524e88b1ed06ec3fdbd45f0c27aafe38de0ecaca0bce2da6bb38d54a8d7",
     "/assets/pipe-v2/side.webp": "fcddbadb66d4de97b6a7fc6d36dec84b38afcbb0563188e818814e1a534fd7bf",
-    "/assets/repairs-v6/stool.webp": "a2170cf61d22337772c33d178e74c5ba8e57b876b07577e6ee01ef65aaec3f05",
+    "/assets/pipe-v2/sky-clouds.webp": "2aad5524e88b1ed06ec3fdbd45f0c27aafe38de0ecaca0bce2da6bb38d54a8d7",
     "/assets/location-v7/excavation.webp": "a7b27582e12a25527a3692be85f1ead3758d9e339912a02693f1ed9b8b7c605c",
+    "/assets/repairs-v6/stool.webp": "a2170cf61d22337772c33d178e74c5ba8e57b876b07577e6ee01ef65aaec3f05",
     "/assets/props-v5/clock.webp": "d6d7b90f04824d28e34bdc5ae5a55266ea3c5d3fccffedff946e8917d7b510ce",
     "/assets/props-v5/sign.webp": "23fb1d6ef068e35f53b0af77b8c1d0cdbac2c5d79674dceaf36c2f88833b75ff",
     "/assets/repairs-v6/bench.webp": "b2f5b84920b6616b33ac69987b7f94913a4eb6937b8e7259c7bf1508ded2fc03",
@@ -1095,9 +1421,10 @@
     "/assets/transitions-v4/facade.webp": "30246afd5b0a15251d9c3c4eaaf470133d4d380770fe935855b2ae542c4bbb01",
     "/assets/provided-v4/room.webp": "5b4131011dffef71d5f258b5a0083a8759083bc565254baefeed809935a905ea",
     "/assets/journey-v1/door.webp": "d792db5b153daa62acab7a9da205d0c795ec9df05d0d20fe95cfec9f2af6117c",
-    "/assets/transitions-v4/seated.webp": "e9632e30728c1489d4d1cd33754c34eb5cf6c0ce05f7b1caaa02018b2a272665",
     "/assets/court-v4/asphalt.webp": "a87fec2fef360287ebe12622826e8a2399ff5d1565c832631c3df43c23b60707",
+    "/assets/transitions-v4/seated.webp": "e9632e30728c1489d4d1cd33754c34eb5cf6c0ce05f7b1caaa02018b2a272665",
     "/assets/journey-v1/idle.webp": "682d94f62164b98bf4d5ff36f15056218a2dbad17bf16c44a81653c4616f1ae0",
-    "/assets/entrance-v1/entrance.webp": "168b03af8b9f3a2ca7e1c1e6e5bcdf31e0d70eebae6e6472951489e77f514a00"
+    "/assets/entrance-v1/entrance.webp": "168b03af8b9f3a2ca7e1c1e6e5bcdf31e0d70eebae6e6472951489e77f514a00",
+    "/assets/rhythm-comets/comets.png": "9a9efe7b4140060f032706a5a762264e654c293bf8e74721bbd7d1096f026031"
   }
 }

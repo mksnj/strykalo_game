@@ -52,6 +52,11 @@ describe('приземлённое окружение и тени', () => {
     expect(shadowPose(JOURNEY.shadowEnd - 10, echo).alpha).toBeGreaterThan(shadowPose(JOURNEY.shadowEnd - 5, echo).alpha);
     expect(shadowPose(JOURNEY.shadowEnd - 5, echo).alpha).toBeGreaterThan(0);
     expect(shadowPose(JOURNEY.shadowEnd + 1, echo).alpha).toBe(0);
+    expect(shadowPose(550, echo).alpha).toBe(REFERENCE_ART.shadowOpacity);
+    expect(shadowPose(560, echo).alpha).toBeGreaterThan(0);
+    expect(shadowPose(560, echo).alpha).toBeLessThan(REFERENCE_ART.shadowOpacity);
+    expect(shadowPose(565, echo).alpha).toBe(0);
+    expect(shadowPose(570, echo).alpha).toBe(0);
   });
   it('пауза и сброс попытки не оставляют старые позы тени', () => {
     const trail = new ShadowTrail();

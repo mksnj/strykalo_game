@@ -1,0 +1,20 @@
+{
+  "reference": {
+    "cellHeight": 256,
+    "visibleHeight": 248,
+    "torsoWidth": 72,
+    "footY": 255
+  },
+  "step": {
+    "cellHeight": 608,
+    "visibleHeight": 549,
+    "torsoWidth": 177.5,
+    "footY": 589
+  },
+  "nod": {
+    "cellHeight": 608,
+    "visibleHeight": 555,
+    "torsoWidth": 202.5,
+    "footY": 585
+  }
+}

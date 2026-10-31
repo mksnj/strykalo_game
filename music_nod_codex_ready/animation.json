@@ -1,0 +1,76 @@
+{
+  "name": "music_nod",
+  "description": "Subtle head nod synchronized to music; two nods per 8-frame loop",
+  "pixelFormat": "RGBA",
+  "premultipliedAlpha": false,
+  "frame": {
+    "width": 320,
+    "height": 608
+  },
+  "frameCount": 8,
+  "spritesheets": [
+    {
+      "image": "sprite_sheet_4x2.png",
+      "columns": 4,
+      "rows": 2,
+      "frameOrder": "left-to-right, then top-to-bottom",
+      "recommended": true
+    },
+    {
+      "image": "sprite_sheet_8x1.png",
+      "columns": 8,
+      "rows": 1,
+      "frameOrder": "left-to-right"
+    }
+  ],
+  "individualFrames": [
+    "frames/nod_00.png",
+    "frames/nod_01.png",
+    "frames/nod_02.png",
+    "frames/nod_03.png",
+    "frames/nod_04.png",
+    "frames/nod_05.png",
+    "frames/nod_06.png",
+    "frames/nod_07.png"
+  ],
+  "frameIndices": [
+    0,
+    1,
+    2,
+    3,
+    4,
+    5,
+    6,
+    7
+  ],
+  "loop": true,
+  "nominalFps": 8,
+  "nominalLoopMs": 1000,
+  "frameDurationsMs": [
+    125,
+    125,
+    125,
+    125,
+    125,
+    125,
+    125,
+    125
+  ],
+  "beatsPerLoop": 2,
+  "referenceBpm": 120,
+  "downbeatFrames": [
+    2,
+    6
+  ],
+  "pivot": {
+    "x": 0.5,
+    "y": 0.967105,
+    "note": "foot contact plane ~y=588 px in 608 px cell"
+  },
+  "motion": "Feet planted, arms in pockets, face always invisible, small nod only",
+  "playback": {
+    "whenBeatClockAvailable": "phase = ((audioTimeSeconds - beatStartSeconds) * bpm / 60) % 2; index = floor(phase / 2 * 8). Use modulo for negative phase.",
+    "withoutBeatClock": "play 8 frames at referenceFps*(bpm/120); default 8 fps if BPM unavailable",
+    "defaultState": "Do not override existing idle/step logic. Enable when character is idling while music is active."
+  }
+}

@@ -1,0 +1,24 @@
+{
+  "collection": "rhythm-arrows-v2",
+  "key": "rhythm-arrow",
+  "url": "/assets/rhythm-arrows-v2/arrows.png",
+  "source": "docs/Звезды-стрелки.png",
+  "cellWidth": 160,
+  "cellHeight": 352,
+  "anchor": { "x": 80, "y": 240 },
+  "sourceScale": 0.5,
+  "displayScale": 0.5,
+  "tint": "cbd0c9",
+  "opacity": 1,
+  "shimmerSeconds": 4.8,
+  "shimmerDepth": 0.16,
+  "directions": ["left", "right", "up", "down"],
+  "frames": { "left": [0, 1], "right": [2, 3], "up": [4, 5], "down": [6, 7] },
+  "sources": [
+    { "direction": "left", "column": 0, "anchors": [{ "x": 235, "y": 321 }, { "x": 235, "y": 799 }] },
+    { "direction": "right", "column": 1, "anchors": [{ "x": 568, "y": 321 }, { "x": 570, "y": 800 }] },
+    { "direction": "up", "column": 2, "anchors": [{ "x": 875, "y": 297 }, { "x": 880, "y": 776 }] },
+    { "direction": "down", "column": 3, "anchors": [{ "x": 1218, "y": 345 }, { "x": 1227, "y": 831 }] }
+  ],
+  "rows": [{ "y": 0, "height": 480 }, { "y": 480, "height": 606 }]
+}

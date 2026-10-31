@@ -92,7 +92,11 @@ export class RunnerScene extends Phaser.Scene {
     });
     this.unsubscribe = gameStore.subscribe(() => {
       const state = gameStore.getSnapshot();
-      if (state.paused || state.balanceIntroOpen || state.starsIntroOpen || state.screen === 'menu') { this.clearInput(); this.audio.pause(); }
+      if (state.paused || state.balanceIntroOpen || state.starsIntroOpen || state.screen === 'menu') {
+        this.clearInput();
+        if (state.paused || document.hidden) this.audio.pause();
+        else this.audio.pauseWithFade();
+      }
     });
     this.events.once(Phaser.Scenes.Events.SHUTDOWN, () => this.dispose());
     gameStore.ready();
@@ -153,7 +157,9 @@ export class RunnerScene extends Phaser.Scene {
     if (!enabled) {
       this.accumulator = 0;
       this.clearInput();
-      this.audio.pause(state.screen === 'completed' && !document.hidden,
+      if (!document.hidden && !state.paused && (state.screen === 'menu' || state.balanceIntroOpen ||
+        state.starsIntroOpen || this.session?.phase === 'stars-locked')) this.audio.pauseWithFade();
+      else this.audio.pause(state.screen === 'completed' && !document.hidden,
         state.screen === 'game-over' && !document.hidden);
     } else if (!this.wasEnabled) this.audio.unlock();
     this.wasEnabled = enabled;

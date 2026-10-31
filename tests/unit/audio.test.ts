@@ -6,6 +6,7 @@ import { RunSession } from '../../apps/web/src/game/state/RunSession';
 import { WaitingEngine } from '../../apps/web/src/game/minigames/waiting/WaitingEngine';
 import { StarsEngine } from '../../apps/web/src/game/minigames/stars/StarsEngine';
 import installed from '../../apps/web/src/game/audio/installedInstrumentals.json';
+import { RHYTHM } from '../../apps/web/src/game/config';
 
 beforeEach(() => vi.stubGlobal('window', { matchMedia: () => ({ matches: false }) }));
 afterEach(() => vi.unstubAllGlobals());
@@ -56,7 +57,7 @@ describe('звук наблюдает игровую симуляцию', () => 
     session.phase = 'stars'; session.stars = new StarsEngine(1);
     observer.step(session); expect(audio.effect).not.toHaveBeenCalled();
     const note = session.stars.notes[0];
-    session.stars.step(note.at); session.rhythmPress(note.direction);
+    session.stars.step(RHYTHM.musicStartSeconds + note.at); session.rhythmPress(note.direction);
     for (let i = 0; i < 120; i++) observer.step(session);
     expect(audio.effect.mock.calls.map(c => c[0])).toEqual(['star']);
     expect(session.stars.hits).toBe(1);
@@ -74,8 +75,9 @@ describe('звук наблюдает игровую симуляцию', () => 
     expect(soundscape('pipe-approach')).toEqual(soundscape('balance'));
     expect(soundscape('stars-approach')).toEqual(soundscape('stars'));
     expect(soundscape('stars-failure')).toEqual(soundscape('stars'));
-    expect(soundscape('room-exit')).toEqual(soundscape('waiting'));
-    expect(soundscape('final-run').music).toBe(soundscape('waiting').music);
+    expect(soundscape('room-rest')).toEqual({ music: 'ending', ambience: 'room' });
+    expect(soundscape('room-exit')).toEqual(soundscape('room-rest'));
+    expect(soundscape('final-run').music).toBe('ending');
     expect(soundscape('ending').music).toBe('ending');
   });
 

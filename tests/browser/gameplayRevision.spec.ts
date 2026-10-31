@@ -2,7 +2,7 @@ import { expect, test } from '@playwright/test';
 import { mkdir } from 'node:fs/promises';
 import { bootRhythm, readRhythm } from './rhythmHarness';
 import { DEBUG_MINIGAME_POINTS, DEBUG_START_POINTS } from '../../apps/web/src/game/state/debugStart';
-import { AUTUMN_SCORE } from '../../apps/web/src/game/config';
+import { AUTUMN_SCORE, RHYTHM } from '../../apps/web/src/game/config';
 
 async function choose(page: import('@playwright/test').Page, point: typeof DEBUG_START_POINTS[number]) {
   await page.getByRole('button', { name: 'К этапам' }).click({ force: true });
@@ -169,10 +169,12 @@ test('reduced motion uses supplied poses without rotating the character', async 
   await page.emulateMedia({ reducedMotion: 'reduce' }); await bootRhythm(page);
   await choose(page, DEBUG_START_POINTS[3]);
   await page.getByRole('button', { name: 'Начать →', exact: true }).click({ force: true }); await page.clock.runFor(40);
-  await page.evaluate(() => {
+  const direction = await page.evaluate(musicStart => {
     const s = (window as any).rhythmScene.session, e = s.stars;
-    e.step(e.notes[0].at); s.rhythmPress(e.notes[0].direction);
-  });
+    const note = e.notes[0];
+    e.step(musicStart + note.at); s.rhythmPress(note.direction);
+    return note.direction;
+  }, RHYTHM.musicStartSeconds);
   await page.clock.runFor(160);
   const actor = await page.evaluate(() => {
     const scene = (window as any).rhythmScene;
@@ -180,7 +182,7 @@ test('reduced motion uses supplied poses without rotating the character', async 
       .map((p: any) => ({ angle: p.angle, texture: p.texture.key, frame: String(p.frame.name) })) };
   });
   expect(actor.angle).toBe(0); expect(actor.poses).toHaveLength(1);
-  expect(actor.poses[0].texture).toBe('court-dance'); expect(actor.poses[0].angle).toBe(0);
+  expect(actor.poses[0].texture).toBe(direction === 'up' ? 'hero-front' : 'court-dance'); expect(actor.poses[0].angle).toBe(0);
 });
 
 for (const [width, height] of [[375, 667], [568, 320]]) test('debug stages and modal return fit ' + width + 'x' + height, async ({ page }) => {

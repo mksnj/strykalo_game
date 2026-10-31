@@ -47,8 +47,12 @@ export class EndingView {
     this.container.setVisible(visible);
     if (!visible || !session) return;
     coverScenery(this.fade);
-    const wingWidth = Math.ceil(Math.max(960, this.container.scene.scale.width) / 192) * 192;
-    this.wings.forEach((wing, i) => wing.setSize(wingWidth, RUNNER.groundY - 3).setX(i ? 960 : -wingWidth));
+    // Extend only the margins outside the original frame. Full-screen wings used to
+    // arrive long before the entrance as a wall of repeated windows and drainpipes.
+    const wingWidth = Math.max(0, (this.container.scene.scale.width - RUNNER.width) / 2);
+    this.wings.forEach((wing, i) => wing.setVisible(wingWidth > 0)
+      .setSize(Math.max(1, wingWidth), RUNNER.groundY - 3).setX(i ? RUNNER.width : -wingWidth)
+      .setTileScale(Math.max(1, wingWidth / 192), 1));
     const ending = session.phase === 'ending', t = ending ? session.phaseTime : 0;
     const pose = finalArrival(session.runner.artDistance, session.route.scale);
     this.architecture.setPosition(pose.offset, 0).setScale(1);

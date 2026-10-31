@@ -195,8 +195,6 @@ export class RunSession {
       if (this.stars!.outcome === 'narrative-failure') {
         this.starsDefeats++;
         this.changePhase(this.starsDefeats < RHYTHM.attempts ? 'stars-retry' : 'stars-failure');
-      } else if (this.stars!.outcome === 'passed') {
-        this.leaveStars();
       }
     } else if (this.phase === 'stars-retry') {
       this.phaseTime += RUNNER.fixedStep;

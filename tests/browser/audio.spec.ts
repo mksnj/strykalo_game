@@ -1,8 +1,9 @@
-import { test, expect, type Page } from '@playwright/test';
+import { test, expect as baseExpect, type Page } from '@playwright/test';
 import { resolve } from 'node:path';
 import { readFile, writeFile } from 'node:fs/promises';
 
 const fixture = '/@fs/' + resolve('tests/fixtures/audio.html').replaceAll('\\', '/');
+const expect = baseExpect.configure({ timeout: 10000 });
 const musicFiles = (page: Page, phase: string): Promise<string[]> => page.evaluate(async phase => {
   const path = '/src/game/audio/catalog.ts';
   const { MUSIC, soundscape } = await import(/* @vite-ignore */ path);
@@ -60,7 +61,8 @@ test('аудио: реальные воспроизведение, перехо�
   const report = [];
   for (const phase of ['balance', 'stars', 'waiting', 'final-run', 'ending', 'runner']) {
     await page.evaluate(phase => (window as any).audioPreview.manager.setScene(phase), phase);
-    await page.waitForTimeout(1800);
+    await expect.poll(async () => (await status()).music.length).toBe(1);
+    await expect.poll(async () => (await status()).music[0]?.gain ?? 0).toBeGreaterThan(.7);
     const current = await status(); report.push(current);
     expect(current.music).toHaveLength(1); expect(current.music[0].fading).toBe(false);
     expect(await musicFiles(page, phase)).toContain(current.music[0].url);
@@ -68,7 +70,7 @@ test('аудио: реальные воспроизведение, перехо�
   }
   // Rapid requests while files are cached must still leave only the latest track.
   await page.evaluate(() => { const { manager } = (window as any).audioPreview; for (const scene of ['stars', 'balance', 'waiting', 'ending', 'runner']) manager.setScene(scene); });
-  await page.waitForTimeout(1700);
+  await expect.poll(async () => (await status()).music.length).toBe(1);
   expect((await status()).music).toHaveLength(1);
   await page.evaluate(() => (window as any).audioPreview.manager.pause());
   await expect.poll(async () => (await status()).state).toBe('suspended');
@@ -147,9 +149,12 @@ test('локальный MP3 имеет приоритет и без Vorbis; н�
   await page.evaluate(() => (window as any).audioPreview.manager.music.select({
     urls: ['/audio/user-instrumentals/missing.mp3', '/audio/original-v1/music-balance.mp3'], gain: .6,
   }, 26)); // Shadows offset also works with the shorter 24-second fallback.
-  await expect.poll(async () => (await status()).music.length === 1 && (await status()).music[0].url).toContain('music-balance.mp3');
-  expect((await status()).music[0].position).toBeGreaterThanOrEqual(2);
-  expect((await status()).music[0].position).toBeLessThan(8);
+  // Check the seek when the replacement begins, before the outgoing six-second tail finishes.
+  await expect.poll(async () => (await status()).music.find((v: any) => !v.fading && v.started)?.url).toContain('music-balance.mp3');
+  const replacement = (await status()).music.find((v: any) => !v.fading && v.started);
+  expect(replacement.position).toBeGreaterThanOrEqual(2);
+  expect(replacement.position).toBeLessThan(4);
+  await expect.poll(async () => (await status()).music.length).toBe(1);
   await expect.poll(() => page.evaluate(() => (window as any).audioPreview.rms())).toBeGreaterThan(.005);
   expect(requested.some(url => url.endsWith('/test.mp3'))).toBe(true);
   expect(requested.some(url => url.endsWith('/missing.mp3'))).toBe(true);
@@ -225,7 +230,7 @@ test('музыкальная петля продолжает звучать по
 });
 
 test('все восемь музыкальных эпизодов воспроизводят выбранные записи', async ({ page }) => {
-  test.setTimeout(60_000);
+  test.setTimeout(100_000);
   await page.goto(fixture); await page.getByRole('button', { name: 'Воспроизвести' }).click();
   await page.evaluate(() => (window as any).audioPreview.manager.setVolumes(1, 0, 0));
   const report = [];

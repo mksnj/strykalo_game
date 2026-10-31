@@ -1,14 +1,17 @@
 import Phaser from 'phaser';
-import { COURT_HERO as C, COURT_DANCE as D } from '../config';
 import type { RhythmFeedback } from '../minigames/stars/StarsEngine';
 import { courtDancePose, type CourtDancePose } from './courtDancePose';
+import nod from '../assets/musicNodLayout.json' with { type: 'json' };
+import { MUSIC_NOD_CLIP, musicNodFrame } from './musicNodAnimation';
+import steps from '../assets/sideStepLayout.json' with { type: 'json' };
+import { sideStepFrame, sideStepHitFrame, type SideStepClip } from './sideStepAnimation';
+import sizing from '../assets/courtHeroLayout.json' with { type: 'json' };
 
-/** Complete, uniformly scaled side and nod poses; up leaves the gesture alone. */
+/** Left/right hits play steps; down plays one nod; all other time uses the ordinary model. */
 export class CourtHero {
   private parts: Phaser.GameObjects.Sprite[];
   private current: CourtDancePose = 'idle';
-  private previous: CourtDancePose = 'idle';
-  private changedAt = 0;
+  private startedAt = 0;
   private lastElapsed = -Infinity;
   private lastFeedback?: RhythmFeedback;
   private reduced = window.matchMedia('(prefers-reduced-motion: reduce)').matches;
@@ -18,31 +21,42 @@ export class CourtHero {
   hide(): void {
     this.parts.forEach(part => part.setVisible(false));
   }
-  render(x: number, y: number, size: number, time: number, latest?: RhythmFeedback, elapsed = 0, failure = 0): void {
-    const amount = this.reduced ? C.reducedMotionScale : 1;
-    const animationTime = elapsed + failure;
-    if (elapsed < this.lastElapsed || !latest) {
-      this.current = 'idle'; this.previous = 'idle'; this.changedAt = animationTime;
-      this.lastFeedback = undefined;
-    }
+  render(x: number, y: number, size: number, _time: number, latest?: RhythmFeedback, elapsed = 0, failure = 0): void {
+    if (elapsed < this.lastElapsed) this.lastFeedback = undefined;
     this.lastElapsed = elapsed;
+    // Keep a running clip after feedback is pruned; up never starts or extends it.
     if (latest && latest.direction !== 'up') this.lastFeedback = latest;
-    const pose = courtDancePose(this.lastFeedback, elapsed, failure);
-    if (pose !== this.current) { this.previous = this.current; this.current = pose; this.changedAt = animationTime; }
-    const blend = this.reduced || this.previous === this.current ? 1 :
-      Math.max(0, Math.min(1, (animationTime - this.changedAt) / D.crossfadeSeconds));
-    const settle = failure ? Math.sin(Math.min(1, failure / C.gestureSeconds) * Math.PI) * amount : 0;
-    const breath = Math.sin(time / C.breathMs) * C.idlePixels * amount;
-    const footY = y + breath + settle * C.failurePixels;
-    this.draw(this.parts[0], this.previous, x, footY, size, 1 - blend, failure > 0);
-    this.draw(this.parts[1], this.current, x, footY, size, blend, failure > 0);
-  }
-  private draw(sprite: Phaser.GameObjects.Sprite, pose: CourtDancePose, x: number, y: number,
-    size: number, alpha: number, failure: boolean): void {
-    if (pose === 'idle') sprite.setTexture('hero-front', '__BASE').setScale(size / C.sourceHeight);
-    else sprite.setTexture(D.key, D.frames[pose]).setScale(size * D.idleVisibleFraction / D.bodyHeight);
-    sprite.setPosition(x, y).setAlpha(alpha).setVisible(alpha > .001).setRotation(0).setFlipX(false).clearTint();
+    this.current = courtDancePose(this.lastFeedback, elapsed, failure);
+    this.startedAt = this.lastFeedback?.at ?? elapsed;
+    const age = elapsed - this.startedAt, sprite = this.parts[1];
+    this.parts[0].setVisible(false);
+    if (this.current === 'left' || this.current === 'right') this.applyStep(sprite, sideStepHitFrame(this.current, age, this.reduced), size);
+    else if (this.current === 'down') {
+      sprite.setTexture(MUSIC_NOD_CLIP.key, musicNodFrame(age, nod.bpm, this.reduced));
+      this.applySize(sprite, 'nod', size);
+    } else {
+      sprite.setTexture('hero-front', '__BASE');
+      this.applySize(sprite, 'reference', size);
+    }
+    sprite.setPosition(x, y).setAlpha(1).setVisible(true).setRotation(0).setFlipX(false).clearTint();
     if (failure) sprite.setTint(0xadb7c1);
+  }
+  private applyStep(sprite: Phaser.GameObjects.Sprite, frame: number, size: number): void {
+    sprite.setTexture(steps.key, frame);
+    this.applySize(sprite, 'step', size);
+  }
+  private applySize(sprite: Phaser.GameObjects.Sprite, kind: keyof typeof sizing, size: number): void {
+    const source = sizing[kind], reference = sizing.reference, referenceScale = size / reference.cellHeight;
+    sprite.setOrigin(.5, source.footY / source.cellHeight).setScale(
+      referenceScale * reference.torsoWidth / source.torsoWidth,
+      referenceScale * reference.visibleHeight / source.visibleHeight);
+  }
+  /** Standalone source-clip preview; gameplay still requires left/right hit feedback. */
+  renderClip(clip: SideStepClip, x: number, y: number, size: number, age: number): void {
+    this.parts[0].setVisible(false);
+    const sprite = this.parts[1];
+    this.applyStep(sprite, sideStepFrame(clip, age, this.reduced), size);
+    sprite.setPosition(x, y).setAlpha(1).setVisible(true).setRotation(0).setFlipX(false).clearTint();
   }
   dispose(): void { this.parts.forEach(part => part.destroy()); }
 }

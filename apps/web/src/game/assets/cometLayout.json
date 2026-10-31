@@ -3,8 +3,10 @@
   "url": "/assets/rhythm-comets/comets.png",
   "cellWidth": 128,
   "cellHeight": 256,
+  "frameCount": 4,
   "anchor": { "x": 64, "y": 210 },
   "sourceScale": 0.25,
-  "displayScale": 0.5,
+  "displayScale": 1.25,
+  "tutorialScale": 0.4,
   "shimmerSeconds": 1.2
 }

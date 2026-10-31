@@ -45,7 +45,14 @@ export const EFFECTS = {
 } as const;
 export type Effect = keyof typeof EFFECTS;
 export const AMBIENT_EFFECTS = new Set<Effect>(['stepLeft', 'stepRight', 'pipe', 'gust', 'tick', 'neon']);
-export const AUDIO = { crossfade: 1.4, maxEffects: 12, effectCooldown: .055, starCooldown: .22,
+export type MusicTransition = { fadeOut: number; fadeIn: number };
+export const MUSIC_TRANSITIONS = {
+  story: { fadeOut: 6, fadeIn: 3.5 },
+  firstRun: { fadeOut: 6, fadeIn: 3.5 },
+  retry: { fadeOut: 6, fadeIn: 3.5 },
+  rhythm: { fadeOut: 1.5, fadeIn: .875 },
+} satisfies Record<string, MusicTransition>;
+export const AUDIO = { crossfade: 1.4, musicPauseFade: 6, musicResumeFade: 3.5, maxEffects: 12, effectCooldown: .055, starCooldown: .22,
   musicVolume: .85, effectsVolume: .6, ambientVolume: .15 } as const;
 /** Initial streamed playback may buffer while simulation continues; align once when it becomes audible. */
 export function autumnMusicTime(session?: RunSession): number | undefined {
@@ -71,8 +78,9 @@ export function soundscape(phase: JourneyPhase | string): { music: MusicScene; a
   if (phase === 'stars-intro' || phase === 'stars-locked') return { music: 'autumn', ambience: 'street' };
   if (phase === 'balance' || phase === 'pipe-approach') return { music: 'balance', ambience: 'pipe' };
   if (phase === 'stars' || phase === 'stars-approach' || phase === 'stars-retry' || phase === 'stars-failure') return { music: 'stars', ambience: 'street' };
-  if (phase === 'waiting' || phase === 'room-approach' || phase === 'room-rest' || phase === 'room-exit') return { music: 'waiting', ambience: 'room' };
-  if (phase === 'final-run') return { music: 'waiting', ambience: 'ending' };
+  if (phase === 'waiting' || phase === 'room-approach') return { music: 'waiting', ambience: 'room' };
+  if (phase === 'room-rest' || phase === 'room-exit') return { music: 'ending', ambience: 'room' };
+  if (phase === 'final-run') return { music: 'ending', ambience: 'ending' };
   if (phase === 'ending') return { music: 'ending', ambience: 'ending' };
   if (phase === 'runner-neighborhood') return { music: 'neighborhood', ambience: 'street' };
   if (phase === 'runner-autumn' || phase === 'pipe-exit') return { music: 'autumn', ambience: 'street' };

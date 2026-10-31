@@ -85,6 +85,40 @@ button,a,summary,label,input{touch-action:manipulation}
 .debug-menu{position:relative;margin-top:12px;max-height:36vh;overflow:auto;background:#111d29ed;border:1px solid #697b8c;padding:8px 12px;font-size:12px;z-index:4}
 .debug-minigames{display:flex;flex-wrap:wrap;gap:8px;margin-top:12px}.debug-minigames button{padding:8px 12px;font-size:12px}
 .debug-menu summary{cursor:pointer}.debug-menu label{display:flex;align-items:center;gap:12px;margin:10px 0}.debug-menu input{width:140px;background:#182633;color:#ced6dd;border:1px solid #697b8c;padding:5px}.debug-menu>div{display:flex;gap:6px;flex-wrap:wrap}.debug-menu button{padding:7px 10px;font-size:11px}
+.stage-picker{margin-top:16px;max-width:520px}.stage-picker>label{display:block;margin-bottom:7px;font-size:12px;color:#b7c6d3}.stage-picker>div{display:flex;gap:8px}.stage-picker select{min-width:0;flex:1;min-height:44px;padding:8px;color:#d4dbe2;border:1px solid #697b8c;background:#172530;font:12px Arial,sans-serif;touch-action:manipulation}.stage-picker button{font-size:12px;padding:8px 12px;white-space:nowrap}
+.menu{justify-content:safe center}.menu-copy{flex-shrink:0}.menu-foot{position:static;margin-top:24px;flex-shrink:0}
+.brand .brand-years{white-space:nowrap;color:inherit;padding:0}
+/* All mini-game headings use the same centred slot at the top of the screen. */
+.app[data-minigame-heading=true] .top-bar{display:grid;grid-template-columns:minmax(0,1fr) 360px minmax(0,1fr);gap:8px 16px;align-items:center}
+.app[data-minigame-heading=true] .brand{grid-area:1/1;margin:0}
+.top-bar .minigame-heading{position:static;grid-area:1/2;align-self:start;transform:none;width:100%;min-height:46px;margin:0;text-align:center;pointer-events:none;text-shadow:0 2px 12px #111822}
+.top-bar .minigame-heading p{font:italic 24px Georgia,serif;margin:0;color:#c4ced5}
+.top-bar .minigame-heading>span{display:block;position:static;width:auto;margin-top:7px;font:10px Arial,sans-serif;letter-spacing:1px;color:#a7bac9}
+.app[data-minigame-heading=true] .system-controls{grid-area:1/3;justify-self:end}
+.app[data-minigame-heading=true] .demo-label{display:none}
+.app[data-minigame-heading=true] .hud{top:max(84px,calc(env(safe-area-inset-top) + 72px))}
+@media(max-width:1399px){
+  .app[data-minigame-heading=true] .top-bar{grid-template-columns:minmax(0,1fr) minmax(0,1fr)}
+  .top-bar .minigame-heading{grid-area:1/1/2/3}
+  .app[data-minigame-heading=true] .brand{grid-area:2/1}
+  .app[data-minigame-heading=true] .system-controls{grid-area:2/2}
+  .app[data-minigame-heading=true] .hud{top:max(134px,calc(env(safe-area-inset-top) + 122px))}
+}
+@media(orientation:portrait){
+  .app[data-minigame-heading=true] .top-bar{grid-template-columns:minmax(0,1fr)}
+  .top-bar .minigame-heading{grid-area:1/1}
+  .top-bar .minigame-heading p{font-size:21px}
+  .top-bar .minigame-heading>span{font-size:9px;letter-spacing:.5px}
+  .app[data-minigame-heading=true] .brand{grid-area:2/1;justify-self:center}
+  .app[data-minigame-heading=true] .system-controls{grid-area:3/1;justify-self:center}
+  .app[data-minigame-heading=true] .hud{top:calc(max(12px,env(safe-area-inset-top)) + 142px)}
+  .app[data-minigame-heading=true] .game-canvas{top:max(240px,27dvh)}
+}
+@media(max-height:440px) and (orientation:landscape){
+  .top-bar .minigame-heading p{font-size:18px}
+  .top-bar .minigame-heading>span{font-size:9px}
+  .app[data-minigame-heading=true] .hud{top:114px}
+}
 .hud-status{gap:6px;padding:8px 12px;border:1px solid #78879570;background:#111822d9;box-shadow:0 3px 15px #060d1580;border-radius:3px;min-width:118px}
 .score{gap:9px}.score img{width:38px}.score strong{font-size:36px;font-weight:700;color:#f2ede1;line-height:1;font-variant-numeric:tabular-nums;text-shadow:0 2px 3px #000}.score span{color:#c4cbd2}
 .lives{gap:8px;font-size:22px;color:#e1b7af;align-items:center}.lives b{font-size:25px;line-height:1;color:#f2e7df;margin-right:4px;font-variant-numeric:tabular-nums}.life-empty{color:#7b8692;opacity:.55}
