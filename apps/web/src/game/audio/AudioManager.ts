@@ -144,6 +144,11 @@ export class AudioManager {
   }
 
   private selectScene(restart = false): void {
+    // Finish the losing round during its reaction, before the next playhead starts.
+    if (this.scene === 'stars-retry') {
+      this.music?.stop(AUDIO.rhythmRetryFadeOut);
+      return;
+    }
     const selected = soundscape(this.scene);
     const file = selected.music === 'ending' && this.finaleOverride ? this.finaleOverride : MUSIC[selected.music];
     const start = this.scene === 'runner-autumn' ? AUTUMN_SCORE.musicLeadSeconds : this.scene === 'pipe-exit' ? AUTUMN_SCORE.musicStartSeconds :

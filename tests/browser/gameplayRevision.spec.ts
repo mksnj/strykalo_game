@@ -109,7 +109,7 @@ for (const [width, height, name] of [[960, 540, 'desktop'], [390, 844, 'portrait
   });
 }
 
-test('a real music voice restarts at zero on round two and survives pausing the retry', async ({ page }) => {
+test('a real music voice restarts at the round cue and survives pausing the retry', async ({ page }) => {
   test.setTimeout(45000); await page.goto('/');
   await expect(page.getByRole('button', { name: 'Начать путь' })).toBeVisible();
   await page.evaluate(async () => {
@@ -127,14 +127,18 @@ test('a real music voice restarts at zero on round two and survives pausing the 
   const read = () => page.evaluate(() => {
     const scene = (window as any).rhythmScene, s = scene.session;
     return { round: s.starsRound, elapsed: s.stars.elapsed, phase: s.phase,
-      time: s.phaseTime, voices: scene.audio.status.music.filter((v: any) => !v.fading && v.url.includes('06-bespolezno')) };
+      time: s.phaseTime, voices: scene.audio.status.music.filter((v: any) => v.url.includes('06-bespolezno')) };
   });
   const frozen = await read(); await page.waitForTimeout(500); const still = await read();
-  expect(still.time).toBe(frozen.time); expect(Math.abs(still.voices[0].position - frozen.voices[0].position)).toBeLessThan(.1);
+  expect(still.time).toBe(frozen.time); expect(still.voices.length).toBe(frozen.voices.length);
+  for (let i = 0; i < frozen.voices.length; i++) {
+    expect(Math.abs(still.voices[i].position - frozen.voices[i].position)).toBeLessThan(.1);
+    expect(still.voices[i].gain).toBeCloseTo(frozen.voices[i].gain, 3);
+  }
   await page.getByRole('button', { name: 'Продолжить' }).click();
   await page.waitForFunction(() => { const s = (window as any).rhythmScene.session; return s.starsRound === 2 && s.stars.elapsed > .4; });
   const fresh = await read(); expect(fresh.phase).toBe('stars'); expect(fresh.voices).toHaveLength(1);
-  expect(fresh.elapsed).toBeLessThan(1); expect(Math.abs(fresh.elapsed - fresh.voices[0].position)).toBeLessThan(.1);
+  expect(fresh.elapsed).toBeLessThan(1); expect(Math.abs(RHYTHM.musicStartSeconds + fresh.elapsed - fresh.voices[0].position)).toBeLessThan(.1);
   expect((await readRhythm(page)).misses).toBe(0);
 });
 

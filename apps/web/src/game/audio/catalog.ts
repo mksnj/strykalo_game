@@ -52,7 +52,7 @@ export const MUSIC_TRANSITIONS = {
   retry: { fadeOut: 6, fadeIn: 3.5 },
   rhythm: { fadeOut: 1.5, fadeIn: .875 },
 } satisfies Record<string, MusicTransition>;
-export const AUDIO = { crossfade: 1.4, musicPauseFade: 6, musicResumeFade: 3.5, maxEffects: 12, effectCooldown: .055, starCooldown: .22,
+export const AUDIO = { crossfade: 1.4, musicPauseFade: 6, musicResumeFade: 3.5, rhythmRetryFadeOut: .25, maxEffects: 12, effectCooldown: .055, starCooldown: .22,
   musicVolume: .85, effectsVolume: .6, ambientVolume: .15 } as const;
 /** Initial streamed playback may buffer while simulation continues; align once when it becomes audible. */
 export function autumnMusicTime(session?: RunSession): number | undefined {

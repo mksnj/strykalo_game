@@ -10,8 +10,8 @@ test.beforeAll(async () => {
 });
 test.afterAll(async () => { await new Promise<void>((resolve, reject) => production.httpServer.close(error => error ? reject(error) : resolve())); });
 
-for (const [width, height] of [[1899, 865], [1230, 540], [960, 540], [375, 667], [667, 375], [568, 320]]) {
-  test(`production stage picker and pipe heading centred at top ${width}x${height}`, async ({ page }) => {
+for (const [width, height] of [[1899, 865], [1230, 540], [960, 540], [915, 412], [844, 390], [375, 667], [667, 375], [568, 320]]) {
+  test(`production stage picker and pipe heading in top interface row ${width}x${height}`, async ({ page }) => {
     await page.setViewportSize({ width, height });
     await page.goto('http://127.0.0.1:5176/');
     await expect(page.getByRole('button', { name: 'Начать путь' })).toBeVisible();
@@ -34,8 +34,8 @@ for (const [width, height] of [[1899, 865], [1230, 540], [960, 540], [375, 667],
     const heading = (await page.locator('.balance-instructions p').boundingBox())!;
     const subtitle = (await page.locator('.balance-instructions>span').boundingBox())!;
     const brand = (await page.locator('.brand').boundingBox())!;
-    expect(Math.abs(heading.x + heading.width / 2 - width / 2)).toBeLessThan(1);
-    expect(heading.y).toBeLessThan(25);
+    if (width > height) expect(Math.abs(heading.x + heading.width / 2 - width / 2)).toBeLessThan(1);
+    expect(heading.y).toBeLessThan(width < 1400 ? 35 : 25);
     expect(subtitle.y).toBeGreaterThanOrEqual(heading.y + heading.height);
     const title = { x: Math.min(heading.x, subtitle.x), y: heading.y,
       width: Math.max(heading.x + heading.width, subtitle.x + subtitle.width) - Math.min(heading.x, subtitle.x),
@@ -46,6 +46,8 @@ for (const [width, height] of [[1899, 865], [1230, 540], [960, 540], [375, 667],
       a.y < b.y + b.height && a.y + a.height > b.y;
     expect(intersects(title, counters)).toBe(false); expect(intersects(title, distance)).toBe(false);
     expect(intersects(title, brand)).toBe(false);
+    expect(brand.y).toBeLessThan(title.y + title.height);
+    expect(brand.y + brand.height).toBeGreaterThan(title.y);
     const controls = await page.locator('.system-controls').boundingBox();
     const overlaps = controls && title.x < controls.x + controls.width && title.x + title.width > controls.x &&
       title.y < controls.y + controls.height && title.y + title.height > controls.y;

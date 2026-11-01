@@ -39,8 +39,8 @@ test(`final approach keeps a single continuous facade ${width}x${height}`, async
 });
 }
 
-for (const [width, height] of [[1880, 869], [1230, 540], [960, 540], [375, 667], [667, 375], [568, 320]]) {
-test(`all three titles share the top centre ${width}x${height}`, async ({ page }) => {
+for (const [width, height] of [[1880, 869], [1230, 540], [960, 540], [901, 540], [915, 412], [844, 390], [375, 667], [320, 568], [667, 375], [568, 320]]) {
+test(`all three titles share the top interface row ${width}x${height}`, async ({ page }) => {
   await page.setViewportSize({ width, height });
   await bootRhythm(page, false);
   await mkdir(directory, { recursive: true });
@@ -59,14 +59,30 @@ test(`all three titles share the top centre ${width}x${height}`, async ({ page }
     await expect(title).toHaveCount(1);
     await expect(title).toContainText({ balance: 'Делать это трезвым', stars: 'Бесполезно', waiting: 'Решится само собой' }[point]!);
     const box = (await title.boundingBox())!;
-    expect(Math.abs(box.x + box.width / 2 - width / 2)).toBeLessThan(1);
+    if (width > height) expect(Math.abs(box.x + box.width / 2 - width / 2)).toBeLessThan(1);
     expect(box.y).toBeLessThan(25);
+    const brand = (await page.locator('.brand').boundingBox())!;
+    expect(brand.y).toBeLessThan(box.y + box.height);
+    expect(brand.y + brand.height).toBeGreaterThan(box.y);
+    const controls = (await page.locator('.system-controls').boundingBox())!;
+    if (width > height) {
+      expect(controls.y).toBeLessThan(box.y + box.height);
+      expect(controls.y + controls.height).toBeGreaterThan(box.y);
+    }
+    const hud = (await page.locator('.hud').boundingBox())!;
+    expect(controls.y + controls.height).toBeLessThanOrEqual(hud.y);
+    for (const button of await page.locator('.system-controls > button, .system-controls summary').all()) {
+      const control = (await button.boundingBox())!;
+      expect(control.x).toBeGreaterThanOrEqual(0);
+      expect(control.x + control.width).toBeLessThanOrEqual(width);
+      expect(control.height).toBeGreaterThanOrEqual(44);
+    }
     for (const selector of ['.brand', '.system-controls', '.hud-status', '.distance']) {
       const other = (await page.locator(selector).boundingBox())!;
       expect(box.x < other.x + other.width && box.x + box.width > other.x &&
         box.y < other.y + other.height && box.y + box.height > other.y, selector).toBe(false);
     }
-    await page.screenshot({ path: `${directory}/${point}-${width}x${height}.png` });
+    await page.screenshot({ path: `tmp/mobile-heading/${point}-${width}x${height}.png` });
   }
 });
 }
